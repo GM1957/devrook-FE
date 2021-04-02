@@ -1,0 +1,85 @@
+.Toolbar {
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0,20px;
+    box-sizing: border-box;
+    z-index: 90;
+    border-bottom: gray 1px solid;
+}
+
+.Toolbar nav {
+    height: 100%;
+}
+
+.Ham {
+    height: 3px;
+    width: 30px;
+    margin: 6px 0;
+    background-color: black;
+      
+}
+
+.HamBox{
+    padding-left: 5%;
+}
+
+.NavItems {
+    margin-right: 1%;
+}
+
+.Logo {
+    height: 100%;
+    padding: 1px;
+}
+
+@media (min-width: 630px){
+    .Logo{
+        height: 100%;
+        margin-left: 20px;
+        padding: 1px;
+    }
+}
+
+@media (max-width: 599px){
+    .Logo{
+        height: 100%;
+        margin-left: 60%;
+        padding: 1px;
+    }
+}
+
+@media (max-width: 250px){
+    .Logo{
+        height: 100%;
+        margin-left: 52%;
+        padding: 1px;
+    }
+}
+
+@media (max-width: 199px){
+    .Logo{
+        height: 100%;
+        margin-left: 42%;
+        padding: 1px;
+    }
+}
+
+@media (max-width: 599px){
+    .DesktopOnly{
+        display: none;
+    }
+}
+
+@media (min-width: 600px){
+    .MobileOnly{
+        display: none;
+    }
+}

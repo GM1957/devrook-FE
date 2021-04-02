@@ -1,0 +1,79 @@
+.wrap{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .searchButton {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+
+
+  .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 80%;
+    height: 40px;
+    border: 2px solid #00B4CC;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #000000;
+  }
+
+  input[type=text]:focus {
+    border: 3px solid #00B4CC;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  @media(max-width: 850px){
+    .wrap{
+      width: 50%;
+      position: absolute;
+      top: 50%;
+      left: 45%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  @media(max-width: 750px){
+    .wrap{
+      width: 50%;
+      position: absolute;
+      top: 50%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  @media(max-width: 599px){
+    .wrap{
+      width: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  @media(max-width: 199px){
+    .searchButton{
+        display: none;
+    }
+ }
+
+
+ 
