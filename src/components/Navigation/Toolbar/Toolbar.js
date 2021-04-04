@@ -25,7 +25,7 @@ const toolbar = (props) => (
     </div>
 
     <nav className={classNames( classes.NavItems ,classes.DesktopOnly)}>
-      <NavigationItems />
+      <NavigationItems loginModalOpen = {props.loginModalOpen} signupModalOpen = {props.signupModalOpen}/>
     </nav>
   </header>
 );

@@ -1,5 +1,6 @@
 .Content{
-    margin-top: 45px;
     width: 100%;
+    /* this padding is important do not convert it to margin */
+    padding-top: 62px;
     background-color: #EDF0F1
 }
