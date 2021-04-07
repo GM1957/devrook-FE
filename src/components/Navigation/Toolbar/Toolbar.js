@@ -6,7 +6,7 @@ import classNames from "classnames/bind";
 import SearchBar from "../Search/Search"
 
 const toolbar = (props) => (
-  <header className={classes.Toolbar}>
+  <div className={classes.Toolbar}>
     <div
       className={classNames(classes.HamBox, classes.MobileOnly)}
       onClick={props.sideDrawerOpen}
@@ -27,7 +27,7 @@ const toolbar = (props) => (
     <nav className={classNames( classes.NavItems ,classes.DesktopOnly)}>
       <NavigationItems loginModalOpen = {props.loginModalOpen} signupModalOpen = {props.signupModalOpen}/>
     </nav>
-  </header>
+  </div>
 );
 
 export default toolbar;

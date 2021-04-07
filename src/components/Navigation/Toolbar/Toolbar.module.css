@@ -11,7 +11,7 @@
     align-items: center;
     padding: 0,20px;
     box-sizing: border-box;
-    z-index: 90;
+    z-index: 100;
     border-bottom: gray 1px solid;
 }
 
@@ -40,35 +40,28 @@
     padding: 1px;
 }
 
+
 @media (min-width: 630px){
     .Logo{
-        height: 100%;
         margin-left: 20px;
-        padding: 1px;
     }
 }
 
 @media (max-width: 599px){
     .Logo{
-        height: 100%;
         margin-left: 60%;
-        padding: 1px;
     }
 }
 
 @media (max-width: 250px){
     .Logo{
-        height: 100%;
         margin-left: 52%;
-        padding: 1px;
     }
 }
 
 @media (max-width: 199px){
     .Logo{
-        height: 100%;
         margin-left: 42%;
-        padding: 1px;
     }
 }
 

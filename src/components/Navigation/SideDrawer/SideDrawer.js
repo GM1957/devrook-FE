@@ -21,7 +21,7 @@ const SideDrawer = (props) => {
           <Logo />
         </div>
         <nav>
-          <NavigationItems loginModalOpen = {props.loginModalOpen} />
+          <NavigationItems loginModalOpen = {props.loginModalOpen} signupModalOpen = {props.signupModalOpen}/>
         </nav>
       </div>
     </Aux>

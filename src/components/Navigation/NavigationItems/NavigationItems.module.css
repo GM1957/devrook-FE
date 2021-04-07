@@ -16,6 +16,10 @@
     height: 40px;
 }
 
+.ProfileButton {
+    margin-right: 20px;
+}
+
 @media (min-width: 500px) {
     .NavigationItems {
         flex-flow: row;

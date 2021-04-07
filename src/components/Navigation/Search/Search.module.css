@@ -41,31 +41,20 @@
 
   @media(max-width: 850px){
     .wrap{
-      width: 50%;
-      position: absolute;
-      top: 50%;
       left: 45%;
-      transform: translate(-50%, -50%);
     }
   }
 
   @media(max-width: 750px){
     .wrap{
-      width: 50%;
-      position: absolute;
-      top: 50%;
       left: 40%;
-      transform: translate(-50%, -50%);
     }
   }
 
   @media(max-width: 599px){
     .wrap{
-      width: 50%;
-      position: absolute;
-      top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      width: 50%;
     }
   }
 

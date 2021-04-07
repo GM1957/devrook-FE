@@ -19,6 +19,7 @@ class Layout extends Component {
     newStateForOpenSD.showSideDrawer = true
     this.setState(newStateForOpenSD)
   }
+
   sideDrawerCloseHandler = () =>{
     let newStateForCloseSD = {...this.state}
     newStateForCloseSD.showSideDrawer = false
@@ -30,6 +31,7 @@ class Layout extends Component {
     newStateForOpenLM.showLoginModal = true
     this.setState(newStateForOpenLM)
   }
+
   loginModalCloseHandler = () => {
     let newStateForCloseLM = {...this.state}
     newStateForCloseLM.showLoginModal = false
@@ -41,6 +43,7 @@ class Layout extends Component {
     newStateForOpenSM.showSignupModal = true
     this.setState(newStateForOpenSM)
   }
+
   signupModalCloseHandler = () => {
     let newStateForCloseSM = {...this.state}
     newStateForCloseSM.showSignupModal = false
@@ -59,6 +62,7 @@ class Layout extends Component {
           open={this.state.showSideDrawer}
           closed={this.sideDrawerCloseHandler}
           loginModalOpen={this.loginModalOpenHandler}
+          signupModalOpen={this.signupModalOpenHandler}
         />
         <LoginModal
           open={this.state.showLoginModal}
