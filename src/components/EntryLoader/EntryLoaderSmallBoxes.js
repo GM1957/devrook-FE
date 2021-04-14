@@ -13,6 +13,7 @@ const EntryLoaderSmallBoxes = (props) => {
           <i></i>
         </div>
       </div>
+      <h2 className={classes.DescriptionText}>Stay Calm & Drink ☕️</h2>
     </div>
   );
 };

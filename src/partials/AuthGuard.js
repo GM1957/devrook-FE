@@ -3,9 +3,13 @@ import { connect } from "react-redux";
 import { Auth } from "aws-amplify";
 import { login } from "../redux/actions";
 import EntryLoader from "../components/EntryLoader/EntryLoaderSmallBoxes";
+import RouteHandler from "./RouteHandler";
+import FirstLoginPage from "../Pages/FirstLoginPage/FirstLoginPage";
+
 
 const AuthGuard = (props) => {
   const [isAuthenticating, setAuthenticating] = useState(false);
+  const [isFirstLogin, setFirstLogin] = useState(false);
 
   const authenticate = async () => {
     try {
@@ -22,8 +26,17 @@ const AuthGuard = (props) => {
   useEffect(() => {
     return authenticate();
   }, [props.Auth.isLoggedIn]);
+
+  useEffect(() => {
+    if (props.Auth.isLoggedIn) {
+      if (!props.Auth.cognitoUserInfo.profile) setFirstLogin(true);
+    }
+    return isFirstLogin;
+  }, [props.Auth.isLoggedIn]);
+
+  console.log("isFirstLogin",isFirstLogin);
   
-  return isAuthenticating ? <EntryLoader/> : null;
+  return isFirstLogin ? <FirstLoginPage/> : isAuthenticating ? <EntryLoader/> : <RouteHandler/>;
 };
 
 const mapStateToProps = (state) => ({

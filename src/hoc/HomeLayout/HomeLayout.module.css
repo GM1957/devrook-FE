@@ -1,0 +1,42 @@
+/* TOTAL AREA IS 100% WE HAVE 4 THINGS {LEFT SIDE BAR, MIDDLE CONTENT, RIGHT SIDE BAR, DIV CONTAINER} SO WE HAVE TO DISTRIBUTE THE WIDTH CALCULATIVELY */
+.Content {
+  min-height: 100vh;
+  width: 100%;
+  /* this padding is important do not convert it to margin */
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: #edf0f1;
+}
+
+.Row {
+  display: flex;
+}
+
+.Column1 {
+  flex: 20%;
+}
+.SideLeftBar {
+  position: fixed;
+  height: 100%;
+  width: 20%;
+}
+
+.Column2 {
+  flex: 50%;
+}
+.MiddleArea {
+  width: 100%;
+  text-align: center;
+  padding-top: 2%;
+  padding-left: 6%;
+  padding-right: 1%;
+}
+
+.Column3 {
+  flex: 30%;
+}
+.SideRightBar {
+  position: fixed;
+  height: 100%;
+  width: 30%;
+}

@@ -1,0 +1,10 @@
+.SideRightBar {
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-color: transparent;
+    padding-top: 12%;
+    padding-left: 12%;
+    padding-right: 15%;
+    overflow: auto;
+}

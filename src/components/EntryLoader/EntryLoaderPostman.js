@@ -3,7 +3,7 @@ import React from "react";
 import classes from "./EntryLoaderPostman.module.css";
 
 const EntryLoaderPostman = (props) => (
-  <div className={classes.MainWindow}>
+  <div>
     <div className={classes.body}>
       <span>
         <span></span>
@@ -22,7 +22,7 @@ const EntryLoaderPostman = (props) => (
       <span></span>
       <span></span>
     </div>
-    <h1>Redirecting</h1>
+    <h1>L o a d i n g . . .</h1>
   </div>
 );
 

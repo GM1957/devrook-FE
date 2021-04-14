@@ -9,8 +9,8 @@
   .searchButton {
     width: 40px;
     height: 40px;
-    border: 1px solid #00B4CC;
-    background: #00B4CC;
+    border: 1px solid #128fdd;
+    background: #128fdd;
     text-align: center;
     color: #fff;
     border-radius: 0 5px 5px 0;
@@ -27,7 +27,8 @@
   .searchTerm {
     width: 80%;
     height: 40px;
-    border: 2px solid #00B4CC;
+    border: 1px solid #128fdd;
+    background-color: whitesmoke;
     padding: 10px;
     border-radius: 5px 0 0 5px;
     outline: none;
@@ -35,7 +36,7 @@
   }
 
   input[type=text]:focus {
-    border: 3px solid #00B4CC;
+    border: 2px solid #128fdd;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 

@@ -1,15 +1,13 @@
 import React, { Component } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
-import Layout from "./hoc/Layout/Layout";
+import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import configureStore from "./redux";
 
 import { awsConfig } from "./services";
 import Amplify from "aws-amplify";
-import Logout from "./logout";
-import AuthGuard from "./partials/AuthGuard"
+import AuthGuard from "./partials/AuthGuard";
 
 Amplify.configure(awsConfig.aws_amplify_config);
 
@@ -19,10 +17,10 @@ class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        <AuthGuard/>
-        <ToastContainer position={toast.POSITION.TOP_RIGHT} />
-        <Layout>
-        </Layout>
+        <BrowserRouter>
+          <AuthGuard />
+          <ToastContainer position={toast.POSITION.TOP_RIGHT} />
+        </BrowserRouter>
       </Provider>
     );
   }

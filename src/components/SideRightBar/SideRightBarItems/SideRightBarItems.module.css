@@ -1,0 +1,106 @@
+.SideRightBarItems {
+  display: flex;
+  flex-flow: column;
+}
+
+.TrendingDevsCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  overflow: auto;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 10%;
+}
+
+.DevHeader {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: white;
+  font-weight: bold;
+  background-color: #2bffed;
+  background-image: linear-gradient(
+    45deg,
+    #2bffed 0%,
+    #db3ae0 52%,
+    #2bd2ff 90%
+  );
+}
+
+.TrendingTagsCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  overflow: auto;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+.TagHeader {
+  margin-bottom: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: white;
+  font-weight: bold;
+  background-color: #d81de0;
+  background-image: linear-gradient(
+    45deg,
+    #d81de0 0%,
+    #2bd2ff 52%,
+    #2b8bff 90%
+  );
+}
+
+.Content {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-inline: 2%;
+  display: flex;
+}
+
+.DevRow {
+  flex: 50%;
+}
+
+.TagRow {
+  flex: 50%;
+}
+
+.Profile {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.btnGrad {
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  margin-inline: 6px;
+  margin-bottom: 12px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    to right,
+    #b993d6 0%,
+    #8ca6db 51%,
+    #b993d6 100%
+  );
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  border: none;
+}
+
+.btnGrad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 0 10px gray;
+}
+

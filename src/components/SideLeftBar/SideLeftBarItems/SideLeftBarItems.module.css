@@ -1,0 +1,93 @@
+.SideLeftBarItems {
+  display: flex;
+  flex-flow: column;
+}
+
+.Buttons {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  height: fit-content;
+  border-radius: 30px;
+  width: fit-content;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.Buttons:hover {
+  background-color: rgba(29, 161, 241, 0.2);
+  color: #128fdd;
+}
+
+.CreateButton {
+  border: none;
+  background-color: #1d94dd;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  height: fit-content;
+  border-radius: 30px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5%;
+}
+
+
+.CreateButton:hover {
+  background-color: #1d7ebb;
+}
+
+.Buttons span {
+  margin-left: 10px;
+}
+
+.active button {
+  color: #1d94dd;
+}
+
+
+@media (max-width: 1112px) {
+    .Buttons span {
+        margin-left: 2px;
+      }
+}
+
+@media (max-width: 1075px) {
+    .Buttons span {
+        display: none;
+      }
+
+    .Buttons {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 570px) {
+    .CreateButton {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 350px) {
+    .CreateButton {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .Buttons {
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+}
+

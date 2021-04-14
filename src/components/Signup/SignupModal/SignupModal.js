@@ -5,8 +5,8 @@ import classes from "./SignupModal.module.css";
 import Aux from "../../../hoc/Aux";
 import BackDrop from "../../UI/Backdrop/Backdrop";
 import classNames from "classnames";
-import { connect } from 'react-redux';
-import { login } from '../../../redux/actions';
+import { connect } from "react-redux";
+import { login } from "../../../redux/actions";
 
 class SignupModal extends Component {
   state = {
@@ -51,17 +51,20 @@ class SignupModal extends Component {
     event.preventDefault();
 
     try {
-      await Auth.signUp({username:this.state.email,password: this.state.password,attributes:{
-        email: this.state.email,
-        name: this.state.name
-    }})
+      await Auth.signUp({
+        username: this.state.email,
+        password: this.state.password,
+        attributes: {
+          email: this.state.email,
+          name: this.state.name,
+        },
+      });
       toast.success("👻 Signup successful please check your mail-box");
+      this.props.closed();
     } catch (err) {
       console.log("Signup failed", err);
-      toast.error("Signup failed");
-    } finally {
+      toast.error(err.message);
       this.isLoadingOFFHandler();
-      this.props.closed();
     }
   };
 
@@ -121,6 +124,7 @@ class SignupModal extends Component {
               <div className={classes.SignupButtonDiv}>
                 {this.state.isLoading ? (
                   <button
+                    disabled
                     className={classNames(
                       "fluid ui loading green button",
                       classes.SignupButton
@@ -150,9 +154,8 @@ class SignupModal extends Component {
 }
 
 const mapStateToProps = (state) => {
-  return {Auth: state.Auth}
-}
+  return { Auth: state.Auth };
+};
 export default connect(mapStateToProps, {
   login,
-})(SignupModal)
-
+})(SignupModal);

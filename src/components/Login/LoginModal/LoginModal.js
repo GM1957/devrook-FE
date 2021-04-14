@@ -5,8 +5,8 @@ import classes from "./LoginModal.module.css";
 import Aux from "../../../hoc/Aux";
 import BackDrop from "../../UI/Backdrop/Backdrop";
 import classNames from "classnames";
-import { connect } from 'react-redux';
-import { login } from '../../../redux/actions';
+import { connect } from "react-redux";
+import { login } from "../../../redux/actions";
 
 class LoginModal extends Component {
   state = {
@@ -45,14 +45,13 @@ class LoginModal extends Component {
 
     try {
       const user = await Auth.signIn(this.state.email, this.state.password);
-      this.props.login(user);
       toast.success("🦄 Loggedin Successful");
+      this.props.closed();
+      this.props.login(user);
     } catch (err) {
       console.log("login failed", err);
-      toast.error("login failed");
-    } finally {
+      toast.error(err.message);
       this.isLoadingOFFHandler();
-      this.props.closed();
     }
   };
 
@@ -101,6 +100,7 @@ class LoginModal extends Component {
               <div className={classes.LoginButtonDiv}>
                 {this.state.isLoading ? (
                   <button
+                    disabled
                     className={classNames(
                       "fluid ui loading green button",
                       classes.LoginButton
@@ -130,9 +130,8 @@ class LoginModal extends Component {
 }
 
 const mapStateToProps = (state) => {
-  return {Auth: state.Auth}
-}
+  return { Auth: state.Auth };
+};
 export default connect(mapStateToProps, {
   login,
-})(LoginModal)
-
+})(LoginModal);
