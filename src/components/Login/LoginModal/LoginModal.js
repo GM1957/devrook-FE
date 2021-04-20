@@ -45,11 +45,10 @@ class LoginModal extends Component {
 
     try {
       const user = await Auth.signIn(this.state.email, this.state.password);
-      toast.success("🦄 Loggedin Successful");
+      toast.success("Successfully Loggedin 😁");
       this.props.closed();
       this.props.login(user);
     } catch (err) {
-      console.log("login failed", err);
       toast.error(err.message);
       this.isLoadingOFFHandler();
     }

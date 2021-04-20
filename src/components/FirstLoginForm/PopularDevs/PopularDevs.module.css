@@ -1,0 +1,93 @@
+.Header {
+  padding-inline: 5%;
+  text-align: center;
+}
+
+.Header p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Row {
+  margin: 0 -5px;
+}
+
+.Column {
+  float: left;
+  width: 50%;
+  padding: 10px 10px;
+}
+
+.Card {
+  background-color: #f1f1f180;
+  box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 2px solid purple;
+  display: flex;
+}
+
+.Card img {
+  height: 100%;
+  width: 100%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.ImageContent {
+  text-align: center;
+  flex: 30%;
+}
+
+.NameContent {
+  flex: 70%;
+  padding-inline: 5%;
+  padding-top: 3%;
+}
+
+.NameContent p {
+  font-weight: bold;
+  font-size: large;
+  margin: 0;
+}
+
+.FollowButton {
+  border: none;
+  background-color: #1d94dd;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 100%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  margin-top: 10%;
+  font-family: monospace;
+}
+
+.UnfollowButton {
+  border: none;
+  background-color: #2080bb;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 100%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  margin-top: 10%;
+  font-family: monospace;
+  box-shadow: inset  0px 0px 6px gray;
+}
+
+.CardGroup {
+  padding-left: 7%;
+  padding-right: 6%;
+  padding-top: 4%;
+  padding-bottom: 10%;
+}

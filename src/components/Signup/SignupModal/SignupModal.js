@@ -56,13 +56,12 @@ class SignupModal extends Component {
         password: this.state.password,
         attributes: {
           email: this.state.email,
-          name: this.state.name,
+          name: this.state.name
         },
       });
       toast.success("👻 Signup successful please check your mail-box");
       this.props.closed();
     } catch (err) {
-      console.log("Signup failed", err);
       toast.error(err.message);
       this.isLoadingOFFHandler();
     }

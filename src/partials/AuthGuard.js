@@ -1,11 +1,10 @@
 import { useState, useEffect } from "react";
-import { connect } from "react-redux";
 import { Auth } from "aws-amplify";
+import { connect } from "react-redux";
 import { login } from "../redux/actions";
 import EntryLoader from "../components/EntryLoader/EntryLoaderSmallBoxes";
 import RouteHandler from "./RouteHandler";
 import FirstLoginPage from "../Pages/FirstLoginPage/FirstLoginPage";
-
 
 const AuthGuard = (props) => {
   const [isAuthenticating, setAuthenticating] = useState(false);
@@ -14,7 +13,7 @@ const AuthGuard = (props) => {
   const authenticate = async () => {
     try {
       setAuthenticating(true);
-      const cognitoUser = await Auth.currentAuthenticatedUser();
+      const cognitoUser = await Auth.currentAuthenticatedUser({bypassCache: true });
       props.login(cognitoUser);
     } catch (err) {
       console.log(err);
@@ -22,21 +21,29 @@ const AuthGuard = (props) => {
       setAuthenticating(false);
     }
   };
-  
+
   useEffect(() => {
     return authenticate();
-  }, [props.Auth.isLoggedIn]);
+  }, []);
 
   useEffect(() => {
     if (props.Auth.isLoggedIn) {
-      if (!props.Auth.cognitoUserInfo.profile) setFirstLogin(true);
+      if (!props.Auth.cognitoUserInfo.attributes.profile) {
+        setFirstLogin(true);
+      }
     }
-    return isFirstLogin;
-  }, [props.Auth.isLoggedIn]);
+  },[props.Auth.isLoggedIn, props.Auth.cognitoUserInfo?.attributes.profile]);
 
-  console.log("isFirstLogin",isFirstLogin);
-  
-  return isFirstLogin ? <FirstLoginPage/> : isAuthenticating ? <EntryLoader/> : <RouteHandler/>;
+  return isFirstLogin ? (
+    <div>
+      <FirstLoginPage/>
+    <button onClick={authenticate}></button>
+    </div>
+  ) : isAuthenticating ? (
+    <EntryLoader />
+  ) : (
+    <RouteHandler />
+  );
 };
 
 const mapStateToProps = (state) => ({

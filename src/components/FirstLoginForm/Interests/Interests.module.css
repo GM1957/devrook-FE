@@ -40,6 +40,7 @@
   padding-top: 15px;
   padding-bottom: 15px;
   padding-inline: 2px;
+  border-bottom: 2px solid purple;
 }
 
 .Card p {
@@ -47,7 +48,7 @@
     font-size: 1rem;
 }
 
-.Card button {
+.FollowButton{
     border: none;
     width: 70%;
     cursor: pointer;
@@ -62,12 +63,26 @@
 
 }
 
-.Card button:hover {
+.FollowButton:hover {
     box-shadow: 1.5px 1.5px 1.5px 1.5px gray;
 }
 
-.Card button:active {
+.FollowButton:active {
     color: #78E2B6;
+}
+
+.UnfollowButton{
+    border: none;
+    width: 70%;
+    cursor: pointer;
+    outline: none;
+    padding: 8%;
+    font-family: monospace;
+    font-weight: bold;
+    border-radius: 3px;
+    background-color: #F2F0F1;
+    color: #78E2B6;
+    box-shadow: inset  0px 0px 3px gray;
 }
 
 

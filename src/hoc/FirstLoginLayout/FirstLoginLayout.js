@@ -4,6 +4,19 @@ import Aux from "../Aux";
 import classes from "./FirstLoginLayout.module.css";
 
 const FirstLoginLayout = (props) => {
+
+  const buttonControllar = () => {
+    if (props.currentStep === 1 && props.selectedTagsCount > 0) {
+      return classes.ContinueButton;
+    } else if (props.currentStep === 2 && props.userNameStatus === "passed") {
+      return classes.ContinueButton;
+    } else if (props.currentStep === 3 && props.selectedDevsCount > 0) {
+      return classes.ContinueButton;
+    } else {
+      return classes.ContinueButtonDisabled;
+    }
+  };
+
   return (
     <Aux>
       <div className={classes.TopNav}>
@@ -18,7 +31,9 @@ const FirstLoginLayout = (props) => {
           >
             {props.currentStep > 1 ? (
               <i className="arrow circle left icon" />
-            ) : <i className="chess rook icon" />}
+            ) : (
+              <i className="chess rook icon" />
+            )}
           </div>
         </div>
 
@@ -44,16 +59,20 @@ const FirstLoginLayout = (props) => {
         </div>
 
         <div className={classes.ContinueButtonContainer}>
-          <button
-            className={
-              props.selectCount > 0
-                ? classes.ContinueButton
-                : classes.ContinueButtonDisabled
-            }
-            onClick={props.next}
-          >
-            <p className={classes.ButtonText}>Continue</p>
-          </button>
+          {props.currentStep === 3 ? (
+            <button
+              className={buttonControllar()}
+              onClick={props.onFinishHandler}
+            >
+              <p className={classes.ButtonText}>
+                {props.finishLoading ? "Loading..." : "Finish"}
+              </p>
+            </button>
+          ) : (
+            <button className={buttonControllar()} onClick={props.next}>
+              <p className={classes.ButtonText}>Continue</p>
+            </button>
+          )}
         </div>
       </div>
 
