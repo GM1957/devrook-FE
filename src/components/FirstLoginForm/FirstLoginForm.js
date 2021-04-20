@@ -54,30 +54,30 @@ const FirstLoginForm = (props) => {
   const onFinishHandler = async () => {
     setFinishLoading(true);
 
-    try {
-      // 1: creating the user
-      await axios.post(apis.CREATE_USER, {
-        ...selectedBasicInfo,
-        email: props.Auth.cognitoUserInfo.attributes.email,
-        name: props.Auth.cognitoUserInfo.attributes.name
-          ? props.Auth.cognitoUserInfo.attributes.name
-          : "devrook",
-      });
+    // try {
+    //   // 1: creating the user
+    //   await axios.post(apis.CREATE_USER, {
+    //     ...selectedBasicInfo,
+    //     email: props.Auth.cognitoUserInfo.attributes.email,
+    //     name: props.Auth.cognitoUserInfo.attributes.name
+    //       ? props.Auth.cognitoUserInfo.attributes.name
+    //       : "devrook",
+    //   });
 
-      // 2: following the tags it meight update user info also so its coming on no.2
-      await axios.post(apis.FOLLOW_TAG_IN_BULK, {
-        tagNames: Object.keys(selectedInterests),
-      });
+    //   // 2: following the tags it meight update user info also so its coming on no.2
+    //   await axios.post(apis.FOLLOW_TAG_IN_BULK, {
+    //     tagNames: Object.keys(selectedInterests),
+    //   });
 
-      // 3: it meight update user info
-      await axios.post(apis.FOLLOW_USER_IN_BULK, {
-        userNames: Object.keys(selectedDevs),
-      });
+    //   // 3: it meight update user info
+    //   await axios.post(apis.FOLLOW_USER_IN_BULK, {
+    //     userNames: Object.keys(selectedDevs),
+    //   });
 
-      window.location.href = "/";
-    } catch (err) {
-      console.log(err);
-    }
+    //   window.location.href = "/";
+    // } catch (err) {
+    //   console.log(err);
+    // }
   };
 
   useEffect(() => {
@@ -133,6 +133,7 @@ const FirstLoginForm = (props) => {
             currentSelected={selectedDevs}
             setSelected={setSelectedDevs}
             popularDevs={popularDevs}
+            finishLoading={finishLoading}
           />
         </FirstLoginLayout>
       );

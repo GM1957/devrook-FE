@@ -13,7 +13,9 @@ const AuthGuard = (props) => {
   const authenticate = async () => {
     try {
       setAuthenticating(true);
-      const cognitoUser = await Auth.currentAuthenticatedUser({bypassCache: true });
+      const cognitoUser = await Auth.currentAuthenticatedUser({
+        bypassCache: true,
+      });
       props.login(cognitoUser);
     } catch (err) {
       console.log(err);
@@ -32,13 +34,10 @@ const AuthGuard = (props) => {
         setFirstLogin(true);
       }
     }
-  },[props.Auth.isLoggedIn, props.Auth.cognitoUserInfo?.attributes.profile]);
+  }, [props.Auth.isLoggedIn, props.Auth.cognitoUserInfo?.attributes.profile]);
 
   return isFirstLogin ? (
-    <div>
-      <FirstLoginPage/>
-    <button onClick={authenticate}></button>
-    </div>
+    <FirstLoginPage />
   ) : isAuthenticating ? (
     <EntryLoader />
   ) : (

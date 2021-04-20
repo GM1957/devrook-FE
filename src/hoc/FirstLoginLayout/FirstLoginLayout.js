@@ -4,13 +4,13 @@ import Aux from "../Aux";
 import classes from "./FirstLoginLayout.module.css";
 
 const FirstLoginLayout = (props) => {
-
   const buttonControllar = () => {
     if (props.currentStep === 1 && props.selectedTagsCount > 0) {
       return classes.ContinueButton;
     } else if (props.currentStep === 2 && props.userNameStatus === "passed") {
       return classes.ContinueButton;
     } else if (props.currentStep === 3 && props.selectedDevsCount > 0) {
+      if (props.finishLoading) return classes.ContinueButtonDisabled;
       return classes.ContinueButton;
     } else {
       return classes.ContinueButtonDisabled;
@@ -30,7 +30,11 @@ const FirstLoginLayout = (props) => {
             onClick={props.back}
           >
             {props.currentStep > 1 ? (
-              <i className="arrow circle left icon" />
+              props.finishLoading ? (
+                <i className="chess rook icon" />
+              ) : (
+                <i className="arrow circle left icon" />
+              )
             ) : (
               <i className="chess rook icon" />
             )}
@@ -65,7 +69,7 @@ const FirstLoginLayout = (props) => {
               onClick={props.onFinishHandler}
             >
               <p className={classes.ButtonText}>
-                {props.finishLoading ? "Loading..." : "Finish"}
+                {props.finishLoading ? "Finishing..." : "Finish"}
               </p>
             </button>
           ) : (
