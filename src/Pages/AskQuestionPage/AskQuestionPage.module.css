@@ -1,0 +1,95 @@
+.NewQuestionPage {
+  padding-right: 10%;
+}
+
+.AskQuestionHeader {
+  display: flex;
+}
+
+.AskQuestionText {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 2%;
+  padding-bottom: 2.5%;
+  color: rgba(0, 0, 0, 0.788);
+}
+
+.QuestionDetailsContainer {
+  background-color: white;
+  border-radius: 10px;
+  padding: 5% 10%;
+  box-shadow: 0px 0px 2px 0px gray;
+}
+
+.TitleAndButtonRow {
+  display: flex;
+}
+
+.TitleColumn {
+  flex: 80%;
+}
+
+.ButtonColumn {
+  flex: 20%;
+}
+
+.PostButton {
+  float: right;
+  text-align: center;
+  border-radius: 18px;
+  color: white;
+  font-weight: bold;
+
+  padding-top: 6%;
+  padding-bottom: 6%;
+  width: 130px;
+  font-size: 13px;
+  background-color: #1d94dd;
+  border: none;
+  cursor: pointer;
+}
+
+.PostButtonDisabled {
+  float: right;
+  text-align: center;
+  border-radius: 18px;
+  color: rgb(179, 179, 179);
+  font-weight: bold;
+
+  padding-top: 6%;
+  padding-bottom: 6%;
+  width: 130px;
+  font-size: 13px;
+  background-color: #1e2022af;
+  border: none;
+  cursor: not-allowed;
+}
+
+.EditorBody {
+  margin-top: 1%;
+  margin-bottom: 3%;
+  padding-top: 2%;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+/* It will help to make full width of the editor */
+/* .EditorBody .ce-block__content .ce-toolbar__content {
+  max-width: none;
+} */
+
+.TitleInput {
+  margin-top: 1%;
+  margin-bottom: 2%;
+  border-radius: 3px;
+  border: 1px solid gray;
+  outline: none;
+  padding-inline: 1%;
+}
+
+.TitleInput:focus {
+  border: 1px solid #128fdd;
+}
+.SelectTagsSection{
+  margin-top: 1%;
+}

@@ -15,6 +15,12 @@ const apis = {
     FOLLOW_TAG: "/tag/follow", // POST REQUEST
     UNFOLLOW_TAG: "/tag/unfollow", // POST REQUEST
     FOLLOW_TAG_IN_BULK: "/tag/follow-tag-in-bulk", // POST REQUEST
+    
+    CREATE_POST: "/post", // POST REQUEST
+    GET_ALL_QUESTIONS: "/post/get-all/question", // GET REQUEST
+    GET_ALL_BLOGS: "/post/get-all/blog", // GET REQUEST
+
+    S3_GET_PRESIGNED_URL: "/s3upload/get-signed-url" // POST REQUEST GET PRESIGNED URL
 };
 
 export default apis;

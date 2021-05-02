@@ -16,13 +16,13 @@ const HomeLayout = (props) => {
               </div>
             </div>
 
-            <div className={classes.Column2}>
+            <div className={props.isRightBar ? classes.Column2: classes.Column2V2}>
               <div className={classes.MiddleArea}>
                 {props.children}
               </div>
             </div>
 
-            <div className={classes.Column3}>
+            <div className={props.isRightBar ? classes.Column3: classes.Column3V2}>
               <div className={classes.SideRightBar}>
                 <SideRightBar />
               </div>

@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { apis, axios } from "../../../services";
+import React, { useState, useEffect } from "react";
+import { userNameChecker } from "../../../services";
 import classes from "./BasicInfo.module.css";
 import { connect } from "react-redux";
 import { login } from "../../../redux/actions";
@@ -8,18 +8,17 @@ const BasicInfo = (props) => {
   const [userName, setUserName] = useState(props.defaultUserName);
 
   const onChangeHandler = (key, value) => {
-    let oldSelected = {...props.currentSelected};
+    let oldSelected = { ...props.currentSelected };
     oldSelected[key] = value;
     props.setSelected(oldSelected);
-  }
+  };
 
   const userNameOnChangeHandler = async (value) => {
     props.setUserNameStatus("checking");
     setUserName(value);
 
-    const result = await axios.get(apis.GET_USER_BY_USER_NAME + value);
-
-    if (!result.data.data.length) {
+    const result = await userNameChecker({value, defaultUserName: props.defaultUserName})
+    if (!result) {
       props.setUserNameStatus("passed");
 
       onChangeHandler("userName", value);
@@ -28,7 +27,9 @@ const BasicInfo = (props) => {
     }
   };
 
- 
+  useEffect(() => {
+    if (userName.length < 1) props.setUserNameStatus("failed");
+  },[props.userNameStatus]);
 
   return (
     <div>
@@ -36,7 +37,6 @@ const BasicInfo = (props) => {
         <p>Hello, Please give some necessary inputs to continue</p>
       </div>
       <div className={classes.BasicInfoDiv}>
-
         <label>
           <span style={{ color: "red" }}>*</span> User Name{"  "}
           <span>
@@ -62,22 +62,54 @@ const BasicInfo = (props) => {
         />
 
         <label>Short Bio</label>
-        <input onChange={(event) =>onChangeHandler("bio",event.target.velue)}className={classes.NormalInput} type="text" />
+        <input
+          onChange={(event) => onChangeHandler("bio", event.target.value)}
+          className={classes.NormalInput}
+          type="text"
+        />
 
         <label>Location</label>
-        <input onChange={(event) =>onChangeHandler("location",event.target.velue)}className={classes.NormalInput} type="text" />
+        <input
+          onChange={(event) => onChangeHandler("location", event.target.value)}
+          className={classes.NormalInput}
+          type="text"
+        />
 
         <label>Profession</label>
-        <input onChange={(event) =>onChangeHandler("profession",event.target.velue)}className={classes.NormalInput} type="text" />
+        <input
+          onChange={(event) =>
+            onChangeHandler("profession", event.target.value)
+          }
+          className={classes.NormalInput}
+          type="text"
+        />
 
         <label>Linkedin Link</label>
-        <input onChange={(event) =>onChangeHandler("linkedinLink",event.target.velue)}className={classes.NormalInput} type="text" />
+        <input
+          onChange={(event) =>
+            onChangeHandler("linkedinLink", event.target.value)
+          }
+          className={classes.NormalInput}
+          type="text"
+        />
 
         <label>Github Link</label>
-        <input onChange={(event) =>onChangeHandler("githubLink",event.target.velue)}className={classes.NormalInput} type="text" />
+        <input
+          onChange={(event) =>
+            onChangeHandler("githubLink", event.target.value)
+          }
+          className={classes.NormalInput}
+          type="text"
+        />
 
         <label>Twitter Link</label>
-        <input onChange={(event) =>onChangeHandler("twitterLink",event.target.velue)}className={classes.NormalInput} type="text" />
+        <input
+          onChange={(event) =>
+            onChangeHandler("twitterLink", event.target.value)
+          }
+          className={classes.NormalInput}
+          type="text"
+        />
       </div>
     </div>
   );

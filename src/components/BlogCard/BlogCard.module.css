@@ -1,0 +1,10 @@
+.BlogCard {
+    width: 100%;
+    background-color: #ffff;
+    min-height: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1.3px 0px gray;
+    display: flex;
+    margin-bottom: 6px;
+    text-align: center;
+  }

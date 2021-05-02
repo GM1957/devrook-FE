@@ -55,9 +55,7 @@
 }
 
 .Content {
-  padding-top: 5%;
-  padding-bottom: 5%;
-  padding-inline: 2%;
+  padding: 5% 2%;
   display: flex;
 }
 

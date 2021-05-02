@@ -1,0 +1,59 @@
+.Page404 {
+  padding: 40px 0;
+  background: #fff;
+  font-family: monospace;
+  text-align: center;
+}
+
+.Page404 header {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.767);
+    font-size: 35px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.Page404 img {
+  width: 100%;
+}
+
+.Bg404 {
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.ContentBox404 h3 {
+    font-family: monospace;
+    color: rgba(0, 0, 0, 0.767);
+    font-size: 50px;
+}
+
+.Link404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #128fdd;
+  margin: 20px 0;
+  display: inline-block;
+}
+.ContentBox404 {
+  margin-top: -50px;
+}
+
+@media (min-height: 677px) {
+    .Page404 img {
+        height: 80%;
+      }
+  }
+
+@media (max-width: 500px) {
+    .Page404 header {
+        font-size: 30px;
+    }
+  }
+@media (max-width: 700px) {
+    .ContentBox404 h3 {
+        font-size: 33px;
+    }
+  }

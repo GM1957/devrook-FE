@@ -1,0 +1,19 @@
+.UpVoteButton {
+    width: 100%;
+}
+
+.UpVoteButton i {
+  font-size: 40px;
+  color: rgba(128, 128, 128, 0.733);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.UpVoteButton i:hover {
+  font-size: 40px;
+  color: #f5576c;
+  
+}

@@ -15,6 +15,7 @@
 .Column1 {
   flex: 20%;
 }
+
 .SideLeftBar {
   position: fixed;
   height: 100%;
@@ -22,19 +23,28 @@
 }
 
 .Column2 {
-  flex: 50%;
+  flex: 55%;
 }
+
 .MiddleArea {
   width: 100%;
-  text-align: center;
   padding-top: 2%;
-  padding-left: 6%;
-  padding-right: 1%;
+  padding-left: 4%;
+  padding-right: 3%;
 }
 
 .Column3 {
-  flex: 30%;
+  flex: 25%;
 }
+
+.Column2V2 {
+  flex: 80%;
+}
+
+.Column3V2 {
+  display: none;
+}
+
 .SideRightBar {
   position: fixed;
   height: 100%;

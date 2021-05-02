@@ -1,22 +1,29 @@
-import React from "react";
-import HomeLayout from "../../hoc/HomeLayout/HomeLayout";
-import Rook from "../../assets/images/devrooklogo.png";
-
-import classes from "./ProfilePage.module.css";
+import React, { useState } from "react";
+import ProfileDetails from "../../components/UserProfile/ProfileDetails/ProfileDetails";
+import { connect } from "react-redux";
+import { login } from "../../redux/actions";
+import NotFound404 from "../../components/NotFound404/NotFound404";
 
 const ProfilePage = (props) => {
+  const [profileDetails, setProfileDetails] = useState(null);
+
+  const userName = props.match.params.username;
+
   return (
-    <HomeLayout>
-      <div className={classes.ProfileCard}>
-        <div className={classes.HeaderAnimation}>
-          <div className={classes.Stars}></div>
-          <div className={classes.Stars2}></div>
-          <div className={classes.Stars3}></div>
-        </div>
-        <img src={Rook} alt="UserImage" className={classes.UserPic} />
-      </div>
-    </HomeLayout>
+    <div>
+      {profileDetails === "notFound" ? (
+        <NotFound404 />
+      ) : (
+        <ProfileDetails profileDetails={profileDetails} setProfileDetails={setProfileDetails} userName={userName}/>
+      )}
+    </div>
   );
 };
 
-export default ProfilePage;
+const mapStateToProps = (state) => {
+  return { Auth: state.Auth };
+};
+
+export default connect(mapStateToProps, {
+  login,
+})(ProfilePage);

@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { Auth } from "aws-amplify";
 import { connect } from "react-redux";
-import { login } from "../redux/actions";
+import { login, setUserDetails } from "../redux/actions";
+import { apis, axios } from "../services";
 import EntryLoader from "../components/EntryLoader/EntryLoaderSmallBoxes";
 import RouteHandler from "./RouteHandler";
 import FirstLoginPage from "../Pages/FirstLoginPage/FirstLoginPage";
@@ -17,24 +18,36 @@ const AuthGuard = (props) => {
         bypassCache: true,
       });
       props.login(cognitoUser);
+
+      setAuthenticating(false);
     } catch (err) {
       console.log(err);
-    } finally {
       setAuthenticating(false);
     }
   };
 
   useEffect(() => {
-    return authenticate();
+    authenticate();
   }, []);
 
   useEffect(() => {
-    if (props.Auth.isLoggedIn) {
-      if (!props.Auth.cognitoUserInfo.attributes.profile) {
-        setFirstLogin(true);
+    async function fetchUserData() {
+      try {
+        const DBuser = await axios.post(apis.GET_USER_BY_USER_ID, {});
+        console.log("fetched user", DBuser);
+        props.setUserDetails(DBuser.data.data[0]);
+      } catch (err) {
+        console.log(err);
       }
     }
-  }, [props.Auth.isLoggedIn, props.Auth.cognitoUserInfo?.attributes.profile]);
+    if (props.Auth.isLoggedIn) {
+      if (!props.Auth?.cognitoUserInfo?.attributes?.zoneinfo) {
+        setFirstLogin(true);
+      } else {
+        fetchUserData();
+      }
+    }
+  }, [props.Auth.isLoggedIn, props.Auth?.cognitoUserInfo?.attributes?.zoneinfo]);
 
   return isFirstLogin ? (
     <FirstLoginPage />
@@ -45,10 +58,13 @@ const AuthGuard = (props) => {
   );
 };
 
-const mapStateToProps = (state) => ({
-  Auth: state.Auth,
-});
+const mapStateToProps = (state) => {
+  return {
+    Auth: state.Auth,
+  };
+};
 
 export default connect(mapStateToProps, {
   login,
+  setUserDetails,
 })(AuthGuard);

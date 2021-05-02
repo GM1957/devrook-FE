@@ -1,0 +1,39 @@
+.MiddleFeedContent{
+   padding-top: 9%;
+}
+.MiddleFeedHeader {
+    display: flex;
+    width: 100%;
+    padding-right: 8px;
+    padding-left: 50%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    flex-direction: row;
+    justify-content: space-between;
+    float: right;
+}
+.MiddleFeedHeaderButton {
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+.MiddleFeedHeaderButton a {
+    color: rgb(44, 42, 42);
+}
+
+.MiddleFeedHeaderButton:hover{
+    background-color:rgba(29,148,221,0.1);
+    color: #1d94dd;
+}
+
+.active {
+    border-bottom: 2px solid #1d94dd;
+}
+.active .MiddleFeedHeaderButton {
+    font-weight: 550;
+}

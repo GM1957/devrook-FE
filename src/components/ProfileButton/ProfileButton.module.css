@@ -29,9 +29,7 @@
 
 .ul2 {
     margin: 0;
-    padding-inline: 10px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding: 8px 10px;
     border: none;
     width: 100%
 }

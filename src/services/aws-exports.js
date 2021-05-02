@@ -29,7 +29,7 @@ const appConfig =  {
          // OPTIONAL - Hosted UI configuration
         oauth: {
             domain: 'dev-prefixpostfix.auth.ap-southeast-1.amazoncognito.com',
-            scope: ['phone', 'email', 'profile', 'openid', 'aws.cognito.signin.user.admin'],
+            scope: ['phone', 'email', 'profile', 'zoneinfo', 'openid', 'aws.cognito.signin.user.admin'],
             redirectSignIn: 'http://localhost:3000',
             redirectSignOut: 'http://localhost:3000',
             responseType: 'code' // or 'token', note that REFRESH token will only be generated when the responseType is code
