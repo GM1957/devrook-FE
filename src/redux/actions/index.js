@@ -7,7 +7,14 @@ import {
 
 import { setUser } from "./user";
 
-import { setFeedQuestions, setFeedBlogs } from "./feedActions";
+import {
+  setFeedQuestions,
+  setFeedBlogs,
+  isPersonalizedBlogsFetched,
+  isPersonalizedQuestionsFetched,
+} from "./feedActions";
+
+import { voteHandler } from "./voteActions";
 
 export {
   login,
@@ -16,5 +23,8 @@ export {
   setPartialDetails,
   setUser,
   setFeedQuestions,
-  setFeedBlogs
+  setFeedBlogs,
+  voteHandler,
+  isPersonalizedBlogsFetched,
+  isPersonalizedQuestionsFetched,
 };

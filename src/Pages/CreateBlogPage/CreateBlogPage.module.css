@@ -67,6 +67,7 @@
   background-color: #1e2022af;
   border: none;
   cursor: not-allowed;
+  margin-top: -14px;
 }
 
 .EditorBody {

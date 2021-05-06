@@ -1,10 +1,58 @@
 .BlogCard {
-    width: 100%;
-    background-color: #ffff;
-    min-height: 100px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 1.3px 0px gray;
-    display: flex;
-    margin-bottom: 6px;
-    text-align: center;
-  }
+  background-color: #ffff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1.3px 0px gray;
+  margin-bottom: 2%;
+}
+
+.BlogContent {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.LikeSection {
+  flex: 10%;
+}
+
+.BlogSection {
+  flex: 90%;
+  padding-right: 5%;
+}
+
+.BlogTitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(20, 19, 19, 0.877);
+}
+
+.BlogResponseSection {
+  background-color: whitesmoke;
+  min-height: 20px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.712);
+}
+
+.LikeCount {
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.76);
+}
+
+.CoverImageSection {
+  min-height: 100px;
+}
+
+.CoverImageSection img {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}

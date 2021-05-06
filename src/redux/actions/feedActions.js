@@ -4,6 +4,7 @@ const setFeedQuestions = (payload) => {
     payload,
   };
 };
+
 const setFeedBlogs = (payload) => {
   return {
     type: "SET_FEED_BLOGS",
@@ -11,4 +12,18 @@ const setFeedBlogs = (payload) => {
   };
 };
 
-export { setFeedQuestions, setFeedBlogs };
+const isPersonalizedBlogsFetched = (payload) => {
+  return {
+    type: "SET_PERSONALIZED_BLOGS_FETCH_STATUS",
+    payload,
+  };
+};
+
+const isPersonalizedQuestionsFetched = (payload) => {
+  return {
+    type: "SET_PERSONALIZED_QUESTIONS_FETCH_STATUS",
+    payload,
+  };
+};
+
+export { setFeedQuestions, setFeedBlogs, isPersonalizedBlogsFetched, isPersonalizedQuestionsFetched };

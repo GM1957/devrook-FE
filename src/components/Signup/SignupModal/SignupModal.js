@@ -61,6 +61,7 @@ class SignupModal extends Component {
       });
       toast.success("👻 Signup successful please check your mail-box");
       this.props.closed();
+      this.isLoadingOFFHandler();
     } catch (err) {
       toast.error(err.message);
       this.isLoadingOFFHandler();
@@ -130,7 +131,7 @@ class SignupModal extends Component {
                     )}
                     type="submit"
                   >
-                    Login
+                    Loading..
                   </button>
                 ) : (
                   <button

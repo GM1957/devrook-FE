@@ -19,7 +19,7 @@ const QuestionsFeed = (props) => {
   };
 
   useEffect(() => {
-    if (props.Feed?.questionsFeed === null) {
+    if (!props.Feed?.questionsFeed.length) {
       fetchQuestions();
     }
   }, []);
