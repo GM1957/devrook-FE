@@ -1,34 +1,44 @@
 import React, { useState, useEffect } from "react";
 import { axios, apis } from "../../../services";
 import BlogCard from "../../BlogCard/BlogCard";
+import QuestionCard from "../../QuestionCard/QuestionCard";
 import {
-  setFeedBlogs,
-  isPersonalizedBlogsFetched,
+  setDevFeed,
+  isPersonalizedDevFeedFetched,
   voteHandler,
-  voteCountHandler,
+  voteCountHandler
 } from "../../../redux/actions";
 import { connect } from "react-redux";
 import HeartLoadaer from "../../EntryLoader/HeartLoader";
-import classes from "./BlogsFeed.module.css";
 
-const BlogsFeed = (props) => {
+import classes from "./DevFeed.module.css";
+
+const DevFeed = (props) => {
   const [isLoading, setIsLoading] = useState(false);
 
-  const fetchBlogs = async () => {
+  const fetchDevFeed = async () => {
     setIsLoading(true);
     let result = {};
+    const resultItems = [];
     let voteCountObj = {};
 
     try {
-      // if user is logged in then fetch personalized blogs basically here the blogs will come according the tags which user follows
+      // if user is logged in then fetch personalized Dev feed basically here the Dev feed will come according the tags which user follows
       if (props.Auth?.isLoggedIn) {
         // in vote obj i am already containing old votes data which user has done previously in the application
         const voteObj = { ...props.Vote.votes };
 
-        result = await axios.post(apis.GET_PERSONALIZED_BLOGS + "/false/false");
+        result = await axios.post(apis.GET_PERSONALIZED_DEV_FEED, {
+          limit: "false",
+          LastEvaluatedKey: "false",
+        });
+
+        // Refactoring the result here
+
+        result?.data?.data?.Items.forEach((item) => resultItems.push(...item));
 
         const voteIds = [];
-        result?.data?.data?.Items.forEach((item) => {
+        resultItems.forEach((item) => {
           voteIds.push(item.hashedUrl);
           voteCountObj[item.hashedUrl] = {
             likes: item.like,
@@ -36,7 +46,6 @@ const BlogsFeed = (props) => {
             downVotes: item.downVote,
           };
         });
-        // result?.data?.data?.Items.map((item) => item.hashedUrl);
 
         const previousVoteDetails = await axios.post(
           apis.GET_USER_PREVIOUS_VOTES,
@@ -49,10 +58,9 @@ const BlogsFeed = (props) => {
 
         props.voteHandler(voteObj);
 
-        props.isPersonalizedBlogsFetched(true);
+        props.isPersonalizedDevFeedFetched(true);
       } else {
-        result = await axios.get(apis.GET_ALL_BLOGS + "/false/false");
-
+        result = await axios.get(apis.GET_PUBLIC_DEV_FEED + "/false/false");
         result?.data?.data?.Items.forEach((item) => {
           voteCountObj[item.hashedUrl] = {
             likes: item.like,
@@ -61,9 +69,8 @@ const BlogsFeed = (props) => {
           };
         });
       }
-
-      if (result?.data?.data?.Items) {
-        props.setFeedBlogs(result.data.data.Items);
+      if (resultItems.length) {
+        props.setDevFeed(resultItems);
         props.voteCountHandler({ ...props.Vote.voteCount, ...voteCountObj });
       }
     } catch (err) {
@@ -73,14 +80,14 @@ const BlogsFeed = (props) => {
   };
 
   useEffect(() => {
-    if (!props.Feed?.blogsFeed.length) {
-      fetchBlogs();
+    if (!props.Feed?.mainFeed.length) {
+      fetchDevFeed();
     }
 
-    // i had to make universal flag to check if personalized blogs fetched for not because for this if (!props.Feed?.blogsFeed.length) important check check i was unable to update blog feed because the initial value of props.Auth?.isLoggedIn is false and for that blogsFeed was getting length and 2nd time when isLoggedIn is true for that check i was not able to fetch and update blogFeed with personalized blogs
-    if (!props.Feed?.isPersonalizedBlogsFetched) {
+    // i had to make universal flag to check if personalized posts fetched for not because for this if (!props.Feed?.mainFeed.length) important check check i was unable to update main feed because the initial value of props.Auth?.isLoggedIn is false and for that mainFeed was getting length and 2nd time when isLoggedIn is true for that check i was not able to fetch and update mainFeed with personalized main feed
+    if (!props.Feed?.isPersonalizedMainFeedFetched) {
       if (props.Auth?.isLoggedIn) {
-        fetchBlogs();
+        fetchDevFeed();
       }
     }
   }, [props.Auth?.isLoggedIn]);
@@ -91,12 +98,17 @@ const BlogsFeed = (props) => {
         <HeartLoadaer />
       ) : (
         <div>
-          <div className={classes.ReloadButton} onClick={() => fetchBlogs()}>
+          <div className={classes.ReloadButton} onClick={() => fetchDevFeed()}>
             <i className="icon sync alternate"></i>
           </div>
-          {props.Feed?.blogsFeed?.map((ele, i) => {
-            // this type is either post or response
-            return <BlogCard Type="post" Element={ele} key={`blg-card-${i}`} />;
+          {props.Feed?.mainFeed?.map((ele, i) => {
+            if (ele.postType === "blog") {
+              return <BlogCard Index={i} Element={ele} key={`blg-card-${i}`} />;
+            } else if (ele.postType === "question") {
+              return (
+                <QuestionCard Index={i} Element={ele} key={`qs-card-${i}`} />
+              );
+            } else return null;
           })}
         </div>
       )}
@@ -109,8 +121,8 @@ const mapStateToProps = (state) => {
 };
 
 export default connect(mapStateToProps, {
-  setFeedBlogs,
-  isPersonalizedBlogsFetched,
+  setDevFeed,
+  isPersonalizedDevFeedFetched,
   voteHandler,
-  voteCountHandler,
-})(BlogsFeed);
+  voteCountHandler
+})(DevFeed);

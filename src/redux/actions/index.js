@@ -10,11 +10,15 @@ import { setUser } from "./user";
 import {
   setFeedQuestions,
   setFeedBlogs,
+  setMainFeed,
+  setDevFeed,
   isPersonalizedBlogsFetched,
   isPersonalizedQuestionsFetched,
+  isPersonalizedMainFeedFetched,
+  isPersonalizedDevFeedFetched,
 } from "./feedActions";
 
-import { voteHandler } from "./voteActions";
+import { voteHandler, voteCountHandler } from "./voteActions";
 
 export {
   login,
@@ -24,7 +28,12 @@ export {
   setUser,
   setFeedQuestions,
   setFeedBlogs,
+  setMainFeed,
+  setDevFeed,
   voteHandler,
+  voteCountHandler,
   isPersonalizedBlogsFetched,
   isPersonalizedQuestionsFetched,
+  isPersonalizedMainFeedFetched,
+  isPersonalizedDevFeedFetched,
 };

@@ -7,13 +7,17 @@ const MiddleFeedLayout = (props) => {
     <div>
       <header className={classes.MiddleFeedHeader}>
         <NavLink activeClassName={classes.active} to="/" exact>
+          <button className={classes.MiddleFeedHeaderButton}>Feed</button>
+        </NavLink>
+        <NavLink activeClassName={classes.active} to="/feed/questions" exact>
           <button className={classes.MiddleFeedHeaderButton}>Questions</button>
         </NavLink>
         <NavLink activeClassName={classes.active} to="/feed/blogs" exact>
           <button className={classes.MiddleFeedHeaderButton}>Blogs</button>
         </NavLink>
-        <button className={classes.MiddleFeedHeaderButton}>Feed</button>
-        <button className={classes.MiddleFeedHeaderButton}>DevFeed</button>
+        <NavLink activeClassName={classes.active} to="/feed/devfeed" exact>
+          <button className={classes.MiddleFeedHeaderButton}>DevFeed</button>
+        </NavLink>
       </header>
       <div className={classes.MiddleFeedContent}>{props.children}</div>
     </div>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Dropdown, Icon, Card } from "semantic-ui-react";
 import classes from "./ProfileButton.module.css";
-import { logout } from "../../redux/actions";
+import { logout } from "../../../redux/actions";
 import { connect } from "react-redux";
 
 const ProfileButton = (props) => {

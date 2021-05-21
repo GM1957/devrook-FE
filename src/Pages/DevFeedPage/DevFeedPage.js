@@ -1,19 +1,19 @@
 import React from "react";
-import Layout from "../../hoc/Layout";
 import HomeLayout from "../../hoc/HomeLayout/HomeLayout";
 import MiddleFeedLayout from "../../hoc/MiddleFeedLayout/MiddleFeedLayout";
-import BlogFeed from "../../components/Feeds/BlogsFeed/BlogsFeed";
+import Layout from "../../hoc/Layout";
+import DevFeed from "../../components/Feeds/DevFeed/DevFeed";
 
-const BlogFeedPage = (props) => {
+const DevFeedPage = (props) => {
   return (
     <Layout>
       <HomeLayout isRightBar={true}>
         <MiddleFeedLayout>
-          <BlogFeed />
+          <DevFeed />
         </MiddleFeedLayout>
       </HomeLayout>
     </Layout>
   );
 };
 
-export default BlogFeedPage;
+export default DevFeedPage;

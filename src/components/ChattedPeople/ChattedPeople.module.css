@@ -1,0 +1,97 @@
+.MainContainer {
+  background-color: white;
+  height: 82vh;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-right: 1px solid rgba(128, 128, 128, 0.26);
+  overflow: auto;
+}
+
+.MainContainer::-webkit-scrollbar {
+  width: 1px;
+}
+
+.MessagesHeader {
+  border-top-left-radius: 10px;
+  padding: 1.5% 5%;
+  text-align: center;
+  background-color: whitesmoke;
+  margin-bottom: 5%;
+}
+
+.MessagesHeader p {
+  font-size: 18px;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.692);
+  font-family: sans-serif;
+}
+
+.UsersContainer {
+  padding-inline: 6%;
+}
+
+.UserBox {
+  border-radius: 20px;
+  margin-bottom: 5%;
+  box-shadow: 0px 0px 4px 0px rgba(128, 128, 128, 0.589);
+  padding: 5% 5%;
+  display: flex;
+  cursor: pointer;
+}
+
+.UserBox:hover {
+    box-shadow: inset 0px 0px 8px 0px rgba(128, 128, 128, 0.589);
+}
+
+.UserBoxActive .UserBox {
+    border-radius: 20px;
+    margin-bottom: 5%;
+    box-shadow: inset 0px 0px 8px 0px rgba(128, 128, 128, 0.589);
+    padding: 5% 5%;
+    display: flex;
+    cursor: pointer;
+}
+
+.ImageSection {
+  flex: 20%;
+  text-align: center;
+}
+
+.ImageSection img {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+
+.UserNameSection {
+  flex: 80%;
+  text-align: center;
+}
+
+.UserNameSection h6{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-bottom: 3%;
+    color: #1d94dd;
+}
+
+.UserNameSection .UserName p {
+    color: rgba(0, 0, 0, 0.644);
+    font-weight: bold;
+}
+
+.EntryLoader {
+    text-align: center;
+    margin-top: 70%;
+}
+
+.NoUserFound {
+  text-align: center;
+  margin-top: 80%;
+}
+
+.NoUserFound p {
+  font-weight: bold;
+}

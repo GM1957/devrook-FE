@@ -5,4 +5,11 @@ const voteHandler = (payload) => {
   };
 };
 
-export { voteHandler };
+const voteCountHandler = (payload) => {
+  return {
+    type: "SET_VOTE_COUNT",
+    payload,
+  };
+};
+
+export { voteHandler, voteCountHandler };

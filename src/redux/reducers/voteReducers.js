@@ -1,18 +1,24 @@
 const initialState = {
-    votes: {},
-}
+  votes: {},
+  voteCount: {}
+};
 
+const Vote = (state = initialState, action) => {
+  switch (action.type) {
+    case "SET_VOTES":
+      return {
+        ...state,
+        votes: action.payload,
+      };
 
-const Vote = (state= initialState, action) => {
-    switch (action.type) {
-        case 'SET_VOTES':
-            return {
-                ...state,
-                votes: action.payload,
-            }
-        default:
-            return state;
-    }
-}
+    case "SET_VOTE_COUNT":
+      return {
+        ...state,
+        voteCount: action.payload,
+      };
+    default:
+      return state;
+  }
+};
 
-export default Vote
+export default Vote;

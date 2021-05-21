@@ -3,6 +3,8 @@ import { axios } from '../../services'
 
 const login = (cognitoUserInfo) => {
     axios.defaults.headers.common['Authorization'] = cognitoUserInfo.signInUserSession.idToken.jwtToken;
+    localStorage.setItem("access_token", cognitoUserInfo.signInUserSession.idToken.jwtToken);
+    localStorage.setItem("refresh_token", cognitoUserInfo.signInUserSession.refreshToken.token);
     return {
         type: 'LOGIN',
         cognitoUserInfo

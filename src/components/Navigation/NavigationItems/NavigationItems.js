@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./NavigationItems.module.css";
 import SignupButton from "../../Signup/SignupButton/SignupButton";
 import LoginButton from "../../Login/LoginButton/LoginButton";
-import ProfileButton from "../../ProfileButton/ProfileButton";
+import ProfileButton from "../ProfileButton/ProfileButton";
 import { connect } from "react-redux";
 import { login } from "../../../redux/actions";
 

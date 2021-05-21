@@ -96,11 +96,22 @@
 
 .ButtonsSection {
   padding-right: 8%;
+  display: flex;
+  flex-direction: column;
+}
+
+.BigButtonsSection {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ChatButton {
+  width: 20%;
+  margin-right: 10px;
 }
 
 .EditOrFollowButton {
-  float: right;
-  width: 40%;
+  width: 35%;
 }
 
 .SocialLinks{
@@ -114,10 +125,27 @@
   float: right;
   margin-left: 10%;
   color: black;
+  cursor: pointer;
 }
 
 .SocialLinks a:hover{
   color: #128fdd
+}
+
+.LoadingButton {
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid #1d94dd;
+  color: #1d94dd;
+  font-weight: bold;
+  padding: 5% 10%;
+  width: 120px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.LoadingButton:hover{
+ background-color: rgba(29, 161, 241, 0.2);
 }
 
 

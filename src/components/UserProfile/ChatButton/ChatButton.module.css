@@ -1,0 +1,15 @@
+.ChatButton {
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #1d94dd;
+    color: #1d94dd;
+    font-weight: bold;
+    padding: 6.8% 10%;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .ChatButton:hover{
+   background-color: rgba(29, 161, 241, 0.2);
+  }

@@ -2,14 +2,14 @@ import React from "react";
 import HomeLayout from "../../hoc/HomeLayout/HomeLayout";
 import Layout from "../../hoc/Layout";
 import MiddleFeedlayout from "../../hoc/MiddleFeedLayout/MiddleFeedLayout";
-import QuestionsFeed from "../../components/Feeds/QuestionsFeed/QuestionsFeed";
+import MainFeed from "../../components/Feeds/MainFeed/MainFeed";
 
 const HomePage = (props) => {
   return (
     <Layout>
       <HomeLayout isRightBar={true}>
         <MiddleFeedlayout>
-         <QuestionsFeed/>
+         <MainFeed/>
         </MiddleFeedlayout>
       </HomeLayout>
     </Layout>

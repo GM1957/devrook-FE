@@ -1,0 +1,19 @@
+.FollowUserButton {
+    text-align: center;
+    border-radius: 20px;
+    background-color: #1d94dd;
+    color: white;
+    font-weight: bold;
+    padding: 5% 10%;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .FollowUserButton p {
+    font-size: 15px;;
+  }
+  
+  .FollowUserButton:hover{
+   background-color: #1079bb;
+  }

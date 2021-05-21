@@ -24,9 +24,12 @@ const SideLeftBarItems = (props) => {
       <button className={classes.Buttons}>
         <Icon name="alarm" /> <span> Notifications </span>
       </button>
-      <button className={classes.Buttons}>
-        <Icon name="mail" /> <span> Messages </span>
-      </button>
+
+      <NavLink activeClassName={classes.active} to="/me/messages" exact>
+        <button className={classes.Buttons}>
+          <Icon name="mail" /> <span> Messages </span>
+        </button>
+      </NavLink>
 
       {/* activeClassName is an predefined name which used to activate a class based on current path */}
       <NavLink
@@ -43,7 +46,7 @@ const SideLeftBarItems = (props) => {
           <Icon name="user" /> <span> Profile </span>
         </button>
       </NavLink>
-      
+
       <div className={classes.CreateButtonSection}>
         <div className={classes.CreateTooltip}>
           <button className={classes.CreateButton}>Create</button>

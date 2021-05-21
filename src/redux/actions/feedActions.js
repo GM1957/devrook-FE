@@ -12,6 +12,20 @@ const setFeedBlogs = (payload) => {
   };
 };
 
+const setMainFeed = (payload) => {
+  return {
+    type: "SET_MAIN_FEED",
+    payload,
+  };
+};
+
+const setDevFeed = (payload) => {
+  return {
+    type: "SET_DEV_FEED",
+    payload,
+  };
+};
+
 const isPersonalizedBlogsFetched = (payload) => {
   return {
     type: "SET_PERSONALIZED_BLOGS_FETCH_STATUS",
@@ -26,4 +40,27 @@ const isPersonalizedQuestionsFetched = (payload) => {
   };
 };
 
-export { setFeedQuestions, setFeedBlogs, isPersonalizedBlogsFetched, isPersonalizedQuestionsFetched };
+const isPersonalizedMainFeedFetched = (payload) => {
+  return {
+    type: "SET_PERSONALIZED_MAIN_FEED_FETCH_STATUS",
+    payload,
+  };
+};
+
+const isPersonalizedDevFeedFetched = (payload) => {
+  return {
+    type: "SET_PERSONALIZED_DEV_FEED_FETCH_STATUS",
+    payload,
+  };
+};
+
+export {
+  setFeedQuestions,
+  setFeedBlogs,
+  setMainFeed,
+  setDevFeed,
+  isPersonalizedBlogsFetched,
+  isPersonalizedQuestionsFetched,
+  isPersonalizedMainFeedFetched,
+  isPersonalizedDevFeedFetched,
+};

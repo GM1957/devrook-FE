@@ -17,3 +17,13 @@
   color: #f5576c;
   
 }
+
+.UpVottedButton i {
+  font-size: 40px;
+  color: #f5576c;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

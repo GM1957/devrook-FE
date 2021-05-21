@@ -23,7 +23,7 @@
 }
 
 .CreateButtonSection {
-margin-top:5%;
+  margin-top: 5%;
 }
 
 .CreateButton {
@@ -39,7 +39,6 @@ margin-top:5%;
   text-align: center;
   font-weight: bold;
 }
-
 
 .CreateButton:hover {
   background-color: #1d7ebb;
@@ -108,41 +107,40 @@ margin-top:5%;
   background-color: rgba(36, 116, 165, 0.603);
 }
 
-.ActiveTooltipButton div{
+.ActiveTooltipButton div {
   background-color: rgba(36, 116, 165, 0.603);
 }
 
 @media (max-width: 1112px) {
-    .Buttons span {
-        margin-left: 2px;
-      }
-}
-
-@media (max-width: 1075px) {
-    .Buttons span {
-        display: none;
-      }
-
-    .Buttons {
-        font-size: 2em;
-    }
-}
-
-@media (max-width: 570px) {
-    .CreateButton {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-}
-
-@media (max-width: 350px) {
-    .CreateButton {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    .Buttons {
-      padding-left: 10px;
-      padding-right: 10px;
+  .Buttons span {
+    margin-left: 2px;
   }
 }
 
+@media (max-width: 1075px) {
+  .Buttons span {
+    display: none;
+  }
+
+  .Buttons {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 570px) {
+  .CreateButton {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .CreateButton {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .Buttons {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

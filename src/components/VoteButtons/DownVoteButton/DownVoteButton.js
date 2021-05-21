@@ -1,14 +1,73 @@
-import React from 'react';
+import React from "react";
+import { apis, axios } from "../../../services";
+import {
+  setFeedBlogs,
+  voteHandler,
+  voteCountHandler,
+} from "../../../redux/actions";
+import { connect } from "react-redux";
+import classes from "./DownVoteButton.module.css";
 
-import classes from './DownVoteButton.module.css';
+const DownVoteButton = (props) => {
+  const url = props.Element.hashedUrl
+    ? props.Element.hashedUrl
+    : props.Element.responseId;
 
-const DownVoteButton = (props) => (
+  const downVotePostHandler = async () => {
+    try {
+      await axios.post(apis.VOTE_POST, {
+        voteType: "downVote",
+        id: url,
+        type: props.Type,
+      });
+    } catch (err) {
+      console.log("unable to downVote", err);
+    }
+  };
+
+  const increaseDownVoteHandler = () => {
+    // in vote obj i am already containing old votes data which user has done previously in the application
+    const voteObj = { ...props.Vote.votes };
+    const voteCountObj = { ...props.Vote.voteCount };
+
+    // checking the hased url is already present or not in votes object if present that means post is already upvotted
+    // and if it is already upvotted then we have to remove the upvote in the nex click
+    if (props.Vote?.votes[url]?.downVotted) {
+      voteCountObj[url].downVotes -= 1;
+      voteObj[url] = {...voteObj[url], downVotted: false };
+    } else {
+      voteCountObj[url].downVotes += 1;
+      voteObj[url] = {...voteObj[url], downVotted: true };
+      voteObj[url] = {...voteObj[url], upVotted: false };
+    }
+
+    props.voteHandler(voteObj);
+    props.voteCountHandler(voteCountObj);
+    downVotePostHandler();
+  };
+
+  return (
     <div>
-        <div className={classes.DownVoteButton}>
-
+      <div
+        className={
+          props.Vote?.votes[url]?.downVotted
+            ? classes.DownVottedButton
+            : classes.DownVoteButton
+        }
+        onClick={() => increaseDownVoteHandler()}
+      >
         <i className={["icon caret down", classes.icon].join(" ")} />
-        </div>
+      </div>
     </div>
-);
+  );
+};
 
-export default DownVoteButton;
+const mapStateToProps = (state) => {
+  return { Feed: state.Feed, Vote: state.Vote };
+};
+
+export default connect(mapStateToProps, {
+  setFeedBlogs,
+  voteHandler,
+  voteCountHandler,
+})(DownVoteButton);

@@ -3,7 +3,11 @@ import Layout from "../../../hoc/Layout";
 import HomeLayout from "../../../hoc/HomeLayout/HomeLayout";
 
 import EditProfileButton from "../EditProfileButton/EditProfileButton";
+import FollowUserButton from "../FollowUserButton/FollowUserButton";
+import UnfollowUserButtton from "../UnfollowUserButton/UnfollowUserButton";
 import RookLogo from "../../../assets/images/devrooklogo.png";
+import HeartLoader from "../../EntryLoader/HeartLoader";
+import ChatButton from "../ChatButton/ChatButton";
 
 import { axios, apis } from "../../../services";
 import { connect } from "react-redux";
@@ -12,11 +16,37 @@ import classes from "./ProfileDetails.module.css";
 
 const ProfileDetails = (props) => {
   const [isLoading, setIsLoading] = useState(false);
+  const [shouldChatButton, setShouldChatButton] = useState(true);
+  const [rightButton, setRightButton] = useState(
+    <div className={classes.LoadingButton}>
+      <div className="ui small active centered inline loader"></div>
+    </div>
+  );
+
+  const buttonChangerHandler = (currentType) => {
+    if (currentType === "follow")
+      setRightButton(
+        <UnfollowUserButtton
+          changer={buttonChangerHandler}
+          userName={props.userName}
+        />
+      );
+    if (currentType === "unfollow")
+      setRightButton(
+        <FollowUserButton
+          changer={buttonChangerHandler}
+          userName={props.userName}
+        />
+      );
+  };
 
   // here checking if the user is checking his own profile or not and setting the default value of the user accordingly for fast performence
 
-  const checkOwnersProfile = () => {
+  const checkOwnersProfile = async () => {
     if (props.userName === props.Auth?.cognitoUserInfo?.attributes?.profile) {
+      setRightButton(<EditProfileButton />);
+      setShouldChatButton(false);
+
       let details = { ...props.Auth.userdetails };
       delete details.userId;
 
@@ -27,6 +57,34 @@ const ProfileDetails = (props) => {
       } else {
         setIsLoading(false);
       }
+    } else if (
+      props.Auth?.isLoggedIn &&
+      props.userName !== props.Auth?.cognitoUserInfo?.attributes?.profile
+    ) {
+      const checker = await axios.post(apis.FOLLOW_CHECKER, {
+        userName: props.userName,
+      });
+
+      checker.data?.data?.length
+        ? setRightButton(
+            <UnfollowUserButtton
+              changer={buttonChangerHandler}
+              userName={props.userName}
+            />
+          )
+        : setRightButton(
+            <FollowUserButton
+              changer={buttonChangerHandler}
+              userName={props.userName}
+            />
+          );
+    } else {
+      setRightButton(
+        <FollowUserButton
+          changer={buttonChangerHandler}
+          userName={props.userName}
+        />
+      );
     }
   };
 
@@ -54,20 +112,20 @@ const ProfileDetails = (props) => {
 
   useEffect(() => {
     checkOwnersProfile();
-  }, []);
+  }, [props.userName]);
 
   useEffect(() => {
     fetchUserDetails();
-  }, []);
+  }, [props.userName]);
 
   return (
     <Layout>
       <HomeLayout isRightBar={true}>
         <div>
-          <div className={classes.ProfileCard}>
-            {isLoading ? (
-              <h1>Loading ...</h1>
-            ) : (
+          {isLoading ? (
+            <HeartLoader />
+          ) : (
+            <div className={classes.ProfileCard}>
               <div>
                 <div className={classes.HeaderAnimation}>
                   <div className={classes.Stars}></div>
@@ -125,8 +183,16 @@ const ProfileDetails = (props) => {
 
                     <div className={classes.Column}>
                       <div className={classes.ButtonsSection}>
-                        <div className={classes.EditOrFollowButton}>
-                          <EditProfileButton />
+                        <div className={classes.BigButtonsSection}>
+                          {shouldChatButton ? (
+                            <div className={classes.ChatButton}>
+                              <ChatButton userName={props.userName} />
+                            </div>
+                          ) : null}
+
+                          <div className={classes.EditOrFollowButton}>
+                            {rightButton}
+                          </div>
                         </div>
                         <div className={classes.SocialLinks}>
                           <a
@@ -156,8 +222,8 @@ const ProfileDetails = (props) => {
                   </div>
                 </div>
               </div>
-            )}
-          </div>
+            </div>
+          )}
         </div>
       </HomeLayout>
     </Layout>

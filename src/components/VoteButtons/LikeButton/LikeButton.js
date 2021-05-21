@@ -1,55 +1,55 @@
-import React, { useState } from "react";
+import React from "react";
 import { apis, axios } from "../../../services";
-import { setFeedBlogs, voteHandler } from "../../../redux/actions";
+import {
+  setFeedBlogs,
+  voteHandler,
+  voteCountHandler,
+} from "../../../redux/actions";
 import { connect } from "react-redux";
 import classes from "./LikeButton.module.css";
 
 const LikeButton = (props) => {
-  const [isLiked, setIsLiked] = useState(false);
+  const url = props.Element.hashedUrl
+    ? props.Element.hashedUrl
+    : props.Element.responseId;
 
   const likePostHandler = async () => {
     try {
-      const response = await axios.post(apis.VOTE_POST, {
+      const res = await axios.post(apis.VOTE_POST, {
         voteType: "like",
-        postUrl: props.Element.hashedUrl,
+        id: url,
+        type: props.Type,
       });
-      console.log("likePostHandler", response);
+      console.log("res", res);
     } catch (err) {
       console.log("unable to like", err);
     }
   };
 
   const increaseLikeHandler = () => {
-    // this oldBlogFeedArr will be used to update like count of the feeds element which is stored in redux (i am doing it to reduce api call and to give fast userExperience)
-    // with the vote handler i am maintaining the like events to show user already liked the post or not in all over the application
-    let oldBlogFeedArr = [...props.Feed?.blogsFeed];
-    let oldElement = { ...props.Element };
     // in vote obj i am already containing old votes data which user has done previously in the application
     const voteObj = { ...props.Vote.votes };
+    const voteCountObj = { ...props.Vote.voteCount };
 
     // checking the hased url is already present or not in votes object if present that means post is already liked
     // and if it is already liked then we have to remove the like in the nex click
-    if (props.Vote.votes[props.Element.hashedUrl]) {
-      oldElement.like = oldElement.like - 1;
-      delete voteObj[props.Element.hashedUrl];
-      setIsLiked(false);
+    if (props.Vote?.votes[url]?.liked) {
+      voteCountObj[url].likes -= 1;
+      voteObj[url] = {...voteObj[url], liked: false };
     } else {
-      oldElement.like = oldElement.like + 1;
-      voteObj[props.Element.hashedUrl] = "liked";
-      setIsLiked(true);
+      voteCountObj[url].likes += 1;
+      voteObj[url] = {...voteObj[url], liked: true };
     }
 
-    oldBlogFeedArr[props.Index] = oldElement;
-    props.setFeedBlogs(oldBlogFeedArr);
     props.voteHandler(voteObj);
+    props.voteCountHandler(voteCountObj);
     likePostHandler();
   };
 
   return (
     <div>
       <div
-        className={
-          isLiked || props.Vote.votes[props.Element.hashedUrl]
+        className={ props.Vote?.votes[url]?.liked
             ? classes.LikedButton
             : classes.LikeButton
         }
@@ -68,4 +68,5 @@ const mapStateToProps = (state) => {
 export default connect(mapStateToProps, {
   setFeedBlogs,
   voteHandler,
+  voteCountHandler,
 })(LikeButton);

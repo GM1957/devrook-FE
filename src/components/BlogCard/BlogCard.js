@@ -17,8 +17,13 @@ const BlogCard = (props) => {
 
       <div className={classes.BlogContent}>
         <div className={classes.LikeSection}>
-            <LikeButton isFeed={true} Element = {props.Element} Index={props.Index}/>
-          <div className={classes.LikeCount}>{props.Element?.like}</div>
+          <LikeButton
+            Element={props.Element}
+            Type={props.Type}
+          />
+          <div className={classes.LikeCount}>
+            {props.Vote?.voteCount[props.Element.hashedUrl]?.likes}
+          </div>
         </div>
         <div className={classes.BlogSection}>
           <div className={classes.BlogTitle}>
@@ -27,14 +32,14 @@ const BlogCard = (props) => {
         </div>
       </div>
       <div className={classes.BlogResponseSection}>
-        <p>({props.Element?.responses}) Responses</p>
+        <p>[{props.Element?.responses}] Responses</p>
       </div>
     </div>
   );
 };
 
 const mapStateToProps = (state) => {
-  return { Feed: state.Feed };
+  return { Feed: state.Feed, Vote: state.Vote };
 };
 
 export default connect(mapStateToProps, {
