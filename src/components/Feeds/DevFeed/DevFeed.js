@@ -85,7 +85,7 @@ const DevFeed = (props) => {
     }
 
     // i had to make universal flag to check if personalized posts fetched for not because for this if (!props.Feed?.mainFeed.length) important check check i was unable to update main feed because the initial value of props.Auth?.isLoggedIn is false and for that mainFeed was getting length and 2nd time when isLoggedIn is true for that check i was not able to fetch and update mainFeed with personalized main feed
-    if (!props.Feed?.isPersonalizedMainFeedFetched) {
+    if (!props.Feed?.isPersonalizedDevFeedFetched) {
       if (props.Auth?.isLoggedIn) {
         fetchDevFeed();
       }

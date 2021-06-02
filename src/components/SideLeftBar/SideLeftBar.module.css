@@ -1,53 +1,37 @@
 .SideLeftBar {
-    height: 100%;
-    left: 0;
-    top: 0;
-    background-color: transparent;
-    padding-top: 28%;
-    padding-right: 5%;
-    padding-left: 20%;
-    overflow: auto;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: transparent;
+  padding-top: 35%;
+  padding-right: 5%;
+  padding-left: 16%;
+  overflow: auto;
 }
 
-@media (max-width: 1410px){
-    .SideLeftBar {
-        padding-left: 15%;
-    }
-}
-@media (max-width: 1330px){
-    .SideLeftBar {
-        padding-left: 10%;
-    }
-}
-@media (max-width: 1245px){
-    .SideLeftBar {
-        padding-left: 5%;
-    }
-}
-@media (max-width: 1175px){
-    .SideLeftBar {
-        padding-left: 3%;
-        padding-right: 2%;
-    }
+.SideLeftBar::-webkit-scrollbar {
+  width: 3px;
 }
 
-@media (max-width: 1075px) {
-    .SideLeftBar {
-        padding-left: 25%;
-    }
+
+@media (max-width: 1112px) {
+  .SideLeftBar {
+    padding-top: 50%;
+    padding-right: 0%;
+  }
 }
-@media (max-width: 600px) {
-    .SideLeftBar {
-        padding-left: 20%;
-    }
+
+@media (max-width: 800px) {
+  .SideLeftBar {
+    padding-top: 50%;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
 }
-@media (max-width: 480px) {
-    .SideLeftBar {
-        padding-left: 10%;
-    }
-}
-@media (max-width: 420px) {
-    .SideLeftBar {
-        padding-left: 5%;
-    }
+
+@media (max-width: 540px) {
+  .SideLeftBar{
+    display: none;
+  }
 }

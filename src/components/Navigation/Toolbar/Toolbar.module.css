@@ -6,8 +6,8 @@
     left: 0;
     background-color:white;
     display: flex;
-    flex-flow: row;
-    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
     align-items: center;
     padding: 0,20px;
     box-sizing: border-box;
@@ -15,8 +15,20 @@
     border-bottom: gray 1px solid;
 }
 
-.Toolbar nav {
-    height: 100%;
+.LogoHamArea{
+    flex: 25%;
+    padding-left: 2%;
+}
+
+.SearchBoxArea {
+    flex: 45%;
+}
+
+.LogoNavItemArea {
+    flex: 30%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2%;
 }
 
 .Ham {
@@ -28,46 +40,37 @@
 }
 
 .HamBox{
-    padding-left: 5%;
-}
-
-.NavItems {
-    margin-right: 1%;
-}
-
-.Logo {
-    height: 100%;
-    padding: 1px;
+    padding: 20%;
 }
 
 
-@media (min-width: 630px){
-    .Logo{
-        margin-left: 20px;
+.Logo img{
+    height: 50px;
+    width: 50px;
+}
+
+@media (max-width: 800px) {
+    .LogoHamArea{
+        flex: 20%;
     }
+    .SearchBoxArea{
+        flex: 41%;
+    }
+    .LogoNavItemArea{
+        flex: 39%;
+    }
+    
 }
 
 @media (max-width: 599px){
-    .Logo{
-        margin-left: 60%;
+    .LogoHamArea{
+        flex: 20%;
     }
-}
-
-@media (max-width: 250px){
-    .Logo{
-        margin-left: 52%;
+    .SearchBoxArea{
+        flex: 60%;
     }
-}
-
-@media (max-width: 199px){
-    .Logo{
-        margin-left: 42%;
-    }
-}
-
-@media (max-width: 599px){
-    .DesktopOnly{
-        display: none;
+    .LogoNavItemArea{
+        flex: 20%;
     }
 }
 
@@ -76,3 +79,9 @@
         display: none;
     }
 }
+
+@media (max-width: 599px){
+    .DesktopOnly{
+        display: none;
+    }
+} 

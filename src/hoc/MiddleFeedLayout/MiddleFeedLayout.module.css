@@ -1,40 +1,122 @@
-.MiddleFeedContent{
-   padding-top: 9%;
+.MiddleFeedContent {
+  padding-top: 9%;
 }
+
 .MiddleFeedHeader {
-    display: flex;
-    width: 100%;
-    padding-right: 8px;
-    padding-left: 50%;
-    padding-top: 2%;
-    padding-bottom: 1%;
-    flex-direction: row;
-    justify-content: space-between;
-    float: right;
+  display: flex;
+  width: 100%;
+  padding-right: 8px;
+  padding-left: 50%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  flex-direction: row;
+  justify-content: space-between;
+  float: right;
 }
+
 .MiddleFeedHeaderButton {
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-    outline: none;
-    padding: 10px;
-    color: rgba(0, 0, 0, 0.781);
-    background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.781);
+  background-color: transparent;
 }
 
 .MiddleFeedHeaderButton a {
-    color: rgb(44, 42, 42);
+  color: rgb(44, 42, 42);
 }
 
-.MiddleFeedHeaderButton:hover{
-    background-color:rgba(29,148,221,0.1);
-    color: #1d94dd;
+.MiddleFeedHeaderButton:hover {
+  background-color: rgba(29, 148, 221, 0.1);
+  color: #1d94dd;
 }
 
 .active {
-    border-bottom: 2px solid #1d94dd;
+  border-bottom: 2px solid #1d94dd;
 }
+
 .active .MiddleFeedHeaderButton {
-    font-weight: 550;
+  font-weight: 550;
+}
+
+@media (max-width: 1300px) {
+  .MiddleFeedContent {
+    padding-top: 10%;
+  }
+}
+
+@media (max-width: 1140px) {
+  .MiddleFeedHeader {
+    width: 110%;
+  }
+  .MiddleFeedContent {
+    padding-top: 11%;
+  }
+}
+
+@media (max-width: 1112px) {
+  .MiddleFeedContent {
+    padding-top: 9%;
+  }
+}
+
+@media (max-width: 950px) {
+  .MiddleFeedContent {
+    padding-top: 10%;
+  }
+}
+
+@media (max-width: 800px) {
+  .MiddleFeedContent {
+    padding-top: 11%;
+  }
+}
+
+@media (max-width: 660px) {
+  .MiddleFeedHeader {
+    width: 120%;
+  }
+  .MiddleFeedContent {
+    padding-top: 12%;
+  }
+}
+
+@media (max-width: 500px) {
+  .MiddleFeedHeader {
+    width: 130%;
+  }
+  .MiddleFeedContent {
+    padding-top: 13%;
+  }
+}
+@media (max-width: 450px) {
+  .MiddleFeedContent {
+    padding-top: 14%;
+  }
+}
+@media (max-width: 400px) {
+  .MiddleFeedHeader {
+    width: 140%;
+  }
+  .MiddleFeedContent {
+    padding-top: 15%;
+  }
+}
+
+@media (max-width: 360px) {
+  .MiddleFeedHeader {
+    width: 144%;
+  }
+  .MiddleFeedContent {
+    padding-top: 17%;
+  }
+}
+
+@media (max-width: 340px) {
+  .MiddleFeedHeaderButton{
+    font-size: 14px;
+  }
 }

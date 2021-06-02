@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import Layout from "../../hoc/Layout";
 import HomeLayout from "../../hoc/HomeLayout/HomeLayout";
 import { login } from "../../redux/actions";
 import { apis, axios } from "../../services";
 import { connect } from "react-redux";
-import { userNameChecker } from "../../services";
+import { userNameChecker, getS3Signeture, s3UploadImage } from "../../services";
+import { useDropzone } from "react-dropzone";
 import NotFound404 from "../../components/NotFound404/NotFound404";
 import RookLogo from "../../assets/images/devrooklogo.png";
 import classes from "./EditProfilePage.module.css";
@@ -14,8 +15,21 @@ const EditProfilePage = (props) => {
   const [currentUser, setCurrentUser] = useState({});
   const [isLoading, setIsLoading] = useState(true);
   const [currentSelected, setSelected] = useState({});
+  const [userImage, setUserImage] = useState(RookLogo);
+  const [selectedUserImage, setSelectedUserImage] = useState(null);
 
   const [userNameStatus, setUserNameStatus] = useState("passed");
+
+  const onDrop = useCallback(async (pendingImage) => {
+    setUserImage(URL.createObjectURL(pendingImage[0]));
+    setSelectedUserImage(pendingImage[0]);
+  }, []);
+
+  const { getRootProps, getInputProps, isDragActive } = useDropzone({
+    accept: "image/*",
+    disabled: false,
+    onDrop,
+  });
 
   const userNameOnChangeHandler = async (value) => {
     setUserNameStatus("checking");
@@ -47,8 +61,15 @@ const EditProfilePage = (props) => {
     if (userNameStatus === "passed") {
       setIsLoading(true);
       try {
-        await axios.put(apis.UPDATE_USER, currentSelected);
-        window.location.href = "/profile/edit"
+        const theCurrentSelected = {...currentSelected}
+
+        if (selectedUserImage) {
+          const s3Sign = await getS3Signeture(selectedUserImage.name);
+          const response = await s3UploadImage(s3Sign, selectedUserImage);
+          theCurrentSelected["profilePicture"] = response.url;
+        }
+        await axios.put(apis.UPDATE_USER, theCurrentSelected);
+        window.location.href = "/profile/edit";
       } catch (err) {
         console.log(err);
         setIsLoading(false);
@@ -68,7 +89,13 @@ const EditProfilePage = (props) => {
         githubLink,
         twitterLink,
         location,
+        profilePicture,
       } = props.Auth.userdetails;
+
+      if (profilePicture?.length) {
+        setUserImage(profilePicture);
+      }
+
       setSelected({
         userName,
         bio,
@@ -90,19 +117,18 @@ const EditProfilePage = (props) => {
           <Layout>
             <HomeLayout isRightBar={true}>
               {isLoading ? (
-                <HeartLoader/>
+                <HeartLoader />
               ) : (
                 <div className={classes.EditPageContainer}>
                   <div className={classes.ProfilePicContainer}>
-                    <img
-                      className={classes.ProfilePic}
-                      src={
-                        currentUser?.profilePicture.length
-                          ? currentUser?.profilePicture
-                          : RookLogo
-                      }
-                      alt="profile pic"
-                    />
+                    <div {...getRootProps()}>
+                      <input {...getInputProps()} />
+                      <img
+                        className={classes.ProfilePic}
+                        src={userImage}
+                        alt="profile pic"
+                      />
+                    </div>
                   </div>
 
                   <div className={classes.HeadingSection}>

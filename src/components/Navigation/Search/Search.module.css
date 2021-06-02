@@ -1,9 +1,6 @@
 .wrap{
-    width: 50%;
-    position: absolute;
-    top: 50%;
+    width: 100%;
     left: 50%;
-    transform: translate(-50%, -50%);
   }
 
   .searchButton {
@@ -25,7 +22,7 @@
   }
   
   .searchTerm {
-    width: 80%;
+    width: 100%;
     height: 40px;
     border: 1px solid #128fdd;
     background-color: whitesmoke;
@@ -39,31 +36,5 @@
     border: 1px solid #128fdd;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
-
-  @media(max-width: 850px){
-    .wrap{
-      left: 45%;
-    }
-  }
-
-  @media(max-width: 750px){
-    .wrap{
-      left: 40%;
-    }
-  }
-
-  @media(max-width: 599px){
-    .wrap{
-      left: 50%;
-      width: 50%;
-    }
-  }
-
-  @media(max-width: 199px){
-    .searchButton{
-        display: none;
-    }
- }
-
 
  

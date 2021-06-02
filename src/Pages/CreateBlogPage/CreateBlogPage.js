@@ -1,12 +1,13 @@
 import React, { useState, useEffect, useCallback } from "react";
+import { toast } from "react-toastify";
 import { useDropzone } from "react-dropzone";
 import { axios, apis, EDITOR_JS_TOOLS } from "../../services";
 import Layout from "../../hoc/Layout";
 import HomeLayout from "../../hoc/HomeLayout/HomeLayout";
-import classes from "./CreateBlogPage.module.css";
 import EditorJs from "react-editor-js";
 import CreatableSelect from "react-select/creatable";
 import { getS3Signeture, s3UploadImage } from "../../services";
+import classes from "./CreateBlogPage.module.css";
 
 const CreateBlogPage = (props) => {
   const [editorInstance, setInstance] = useState(null);
@@ -66,6 +67,7 @@ const CreateBlogPage = (props) => {
         content: editorData,
         tags: selectedTagsArr,
       });
+      toast.success("wooah 😻 your Blog is posted successfully");
     } catch (err) {
       console.log(err);
     }

@@ -1,0 +1,62 @@
+.Container {
+  margin-top: 2%;
+}
+
+.Header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.Header p {
+  font-size: 17px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.644);
+  width: fit-content;
+  border-bottom: 2px dotted #1d94dd;
+  border-top: 2px dotted #1d94dd;
+}
+
+.AllTagsCard {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1.8px 0px gray;
+  height: 80vh;
+  padding: 5% 10%;
+  overflow: auto;
+}
+
+.AllTagsCard::-webkit-scrollbar{
+  width: 1px;
+}
+
+.TagCard {
+  background-color: #f1f1f180;
+  text-align: center;
+  box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5%;
+  padding: 10% 5%;
+  border-bottom: 2px solid purple;
+}
+
+.TagCard p {
+  font-weight: bold;
+  font-size: 15px;
+  font-family: monospace;
+  word-break: break-all;
+}
+
+.FollowUnfollowButton{
+  margin-inline: 15%;
+  box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.Row {
+  margin: 0 -5px;
+}
+
+.Column {
+  float: left;
+  width: 33.3333%;
+  padding: 10px 10px;
+}

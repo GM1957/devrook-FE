@@ -15,11 +15,14 @@ const UpVoteButton = (props) => {
 
   const upVotePostHandler = async () => {
     try {
-      await axios.post(apis.VOTE_POST, {
+      const upvote = await axios.post(apis.VOTE_POST, {
         voteType: "upVote",
         id: url,
         type: props.Type,
+        // type is to define its post or response 
       });
+
+      console.log("upvote", upvote);
     } catch (err) {
       console.log("unable to upvote", err);
     }

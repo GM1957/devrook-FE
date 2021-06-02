@@ -1,0 +1,61 @@
+.TagHeader {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 0px gray;
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.RecentPostSection {
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.RecentPostSection p {
+  font-size: 17px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.644);
+  width: fit-content;
+  border-bottom: 2px dotted #1d94dd;
+  border-top: 2px dotted #1d94dd;
+}
+
+.TagName {
+  flex: 78%;
+}
+
+.TagName p {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.74);
+}
+
+.DevAndFollowUnfollowTagButton {
+  flex: 22%;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.FollowUnfollowTagButton{
+    margin-right: 3%;
+}
+
+.DevsButton {
+  background-color: #7f8ff4;
+  padding: 6% 10%;
+  cursor: pointer;
+}
+
+.DevsButton:hover {
+  background-color: #6676e0;
+}
+
+.DevsButton p {
+  color: white;
+}

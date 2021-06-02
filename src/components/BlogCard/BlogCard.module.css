@@ -38,7 +38,6 @@
   padding-bottom: 7px;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.712);
-  cursor: pointer;
 }
 
 .LikeCount {
@@ -54,6 +53,7 @@
 
 .CoverImageSection img {
   width: 100%;
+  max-height: 80vh;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }

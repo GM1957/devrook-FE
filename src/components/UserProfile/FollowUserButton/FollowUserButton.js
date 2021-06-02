@@ -5,7 +5,7 @@ import classes from "./FollowUserButton.module.css";
 const FollowUserButton = (props) => {
   const followUserHandler = async () => {
     try {
-      const res = await axios.post(apis.FOLLOW_USER, { userName: props.userName });
+      const res = await axios.post(apis.FOLLOW_UNFOLLOW_USER, { userName: props.userName });
       console.log(res)
     } catch (err) {
       console.log(err);

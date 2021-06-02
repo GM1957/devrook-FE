@@ -10,11 +10,46 @@
     padding: 32px 16px;
     box-sizing: border-box;
     transition: transform 0.3s ease-out;
+    overflow: auto;
+}
+
+.LeftBarItems {
+    display: flex;
+    padding-inline: 10%;
+    overflow: auto;
+}
+
+.HeaderSection {
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.Logo {
+    flex: 25%;
+    text-align: center;
+}
+
+.NavItemsSection {
+    flex: 75%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.Logo img{
+    height: 100%;
+    width: 100%;
 }
 
 @media (min-width: 800px){
     .SideDrawer {
         display: none;
+    }
+}
+
+@media (max-width: 410px){
+    .LeftBarItems {
+        padding-inline: 0%;
     }
 }
 
@@ -24,9 +59,4 @@
 
 .Close {
     transform: translateX(-100%);
-}
-
-.Logo {
-    height: 11%;
-    margin-bottom: 32px;
 }

@@ -1,0 +1,55 @@
+.PostDetailsArea {
+  display: flex;
+}
+
+.PostCard {
+  flex: 70%;
+}
+
+.ProfileCard {
+  flex: 30%;
+  padding-top: 6%;
+  padding-left: 1%;
+}
+
+@media (max-width: 1120px) {
+  .ProfileCard {
+    padding-top: 6%;
+    padding-right: 2%;
+  }
+  .PostCard {
+    padding-right: 5%;
+  }
+
+  .PostDetailsArea {
+    display: block;
+  }
+}
+
+@media (max-width:850px){
+  .PostCard {
+    padding-right: 5%;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width:740px){
+  .PostCard {
+    padding-right: 5%;
+    margin-left: 18%;
+  }
+}
+
+@media (max-width: 670px){
+  .PostCard {
+    padding-right: 5%;
+    margin-left: 20%;
+  }
+}
+
+@media (max-width: 541px){
+  .PostCard {
+    padding-right: 5%;
+    margin-left: 0px;
+  }
+}

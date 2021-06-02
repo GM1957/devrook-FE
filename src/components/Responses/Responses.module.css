@@ -1,0 +1,73 @@
+.InputBox {
+    display: flex;
+    box-shadow: 0px 0px 1.8px 0px gray;
+    background-color: white;
+    padding: 1%;
+}
+
+.InputBox input {
+    border: 0px;
+    outline: none;
+    padding: 1% 2%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.SubmitButton {
+    display: flex;
+    align-items: center;
+    padding-inline: 2%;
+    background-color: #7f8ff4;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 1.8px 0px gray;
+}
+
+.SubmitButton:hover {
+    background-color: #6476ec;
+}
+
+.ResponseCard {
+    display: flex;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 1.8px 0px gray;
+    margin-bottom: 2%;
+}
+
+.UpVoteDownVoteSection {
+    flex: 10%;
+}
+
+.VoteCount {
+    text-align: center;
+    font-weight: bold;
+}
+
+.ResponseBody {
+    flex: 75%;
+}
+
+.ResponseBody p {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+.ResponseBy {
+    flex: 15%;
+    height: 100%;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.ResponseBy img {
+    height: 50%;
+    width: 50%;
+}
+
+.ResponseBy p {
+    word-break: break-all;
+}

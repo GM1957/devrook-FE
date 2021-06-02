@@ -136,3 +136,10 @@
   font-weight: bold;
   padding: 1%;
 }
+
+@media (max-width: 800px) {
+  .NewBlogPage {
+    padding-right: 5%;
+    padding-left: 0.3%;
+  }  
+}

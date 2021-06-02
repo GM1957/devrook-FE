@@ -1,0 +1,74 @@
+.DashboardHeader {
+  margin-bottom: 2%;
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.DashboardHeader p {
+  font-size: 17px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.644);
+  width: fit-content;
+  border-bottom: 2px dotted #1d94dd;
+  border-top: 2px dotted #1d94dd;
+}
+
+.Card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1.8px 0px gray;
+    display: flex;
+    margin-bottom: 2%;
+    padding: 2%;
+    word-break: break-all;
+}
+
+.DetailSection {
+    flex: 80%;
+}
+
+.DetailSection small{
+    font-size: 12px;
+}
+
+.ButtonSection{
+    flex: 20%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.DeleteButton{
+    background-color: rgba(255, 0, 128, 0.938);
+    text-align: center;
+    color: white;
+    padding: 6% 10%;
+    cursor: pointer;
+}
+
+.DeleteButton:hover{
+    background-color: rgb(235, 0, 117);
+}
+
+.EditButton{
+    background-color:#1791dd;
+    text-align: center;
+    color: white;
+    padding: 6% 10%;
+    cursor: pointer;
+}
+
+.EditButton:hover{
+    background-color:#147fc2;
+}
+
+.HeaderHashedUrl {
+    font-size: 16px;
+}
+
+.EntryLoader{
+    text-align: center;
+}

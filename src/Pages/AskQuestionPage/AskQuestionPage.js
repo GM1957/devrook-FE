@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { toast } from "react-toastify";
 import { axios, apis, EDITOR_JS_TOOLS } from "../../services";
 import Layout from "../../hoc/Layout";
 import HomeLayout from "../../hoc/HomeLayout/HomeLayout";
@@ -39,6 +40,8 @@ const AskQuestionPage = (props) => {
         content: editorData,
         tags: selectedTagsArr,
       });
+
+      toast.success("wooah 🥳 your Question is posted successfully");
     } catch (err) {
       console.log(err);
     }

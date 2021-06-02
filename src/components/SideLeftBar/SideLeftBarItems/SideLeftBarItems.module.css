@@ -1,6 +1,11 @@
 .SideLeftBarItems {
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ButtonsColumn {
+  margin-left: 8%;
 }
 
 .Buttons {
@@ -15,6 +20,7 @@
   text-align: center;
   font-size: 1.5em;
   font-weight: bold;
+  margin-bottom: 8%;
 }
 
 .Buttons:hover {
@@ -38,6 +44,7 @@
   padding: 15px 20px;
   text-align: center;
   font-weight: bold;
+  outline: none;
 }
 
 .CreateButton:hover {
@@ -64,7 +71,7 @@
   position: absolute;
   z-index: 1;
   bottom: 100%;
-  left: 39%;
+  left: 37%;
   margin-left: -60px;
   opacity: 0;
   transition: opacity 0.3s;
@@ -111,36 +118,86 @@
   background-color: rgba(36, 116, 165, 0.603);
 }
 
-@media (max-width: 1112px) {
-  .Buttons span {
-    margin-left: 2px;
+@media (max-width: 1280px) {
+  .Main .ButtonsColumn {
+    margin-left: 2%;
+  }
+  .Main .CreateTooltipCard{
+    left: 40%;
   }
 }
 
-@media (max-width: 1075px) {
-  .Buttons span {
+@media (max-width: 1200px) {
+  .Main .ButtonsColumn {
+    margin-left: 0%;
+  }
+  .Main .Buttons span {
+    margin-left: 5px;
+  }
+  .Main .CreateTooltipCard{
+    left: 43%;
+  }
+}
+
+@media (max-width: 1145px) {
+  .Main .Buttons span {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1042px) {
+  .Main .Buttons span {
     display: none;
   }
-
-  .Buttons {
-    font-size: 2em;
+  .Main .Buttons {
+    font-size: 30px;
+  }
+  .Main .ButtonsColumn {
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+  }
+  .Main .CreateTooltipCard{
+    left: 48%;
+    padding: 2% 0%;
   }
 }
 
-@media (max-width: 570px) {
-  .CreateButton {
-    padding-left: 10px;
-    padding-right: 10px;
+@media (max-width: 840px) {
+  .Main .ButtonsColumn {
+    margin-left: 20%;
+  }
+  .Main .CreateTooltipCard{
+    left: 55%;
   }
 }
 
-@media (max-width: 350px) {
-  .CreateButton {
-    padding-left: 0px;
-    padding-right: 0px;
+@media (max-width: 740px) {
+  .Main .ButtonsColumn {
+    margin-left: 17%;
   }
-  .Buttons {
-    padding-left: 10px;
-    padding-right: 10px;
+  .Main .CreateTooltipCard{
+    left: 60%;
+  }
+}
+
+@media (max-width: 660px) {
+  .Main .ButtonsColumn {
+    margin-left: 15%;
+  }
+  .Main .Buttons {
+    font-size: 25px;
+  }
+  .Main .CreateTooltipCard{
+    left: 70%;
+  }
+}
+
+@media (max-width: 590px) {
+  .Main .ButtonsColumn {
+    margin-left: 10%;
+  }
+  .Main .Buttons {
+    font-size: 25px;
   }
 }

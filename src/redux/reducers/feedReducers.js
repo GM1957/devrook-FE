@@ -3,6 +3,7 @@ const initialState = {
   blogsFeed: [],
   mainFeed: [],
   devFeed: [],
+  globalFeed: [],
   isPersonalizedBlogsFetched: false,
   isPersonalizedQuestionsFetched: false,
   isPersonalizedMainFeedFetched: false,
@@ -27,6 +28,12 @@ const Feed = (state = initialState, action) => {
       return {
         ...state,
         mainFeed: action.payload,
+      };
+
+    case "SET_GLOBAL_FEED":
+      return {
+        ...state,
+        globalFeed: action.payload,
       };
 
     case "SET_DEV_FEED":

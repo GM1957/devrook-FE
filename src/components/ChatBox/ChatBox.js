@@ -6,16 +6,13 @@ import { w3cwebsocket as W3CWebSocket } from "websocket";
 
 const access_token = localStorage.getItem("access_token");
 
+let websocket = new W3CWebSocket(
+  apis.WEB_SOCKET + "?Authorizer=" + access_token
+);
+const wbReConnect = async () => {
+  websocket = new W3CWebSocket(apis.WEB_SOCKET + "?Authorizer=" + access_token);
+};
 const ChatBox = (props) => {
-  let websocket = new W3CWebSocket(
-    apis.WEB_SOCKET + "?Authorizer=" + access_token
-  );
-  const wbReConnect = async () => {
-    websocket = new W3CWebSocket(
-      apis.WEB_SOCKET + "?Authorizer=" + access_token
-    );
-  };
-
   // this messages are old chats
   const [messages, setMessages] = useState([]);
   const [isMessagesLoading, setIsMessagesLoading] = useState(false);
@@ -44,6 +41,7 @@ const ChatBox = (props) => {
           });
         }
         setMessages(chattedDetails);
+        setIsFirstTime(false);
       } else {
         setIsFirstTime(true);
       }
@@ -81,31 +79,21 @@ const ChatBox = (props) => {
 
   const messageSendHandler = () => {
     if (!messageText.length) return;
-    setIsFirstTime(false)
-    
+    setIsFirstTime(false);
+
     const oldMessages = [...messages];
     oldMessages.push({ type: "sender", message: messageText });
     setMessages(oldMessages);
 
     console.log("websocket", websocket);
-    if (websocket.readyState !== 1) {
-      wbReConnect();
-      setTimeout(() => {
-        websocket.send(
-          JSON.stringify({
-            message: messageText,
-            receiverUserName: props.userName,
-          })
-        );
-      }, 5000);
-    } else {
-      websocket.send(
-        JSON.stringify({
-          message: messageText,
-          receiverUserName: props.userName,
-        })
-      );
-    }
+
+    websocket.send(
+      JSON.stringify({
+        message: messageText,
+        receiverUserName: props.userName,
+      })
+    );
+
     setMessageText("");
   };
 

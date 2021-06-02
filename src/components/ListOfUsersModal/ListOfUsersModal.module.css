@@ -1,0 +1,41 @@
+.ModalDesign {
+    padding: 10% 10%;
+    width: 500px;
+    height: 650px;
+    overflow: auto;
+}
+
+.ModalDesign::-webkit-scrollbar {
+    width: 5px;
+}
+
+.UsersCard {
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 0px gray;
+    margin-bottom: 3%;
+    padding: 2% 0%;
+}
+
+.UserImageSection {
+  flex: 20%;
+}
+
+.UserImageSection img {
+  height: 50px;
+  width: 50px;
+}
+
+.NameUserNameSection {
+  flex: 80%;
+}
+
+.NameUserNameSection p{
+  color: black;
+  margin-bottom: 1%;
+  font-size: 15px;
+}
+
+.NameUserNameSection strong{
+  color: rgba(0, 0, 0, 0.808);
+}

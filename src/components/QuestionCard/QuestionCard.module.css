@@ -8,10 +8,8 @@
   margin-bottom: 2%;
 }
 
-.QuestionSection {
-  flex: 90%;
-  padding-right: 5%;
-  padding-bottom: 3%;
+.QuestionAnswerSection {
+  flex: 78%;
 }
 
 .QuestionTitle {
@@ -22,6 +20,8 @@
 }
 
 .QuestionTitle p {
+  padding-bottom: 2%;
+  padding-right: 2%;
   font-size: 20px;
   font-weight: bold;
   color: rgba(20, 19, 19, 0.877);
@@ -39,4 +39,18 @@
   font-family: monospace;
   font-size: 17px;
   color: rgba(0, 0, 0, 0.76);
+}
+
+.AnswerSection {
+  flex: 12%;
+  display: flex;
+  text-align: center;
+  background-color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.712);
 }

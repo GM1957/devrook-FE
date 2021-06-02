@@ -19,6 +19,7 @@ const DownVoteButton = (props) => {
         voteType: "downVote",
         id: url,
         type: props.Type,
+        // type is to define its post or response 
       });
     } catch (err) {
       console.log("unable to downVote", err);

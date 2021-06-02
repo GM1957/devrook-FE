@@ -59,9 +59,10 @@
 }
 
 .ImageSection img {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 100%;
     text-align: center;
+    border-radius: 5px;
 }
 
 .UserNameSection {

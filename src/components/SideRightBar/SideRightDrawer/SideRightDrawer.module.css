@@ -1,0 +1,65 @@
+.SideDrawer {
+  position: fixed;
+  width: 40%;
+  height: 100%;
+  left: 0;
+  top: 7%;
+  z-index: 200;
+  background-color: white;
+  padding: 32px 16px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease-out;
+  overflow: auto;
+}
+
+.SideDrawer::-webkit-scrollbar {
+  width: 3px;
+}
+
+@media (min-width: 1113px) {
+  .SideDrawer {
+    display: none;
+  }
+}
+
+@media (max-width: 850px) {
+  .SideDrawer {
+    width: 50%;
+    left: -25%;
+  }
+}
+
+@media (max-width: 700px) {
+  .SideDrawer {
+    width: 58%;
+    left: -45%;
+  }
+}
+
+@media (max-width: 580px) {
+  .SideDrawer {
+    width: 65%;
+    left: -62%;
+  }
+}
+
+@media (max-width: 500px) {
+  .SideDrawer {
+    width: 70%;
+    left: -75%;
+  }
+}
+@media (max-width: 450px) {
+  .SideDrawer {
+    width: 75%;
+    left: -87%;
+  }
+}
+
+.Open {
+  transform: translateX(150%);
+}
+
+.Close {
+  transform: translateX(300%);
+}

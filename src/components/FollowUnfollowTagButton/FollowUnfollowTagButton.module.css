@@ -1,0 +1,19 @@
+.FollowButton {
+  cursor: pointer;
+  background-color: #1d94dd;
+  color: white;
+  text-align: center;
+  padding-inline: 10px;
+  padding-top: 8.5px;
+  padding-bottom: 9px;
+}
+
+.UnfollowButton {
+  cursor: pointer;
+  background-color: #fc5c9c;
+  color: white;
+  text-align: center;
+  padding-inline: 10px;
+  padding-top: 8.5px;
+  padding-bottom: 9px;
+}

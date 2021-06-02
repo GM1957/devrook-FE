@@ -19,6 +19,13 @@ const setMainFeed = (payload) => {
   };
 };
 
+const setGlobalFeed = (payload) => {
+  return {
+    type: "SET_GLOBAL_FEED",
+    payload,
+  };
+};
+
 const setDevFeed = (payload) => {
   return {
     type: "SET_DEV_FEED",
@@ -58,6 +65,7 @@ export {
   setFeedQuestions,
   setFeedBlogs,
   setMainFeed,
+  setGlobalFeed,
   setDevFeed,
   isPersonalizedBlogsFetched,
   isPersonalizedQuestionsFetched,

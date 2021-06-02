@@ -16,9 +16,12 @@ import {
   isPersonalizedQuestionsFetched,
   isPersonalizedMainFeedFetched,
   isPersonalizedDevFeedFetched,
+  setGlobalFeed,
 } from "./feedActions";
 
 import { voteHandler, voteCountHandler } from "./voteActions";
+
+import { setTrendingTags, setTrendingDevs } from "./trendingActions";
 
 export {
   login,
@@ -29,6 +32,7 @@ export {
   setFeedQuestions,
   setFeedBlogs,
   setMainFeed,
+  setGlobalFeed,
   setDevFeed,
   voteHandler,
   voteCountHandler,
@@ -36,4 +40,6 @@ export {
   isPersonalizedQuestionsFetched,
   isPersonalizedMainFeedFetched,
   isPersonalizedDevFeedFetched,
+  setTrendingTags,
+  setTrendingDevs,
 };

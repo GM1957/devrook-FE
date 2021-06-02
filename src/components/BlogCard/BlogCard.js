@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import LikeButton from "../VoteButtons/LikeButton/LikeButton";
 import classes from "./BlogCard.module.css";
 import { setFeedBlogs } from "../../redux/actions";
@@ -17,22 +18,23 @@ const BlogCard = (props) => {
 
       <div className={classes.BlogContent}>
         <div className={classes.LikeSection}>
-          <LikeButton
-            Element={props.Element}
-            Type={props.Type}
-          />
+          <LikeButton Element={props.Element} Type={props.Type} />
           <div className={classes.LikeCount}>
             {props.Vote?.voteCount[props.Element.hashedUrl]?.likes}
           </div>
         </div>
         <div className={classes.BlogSection}>
-          <div className={classes.BlogTitle}>
-            <p>{props.Element?.title}</p>
-          </div>
+          <NavLink to={"/post/" + props.Element.hashedUrl} exact>
+            <div className={classes.BlogTitle}>
+              <p>{props.Element.title}</p>
+            </div>
+          </NavLink>
         </div>
       </div>
       <div className={classes.BlogResponseSection}>
-        <p>[{props.Element?.responses}] Responses</p>
+        <NavLink to={"/post/" + props.Element.hashedUrl} exact>
+          <p>[{props.Element?.responses}] Responses</p>
+        </NavLink>
       </div>
     </div>
   );

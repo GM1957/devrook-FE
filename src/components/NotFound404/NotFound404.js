@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from "react-router-dom";
 import NotFound404GIF from "../../assets/images/404tribe.gif";
 
 import classes from "./NotFound404.module.css";
@@ -16,9 +17,9 @@ const NotFound404 = () => (
 
         <p>the page you are looking for not avaible!</p>
 
-        <a href="/" className={classes.Link404}>
+        <NavLink to="/" className={classes.Link404}>
           Go to Home
-        </a>
+        </NavLink>
       </div>
   </section>
 );

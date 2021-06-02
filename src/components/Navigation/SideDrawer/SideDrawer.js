@@ -1,7 +1,8 @@
 import React from "react";
-import Logo from "../../Logo/Logo";
 import NavigationItems from "../NavigationItems/NavigationItems";
+import SideLeftBarItems from "../../SideLeftBar/SideLeftBarItems/SideLeftBarItems";
 import Backdrop from "../../UI/Backdrop/Backdrop";
+import RookLogo from "../../../assets/images/devrooklogo.png";
 import Aux from "../../../hoc/Aux";
 
 import classes from "./SideDrawer.module.css";
@@ -17,12 +18,21 @@ const SideDrawer = (props) => {
     <Aux>
       <Backdrop show={props.open} zIndex="100" clicked={props.closed} />
       <div className={attachedClasses.join(" ")}>
-        <div className={classes.Logo}>
-          <Logo />
+        <div className={classes.HeaderSection}>
+          <div className={classes.Logo}>
+            <img src={RookLogo} alt="rookLogo" />
+          </div>
+          <div className={classes.NavItemsSection}>
+            <NavigationItems
+              loginModalOpen={props.loginModalOpen}
+              signupModalOpen={props.signupModalOpen}
+            />
+          </div>
         </div>
-        <nav>
-          <NavigationItems loginModalOpen = {props.loginModalOpen} signupModalOpen = {props.signupModalOpen}/>
-        </nav>
+
+        <div className={classes.LeftBarItems}>
+          <SideLeftBarItems IsFull={true} />
+        </div>
       </div>
     </Aux>
   );

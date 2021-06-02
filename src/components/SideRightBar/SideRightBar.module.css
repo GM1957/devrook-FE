@@ -1,10 +1,44 @@
 .SideRightBar {
+  height: 100%;
+  background-color: transparent;
+  padding-top: 16%;
+  padding-left: 2%;
+  padding-right: 23%;
+  overflow: auto;
+}
+
+.RightSideDrawerButton {
+  display: none;
+}
+
+.RightSideDrawerButton i {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.705);
+}
+
+@media (max-width: 1200px) {
+  .SideRightBar {
+    padding-right: 23%;
+  }
+}
+
+@media (max-width: 1112px) {
+  .SideRightBarItems {
+    display: none;
+  }
+  .RightSideDrawerButton {
+    display: block;
+  }
+  .SideRightBar {
     height: 100%;
     right: 0;
     top: 0;
     background-color: transparent;
-    padding-top: 15%;
-    padding-left: 3%;
-    padding-right: 25%;
-    overflow: auto;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: visible;
+    display: flex;
+    align-items: center;
+  }
 }

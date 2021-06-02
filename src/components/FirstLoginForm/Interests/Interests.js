@@ -1,26 +1,8 @@
 import classes from "./Interests.module.css";
 import EntryLoaderPostman from "../../EntryLoader/EntryLoaderPostman";
+import { randomColor } from "../../../services";
 
 const Interests = (props) => {
-  const colors = [
-    "red",
-    "orange",
-    "yellow",
-    "olive",
-    "green",
-    "teal",
-    "blue",
-    "violet",
-    "purple",
-    "pink",
-    "brown",
-    "gray",
-  ];
-
-  const randomColor = () => {
-    return colors[Math.floor(Math.random() * 13)];
-  };
-
   const selectTagHandler = (tagName) => {
     props.setSelected({
       ...props.currentSelected,
@@ -59,11 +41,17 @@ const Interests = (props) => {
                   >
                     <p>#{ele.tagName}</p>
                     {props.currentSelected[ele.tagName] ? (
-                      <button className={classes.UnfollowButton} onClick={() => deselectTagHandler(ele.tagName)}>
+                      <button
+                        className={classes.UnfollowButton}
+                        onClick={() => deselectTagHandler(ele.tagName)}
+                      >
                         Unfollow
                       </button>
                     ) : (
-                      <button className={classes.FollowButton} onClick={() => selectTagHandler(ele.tagName)}>
+                      <button
+                        className={classes.FollowButton}
+                        onClick={() => selectTagHandler(ele.tagName)}
+                      >
                         Follow
                       </button>
                     )}

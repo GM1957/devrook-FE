@@ -10,9 +10,10 @@ const apis = {
     GET_USER_BY_USER_ID: "/user/get-user-by-user-id", // POST REQUEST
     GET_USER_BY_USER_NAME: "/user/", // /user/{username}  -- GET REQUEST
     GET_TOP_REPUTED_USERS: "/user/top-reputed-users", // /{limit}/{last-evaluated-key}  -- GET REQUEST
+    GET_MY_FOLLOWERS: "/user/get-my-followers", // /{user_name}/{limit}/{last-evaluated-key}  -- GET REQUEST
+    GET_USERS_I_FOLLOW: "/user/users-i-follow", // /{user_name}/{limit}/{last-evaluated-key}  -- GET REQUEST
     FOLLOW_USER_IN_BULK: "/user/follow-user-in-bulk", // POST REQUEST
-    FOLLOW_USER: "/user/follow-user", // POST REQUEST
-    UNFOLLOW_USER: "/user/unfollow-user", // POST REQUEST
+    FOLLOW_UNFOLLOW_USER: "/user/follow-unfollow-user", // POST REQUEST
     FOLLOW_CHECKER: "/user/follow-checker", // POST REQUEST
     GET_USER_PREVIOUS_VOTES: "/user/get-user-previous-votes", //POST REQUEST
 
@@ -20,6 +21,7 @@ const apis = {
     FULL_CHAT: "/messages/full-chat", //POST REQUEST
 
     GET_POPULAR_TAGS: "/tag/popular-tags", // /{limit}/{last-evaluated-key} -- GET REQUEST 
+    DEVS_WHO_FOLLOW_THE_TAG: "/tag/devs-who-follow-the-tag", // {tag_name}/{limit}/{last-evaluated-key} -- GET REQUEST 
     GET_TAG: "/tag/", // /tag/{tag-name} -- GET REQUEST
     FOLLOW_TAG: "/tag/follow", // POST REQUEST
     UNFOLLOW_TAG: "/tag/unfollow", // POST REQUEST
@@ -36,9 +38,16 @@ const apis = {
     GET_PERSONALIZED_MAIN_FEED: "/post/get-personalized-posts/false", // POST REQUEST
     GET_PERSONALIZED_DEV_FEED: "/post/personalized-dev-feed", // POST REQUEST
     GET_PUBLIC_DEV_FEED: "/post/dev-feed-public", // GET REQUEST {fetch_limit}/{last_evaluated_key}
-    GET_FULL_POST: "/post/get-full/{post_url}", // GET REQUEST
+    GET_FULL_POST: "/post/get-full", // GET REQUEST
     VOTE_POST: "/post/vote-post", //POST requests
+    TAG_FEED: "/post/tag-feed", // /{limit}/{last-evaluated-key} -- GET REQUEST 
+    DEV_POSTS: "/post/dev-posts", // /{limit}/{last-evaluated-key} -- GET REQUEST 
 
+    GET_ALL_RESPONSES: "/responses/get",  //{post_url}/{fetch_limit}/{last_evaluated_key} GET REQUEST
+    CREATE_RESPONSE: "/responses/create-response",  //POST REQUEST
+
+    SEARCH_POSTS: "/search/post",  // GET REQUEST {search_input}/{fetch_limit}/{last_evaluated_key}
+    SEARCH_USERS: "/search/user",  // GET REQUEST {search_input}/{fetch_limit}/{last_evaluated_key}
 
     S3_GET_PRESIGNED_URL: "/s3upload/get-signed-url" // POST REQUEST GET PRESIGNED URL
 };

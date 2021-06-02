@@ -44,7 +44,11 @@ const BlogsFeed = (props) => {
         );
 
         previousVoteDetails.data.data.forEach((item) => {
-          voteObj[item[0]?.voteId] = item[0]?.voteType;
+          voteObj[item.voteId] = {
+            liked: item.voteType === "like" ? true : false,
+            upVotted: item.voteType === "upVote" ? true : false,
+            downVotted: item.voteType === "downVote" ? true : false,
+          };
         });
 
         props.voteHandler(voteObj);

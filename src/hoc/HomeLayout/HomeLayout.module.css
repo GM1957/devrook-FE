@@ -50,3 +50,77 @@
   height: 100%;
   width: 30%;
 }
+
+@media (max-width: 1200px) {
+  .Column2 {
+    flex: 56%;
+  }
+  .Column3 {
+    flex: 24%;
+  }
+}
+
+@media (max-width: 1112px) {
+  .Column1 {
+    flex: 25%;
+  }
+
+  .Column2 {
+    flex: 72%;
+  }
+  .Column3 {
+    flex: 3%;
+  }
+  .MiddleArea {
+    padding-left: 0%;
+    padding-right: 1%;
+  }
+}
+
+@media (max-width: 1000px){
+  .Column2 {
+    flex: 72%;
+  }
+  .Column3 {
+    flex: 3%;
+  }
+  .MiddleArea {
+    padding-left: 0%;
+    padding-right: 1%;
+  }
+}
+
+@media (max-width: 800px) {
+  .Column1 {
+    flex: 20%;
+  }
+
+  .Column2 {
+    flex: 77%;
+  }
+  .Column3 {
+    flex: 3%;
+  }
+  .MiddleArea {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
+
+@media (max-width: 540px) {
+  .Column1 {
+    flex: 0;
+    display: none;
+  }
+
+  .Column2 {
+    flex: 95%;
+  }
+  .Column3 {
+    flex: 5%;
+  }
+  .MiddleArea {
+    padding-left: 5%;
+    padding-right: 0%;
+  }
+}

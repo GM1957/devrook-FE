@@ -3,6 +3,7 @@
   align-items: center;
   width: 100%;
   margin-top: 3%;
+  margin-bottom: 2%;
   box-shadow: 0 1px 1px rgba(50, 50, 50, 0.4);
   border-radius: 8px;
   background: white;
@@ -10,12 +11,11 @@
 }
 
 .UserPic {
-  position: absolute;
   box-shadow: 0 2px 2px rgba(50, 50, 50, 0.5);
-  right: calc(50% - 5px);
+  right: calc(48%);
   width: 125px;
   height: 125px;
-  border: 7px solid #fff;
+  border: 6px solid #fff;
   border-radius: 50%;
   margin-top: -75px;
   background-size: cover;
@@ -36,7 +36,7 @@
 
 .Column {
   flex: 50%;
-  padding-top: 3%;
+  margin-top: -5%;
 }
 
 .BasicDetails {
@@ -70,10 +70,20 @@
 
 .Following {
   margin-right: 5%;
+  cursor: pointer;
+}
+
+.Following p:hover {
+  border-bottom: 2px solid rgba(0, 132, 255, 0.596);
 }
 
 .Follower {
   margin-right: 0%;
+  cursor: pointer;
+}
+
+.Follower p:hover {
+  border-bottom: 2px solid rgba(0, 132, 255, 0.596);
 }
 
 .FollowersFollowing a {
@@ -91,7 +101,7 @@
 }
 
 .Reputation {
- margin-right: 5%;
+  margin-right: 5%;
 }
 
 .ButtonsSection {
@@ -114,22 +124,22 @@
   width: 35%;
 }
 
-.SocialLinks{
+.SocialLinks {
   font-size: 30px;
   float: right;
   width: 100%;
   margin-top: 15%;
 }
 
-.SocialLinks a{
+.SocialLinks a {
   float: right;
   margin-left: 10%;
   color: black;
   cursor: pointer;
 }
 
-.SocialLinks a:hover{
-  color: #128fdd
+.SocialLinks a:hover {
+  color: #128fdd;
 }
 
 .LoadingButton {
@@ -144,10 +154,34 @@
   cursor: pointer;
 }
 
-.LoadingButton:hover{
- background-color: rgba(29, 161, 241, 0.2);
+.LoadingButton:hover {
+  background-color: rgba(29, 161, 241, 0.2);
 }
 
+.RecentPostSection {
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.RecentPostSection p {
+  font-size: 17px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.644);
+  width: fit-content;
+  border-bottom: 2px dotted #1d94dd;
+  border-top: 2px dotted #1d94dd;
+}
+
+.ModalArea {
+  width: 33.333%;
+  display: flex;
+  justify-content: center;
+}
+
+.ResponseLoader{
+  text-align: center;
+}
 
 .Stars {
   content: "e";

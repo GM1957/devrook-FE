@@ -1,6 +1,12 @@
 .SideRightBarItems {
   display: flex;
   flex-flow: column;
+  overflow: auto;
+  padding: 6px;
+}
+
+.SideRightBarItems::-webkit-scrollbar{
+  width: 5px;
 }
 
 .TrendingDevsCard {
@@ -9,6 +15,10 @@
   border-radius: 10px;
   background-color: white;
   margin-bottom: 10%;
+}
+
+.TrendingDevsCard::-webkit-scrollbar{
+  width: 5px;
 }
 
 .DevHeader {
@@ -36,6 +46,10 @@
   text-align: center;
 }
 
+.TrendingTagsCard::-webkit-scrollbar{
+  width: 5px;
+}
+
 .TagHeader {
   margin-bottom: 5px;
   border-top-left-radius: 10px;
@@ -59,8 +73,19 @@
   display: flex;
 }
 
+.DevsContent {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-inline: 7%;
+}
+
 .DevRow {
-  flex: 50%;
+  margin: 0 -5px;
+}
+
+.DevColumn {
+  float: left;
+  width: 50%;
 }
 
 .TagRow {
@@ -68,9 +93,7 @@
 }
 
 .Profile {
-  padding-top: 5%;
-  padding-bottom: 5%;
-  text-align: center;
+  padding-bottom: 8%;
 }
 
 .btnGrad {
@@ -102,3 +125,22 @@
   box-shadow: 0 0 10px gray;
 }
 
+.EntryLoader{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .UserIcon {
+      display: none;
+  }
+}
+
+@media (max-width: 1350px) {
+  .btnGrad{
+    font-size: 13px;
+  }
+}

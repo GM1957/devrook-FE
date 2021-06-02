@@ -93,3 +93,9 @@
 .SelectTagsSection{
   margin-top: 1%;
 }
+
+@media (max-width: 800px) {
+  .NewQuestionPage {
+    padding-right: 5%;
+  }  
+}

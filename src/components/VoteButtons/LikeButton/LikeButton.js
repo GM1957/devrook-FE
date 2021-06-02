@@ -19,6 +19,7 @@ const LikeButton = (props) => {
         voteType: "like",
         id: url,
         type: props.Type,
+        // type is to define its post or response 
       });
       console.log("res", res);
     } catch (err) {
