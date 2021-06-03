@@ -129,9 +129,9 @@ const Responses = (props) => {
             <Redirect to={{ pathname: "/user/login" }} exact />
           ) : null}
           <div className={classes.AllResponsesSection}>
-            {allResponses.map((response) => {
+            {allResponses.map((response, i) => {
               return (
-                <div className={classes.ResponseCard}>
+                <div className={classes.ResponseCard} key={"response-" + i}>
                   <div className={classes.UpVoteDownVoteSection}>
                     <UpVoteButton Element={response} Type="response" />
                     <div className={classes.VoteCount}>

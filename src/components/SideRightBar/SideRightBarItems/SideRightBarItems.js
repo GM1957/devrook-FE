@@ -87,8 +87,8 @@ const SideRightBarItems = (props) => {
             </div>
           ) : (
             <div className={classes.TagRow}>
-              {props.Trending.trendingTags.map((item) => (
-                <NavLink to={"/tag/" + item.tagName} exact>
+              {props.Trending.trendingTags.map((item, i) => (
+                <NavLink to={"/tag/" + item.tagName} exact key={"tag-box" + i}>
                   <button className={classes.btnGrad}>{item.tagName}</button>
                 </NavLink>
               ))}

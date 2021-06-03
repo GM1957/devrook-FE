@@ -2,17 +2,26 @@ import React, { useState, useEffect } from "react";
 import { axios, apis } from "../../services";
 import EntryHeartLoader from "../EntryLoader/HeartLoader";
 import classes from "./ChatBox.module.css";
+import { connect } from "react-redux";
 import { w3cwebsocket as W3CWebSocket } from "websocket";
 
-const access_token = localStorage.getItem("access_token");
+// let websocket = new W3CWebSocket(
+//   apis.WEB_SOCKET + "?Authorizer=" + access_token
+//   );
 
+// dummy url
 let websocket = new W3CWebSocket(
-  apis.WEB_SOCKET + "?Authorizer=" + access_token
+  "wss://f5d.execute-api.us-west-2.amazonaws.com"
 );
+
 const wbReConnect = async () => {
+  const access_token = localStorage.getItem("access_token");
   websocket = new W3CWebSocket(apis.WEB_SOCKET + "?Authorizer=" + access_token);
 };
 const ChatBox = (props) => {
+  useEffect(() => {
+    wbReConnect();
+  }, [props.Auth?.isLoggedIn]);
   // this messages are old chats
   const [messages, setMessages] = useState([]);
   const [isMessagesLoading, setIsMessagesLoading] = useState(false);
@@ -45,6 +54,7 @@ const ChatBox = (props) => {
       } else {
         setIsFirstTime(true);
       }
+
       setIsMessagesLoading(false);
     } catch (err) {
       console.log(err);
@@ -161,4 +171,8 @@ const ChatBox = (props) => {
   );
 };
 
-export default ChatBox;
+const mapStateToProps = (state) => {
+  return { Auth: state.Auth };
+};
+
+export default connect(mapStateToProps, {})(ChatBox);

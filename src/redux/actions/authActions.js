@@ -21,6 +21,9 @@ const login = (cognitoUserInfo) => {
 const logout = () => async (dispatch) => {
   try {
     await Auth.signOut();
+    axios.defaults.headers.common["Authorization"] = "";
+    localStorage.setItem("access_token", "");
+    localStorage.setItem("refresh_token", "");
     dispatch({
       type: "LOGOUT",
     });

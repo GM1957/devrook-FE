@@ -14,9 +14,9 @@ http.interceptors.response.use(
     console.log("this is err", error);
     if (
       error.response.status === 401 &&
-      originalRequest.url === apis.BASE_SERVER_URL + "token/refresh/"
+      originalRequest.url === apis.BASE_SERVER_URL + "/token/refresh/"
     ) {
-      window.location.href = "/login/";
+      window.location.href = "/user/login";
       return Promise.reject(error);
     }
 
@@ -35,6 +35,7 @@ http.interceptors.response.use(
         console.log(tokenParts.exp);
 
         if (tokenParts.exp > now) {
+          // TODO: instade call the current user details with amplify and replace the token
           return http
             .post("/token/refresh/", { refresh: refreshToken })
             .then((response) => {
@@ -53,11 +54,11 @@ http.interceptors.response.use(
             });
         } else {
           console.log("Refresh token is expired", tokenParts.exp, now);
-          window.location.href = "/login/";
+          window.location.href = "/user/login/";
         }
       } else {
         console.log("Refresh token not available.");
-        window.location.href = "/login/";
+        window.location.href = "/user/login/";
       }
     }
 

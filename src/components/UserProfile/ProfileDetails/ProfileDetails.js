@@ -73,6 +73,7 @@ const ProfileDetails = (props) => {
       props.Auth?.isLoggedIn &&
       props.userName !== props.Auth?.cognitoUserInfo?.attributes?.profile
     ) {
+      setShouldChatButton(true);
       const checker = await axios.post(apis.FOLLOW_CHECKER, {
         userName: props.userName,
       });

@@ -1,6 +1,4 @@
 import { Switch, Route, BrowserRouter } from "react-router-dom";
-import { connect } from "react-redux";
-import { Redirect } from "react-router-dom";
 import NotFound404 from "../components/NotFound404/NotFound404";
 
 import HomePage from "../Pages/HomePage/HomePage";
@@ -47,89 +45,19 @@ const RouteHandler = (props) => {
 
         <Route path="/explore/globalfeed" component={GlobalFeedPage} exact />
 
-        <Route path="/profile/edit" exact>
-          {props.Auth?.isLoggedIn ? (
-            <EditProfilePage />
-          ) : (
-            <Redirect
-              to={{
-                pathname: "/user/login",
-              }}
-            />
-          )}
-        </Route>
+        <Route path="/profile/edit" component={EditProfilePage} exact />
 
-        <Route path="/new/question">
-          {props.Auth?.isLoggedIn ? (
-            <AskQuestionPage />
-          ) : (
-            <Redirect
-              to={{
-                pathname: "/user/login",
-              }}
-            />
-          )}
-        </Route>
+        <Route path="/new/question" component={AskQuestionPage} exact />
 
-        <Route path="/new/blog" exact>
-          {props.Auth?.isLoggedIn ? (
-            <CreateBlogPage />
-          ) : (
-            <Redirect
-              to={{
-                pathname: "/user/login",
-              }}
-            />
-          )}
-        </Route>
+        <Route path="/new/blog" component={CreateBlogPage} exact />
 
-        <Route path="/me/messages" exact>
-          {props.Auth?.isLoggedIn ? (
-            <MessagesPage />
-          ) : (
-            <Redirect
-              to={{
-                pathname: "/user/login",
-              }}
-            />
-          )}
-        </Route>
+        <Route path="/me/messages" component={MessagesPage} exact />
 
-        <Route path="/me/messages/:username" exact>
-          {props.Auth?.isLoggedIn ? (
-            <MessagesPage />
-          ) : (
-            <Redirect
-              to={{
-                pathname: "/user/login",
-              }}
-            />
-          )}
-        </Route>
+        <Route path="/me/messages/:username" component={MessagesPage} exact />
 
-        <Route path="/tags/all" exact>
-          {props.Auth?.isLoggedIn ? (
-            <TagsFollowedByMePage />
-          ) : (
-            <Redirect
-              to={{
-                pathname: "/user/login",
-              }}
-            />
-          )}
-        </Route>
+        <Route path="/tags/all" component={TagsFollowedByMePage} exact />
 
-        <Route path="/my/dashboard" exact>
-          {props.Auth?.isLoggedIn ? (
-            <DashBoardPage />
-          ) : (
-            <Redirect
-              to={{
-                pathname: "/user/login",
-              }}
-            />
-          )}
-        </Route>
+        <Route path="/my/dashboard" component={DashBoardPage} exact />
 
         <Route component={NotFound404} />
       </Switch>
@@ -137,8 +65,4 @@ const RouteHandler = (props) => {
   );
 };
 
-const mapStateToProps = (state) => {
-  return { Auth: state.Auth };
-};
-
-export default connect(mapStateToProps, {})(RouteHandler);
+export default RouteHandler;

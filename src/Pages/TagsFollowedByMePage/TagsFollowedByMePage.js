@@ -32,8 +32,8 @@ const TagsFollowedByMePage = (props) => {
           </div>
           <div className={classes.AllTagsCard}>
             <div className={classes.Row}>
-              {allTags.map((tag) => (
-                <div className={classes.Column}>
+              {allTags.map((tag, i) => (
+                <div className={classes.Column} key={"tag-col" + i}>
                   <div className={classes.TagCard}>
                     <p>#{tag}</p>
                     <div className={classes.FollowUnfollowButton}>
