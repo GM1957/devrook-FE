@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./Toolbar.module.css";
+import { NavLink } from "react-router-dom";
 import NavigationItems from "../NavigationItems/NavigationItems";
 import RookLogo from "../../../assets/images/devrooklogo.png";
 import classNames from "classnames/bind";
@@ -18,7 +19,9 @@ const toolbar = (props) => (
       </div>
 
       <div className={classNames(classes.Logo, classes.DesktopOnly)}>
-        <img src={RookLogo} alt="rookLogo" />
+        <NavLink to="/" exact>
+          <img src={RookLogo} alt="rookLogo" />
+        </NavLink>
       </div>
     </div>
 
