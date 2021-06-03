@@ -1,0 +1,49 @@
+.SearchResultHeader {
+  margin-bottom: 1%;
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.SearchResultHeader p {
+  font-size: 17px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.644);
+  width: fit-content;
+  border-bottom: 2px dotted #1d94dd;
+  border-top: 2px dotted #1d94dd;
+}
+
+.PostResultSection {
+}
+
+.UserPostButton {
+  float: right;
+  margin-right: 2%;
+  margin-top: -3%;
+  margin-bottom: 2%;
+  background-color: #7f8ff4;
+  padding-inline: 2%;
+  padding-top: 0.5%;
+  padding-bottom: 0.7%;
+  color: white;
+  cursor: pointer;
+}
+
+.UserPostButton:hover {
+  background-color: #6a7cec;
+}
+
+.UserCard {
+  margin-top: 5%;
+}
+
+.NotFound{
+    text-align: center;
+}
+
+.NotFound p {
+    margin-top: 10%;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,6 +1,6 @@
 const initialState = {
   votes: {},
-  voteCount: {}
+  voteCount: {},
 };
 
 const Vote = (state = initialState, action) => {

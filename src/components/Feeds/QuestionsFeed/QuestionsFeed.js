@@ -4,7 +4,7 @@ import QuestionCard from "../../QuestionCard/QuestionCard";
 import { setFeedQuestions } from "../../../redux/actions";
 import { connect } from "react-redux";
 import classes from "./QuestionsFeed.module.css";
-import HeartLoadaer from "../../EntryLoader/HeartLoader"
+import HeartLoadaer from "../../EntryLoader/HeartLoader";
 
 const QuestionsFeed = (props) => {
   const [isLoading, setIsLoading] = useState(false);
@@ -27,7 +27,7 @@ const QuestionsFeed = (props) => {
   return (
     <div>
       {isLoading ? (
-        <HeartLoadaer/>
+        <HeartLoadaer />
       ) : (
         <div>
           <div

@@ -47,7 +47,10 @@ const AuthGuard = (props) => {
         fetchUserData();
       }
     }
-  }, [props.Auth.isLoggedIn, props.Auth?.cognitoUserInfo?.attributes?.zoneinfo]);
+  }, [
+    props.Auth.isLoggedIn,
+    props.Auth?.cognitoUserInfo?.attributes?.zoneinfo,
+  ]);
 
   return isFirstLogin ? (
     <FirstLoginPage />

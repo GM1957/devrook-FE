@@ -6,7 +6,7 @@ import {
   setDevFeed,
   isPersonalizedDevFeedFetched,
   voteHandler,
-  voteCountHandler
+  voteCountHandler,
 } from "../../../redux/actions";
 import { connect } from "react-redux";
 import HeartLoadaer from "../../EntryLoader/HeartLoader";
@@ -124,5 +124,5 @@ export default connect(mapStateToProps, {
   setDevFeed,
   isPersonalizedDevFeedFetched,
   voteHandler,
-  voteCountHandler
+  voteCountHandler,
 })(DevFeed);

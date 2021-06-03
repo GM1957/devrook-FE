@@ -41,7 +41,7 @@ export const EDITOR_JS_TOOLS = {
           });
         },
       },
-    }
+    },
   },
   raw: { class: Raw, inlineToolBar: true },
   header: { class: Header, inlineToolBar: true },

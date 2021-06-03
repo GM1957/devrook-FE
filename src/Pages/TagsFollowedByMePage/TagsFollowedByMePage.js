@@ -15,12 +15,12 @@ const TagsFollowedByMePage = (props) => {
     if (props?.Auth?.userdetails) {
       const myTags = Object.keys(props.Auth?.userdetails?.tags);
       setAllTags(myTags);
-      setNeedReRender(false)
+      setNeedReRender(false);
     }
   };
 
   useEffect(() => {
-    if(needReRender) fetchAllTags();
+    if (needReRender) fetchAllTags();
   }, [props.Auth?.userdetails]);
 
   return (

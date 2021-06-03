@@ -71,3 +71,8 @@
 .ResponseBy p {
     word-break: break-all;
 }
+
+.EntryLoader {
+    text-align: center;
+    margin-top: 2%;
+}

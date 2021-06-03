@@ -7,6 +7,8 @@ import BackDrop from "../../UI/Backdrop/Backdrop";
 import classNames from "classnames";
 import { connect } from "react-redux";
 import { login } from "../../../redux/actions";
+import GoogleLogo from "../../../assets/icons/google.svg";
+import RookLogo from "../../../assets/images/devrooklogo.png";
 
 class LoginModal extends Component {
   state = {
@@ -69,6 +71,13 @@ class LoginModal extends Component {
           clicked={this.props.closed}
         />
         <div className={attachedClasses.join(" ")}>
+          <div className={classes.LoginHeader}>
+            <img src={RookLogo} alt="rookLogo" />
+            <p>
+              Welcome to the board of Devs <br />
+              😎 Please Login 😎
+            </p>
+          </div>
           <div>
             <form
               className={classNames("ui form", classes.Form)}
@@ -121,6 +130,16 @@ class LoginModal extends Component {
                 )}
               </div>
             </form>
+            <div
+              className={classes.GoogleIcon}
+              onClick={() => Auth.federatedSignIn({ provider: "Google" })}
+            >
+              <img
+                className={classes.imageSize}
+                src={GoogleLogo}
+                alt="googlelogo"
+              />
+            </div>
           </div>
         </div>
       </Aux>

@@ -105,7 +105,7 @@ const ProfileDetails = (props) => {
   const fetchUserDetails = async () => {
     try {
       if (!props.Auth.isLoggedIn) setIsLoading(true);
-      
+
       if (props.userName !== props.Auth?.cognitoUserInfo?.attributes?.profile)
         setIsLoading(true);
 

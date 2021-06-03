@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { Redirect } from "react-router-dom";
 import { apis, axios } from "../../../services";
 import {
   setFeedBlogs,
@@ -13,13 +14,15 @@ const LikeButton = (props) => {
     ? props.Element.hashedUrl
     : props.Element.responseId;
 
+  const [shouldReditrect, setRedirect] = useState(false);
+
   const likePostHandler = async () => {
     try {
       const res = await axios.post(apis.VOTE_POST, {
         voteType: "like",
         id: url,
         type: props.Type,
-        // type is to define its post or response 
+        // type is to define its post or response
       });
       console.log("res", res);
     } catch (err) {
@@ -28,6 +31,8 @@ const LikeButton = (props) => {
   };
 
   const increaseLikeHandler = () => {
+    if (!props?.Auth?.isLoggedIn) return setRedirect(true);
+
     // in vote obj i am already containing old votes data which user has done previously in the application
     const voteObj = { ...props.Vote.votes };
     const voteCountObj = { ...props.Vote.voteCount };
@@ -36,10 +41,10 @@ const LikeButton = (props) => {
     // and if it is already liked then we have to remove the like in the nex click
     if (props.Vote?.votes[url]?.liked) {
       voteCountObj[url].likes -= 1;
-      voteObj[url] = {...voteObj[url], liked: false };
+      voteObj[url] = { ...voteObj[url], liked: false };
     } else {
       voteCountObj[url].likes += 1;
-      voteObj[url] = {...voteObj[url], liked: true };
+      voteObj[url] = { ...voteObj[url], liked: true };
     }
 
     props.voteHandler(voteObj);
@@ -49,8 +54,12 @@ const LikeButton = (props) => {
 
   return (
     <div>
+      {shouldReditrect ? (
+        <Redirect to={{ pathname: "/user/login" }} exact />
+      ) : null}
       <div
-        className={ props.Vote?.votes[url]?.liked
+        className={
+          props.Vote?.votes[url]?.liked
             ? classes.LikedButton
             : classes.LikeButton
         }
@@ -63,7 +72,7 @@ const LikeButton = (props) => {
 };
 
 const mapStateToProps = (state) => {
-  return { Feed: state.Feed, Vote: state.Vote };
+  return { Feed: state.Feed, Vote: state.Vote, Auth: state.Auth };
 };
 
 export default connect(mapStateToProps, {

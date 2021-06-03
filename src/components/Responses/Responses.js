@@ -5,13 +5,15 @@ import DownVoteButton from "../VoteButtons/DownVoteButton/DownVoteButton";
 import { voteHandler, voteCountHandler } from "../../redux/actions";
 import { connect } from "react-redux";
 import DevRookLogo from "../../assets/images/devrooklogo.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, Redirect } from "react-router-dom";
+import EntryLoaderRects from "../../components/EntryLoader/EntryLoaderRects";
 import classes from "./Responses.module.css";
 
 const Responses = (props) => {
   const [allResponses, setAllResponses] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [responseBody, setResponseBody] = useState("");
+  const [shouldReditrect, setRedirect] = useState(false);
 
   const fetchAllResponses = async () => {
     setIsLoading(true);
@@ -77,6 +79,8 @@ const Responses = (props) => {
   };
 
   const submitResponseHandler = async () => {
+    if (!props?.Auth?.isLoggedIn) return setRedirect(true);
+
     try {
       const oldResponseBody = "" + responseBody.toString();
 
@@ -115,63 +119,75 @@ const Responses = (props) => {
   }, [props.Auth?.isLoggedIn]);
   return (
     <div>
-      <div className={classes.AllResponsesSection}>
-        {allResponses.map((response) => {
-          return (
-            <div className={classes.ResponseCard}>
-              <div className={classes.UpVoteDownVoteSection}>
-                <UpVoteButton Element={response} Type="response" />
-                <div className={classes.VoteCount}>
-                  {props.Vote?.voteCount[response.responseId]?.upVotes -
-                    Math.abs(
-                      props.Vote?.voteCount[response.responseId]?.downVotes
-                    )}
+      {isLoading ? (
+        <div className={classes.EntryLoader}>
+          <EntryLoaderRects />
+        </div>
+      ) : (
+        <div>
+          {shouldReditrect ? (
+            <Redirect to={{ pathname: "/user/login" }} exact />
+          ) : null}
+          <div className={classes.AllResponsesSection}>
+            {allResponses.map((response) => {
+              return (
+                <div className={classes.ResponseCard}>
+                  <div className={classes.UpVoteDownVoteSection}>
+                    <UpVoteButton Element={response} Type="response" />
+                    <div className={classes.VoteCount}>
+                      {props.Vote?.voteCount[response.responseId]?.upVotes -
+                        Math.abs(
+                          props.Vote?.voteCount[response.responseId]?.downVotes
+                        )}
+                    </div>
+                    <DownVoteButton Element={response} Type="response" />
+                  </div>
+                  <div className={classes.ResponseBody}>
+                    <p>{response.responseBody}</p>
+                  </div>
+                  <div className={classes.ResponseBy}>
+                    <NavLink to={"/" + response.userName} exact>
+                      <img
+                        src={
+                          response?.profilePicture &&
+                          response.profilePicture.length
+                            ? response.profilePicture
+                            : DevRookLogo
+                        }
+                        alt="userImage"
+                      />
+                      <p>{response.userName}</p>
+                    </NavLink>
+                  </div>
                 </div>
-                <DownVoteButton Element={response} Type="response" />
-              </div>
-              <div className={classes.ResponseBody}>
-                <p>{response.responseBody}</p>
-              </div>
-              <div className={classes.ResponseBy}>
-                <NavLink to={"/" + response.userName} exact>
-                  <img
-                    src={
-                      response?.profilePicture && response.profilePicture.length
-                        ? response.profilePicture
-                        : DevRookLogo
-                    }
-                    alt="userImage"
-                  />
-                  <p>{response.userName}</p>
-                </NavLink>
+              );
+            })}
+          </div>
+          <div className={classes.AddNewResponse}>
+            <div className={classes.InputBox}>
+              <input
+                onChange={(event) => setResponseBody(event.target.value)}
+                onKeyPress={(event) => {
+                  if (event.key === "Enter") return submitResponseHandler();
+                }}
+                type="text"
+                placeholder={
+                  props.Post.postType === "question"
+                    ? "Answer This Question"
+                    : "Add Your Response"
+                }
+                value={responseBody}
+              />
+              <div
+                className={classes.SubmitButton}
+                onClick={() => submitResponseHandler()}
+              >
+                SUBMIT
               </div>
             </div>
-          );
-        })}
-      </div>
-      <div className={classes.AddNewResponse}>
-        <div className={classes.InputBox}>
-          <input
-            onChange={(event) => setResponseBody(event.target.value)}
-            onKeyPress={(event) => {
-              if (event.key === "Enter") return submitResponseHandler();
-            }}
-            type="text"
-            placeholder={
-              props.Post.postType === "question"
-                ? "Answer This Question"
-                : "Add Your Response"
-            }
-            value={responseBody}
-          />
-          <div
-            className={classes.SubmitButton}
-            onClick={() => submitResponseHandler()}
-          >
-            SUBMIT
           </div>
         </div>
-      </div>
+      )}
     </div>
   );
 };

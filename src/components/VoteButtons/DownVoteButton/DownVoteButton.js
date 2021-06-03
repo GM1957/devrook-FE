@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { Redirect } from "react-router-dom";
 import { apis, axios } from "../../../services";
 import {
   setFeedBlogs,
@@ -13,13 +14,15 @@ const DownVoteButton = (props) => {
     ? props.Element.hashedUrl
     : props.Element.responseId;
 
+  const [shouldReditrect, setRedirect] = useState(false);
+
   const downVotePostHandler = async () => {
     try {
       await axios.post(apis.VOTE_POST, {
         voteType: "downVote",
         id: url,
         type: props.Type,
-        // type is to define its post or response 
+        // type is to define its post or response
       });
     } catch (err) {
       console.log("unable to downVote", err);
@@ -27,6 +30,8 @@ const DownVoteButton = (props) => {
   };
 
   const increaseDownVoteHandler = () => {
+    if (!props?.Auth?.isLoggedIn) return setRedirect(true);
+
     // in vote obj i am already containing old votes data which user has done previously in the application
     const voteObj = { ...props.Vote.votes };
     const voteCountObj = { ...props.Vote.voteCount };
@@ -35,11 +40,11 @@ const DownVoteButton = (props) => {
     // and if it is already upvotted then we have to remove the upvote in the nex click
     if (props.Vote?.votes[url]?.downVotted) {
       voteCountObj[url].downVotes -= 1;
-      voteObj[url] = {...voteObj[url], downVotted: false };
+      voteObj[url] = { ...voteObj[url], downVotted: false };
     } else {
       voteCountObj[url].downVotes += 1;
-      voteObj[url] = {...voteObj[url], downVotted: true };
-      voteObj[url] = {...voteObj[url], upVotted: false };
+      voteObj[url] = { ...voteObj[url], downVotted: true };
+      voteObj[url] = { ...voteObj[url], upVotted: false };
     }
 
     props.voteHandler(voteObj);
@@ -49,6 +54,9 @@ const DownVoteButton = (props) => {
 
   return (
     <div>
+      {shouldReditrect ? (
+        <Redirect to={{ pathname: "/user/login" }} exact />
+      ) : null}
       <div
         className={
           props.Vote?.votes[url]?.downVotted
@@ -64,7 +72,7 @@ const DownVoteButton = (props) => {
 };
 
 const mapStateToProps = (state) => {
-  return { Feed: state.Feed, Vote: state.Vote };
+  return { Feed: state.Feed, Vote: state.Vote, Auth: state.Auth };
 };
 
 export default connect(mapStateToProps, {

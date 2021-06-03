@@ -16,8 +16,8 @@ class App extends Component {
   render() {
     return (
       <Provider store={store}>
-          <AuthGuard />
-          <ToastContainer position={toast.POSITION.TOP_RIGHT} />
+        <AuthGuard />
+        <ToastContainer position={toast.POSITION.TOP_RIGHT} />
       </Provider>
     );
   }

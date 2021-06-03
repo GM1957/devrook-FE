@@ -7,7 +7,7 @@ import HomeLayout from "../../hoc/HomeLayout/HomeLayout";
 import QuestionCard from "../../components/QuestionCard/QuestionCard";
 import BlogCard from "../../components/BlogCard/BlogCard";
 import ListOfUsersModal from "../../components/ListOfUsersModal/ListOfUsersModal";
-import FollowUnfollowTagButton from "../../components/FollowUnfollowTagButton/FollowUnfollowTagButton"
+import FollowUnfollowTagButton from "../../components/FollowUnfollowTagButton/FollowUnfollowTagButton";
 
 import classes from "./InsideTagPage.module.css";
 
@@ -88,15 +88,14 @@ const InsideTagPage = (props) => {
           </div>
           <div className={classes.DevAndFollowUnfollowTagButton}>
             <div className={classes.FollowUnfollowTagButton}>
-
-              <FollowUnfollowTagButton tagName={tagName}/>
+              <FollowUnfollowTagButton tagName={tagName} />
             </div>
-          <div
-            className={classes.DevsButton}
-            onClick={() => setShouldDevsModal(true)}
-          >
-            <p>DEVS</p>
-          </div>
+            <div
+              className={classes.DevsButton}
+              onClick={() => setShouldDevsModal(true)}
+            >
+              <p>DEVS</p>
+            </div>
           </div>
         </div>
         <div className={classes.RecentPostSection}>

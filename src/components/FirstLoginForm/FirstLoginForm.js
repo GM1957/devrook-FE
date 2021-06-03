@@ -29,7 +29,6 @@ const FirstLoginForm = (props) => {
   const [popularTags, setPopularTags] = useState([]);
   const [popularDevs, setPopularDevs] = useState([]);
 
-
   const next = () => setStep(step + 1);
   const back = () => setStep(step - 1);
 
@@ -56,14 +55,29 @@ const FirstLoginForm = (props) => {
 
     try {
       // 1: creating the user
-      await axios.post(apis.CREATE_USER, {
+      const requestJson = {
         ...selectedBasicInfo,
         email: props.Auth.cognitoUserInfo.attributes.email,
         name: props.Auth.cognitoUserInfo.attributes.name
           ? props.Auth.cognitoUserInfo.attributes.name
           : "devrook",
-          tags: selectedInterests
-      });
+        tags: selectedInterests,
+      };
+
+      if (props?.Auth?.cognitoUserInfo?.attributes?.identities) {
+        const body = JSON.parse(
+          props?.Auth?.cognitoUserInfo?.attributes?.identities
+        );
+
+        requestJson.identities = {
+          providerName: body[0].providerName,
+          userId: body[0].userId,
+        };
+      }
+
+      console.log("requestJson", requestJson);
+
+      await axios.post(apis.CREATE_USER, requestJson);
 
       // 2: following the tags it meight update user info also so its coming on no.2
       // await axios.post(apis.FOLLOW_TAG_IN_BULK, {

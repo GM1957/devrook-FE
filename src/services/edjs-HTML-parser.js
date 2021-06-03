@@ -59,7 +59,9 @@ export default edjsHTML({
   table: (block) => {
     const rows = block.data.content.map((row) => {
       return `<tr>${row.reduce(
-        (acc, cell) => acc + `<td style="background-color: whitesmoke; padding: 5px 50px;">${cell}</td>`,
+        (acc, cell) =>
+          acc +
+          `<td style="background-color: whitesmoke; padding: 5px 50px;">${cell}</td>`,
         ""
       )}</tr>`;
     });

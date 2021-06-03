@@ -17,5 +17,5 @@ export {
   EDITOR_JS_TOOLS,
   s3UploadImage,
   edjsHTMLParser,
-  randomColor
+  randomColor,
 };

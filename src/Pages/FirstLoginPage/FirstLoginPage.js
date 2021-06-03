@@ -9,7 +9,7 @@ const FirstLoginPage = (props) => (
     <div className={[classes.bg, classes.bg2].join(" ")}></div>
     <div className={[classes.bg, classes.bg3].join(" ")}></div>
     <div className={classes.Content}>
-      <FirstLoginForm/>
+      <FirstLoginForm />
     </div>
   </div>
 );

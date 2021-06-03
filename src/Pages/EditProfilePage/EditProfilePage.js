@@ -61,7 +61,7 @@ const EditProfilePage = (props) => {
     if (userNameStatus === "passed") {
       setIsLoading(true);
       try {
-        const theCurrentSelected = {...currentSelected}
+        const theCurrentSelected = { ...currentSelected };
 
         if (selectedUserImage) {
           const s3Sign = await getS3Signeture(selectedUserImage.name);

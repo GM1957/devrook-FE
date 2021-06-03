@@ -46,7 +46,7 @@ const SideLeftBarItems = (props) => {
               "/" +
               (props.Auth.isLoggedIn
                 ? props.Auth?.cognitoUserInfo?.attributes?.profile
-                : "/")
+                : "user/login")
             }
             exact
           >

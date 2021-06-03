@@ -54,10 +54,10 @@ const CreateBlogPage = (props) => {
 
       let coverImg = "";
 
-      if(selectedImage){
+      if (selectedImage) {
         const s3Sign = await getS3Signeture(selectedImage.name);
         const response = await s3UploadImage(s3Sign, selectedImage);
-        coverImg = response.url
+        coverImg = response.url;
       }
 
       await axios.post(apis.CREATE_POST, {
@@ -121,10 +121,11 @@ const CreateBlogPage = (props) => {
               {coverImage.length ? (
                 <div className={classes.CoverImageArea}>
                   <img src={coverImage} alt="coverImage" />
-                  <div className={classes.RemoveImageButton} onClick={() => setCoverImage("")}>
-                      <p>
-                        Delete the cover picture
-                      </p>
+                  <div
+                    className={classes.RemoveImageButton}
+                    onClick={() => setCoverImage("")}
+                  >
+                    <p>Delete the cover picture</p>
                   </div>
                 </div>
               ) : (

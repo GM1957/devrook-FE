@@ -27,7 +27,10 @@ const SideRightBar = (props) => {
           <SideRightBarItems />
         </div>
         <div className={classes.RightSideDrawerButton}>
-          <i onClick={openSideDrawerHandler} className="icon angle double left"></i>
+          <i
+            onClick={openSideDrawerHandler}
+            className="icon angle double left"
+          ></i>
         </div>
       </div>
     </Aux>

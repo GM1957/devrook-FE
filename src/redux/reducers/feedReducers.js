@@ -7,7 +7,7 @@ const initialState = {
   isPersonalizedBlogsFetched: false,
   isPersonalizedQuestionsFetched: false,
   isPersonalizedMainFeedFetched: false,
-  isPersonalizedDevFeedFetched: false
+  isPersonalizedDevFeedFetched: false,
 };
 
 const Feed = (state = initialState, action) => {

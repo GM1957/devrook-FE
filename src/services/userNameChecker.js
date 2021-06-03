@@ -1,7 +1,7 @@
 import { axios, apis } from "./index";
 const userNameChecker = async (event) => {
   const { value, defaultUserName } = event;
-console.log("defaultUserName",defaultUserName)
+  console.log("defaultUserName", defaultUserName);
   const result = await axios.get(apis.GET_USER_BY_USER_NAME + value);
 
   if (

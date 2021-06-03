@@ -9,7 +9,7 @@ const HomePage = (props) => {
     <Layout>
       <HomeLayout isRightBar={true}>
         <MiddleFeedlayout>
-         <MainFeed/>
+          <MainFeed />
         </MiddleFeedlayout>
       </HomeLayout>
     </Layout>

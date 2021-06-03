@@ -87,9 +87,7 @@ const GlobalFeedPage = (props) => {
         ) : (
           <div>
             <div className={classes.Header}>
-              <p>
-                Global Feed
-              </p>
+              <p>Global Feed</p>
             </div>
             <div
               className={classes.ReloadButton}

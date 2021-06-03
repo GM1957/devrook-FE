@@ -17,7 +17,10 @@ const BasicInfo = (props) => {
     props.setUserNameStatus("checking");
     setUserName(value);
 
-    const result = await userNameChecker({value, defaultUserName: props.defaultUserName})
+    const result = await userNameChecker({
+      value,
+      defaultUserName: props.defaultUserName,
+    });
     if (!result) {
       props.setUserNameStatus("passed");
 
@@ -29,7 +32,7 @@ const BasicInfo = (props) => {
 
   useEffect(() => {
     if (userName.length < 1) props.setUserNameStatus("failed");
-  },[props.userNameStatus]);
+  }, [props.userNameStatus]);
 
   return (
     <div>

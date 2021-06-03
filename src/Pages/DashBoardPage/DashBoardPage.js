@@ -74,69 +74,72 @@ const DashBoardPage = (props) => {
             </div>
           ) : (
             <div>
-              {!posts.length ?<div className={classes.EntryLoader}>
-              NO POSTS FOUND
-            </div> : posts.map((item, i) => {
-                if (item) {
-                  if (item.postType === "blog") {
-                    return (
-                      <div className={classes.Card} key={i + "card"}>
-                        <div className={classes.DetailSection}>
-                          <p className={classes.HeaderHashedUrl}>
-                            <b>{item.hashedUrl}</b>
-                          </p>
-                          <small>
-                            Type: <b>Blog</b>, UpVotes: <b>{item.upVote}</b>,
-                            DownVotes: <b>{item.downVote}</b>, Responses:{" "}
-                            <b>{item.responses}</b>
-                          </small>
-                        </div>
-                        <div
-                          className={classes.ButtonSection}
-                          onClick={() => deletePostHandler(item.hashedUrl, i)}
-                        >
-                          <div className={classes.EditButton}>EDIT</div>
-                          <div className={classes.DeleteButton}>
-                            {isDeleting[i] ? (
-                              <div className="ui small active centered inline loader"></div>
-                            ) : (
-                              "DELETE"
-                            )}
+              {!posts.length ? (
+                <div className={classes.EntryLoader}>NO POSTS FOUND</div>
+              ) : (
+                posts.map((item, i) => {
+                  if (item) {
+                    if (item.postType === "blog") {
+                      return (
+                        <div className={classes.Card} key={i + "card"}>
+                          <div className={classes.DetailSection}>
+                            <p className={classes.HeaderHashedUrl}>
+                              <b>{item.hashedUrl}</b>
+                            </p>
+                            <small>
+                              Type: <b>Blog</b>, UpVotes: <b>{item.upVote}</b>,
+                              DownVotes: <b>{item.downVote}</b>, Responses:{" "}
+                              <b>{item.responses}</b>
+                            </small>
+                          </div>
+                          <div
+                            className={classes.ButtonSection}
+                            onClick={() => deletePostHandler(item.hashedUrl, i)}
+                          >
+                            <div className={classes.EditButton}>EDIT</div>
+                            <div className={classes.DeleteButton}>
+                              {isDeleting[i] ? (
+                                <div className="ui small active centered inline loader"></div>
+                              ) : (
+                                "DELETE"
+                              )}
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    );
-                  } else if (item.postType === "question") {
-                    return (
-                      <div className={classes.Card} key={i + "card"}>
-                        <div className={classes.DetailSection}>
-                          <p className={classes.HeaderHashedUrl}>
-                            <b>{item.hashedUrl}</b>
-                          </p>
-                          <small>
-                            Type: <b>Question</b>, UpVotes: <b>{item.upVote}</b>
-                            , DownVotes: <b>{item.downVote}</b>, Answers:{" "}
-                            <b>{item.responses}</b>
-                          </small>
-                        </div>
-                        <div
-                          className={classes.ButtonSection}
-                          onClick={() => deletePostHandler(item.hashedUrl, i)}
-                        >
-                          <div className={classes.EditButton}>EDIT</div>
-                          <div className={classes.DeleteButton}>
-                            {isDeleting[i] ? (
-                              <div className="ui small active centered inline loader"></div>
-                            ) : (
-                              "DELETE"
-                            )}
+                      );
+                    } else if (item.postType === "question") {
+                      return (
+                        <div className={classes.Card} key={i + "card"}>
+                          <div className={classes.DetailSection}>
+                            <p className={classes.HeaderHashedUrl}>
+                              <b>{item.hashedUrl}</b>
+                            </p>
+                            <small>
+                              Type: <b>Question</b>, UpVotes:{" "}
+                              <b>{item.upVote}</b>, DownVotes:{" "}
+                              <b>{item.downVote}</b>, Answers:{" "}
+                              <b>{item.responses}</b>
+                            </small>
+                          </div>
+                          <div
+                            className={classes.ButtonSection}
+                            onClick={() => deletePostHandler(item.hashedUrl, i)}
+                          >
+                            <div className={classes.EditButton}>EDIT</div>
+                            <div className={classes.DeleteButton}>
+                              {isDeleting[i] ? (
+                                <div className="ui small active centered inline loader"></div>
+                              ) : (
+                                "DELETE"
+                              )}
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    );
+                      );
+                    } else return null;
                   } else return null;
-                } else return null;
-              })}
+                })
+              )}
             </div>
           )}
         </div>
