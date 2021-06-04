@@ -1,5 +1,5 @@
 {
-  "homePage": "http://devrook.com",
+  "homePage": "http://www.devrook.com",
   "name": "devrook-fe",
   "version": "0.1.0",
   "private": true,
@@ -56,7 +56,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier --write --ignore-path .gitignore \"./**/*.{js,json}\""
+    "format": "prettier --write --ignore-path .gitignore \"./**/*.{js,json}\"",
+    "formatCheck": "prettier --check --ignore-path .gitignore \"./**/*.{js,json}\""
   },
   "eslintConfig": {
     "extends": [

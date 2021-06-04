@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from "react";
+import { useHistory } from "react-router-dom";
 import { setUserDetails } from "../../redux/actions";
 import { apis, axios } from "../../services";
 import { connect } from "react-redux";
 import classes from "./FollowUnfollowTagButton.module.css";
 
 const FollowUnfollowTagButton = (props) => {
+  const history = useHistory();
+
   const tagName = props.tagName;
   const FollowButton = (
     <div className={classes.FollowButton} onClick={() => followTagHandler()}>
@@ -54,6 +57,7 @@ const FollowUnfollowTagButton = (props) => {
   };
 
   const followTagHandler = async () => {
+    if (!props.Auth?.isLoggedIn) history.push("/user/login");
     setButtonToShow(UnFollowButton);
     try {
       await axios.post(apis.FOLLOW_TAG, { tagName });

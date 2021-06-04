@@ -1,0 +1,9511 @@
+(this["webpackJsonpdevrook-fe"] = this["webpackJsonpdevrook-fe"] || []).push([
+  [0],
+  {
+    118: function (e, t, a) {
+      e.exports = {
+        Buttons: "ProfileButton_Buttons__WLWIZ",
+        Card: "ProfileButton_Card__2MRl-",
+        ul1: "ProfileButton_ul1__26HEx",
+        ul2: "ProfileButton_ul2__2ixgH",
+      };
+    },
+    119: function (e, t, a) {
+      e.exports = {
+        ProfileCard: "ProfileCard_ProfileCard__3SuTu",
+        HeaderColor: "ProfileCard_HeaderColor__5LCG5",
+        HeaderProfilePic: "ProfileCard_HeaderProfilePic__p3cNK",
+        DetailsSection: "ProfileCard_DetailsSection__3ZsN6",
+        NameUserNameSection: "ProfileCard_NameUserNameSection__1yaj9",
+        BioSection: "ProfileCard_BioSection__3fUzA",
+        Reputation: "ProfileCard_Reputation__iAcP1",
+      };
+    },
+    120: function (e, t, a) {
+      e.exports = {
+        Container: "TagsFollowedByMePage_Container__1XyUb",
+        Header: "TagsFollowedByMePage_Header__1-ueJ",
+        AllTagsCard: "TagsFollowedByMePage_AllTagsCard__C_Rvc",
+        TagCard: "TagsFollowedByMePage_TagCard__3nkcF",
+        FollowUnfollowButton:
+          "TagsFollowedByMePage_FollowUnfollowButton__2YsvR",
+        Row: "TagsFollowedByMePage_Row__2EZ66",
+        Column: "TagsFollowedByMePage_Column__3s6zn",
+      };
+    },
+    127: function (e, t, a) {
+      e.exports = {
+        QuestionsCard: "QuestionCard_QuestionsCard__3ct0M",
+        QuestionAnswerSection: "QuestionCard_QuestionAnswerSection__3rvkV",
+        QuestionTitle: "QuestionCard_QuestionTitle__1l1zH",
+        VotesSection: "QuestionCard_VotesSection__w9PVC",
+        VoteCount: "QuestionCard_VoteCount__3wkdM",
+        AnswerSection: "QuestionCard_AnswerSection__G6ocH",
+      };
+    },
+    128: function (e, t, a) {
+      e.exports = {
+        bg: "FirstLoginPage_bg__3bQN6",
+        slide: "FirstLoginPage_slide__3m7BL",
+        bg2: "FirstLoginPage_bg2__JWDt6",
+        bg3: "FirstLoginPage_bg3__2PUXV",
+        Content: "FirstLoginPage_Content__3eU48",
+      };
+    },
+    163: function (e, t, a) {
+      e.exports = {
+        NavigationItems: "NavigationItems_NavigationItems__1fnFX",
+        SignupButton: "NavigationItems_SignupButton__23EeV",
+        LoginButton: "NavigationItems_LoginButton__22C38",
+        ProfileButton: "NavigationItems_ProfileButton__29mWM",
+      };
+    },
+    176: function (e, t, a) {
+      e.exports = {
+        loading: "EntryLoaderSmallBoxes_loading___UL28",
+        "loading-ani1": "EntryLoaderSmallBoxes_loading-ani1__1SWh4",
+        "loading-ani2": "EntryLoaderSmallBoxes_loading-ani2__3s_ZM",
+        "loading-ani3": "EntryLoaderSmallBoxes_loading-ani3__2CSsV",
+        "loading-ani4": "EntryLoaderSmallBoxes_loading-ani4__1f_9N",
+        "loading-ani5": "EntryLoaderSmallBoxes_loading-ani5__1AZbB",
+        container: "EntryLoaderSmallBoxes_container__2yFRt",
+        DescriptionText: "EntryLoaderSmallBoxes_DescriptionText__1w78A",
+        MainWindow: "EntryLoaderSmallBoxes_MainWindow__dAexq",
+      };
+    },
+    177: function (e, t, a) {
+      e.exports = {
+        Page404: "NotFound404_Page404__3_Ubw",
+        Bg404: "NotFound404_Bg404__2E5vE",
+        ContentBox404: "NotFound404_ContentBox404__1gxvy",
+        Link404: "NotFound404_Link404__1RP9F",
+      };
+    },
+    178: function (e, t, a) {
+      e.exports = {
+        SideDrawer: "SideRightDrawer_SideDrawer__rB0th",
+        Open: "SideRightDrawer_Open__29syA",
+        Close: "SideRightDrawer_Close__3j0wR",
+      };
+    },
+    179: function (e, t, a) {
+      e.exports = {
+        wrap: "Search_wrap__1LVml",
+        searchButton: "Search_searchButton__LRysZ",
+        search: "Search_search__2_2jh",
+        searchTerm: "Search_searchTerm__2ZZIT",
+      };
+    },
+    180: function (e, t, a) {
+      e.exports = {
+        ModalDesign: "ListOfUsersModal_ModalDesign__1e0ii",
+        UsersCard: "ListOfUsersModal_UsersCard__20A_N",
+        UserImageSection: "ListOfUsersModal_UserImageSection__1xKvB",
+        NameUserNameSection: "ListOfUsersModal_NameUserNameSection__1VgM7",
+      };
+    },
+    181: function (e, t, a) {
+      e.exports = {
+        body: "EntryLoaderPostman_body__mv2am",
+        speeder: "EntryLoaderPostman_speeder__24sEK",
+        base: "EntryLoaderPostman_base__3H3Ef",
+        face: "EntryLoaderPostman_face__2SUf9",
+        fazer1: "EntryLoaderPostman_fazer1__2P4G3",
+        fazer2: "EntryLoaderPostman_fazer2__1_zd_",
+        fazer3: "EntryLoaderPostman_fazer3__3R5fY",
+        fazer4: "EntryLoaderPostman_fazer4__d1xHH",
+      };
+    },
+    21: function (e, t, a) {
+      e.exports = {
+        ProfileCard: "ProfileDetails_ProfileCard__3IWc2",
+        UserPic: "ProfileDetails_UserPic__3tHpX",
+        HeaderAnimation: "ProfileDetails_HeaderAnimation__6v2I6",
+        Row: "ProfileDetails_Row__1BMCe",
+        Column: "ProfileDetails_Column__3QE_W",
+        BasicDetails: "ProfileDetails_BasicDetails__1oCyX",
+        Name: "ProfileDetails_Name__2Te99",
+        UserName: "ProfileDetails_UserName__2bn7h",
+        Email: "ProfileDetails_Email__3gONB",
+        Bio: "ProfileDetails_Bio__dh04u",
+        FollowersFollowing: "ProfileDetails_FollowersFollowing__2gHSk",
+        Following: "ProfileDetails_Following__3SgfM",
+        Follower: "ProfileDetails_Follower__1-cB0",
+        Reputation: "ProfileDetails_Reputation__2XmT7",
+        ButtonsSection: "ProfileDetails_ButtonsSection__22FMy",
+        BigButtonsSection: "ProfileDetails_BigButtonsSection__3L1sj",
+        ChatButton: "ProfileDetails_ChatButton__2CIUE",
+        EditOrFollowButton: "ProfileDetails_EditOrFollowButton__1ZHO-",
+        SocialLinks: "ProfileDetails_SocialLinks__J-s14",
+        LoadingButton: "ProfileDetails_LoadingButton__21qXR",
+        RecentPostSection: "ProfileDetails_RecentPostSection__89qHI",
+        ModalArea: "ProfileDetails_ModalArea__3wWS3",
+        ResponseLoader: "ProfileDetails_ResponseLoader__3f8Gc",
+        Stars: "ProfileDetails_Stars__3z_zt",
+        animStar: "ProfileDetails_animStar__3S0U3",
+        Stars2: "ProfileDetails_Stars2__Kom4v",
+        Stars3: "ProfileDetails_Stars3__2A8yc",
+      };
+    },
+    227: function (e, t, a) {
+      e.exports = {
+        SideRightBar: "SideRightBar_SideRightBar__3K1bQ",
+        RightSideDrawerButton: "SideRightBar_RightSideDrawerButton__2kawF",
+        SideRightBarItems: "SideRightBar_SideRightBarItems__C9jkv",
+      };
+    },
+    23: function (e, t, a) {
+      e.exports = {
+        SideLeftBarItems: "SideLeftBarItems_SideLeftBarItems__3jYj0",
+        ButtonsColumn: "SideLeftBarItems_ButtonsColumn__1Y7zv",
+        Buttons: "SideLeftBarItems_Buttons__B94uw",
+        CreateButtonSection: "SideLeftBarItems_CreateButtonSection__1fTYJ",
+        CreateButton: "SideLeftBarItems_CreateButton__1PgRK",
+        active: "SideLeftBarItems_active__16mqt",
+        CreateTooltip: "SideLeftBarItems_CreateTooltip__2MvtY",
+        CreateTooltipCard: "SideLeftBarItems_CreateTooltipCard__2YPPr",
+        CreateQuestionButton: "SideLeftBarItems_CreateQuestionButton__1kgFc",
+        CreateBlogButton: "SideLeftBarItems_CreateBlogButton__AKjBE",
+        ActiveTooltipButton: "SideLeftBarItems_ActiveTooltipButton__1Coth",
+        Main: "SideLeftBarItems_Main__1FWfC",
+      };
+    },
+    230: function (e, t, a) {
+      e.exports = {
+        DownVoteButton: "DownVoteButton_DownVoteButton__3xvaB",
+        DownVottedButton: "DownVoteButton_DownVottedButton__3HQaM",
+      };
+    },
+    231: function (e, t, a) {
+      e.exports = {
+        MainBox: "MessagesPage_MainBox__2i8Xf",
+        ChattedPeopleBoxContainer:
+          "MessagesPage_ChattedPeopleBoxContainer__2sn7l",
+        ChatBoxContainer: "MessagesPage_ChatBoxContainer__1C3XH",
+      };
+    },
+    232: function (e, t, a) {
+      e.exports = {
+        PostDetailsArea: "FullPostPage_PostDetailsArea__3GHkM",
+        PostCard: "FullPostPage_PostCard__2NAJt",
+        ProfileCard: "FullPostPage_ProfileCard__3zubn",
+      };
+    },
+    24: function (e, t, a) {
+      e.exports = {
+        EditPageContainer: "EditProfilePage_EditPageContainer__rl_za",
+        ProfilePic: "EditProfilePage_ProfilePic__2NJW3",
+        ProfilePicContainer: "EditProfilePage_ProfilePicContainer__397Kl",
+        HeadingSection: "EditProfilePage_HeadingSection__3DvJK",
+        HeadingNameSection: "EditProfilePage_HeadingNameSection__aB5qx",
+        HeadingName: "EditProfilePage_HeadingName__37r4H",
+        HeadingButtonSection: "EditProfilePage_HeadingButtonSection__m6KYv",
+        HeadingButton: "EditProfilePage_HeadingButton__I-fhp",
+        HeadingDisabledButton: "EditProfilePage_HeadingDisabledButton__2eyoG",
+        InputsContainer: "EditProfilePage_InputsContainer__3tLHT",
+        Inputs: "EditProfilePage_Inputs__1nxjE",
+        FailedInput: "EditProfilePage_FailedInput__1ZHUw",
+        InputsLabel: "EditProfilePage_InputsLabel__2e0yn",
+        CheckLoader: "EditProfilePage_CheckLoader__gqM2x",
+        load5: "EditProfilePage_load5__38Xjc",
+      };
+    },
+    264: function (e, t, a) {
+      e.exports = {
+        LikeButton: "LikeButton_LikeButton__32q-r",
+        LikedButton: "LikeButton_LikedButton__1M0Tz",
+      };
+    },
+    265: function (e, t, a) {
+      e.exports = {
+        UpVoteButton: "UpVoteButton_UpVoteButton__23hkk",
+        UpVottedButton: "UpVoteButton_UpVottedButton__2bpcB",
+      };
+    },
+    266: function (e, t, a) {
+      e.exports = { ChatButton: "ChatButton_ChatButton__2TpGR" };
+    },
+    268: function (e, t, a) {
+      e.exports = {
+        FollowButton: "FollowUnfollowTagButton_FollowButton__dokpg",
+        UnfollowButton: "FollowUnfollowTagButton_UnfollowButton__2SY7n",
+      };
+    },
+    269: function (e, t, a) {
+      e.exports = {
+        ReloadButton: "GlobalFeedPage_ReloadButton__y1YzS",
+        Header: "GlobalFeedPage_Header__2lMOO",
+      };
+    },
+    28: function (e, t, a) {
+      e.exports = {
+        TopNav: "FirstLoginLayout_TopNav__1aRjk",
+        DotContainer: "FirstLoginLayout_DotContainer__1bBHe",
+        TopNavDots: "FirstLoginLayout_TopNavDots__39st_",
+        DotActive: "FirstLoginLayout_DotActive__aYRi2",
+        BackButtonContainer: "FirstLoginLayout_BackButtonContainer__21QhR",
+        BackButton: "FirstLoginLayout_BackButton__3GgdF",
+        ContinueButtonContainer:
+          "FirstLoginLayout_ContinueButtonContainer__1pqST",
+        ContinueButton: "FirstLoginLayout_ContinueButton__1bq15",
+        ContinueButtonDisabled:
+          "FirstLoginLayout_ContinueButtonDisabled__3zCa9",
+        ButtonText: "FirstLoginLayout_ButtonText__3F7KE",
+        BackButtonDisabled: "FirstLoginLayout_BackButtonDisabled__1FVgZ",
+        Seperator: "FirstLoginLayout_Seperator__1OpRU",
+      };
+    },
+    37: function (e, t, a) {
+      e.exports = {
+        SideRightBarItems: "SideRightBarItems_SideRightBarItems__3NmRF",
+        TrendingDevsCard: "SideRightBarItems_TrendingDevsCard__2Lfkr",
+        DevHeader: "SideRightBarItems_DevHeader__1EDgc",
+        TrendingTagsCard: "SideRightBarItems_TrendingTagsCard__5ZKwL",
+        TagHeader: "SideRightBarItems_TagHeader__3jsqy",
+        Content: "SideRightBarItems_Content__3xuqx",
+        DevsContent: "SideRightBarItems_DevsContent__1lv8J",
+        DevRow: "SideRightBarItems_DevRow__1hXX9",
+        DevColumn: "SideRightBarItems_DevColumn__3Y-HJ",
+        TagRow: "SideRightBarItems_TagRow__3O-Nb",
+        Profile: "SideRightBarItems_Profile__ZRG_a",
+        btnGrad: "SideRightBarItems_btnGrad__3duDL",
+        EntryLoader: "SideRightBarItems_EntryLoader__2CF3n",
+        UserIcon: "SideRightBarItems_UserIcon__2erbv",
+      };
+    },
+    38: function (e, t, a) {
+      e.exports = {
+        NewBlogPage: "CreateBlogPage_NewBlogPage__2r1BK",
+        CreateBlogHeader: "CreateBlogPage_CreateBlogHeader__1F8GS",
+        WriteBlogText: "CreateBlogPage_WriteBlogText__RfmU6",
+        BlogDetailsContainer: "CreateBlogPage_BlogDetailsContainer__2Hoaj",
+        TitleAndButtonRow: "CreateBlogPage_TitleAndButtonRow__399C8",
+        TitleColumn: "CreateBlogPage_TitleColumn__oWefH",
+        ButtonColumn: "CreateBlogPage_ButtonColumn__1lqL_",
+        PostButton: "CreateBlogPage_PostButton__a0499",
+        PostButtonDisabled: "CreateBlogPage_PostButtonDisabled__27u_o",
+        EditorBody: "CreateBlogPage_EditorBody__10yHs",
+        TitleInput: "CreateBlogPage_TitleInput__3Oq-f",
+        SelectTagsSection: "CreateBlogPage_SelectTagsSection__3daC1",
+        AddCoverPhotoSection: "CreateBlogPage_AddCoverPhotoSection__FBf1W",
+        CoverImageArea: "CreateBlogPage_CoverImageArea__2vHru",
+        RemoveImageButton: "CreateBlogPage_RemoveImageButton__5TgA_",
+      };
+    },
+    380: function (e, t, a) {
+      e.exports = { SideLeftBar: "SideLeftBar_SideLeftBar__reQa6" };
+    },
+    381: function (e, t, a) {
+      e.exports = { Backdrop: "Backdrop_Backdrop__3j6VK" };
+    },
+    382: function (e, t, a) {
+      e.exports = { SignupButton: "SignupButton_SignupButton__1RMQK" };
+    },
+    383: function (e, t, a) {
+      e.exports = { LoginButton: "LoginButton_LoginButton__1MR2q" };
+    },
+    385: function (e, t, a) {
+      e.exports = {
+        HeartLoader: "HeartLoader_HeartLoader__IS0z9",
+        pulsate: "HeartLoader_pulsate__2iCDT",
+      };
+    },
+    386: function (e, t, a) {
+      e.exports = { ReloadButton: "MainFeed_ReloadButton__3russ" };
+    },
+    387: function (e, t, a) {
+      e.exports = { EditProfile: "EditProfileButton_EditProfile__wSBoM" };
+    },
+    388: function (e, t, a) {
+      e.exports = {
+        FollowUserButton: "FollowUserButton_FollowUserButton__1P5Vq",
+      };
+    },
+    389: function (e, t, a) {
+      e.exports = {
+        UnfollowUserButton: "UnfollowUserButton_UnfollowUserButton__4BLAi",
+      };
+    },
+    39: function (e, t, a) {
+      e.exports = {
+        DashboardHeader: "DashBoardPage_DashboardHeader__Sk2vC",
+        Card: "DashBoardPage_Card__Y_EEL",
+        DetailSection: "DashBoardPage_DetailSection__uI2-X",
+        ButtonSection: "DashBoardPage_ButtonSection__1QH2_",
+        DeleteButton: "DashBoardPage_DeleteButton__2mWo7",
+        EditButton: "DashBoardPage_EditButton__7GI-g",
+        HeaderHashedUrl: "DashBoardPage_HeaderHashedUrl__yOm8b",
+        EntryLoader: "DashBoardPage_EntryLoader__14RCk",
+      };
+    },
+    390: function (e, t, a) {
+      e.exports = { Modal: "Modal_Modal__1-5dN" };
+    },
+    393: function (e, t, a) {
+      e.exports = { ReloadButton: "BlogsFeed_ReloadButton__3ZjPA" };
+    },
+    394: function (e, t, a) {
+      e.exports = { ReloadButton: "QuestionsFeed_ReloadButton__3axBn" };
+    },
+    395: function (e, t, a) {
+      e.exports = { ReloadButton: "DevFeed_ReloadButton__N3us3" };
+    },
+    398: function (e, t, a) {
+      e.exports = { LoginModal: "LoginPage_LoginModal__2JjEj" };
+    },
+    399: function (e, t, a) {
+      e.exports = { SignupModal: "SignupPage_SignupModal__5-Fr1" };
+    },
+    43: function (e, t, a) {
+      e.exports = {
+        Toolbar: "Toolbar_Toolbar__ApScI",
+        LogoHamArea: "Toolbar_LogoHamArea__-zFPq",
+        SearchBoxArea: "Toolbar_SearchBoxArea__VzqRt",
+        LogoNavItemArea: "Toolbar_LogoNavItemArea__7eYF6",
+        Ham: "Toolbar_Ham__2F00j",
+        HamBox: "Toolbar_HamBox__KLy4v",
+        Logo: "Toolbar_Logo__3Lk47",
+        MobileOnly: "Toolbar_MobileOnly__2dOKa",
+        DesktopOnly: "Toolbar_DesktopOnly__LuPaL",
+      };
+    },
+    464: function (e, t) {},
+    466: function (e, t) {},
+    477: function (e, t) {},
+    479: function (e, t) {},
+    506: function (e, t) {},
+    508: function (e, t) {},
+    509: function (e, t) {},
+    514: function (e, t) {},
+    516: function (e, t) {},
+    52: function (e, t, a) {
+      e.exports = {
+        NewQuestionPage: "AskQuestionPage_NewQuestionPage__k-J0v",
+        AskQuestionHeader: "AskQuestionPage_AskQuestionHeader__3ZEhR",
+        AskQuestionText: "AskQuestionPage_AskQuestionText__3qtBM",
+        QuestionDetailsContainer:
+          "AskQuestionPage_QuestionDetailsContainer__tbKxI",
+        TitleAndButtonRow: "AskQuestionPage_TitleAndButtonRow__12RYP",
+        TitleColumn: "AskQuestionPage_TitleColumn__xvaoa",
+        ButtonColumn: "AskQuestionPage_ButtonColumn__jIcYJ",
+        PostButton: "AskQuestionPage_PostButton__vkyQb",
+        PostButtonDisabled: "AskQuestionPage_PostButtonDisabled__2lnQW",
+        EditorBody: "AskQuestionPage_EditorBody__38MMn",
+        TitleInput: "AskQuestionPage_TitleInput__3bTVJ",
+        SelectTagsSection: "AskQuestionPage_SelectTagsSection__1LHNW",
+      };
+    },
+    53: function (e, t, a) {
+      e.exports = {
+        MainBoxContainer: "ChatBox_MainBoxContainer__vezYP",
+        MessagesBox: "ChatBox_MessagesBox___YPLd",
+        MessagesBoxContainer: "ChatBox_MessagesBoxContainer__2BJAz",
+        InputContainer: "ChatBox_InputContainer__-OAu5",
+        InsideInputConteainer: "ChatBox_InsideInputConteainer__1rTUv",
+        InputField: "ChatBox_InputField__2pcd6",
+        SendButton: "ChatBox_SendButton__ksweg",
+        SenderButton: "ChatBox_SenderButton__3m3sJ",
+        SenderBox: "ChatBox_SenderBox__3170Q",
+        ReceiverBox: "ChatBox_ReceiverBox__3JKfp",
+        DefaultPage: "ChatBox_DefaultPage__11dOM",
+        EntryLoader: "ChatBox_EntryLoader__xXFEw",
+        SayHi: "ChatBox_SayHi__Kp7OK",
+      };
+    },
+    535: function (e, t) {},
+    54: function (e, t, a) {
+      e.exports = {
+        PostCard: "PostCard_PostCard__nLoy4",
+        TitleTagVoteSection: "PostCard_TitleTagVoteSection__2EETL",
+        TitleTagSection: "PostCard_TitleTagSection__1uaCQ",
+        VotesSection: "PostCard_VotesSection__1bciZ",
+        LikeButtonSection: "PostCard_LikeButtonSection__2q1Ie",
+        VotingSection: "PostCard_VotingSection__10fvg",
+        VoteCount: "PostCard_VoteCount__nbOz6",
+        CoverImage: "PostCard_CoverImage__1Kis1",
+        ContentArea: "PostCard_ContentArea__17cJD",
+        PostTitle: "PostCard_PostTitle__3cP4G",
+        TagsSection: "PostCard_TagsSection__24j7v",
+        TagBox: "PostCard_TagBox__2uRoJ",
+      };
+    },
+    547: function (e, t) {},
+    550: function (e, t) {},
+    582: function (e, t, a) {},
+    603: function (e, t, a) {
+      "use strict";
+      a.r(t);
+      var n = a(1),
+        s = a(45),
+        o = a.n(s),
+        c = a(96),
+        r = a(97),
+        i = a(109),
+        l = a(107),
+        d = a(36),
+        u = (a(427), a(10)),
+        j = a(148),
+        b = a(356),
+        v = a(357),
+        p = a.n(v),
+        h = a(5),
+        O = { isLoggedIn: !1, cognitoUserInfo: null },
+        _ = function () {
+          var e =
+              arguments.length > 0 && void 0 !== arguments[0]
+                ? arguments[0]
+                : O,
+            t = arguments.length > 1 ? arguments[1] : void 0;
+          switch (t.type) {
+            case "LOGIN":
+              return Object(h.a)(
+                Object(h.a)({}, e),
+                {},
+                { isLoggedIn: !0, cognitoUserInfo: t.cognitoUserInfo }
+              );
+            case "LOGOUT":
+              return Object(h.a)(
+                Object(h.a)({}, e),
+                {},
+                { isLoggedIn: !1, token: null, userdetails: null }
+              );
+            case "SET_USER_DETAILS":
+              return Object(h.a)(
+                Object(h.a)({}, e),
+                {},
+                { userdetails: Object(h.a)({}, t.payload) }
+              );
+            case "SET_USER_DETAILS_PARTIAL":
+              return Object(h.a)(
+                Object(h.a)({}, e),
+                {},
+                {
+                  userdetails: Object(h.a)(
+                    Object(h.a)({}, e.userdetails),
+                    t.payload
+                  ),
+                }
+              );
+            default:
+              return e;
+          }
+        },
+        x = {
+          questionsFeed: [],
+          blogsFeed: [],
+          mainFeed: [],
+          devFeed: [],
+          globalFeed: [],
+          isPersonalizedBlogsFetched: !1,
+          isPersonalizedQuestionsFetched: !1,
+          isPersonalizedMainFeedFetched: !1,
+          isPersonalizedDevFeedFetched: !1,
+        },
+        g = function () {
+          var e =
+              arguments.length > 0 && void 0 !== arguments[0]
+                ? arguments[0]
+                : x,
+            t = arguments.length > 1 ? arguments[1] : void 0;
+          switch (t.type) {
+            case "SET_FEED_QUESTIONS":
+              return Object(h.a)(
+                Object(h.a)({}, e),
+                {},
+                { questionsFeed: t.payload }
+              );
+            case "SET_FEED_BLOGS":
+              return Object(h.a)(
+                Object(h.a)({}, e),
+                {},
+                { blogsFeed: t.payload }
+              );
+            case "SET_MAIN_FEED":
+              return Object(h.a)(
+                Object(h.a)({}, e),
+                {},
+                { mainFeed: t.payload }
+              );
+            case "SET_GLOBAL_FEED":
+              return Object(h.a)(
+                Object(h.a)({}, e),
+                {},
+                { globalFeed: t.payload }
+              );
+            case "SET_DEV_FEED":
+              return Object(h.a)(
+                Object(h.a)({}, e),
+                {},
+                { devFeed: t.payload }
+              );
+            case "SET_PERSONALIZED_BLOGS_FETCH_STATUS":
+              return Object(h.a)(
+                Object(h.a)({}, e),
+                {},
+                { isPersonalizedBlogsFetched: t.payload }
+              );
+            case "SET_PERSONALIZED_QUESTIONS_FETCH_STATUS":
+              return Object(h.a)(
+                Object(h.a)({}, e),
+                {},
+                { isPersonalizedQuestionsFetched: t.payload }
+              );
+            case "SET_PERSONALIZED_MAIN_FEED_FETCH_STATUS":
+              return Object(h.a)(
+                Object(h.a)({}, e),
+                {},
+                { isPersonalizedMainFeedFetched: t.payload }
+              );
+            case "SET_PERSONALIZED_DEV_FEED_FETCH_STATUS":
+              return Object(h.a)(
+                Object(h.a)({}, e),
+                {},
+                { isPersonalizedDevFeedFetched: t.payload }
+              );
+            default:
+              return e;
+          }
+        },
+        m = { votes: {}, voteCount: {} },
+        f = function () {
+          var e =
+              arguments.length > 0 && void 0 !== arguments[0]
+                ? arguments[0]
+                : m,
+            t = arguments.length > 1 ? arguments[1] : void 0;
+          switch (t.type) {
+            case "SET_VOTES":
+              return Object(h.a)(Object(h.a)({}, e), {}, { votes: t.payload });
+            case "SET_VOTE_COUNT":
+              return Object(h.a)(
+                Object(h.a)({}, e),
+                {},
+                { voteCount: t.payload }
+              );
+            default:
+              return e;
+          }
+        },
+        S = { trendingTags: [], trendingDevs: [] },
+        N = function () {
+          var e =
+              arguments.length > 0 && void 0 !== arguments[0]
+                ? arguments[0]
+                : S,
+            t = arguments.length > 1 ? arguments[1] : void 0;
+          switch (t.type) {
+            case "SET_TRENDING_TAGS":
+              return Object(h.a)(
+                Object(h.a)({}, e),
+                {},
+                { trendingTags: t.payload }
+              );
+            case "SET_TRENDING_DEVS":
+              return Object(h.a)(
+                Object(h.a)({}, e),
+                {},
+                { trendingDevs: t.payload }
+              );
+            default:
+              return e;
+          }
+        },
+        B = function () {
+          return Object(j.combineReducers)({
+            Auth: _,
+            Feed: g,
+            Vote: f,
+            Trending: N,
+          });
+        },
+        C = a(358),
+        E = {},
+        w = [b.a, p.a],
+        T = function () {
+          return Object(j.createStore)(
+            B(),
+            E,
+            Object(C.composeWithDevTools)(j.applyMiddleware.apply(void 0, w))
+          );
+        },
+        P = {
+          aws_amplify_config: {
+            identityPoolId: "us-west-2:8e67dffe-91e6-4afd-9c39-1f16aef5341c",
+            region: "us-west-2",
+            identityPoolRegion: "us-west-2",
+            userPoolId: "us-west-2_ZAwqBki1X",
+            userPoolWebClientId: "20k2nme3ej8ujetc07k15gjip6",
+            mandatorySignIn: !1,
+            authenticationFlowType: "USER_PASSWORD_AUTH",
+            clientMetadata: { myCustomKey: "myCustomValue" },
+            oauth: {
+              domain: "dev-devrook-be.auth.us-west-2.amazoncognito.com",
+              scope: [
+                "phone",
+                "email",
+                "profile",
+                "openid",
+                "aws.cognito.signin.user.admin",
+              ],
+              redirectSignIn: "http://localhost:3000",
+              redirectSignOut: "http://localhost:3000",
+              responseType: "code",
+            },
+          },
+        },
+        k = {
+          BASE_LOCAL_URL: "http://localhost:3000",
+          BASE_SERVER_URL:
+            "https://tik1thb504.execute-api.us-west-2.amazonaws.com/dev",
+          WEB_SOCKET:
+            "wss://f5uy9y7ygi.execute-api.us-west-2.amazonaws.com/dev",
+          CREATE_USER: "/user",
+          UPDATE_USER: "/user",
+          DELETE_USER: "/user",
+          GET_USER_BY_USER_ID: "/user/get-user-by-user-id",
+          GET_USER_BY_USER_NAME: "/user/",
+          GET_TOP_REPUTED_USERS: "/user/top-reputed-users",
+          GET_MY_FOLLOWERS: "/user/get-my-followers",
+          GET_USERS_I_FOLLOW: "/user/users-i-follow",
+          FOLLOW_USER_IN_BULK: "/user/follow-user-in-bulk",
+          FOLLOW_UNFOLLOW_USER: "/user/follow-unfollow-user",
+          FOLLOW_CHECKER: "/user/follow-checker",
+          GET_USER_PREVIOUS_VOTES: "/user/get-user-previous-votes",
+          CHATTED_WITH_IDS: "/messages/chatted-with-ids",
+          FULL_CHAT: "/messages/full-chat",
+          GET_POPULAR_TAGS: "/tag/popular-tags",
+          DEVS_WHO_FOLLOW_THE_TAG: "/tag/devs-who-follow-the-tag",
+          GET_TAG: "/tag/",
+          FOLLOW_TAG: "/tag/follow",
+          UNFOLLOW_TAG: "/tag/unfollow",
+          FOLLOW_TAG_IN_BULK: "/tag/follow-tag-in-bulk",
+          CREATE_POST: "/post",
+          UPDATE_POST: "/post",
+          DELETE_POST: "/post",
+          GET_ALL_QUESTIONS: "/post/get-all/question",
+          GET_ALL_BLOGS: "/post/get-all/blog",
+          GET_MAIN_FEED: "/post/get-all/false",
+          GET_PERSONALIZED_QUESTIONS: "/post/get-personalized-posts/question",
+          GET_PERSONALIZED_BLOGS: "/post/get-personalized-posts/blog",
+          GET_PERSONALIZED_MAIN_FEED: "/post/get-personalized-posts/false",
+          GET_PERSONALIZED_DEV_FEED: "/post/personalized-dev-feed",
+          GET_PUBLIC_DEV_FEED: "/post/dev-feed-public",
+          GET_FULL_POST: "/post/get-full",
+          VOTE_POST: "/post/vote-post",
+          TAG_FEED: "/post/tag-feed",
+          DEV_POSTS: "/post/dev-posts",
+          GET_ALL_RESPONSES: "/responses/get",
+          CREATE_RESPONSE: "/responses/create-response",
+          SEARCH_POSTS: "/search/post",
+          SEARCH_USERS: "/search/user",
+          S3_GET_PRESIGNED_URL: "/s3upload/get-signed-url",
+        },
+        L = a(122),
+        y = a.n(L).a.create({ baseURL: k.BASE_SERVER_URL });
+      y.interceptors.response.use(
+        function (e) {
+          return e;
+        },
+        function (e) {
+          var t = e.config;
+          if (
+            (console.log("this is err", e),
+            401 === e.response.status &&
+              t.url === k.BASE_SERVER_URL + "/token/refresh/")
+          )
+            return (window.location.href = "/user/login"), Promise.reject(e);
+          if (
+            "token_not_valid" === e.response.data.code &&
+            401 === e.response.status &&
+            "Unauthorized" === e.response.statusText
+          ) {
+            var a = localStorage.getItem("refresh_token");
+            if (a) {
+              var n = JSON.parse(atob(a.split(".")[1])),
+                s = Math.ceil(Date.now() / 1e3);
+              if ((console.log(n.exp), n.exp > s))
+                return y
+                  .post("/token/refresh/", { refresh: a })
+                  .then(function (e) {
+                    return (
+                      localStorage.setItem("access_token", e.data.access),
+                      localStorage.setItem("refresh_token", e.data.refresh),
+                      (y.defaults.headers.Authorization =
+                        "JWT " + e.data.access),
+                      (t.headers.Authorization = "JWT " + e.data.access),
+                      y(t)
+                    );
+                  })
+                  .catch(function (e) {
+                    console.log(e);
+                  });
+              console.log("Refresh token is expired", n.exp, s),
+                (window.location.href = "/user/login/");
+            } else
+              console.log("Refresh token not available."),
+                (window.location.href = "/user/login/");
+          }
+          return Promise.reject(e);
+        }
+      );
+      var I = y,
+        A = a(6),
+        D = a.n(A),
+        F = a(9),
+        U = (function () {
+          var e = Object(F.a)(
+            D.a.mark(function e(t) {
+              var a, n, s;
+              return D.a.wrap(function (e) {
+                for (;;)
+                  switch ((e.prev = e.next)) {
+                    case 0:
+                      return (
+                        (a = t.value),
+                        (n = t.defaultUserName),
+                        console.log("defaultUserName", n),
+                        (e.next = 4),
+                        I.get(k.GET_USER_BY_USER_NAME + a)
+                      );
+                    case 4:
+                      if (
+                        ((s = e.sent).data.data.length || !s.data.status) &&
+                        a !== n
+                      ) {
+                        e.next = 9;
+                        break;
+                      }
+                      return e.abrupt("return", !1);
+                    case 9:
+                      return e.abrupt("return", !0);
+                    case 10:
+                    case "end":
+                      return e.stop();
+                  }
+              }, e);
+            })
+          );
+          return function (t) {
+            return e.apply(this, arguments);
+          };
+        })(),
+        R = U,
+        V = a(359),
+        H = a.n(V),
+        M = a(360),
+        G = a.n(M),
+        Q = a(189),
+        z = a.n(Q),
+        q = a(361),
+        W = a.n(q),
+        Z = a(362),
+        K = a.n(Z),
+        Y = a(363),
+        J = a.n(Y),
+        X = a(364),
+        $ = a.n(X),
+        ee = a(365),
+        te = a.n(ee),
+        ae = a(366),
+        ne = a.n(ae),
+        se = a(367),
+        oe = a.n(se),
+        ce = a(368),
+        re = a.n(ce),
+        ie = a(369),
+        le = a.n(ie),
+        de = a(370),
+        ue = a.n(de),
+        je = a(371),
+        be = a.n(je),
+        ve = a(372),
+        pe = a.n(ve),
+        he = a(373),
+        Oe = a.n(he),
+        _e = {
+          embed: { class: H.a, inlineToolBar: !0 },
+          table: { class: G.a, inlineToolBar: !0 },
+          paragraph: { class: z.a, inlineToolBar: !0 },
+          list: { class: W.a, inlineToolBar: !0 },
+          warning: { class: K.a, inlineToolBar: !0 },
+          code: { class: J.a, inlineToolBar: !0 },
+          linkTool: { class: $.a, inlineToolBar: !0 },
+          image: {
+            class: te.a,
+            config: {
+              uploader: {
+                uploadByFile: function (e) {
+                  return me(e.name).then(
+                    (function () {
+                      var t = Object(F.a)(
+                        D.a.mark(function t(a) {
+                          var n;
+                          return D.a.wrap(function (t) {
+                            for (;;)
+                              switch ((t.prev = t.next)) {
+                                case 0:
+                                  return (t.next = 2), Se(a, e);
+                                case 2:
+                                  return (
+                                    (n = t.sent),
+                                    t.abrupt("return", {
+                                      success: 1,
+                                      file: { url: n.url },
+                                    })
+                                  );
+                                case 4:
+                                case "end":
+                                  return t.stop();
+                              }
+                          }, t);
+                        })
+                      );
+                      return function (e) {
+                        return t.apply(this, arguments);
+                      };
+                    })()
+                  );
+                },
+              },
+            },
+          },
+          raw: { class: ne.a, inlineToolBar: !0 },
+          header: { class: oe.a, inlineToolBar: !0 },
+          quote: { class: re.a, inlineToolBar: !0 },
+          marker: { class: le.a, inlineToolBar: !0 },
+          checklist: { class: ue.a, inlineToolBar: !0 },
+          delimiter: { class: be.a, inlineToolBar: !0 },
+          inlineCode: { class: pe.a, inlineToolBar: !0 },
+          simpleImage: { class: Oe.a, inlineToolBar: !0 },
+        },
+        xe = a(604),
+        ge = (function () {
+          var e = Object(F.a)(
+            D.a.mark(function e(t) {
+              var a;
+              return D.a.wrap(function (e) {
+                for (;;)
+                  switch ((e.prev = e.next)) {
+                    case 0:
+                      return (
+                        (e.next = 2),
+                        I.post(k.S3_GET_PRESIGNED_URL, {
+                          bucket: "dev-devrook-be-main-bucket",
+                          directory: "posts",
+                          fileName: xe.v4() + t,
+                        })
+                      );
+                    case 2:
+                      return (a = e.sent), e.abrupt("return", a.data);
+                    case 4:
+                    case "end":
+                      return e.stop();
+                  }
+              }, e);
+            })
+          );
+          return function (t) {
+            return e.apply(this, arguments);
+          };
+        })(),
+        me = ge,
+        fe = (function () {
+          var e = Object(F.a)(
+            D.a.mark(function e(t, a) {
+              var n, s, o;
+              return D.a.wrap(function (e) {
+                for (;;)
+                  switch ((e.prev = e.next)) {
+                    case 0:
+                      return (
+                        (e.next = 2),
+                        fetch(
+                          new Request(t, {
+                            method: "PUT",
+                            body: a,
+                            headers: new Headers({
+                              "Content-Type": "image/*",
+                              ACL: "public-read",
+                            }),
+                          })
+                        )
+                      );
+                    case 2:
+                      if (200 !== (n = e.sent).status) {
+                        e.next = 8;
+                        break;
+                      }
+                      return (
+                        (s = { url: n.url.split("?")[0], status: 200 }),
+                        e.abrupt("return", s)
+                      );
+                    case 8:
+                      return (
+                        (o = { url: "", status: 500 }), e.abrupt("return", o)
+                      );
+                    case 10:
+                    case "end":
+                      return e.stop();
+                  }
+              }, e);
+            })
+          );
+          return function (t, a) {
+            return e.apply(this, arguments);
+          };
+        })(),
+        Se = fe,
+        Ne = a(459),
+        Be = {
+          embedMarkups: {
+            youtube:
+              '<div class="embed"><iframe class="embed-youtube" frameborder="0" src="<%data.embed%>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen <%data.length%>></iframe></div>',
+            twitter:
+              '<blockquote class="twitter-tweet" class="embed-twitter" <%data.length%>><a href="<%data.source%>"></a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>',
+            instagram:
+              '<blockquote class="instagram-media" <%data.length%>><a href="<%data.embed%>/captioned"></a></blockquote><script async defer src="//www.instagram.com/embed.js"></script>',
+            codepen:
+              '<div class="embed"><iframe <%data.length%> scrolling="no" src="<%data.embed%>" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe></div>',
+            defaultMarkup:
+              '<div class="embed"><iframe src="<%data.embed%>" <%data.length%> class="embed-unknown" allowfullscreen="true" frameborder="0" ></iframe></div>',
+          },
+        },
+        Ce = Ne({
+          simpleImage: function (e) {
+            return '<img class="img-fluid" src="'
+              .concat(e.data.url, '" title="')
+              .concat(e.data.caption, '" /><br /><em>')
+              .concat(e.data.caption, "</em>");
+          },
+          header: function (e) {
+            return "<h"
+              .concat(e.data.level, ">")
+              .concat(e.data.text, "</h")
+              .concat(e.data.level, ">");
+          },
+          paragraph: function (e) {
+            return "<p>".concat(e.data.text, "</p>");
+          },
+          image: function (e) {
+            var t = ""
+                .concat(e.data.stretched ? "img-fullwidth" : "", " ")
+                .concat(e.data.withBorder ? "img-border" : "", " ")
+                .concat(e.data.withBackground ? "img-bg" : ""),
+              a = e.data.file.url;
+            return '<figure><img class="'
+              .concat(t, '" src="')
+              .concat(a, '" alt="')
+              .concat(e.data.caption, '"><figcaption>')
+              .concat(e.data.caption, "</figcaption></figure>");
+          },
+          list: function (e) {
+            var t = "ordered" === e.data.style ? "ol" : "ul",
+              a = "<".concat(t, ">");
+            return (
+              e.data.items.forEach(function (e) {
+                a += "<li>".concat(e, "</li>");
+              }),
+              (a += "</".concat(t, ">"))
+            );
+          },
+          quote: function (e) {
+            var t = "";
+            return (
+              e.data.alignment &&
+                (t = "style={{textAlign: ".concat(e.data.alignment, '}}"')),
+              "<blockquote "
+                .concat(t, "><p>")
+                .concat(e.data.text, "</p><cite>")
+                .concat(e.data.caption, "</cite></blockquote>")
+            );
+          },
+          table: function (e) {
+            var t = e.data.content.map(function (e) {
+              return "<tr>".concat(
+                e.reduce(function (e, t) {
+                  return (
+                    e +
+                    '<td style="background-color: whitesmoke; padding: 5px 50px;">'.concat(
+                      t,
+                      "</td>"
+                    )
+                  );
+                }, ""),
+                "</tr>"
+              );
+            });
+            return "<table><tbody>".concat(t.join(""), "</tbody></table>");
+          },
+          code: function (e) {
+            var t = (function (e) {
+              return (e = (e = e.replace(/&/g, "&amp;")).replace(
+                /</g,
+                "&lt;"
+              )).replace(/>/g, "&gt;");
+            })(e.data.code);
+            return '<div style="background-color: rgba(250, 239, 240, 0.78); color: #b44437; padding-inline:5%; padding-top: 2%; padding-bottom: 2%; border-radius: 5px; margin-bottom: 10px;"><pre><code>'.concat(
+              t,
+              "</code></pre></div>"
+            );
+          },
+          raw: function (e) {
+            return e.data.html;
+          },
+          delimiter: function (e) {
+            return "<hr />";
+          },
+          embed: function (e) {
+            e.data.length = 'width="'
+              .concat(e.data.width, '" height="')
+              .concat(e.data.height, '"');
+            var t = new RegExp(/<%data\.(.+?)%>/, "gm");
+            return Be.embedMarkups[e.data.service]
+              ? Be.embedMarkups[e.data.service].replace(t, function (t, a) {
+                  return e.data[a];
+                })
+              : Be.embedMarkups.defaultMarkup.replace(t, function (t, a) {
+                  return e.data[a];
+                });
+          },
+          warning: function (e) {
+            return '<div><div style="background-color: rgba(255,165,0,0.1); padding-inline: 5%; padding-bottom: 0.5%; padding-top: 1%; margin-bottom: 10px; border-radius: 6px;"><p style="font-weight: bold; color: rgb(255,165,0);">'
+              .concat(
+                e.data.title,
+                '</p><div/> <p style="text-align: center; color: gray;">'
+              )
+              .concat(e.data.message, "</p></div>");
+          },
+          checklist: function (e) {
+            var t = "";
+            return (
+              e.data.items.forEach(function (e) {
+                t +=
+                  '<div style="display: flex; height: 100%; align-items: center;">'
+                    .concat(
+                      e.checked
+                        ? "<div style='height: 12px; width: 12px; border-radius: 50%; background-color: #1d94dd; margin-right: 2%;'></div>"
+                        : "<div style='height: 12px; width: 12px; border-radius: 50%; background-color: gray; margin-right: 2%;'></div>",
+                      '<p style="margin-bottom: 2px;">'
+                    )
+                    .concat(e.text, "<p/> </div>");
+              }),
+              t
+            );
+          },
+        }),
+        Ee = [
+          "red",
+          "orange",
+          "darkgreen",
+          "olive",
+          "green",
+          "teal",
+          "blue",
+          "violet",
+          "purple",
+          "pink",
+          "brown",
+          "coral",
+          "crimson",
+          "blueviolet",
+          "deeppink",
+        ],
+        we = function () {
+          return Ee[Math.floor(16 * Math.random())];
+        },
+        Te = a(135),
+        Pe = a(8),
+        ke = a(403),
+        Le = function (e) {
+          return (
+            (I.defaults.headers.common.Authorization =
+              e.signInUserSession.idToken.jwtToken),
+            localStorage.setItem(
+              "access_token",
+              e.signInUserSession.idToken.jwtToken
+            ),
+            localStorage.setItem(
+              "refresh_token",
+              e.signInUserSession.refreshToken.token
+            ),
+            { type: "LOGIN", cognitoUserInfo: e }
+          );
+        },
+        ye = function (e) {
+          return { type: "SET_USER_DETAILS", payload: e };
+        },
+        Ie = function (e) {
+          return { type: "SET_FEED_BLOGS", payload: e };
+        },
+        Ae = function (e) {
+          return { type: "SET_MAIN_FEED", payload: e };
+        },
+        De = function (e) {
+          return { type: "SET_VOTES", payload: e };
+        },
+        Fe = function (e) {
+          return { type: "SET_VOTE_COUNT", payload: e };
+        },
+        Ue = a(176),
+        Re = a.n(Ue),
+        Ve = a(0),
+        He = function (e) {
+          return Object(Ve.jsxs)("div", {
+            className: Re.a.MainWindow,
+            children: [
+              Object(Ve.jsx)("div", {
+                className: Re.a.container,
+                children: Object(Ve.jsxs)("div", {
+                  className: Re.a.loading,
+                  children: [
+                    Object(Ve.jsx)("i", {}),
+                    Object(Ve.jsx)("i", {}),
+                    Object(Ve.jsx)("i", {}),
+                    Object(Ve.jsx)("i", {}),
+                  ],
+                }),
+              }),
+              Object(Ve.jsx)("h2", {
+                className: Re.a.DescriptionText,
+                children: "Stay Calm & Drink \u2615\ufe0f",
+              }),
+            ],
+          });
+        },
+        Me = a(15),
+        Ge = a(26),
+        Qe = a.p + "static/media/404tribe.181c5a64.gif",
+        ze = a(177),
+        qe = a.n(ze),
+        We = function () {
+          return Object(Ve.jsxs)("section", {
+            className: qe.a.Page404,
+            children: [
+              Object(Ve.jsx)("header", { children: "404 No Page Found" }),
+              Object(Ve.jsx)("div", {
+                className: qe.a.Bg404,
+                style: { backgroundImage: "url(".concat(Qe, ")") },
+              }),
+              Object(Ve.jsxs)("div", {
+                className: qe.a.ContentBox404,
+                children: [
+                  Object(Ve.jsx)("h3", { children: "Look like you're lost" }),
+                  Object(Ve.jsx)("p", {
+                    children: "the page you are looking for not avaible!",
+                  }),
+                  Object(Ve.jsx)(Me.c, {
+                    to: "/",
+                    className: qe.a.Link404,
+                    children: "Go to Home",
+                  }),
+                ],
+              }),
+            ],
+          });
+        },
+        Ze = function (e) {
+          return e.children;
+        },
+        Ke = a(270),
+        Ye = a(23),
+        Je = a.n(Ye),
+        Xe = Object(u.b)(
+          function (e) {
+            return { Auth: e.Auth };
+          },
+          { login: Le }
+        )(function (e) {
+          var t,
+            a,
+            n,
+            s,
+            o = Object(Ge.f)();
+          return Object(Ve.jsx)("div", {
+            className: Je.a.SideLeftBarItems,
+            children: Object(Ve.jsxs)("div", {
+              className: e.IsFull ? "" : Je.a.Main,
+              children: [
+                Object(Ve.jsxs)("div", {
+                  className: Je.a.ButtonsColumn,
+                  children: [
+                    Object(Ve.jsx)(Me.c, {
+                      activeClassName: Je.a.active,
+                      to: "/",
+                      exact: !0,
+                      children: Object(Ve.jsxs)("button", {
+                        className: Je.a.Buttons,
+                        children: [
+                          Object(Ve.jsx)(Ke.a, { name: "home" }),
+                          " ",
+                          Object(Ve.jsx)("span", { children: " Home " }),
+                        ],
+                      }),
+                    }),
+                    Object(Ve.jsx)(Me.c, {
+                      activeClassName: Je.a.active,
+                      to: "/explore/globalfeed",
+                      exact: !0,
+                      children: Object(Ve.jsxs)("button", {
+                        className: Je.a.Buttons,
+                        children: [
+                          Object(Ve.jsx)(Ke.a, { name: "hashtag" }),
+                          " ",
+                          Object(Ve.jsx)("span", { children: " Explore " }),
+                        ],
+                      }),
+                    }),
+                    (
+                      null === (t = e.Auth) || void 0 === t
+                        ? void 0
+                        : t.isLoggedIn
+                    )
+                      ? Object(Ve.jsxs)("div", {
+                          children: [
+                            Object(Ve.jsx)(Me.c, {
+                              activeClassName: Je.a.active,
+                              to: "/tags/all",
+                              exact: !0,
+                              children: Object(Ve.jsxs)("button", {
+                                className: Je.a.Buttons,
+                                children: [
+                                  Object(Ve.jsx)(Ke.a, { name: "tags" }),
+                                  " ",
+                                  Object(Ve.jsx)("span", {
+                                    children: " Tags ",
+                                  }),
+                                ],
+                              }),
+                            }),
+                            Object(Ve.jsx)(Me.c, {
+                              activeClassName: Je.a.active,
+                              to: "/me/messages",
+                              exact: !0,
+                              children: Object(Ve.jsxs)("button", {
+                                className: Je.a.Buttons,
+                                children: [
+                                  Object(Ve.jsx)(Ke.a, { name: "mail" }),
+                                  " ",
+                                  Object(Ve.jsx)("span", {
+                                    children: " Messages ",
+                                  }),
+                                ],
+                              }),
+                            }),
+                            Object(Ve.jsx)(Me.c, {
+                              activeClassName: Je.a.active,
+                              to:
+                                "/" +
+                                (null === (a = e.Auth) ||
+                                void 0 === a ||
+                                null === (n = a.cognitoUserInfo) ||
+                                void 0 === n ||
+                                null === (s = n.attributes) ||
+                                void 0 === s
+                                  ? void 0
+                                  : s.profile),
+                              exact: !0,
+                              children: Object(Ve.jsxs)("button", {
+                                className: Je.a.Buttons,
+                                children: [
+                                  Object(Ve.jsx)(Ke.a, { name: "user" }),
+                                  " ",
+                                  Object(Ve.jsx)("span", {
+                                    children: " Profile ",
+                                  }),
+                                ],
+                              }),
+                            }),
+                          ],
+                        })
+                      : Object(Ve.jsxs)("div", {
+                          children: [
+                            Object(Ve.jsxs)("button", {
+                              className: Je.a.Buttons,
+                              onClick: o.push("/user/login"),
+                              children: [
+                                Object(Ve.jsx)(Ke.a, { name: "tags" }),
+                                " ",
+                                Object(Ve.jsx)("span", { children: " Tags " }),
+                              ],
+                            }),
+                            Object(Ve.jsxs)("button", {
+                              className: Je.a.Buttons,
+                              onClick: o.push("/user/login"),
+                              children: [
+                                Object(Ve.jsx)(Ke.a, { name: "mail" }),
+                                " ",
+                                Object(Ve.jsx)("span", {
+                                  children: " Messages ",
+                                }),
+                              ],
+                            }),
+                            Object(Ve.jsxs)("button", {
+                              className: Je.a.Buttons,
+                              onClick: o.push("/user/login"),
+                              children: [
+                                Object(Ve.jsx)(Ke.a, { name: "user" }),
+                                " ",
+                                Object(Ve.jsx)("span", {
+                                  children: " Profile ",
+                                }),
+                              ],
+                            }),
+                          ],
+                        }),
+                  ],
+                }),
+                Object(Ve.jsx)("div", {
+                  className: Je.a.CreateButtonSection,
+                  children: Object(Ve.jsxs)("div", {
+                    className: Je.a.CreateTooltip,
+                    children: [
+                      Object(Ve.jsx)("button", {
+                        className: Je.a.CreateButton,
+                        children: "Create",
+                      }),
+                      Object(Ve.jsxs)("span", {
+                        className: Je.a.CreateTooltipCard,
+                        children: [
+                          Object(Ve.jsx)(Me.c, {
+                            activeClassName: Je.a.ActiveTooltipButton,
+                            to: "/new/question",
+                            exact: !0,
+                            children: Object(Ve.jsx)("div", {
+                              className: Je.a.CreateQuestionButton,
+                              children: "Question",
+                            }),
+                          }),
+                          Object(Ve.jsx)(Me.c, {
+                            activeClassName: Je.a.ActiveTooltipButton,
+                            to: "/new/blog",
+                            exact: !0,
+                            children: Object(Ve.jsx)("div", {
+                              className: Je.a.CreateBlogButton,
+                              children: "Blog",
+                            }),
+                          }),
+                        ],
+                      }),
+                    ],
+                  }),
+                }),
+              ],
+            }),
+          });
+        }),
+        $e = a(380),
+        et = a.n($e),
+        tt = function (e) {
+          return Object(Ve.jsx)(Ze, {
+            children: Object(Ve.jsx)("div", {
+              className: et.a.SideLeftBar,
+              children: Object(Ve.jsx)(Xe, {}),
+            }),
+          });
+        },
+        at = a(87),
+        nt = a.n(at),
+        st = function (e) {
+          return Object(Ve.jsx)("div", {
+            className: nt.a.MainWindow,
+            children: Object(Ve.jsxs)("div", {
+              className: nt.a.loader,
+              children: [
+                Object(Ve.jsx)("div", { className: nt.a.bar1 }),
+                Object(Ve.jsx)("div", { className: nt.a.bar2 }),
+                Object(Ve.jsx)("div", { className: nt.a.bar3 }),
+                Object(Ve.jsx)("div", { className: nt.a.bar4 }),
+                Object(Ve.jsx)("div", { className: nt.a.bar5 }),
+                Object(Ve.jsx)("div", { className: nt.a.bar6 }),
+              ],
+            }),
+          });
+        },
+        ot = a(37),
+        ct = a.n(ot),
+        rt = Object(u.b)(
+          function (e) {
+            return { Trending: e.Trending };
+          },
+          {
+            setTrendingDevs: function (e) {
+              return { type: "SET_TRENDING_DEVS", payload: e };
+            },
+            setTrendingTags: function (e) {
+              return { type: "SET_TRENDING_TAGS", payload: e };
+            },
+          }
+        )(function (e) {
+          var t = Object(n.useState)(!1),
+            a = Object(Pe.a)(t, 2),
+            s = a[0],
+            o = a[1],
+            c = Object(n.useState)(!1),
+            r = Object(Pe.a)(c, 2),
+            i = r[0],
+            l = r[1],
+            d = (function () {
+              var t = Object(F.a)(
+                D.a.mark(function t() {
+                  var a, n, s, c;
+                  return D.a.wrap(
+                    function (t) {
+                      for (;;)
+                        switch ((t.prev = t.next)) {
+                          case 0:
+                            return (
+                              o(!0),
+                              (t.prev = 1),
+                              (t.next = 4),
+                              I.get(k.GET_POPULAR_TAGS + "/15/false")
+                            );
+                          case 4:
+                            (c = t.sent),
+                              console.log("ress", c),
+                              (null === c ||
+                              void 0 === c ||
+                              null === (a = c.data) ||
+                              void 0 === a ||
+                              null === (n = a.data) ||
+                              void 0 === n ||
+                              null === (s = n.Items) ||
+                              void 0 === s
+                                ? void 0
+                                : s.length) &&
+                                e.setTrendingTags(
+                                  null === c || void 0 === c
+                                    ? void 0
+                                    : c.data.data.Items
+                                ),
+                              (t.next = 12);
+                            break;
+                          case 9:
+                            (t.prev = 9),
+                              (t.t0 = t.catch(1)),
+                              console.error(t.t0);
+                          case 12:
+                            o(!1);
+                          case 13:
+                          case "end":
+                            return t.stop();
+                        }
+                    },
+                    t,
+                    null,
+                    [[1, 9]]
+                  );
+                })
+              );
+              return function () {
+                return t.apply(this, arguments);
+              };
+            })(),
+            u = (function () {
+              var t = Object(F.a)(
+                D.a.mark(function t() {
+                  var a, n, s, o;
+                  return D.a.wrap(
+                    function (t) {
+                      for (;;)
+                        switch ((t.prev = t.next)) {
+                          case 0:
+                            return (
+                              l(!0),
+                              (t.prev = 1),
+                              (t.next = 4),
+                              I.get(k.GET_TOP_REPUTED_USERS + "/12/false")
+                            );
+                          case 4:
+                            (null === (o = t.sent) ||
+                            void 0 === o ||
+                            null === (a = o.data) ||
+                            void 0 === a ||
+                            null === (n = a.data) ||
+                            void 0 === n ||
+                            null === (s = n.Items) ||
+                            void 0 === s
+                              ? void 0
+                              : s.length) &&
+                              e.setTrendingDevs(o.data.data.Items),
+                              (t.next = 11);
+                            break;
+                          case 8:
+                            (t.prev = 8),
+                              (t.t0 = t.catch(1)),
+                              console.error(t.t0);
+                          case 11:
+                            l(!1);
+                          case 12:
+                          case "end":
+                            return t.stop();
+                        }
+                    },
+                    t,
+                    null,
+                    [[1, 8]]
+                  );
+                })
+              );
+              return function () {
+                return t.apply(this, arguments);
+              };
+            })();
+          return (
+            Object(n.useEffect)(function () {
+              e.Trending.trendingTags.length || d(),
+                e.Trending.trendingDevs.length || u();
+            }, []),
+            Object(Ve.jsxs)("div", {
+              className: ct.a.SideRightBarItems,
+              children: [
+                Object(Ve.jsxs)("div", {
+                  className: ct.a.TrendingDevsCard,
+                  children: [
+                    Object(Ve.jsx)("div", {
+                      className: ct.a.DevHeader,
+                      children: "Trending DevS",
+                    }),
+                    Object(Ve.jsx)("div", {
+                      className: ct.a.DevsContent,
+                      children: i
+                        ? Object(Ve.jsx)("div", {
+                            className: ct.a.EntryLoader,
+                            children: Object(Ve.jsx)(st, {}),
+                          })
+                        : Object(Ve.jsx)("div", {
+                            className: ct.a.DevRow,
+                            children: e.Trending.trendingDevs.map(function (
+                              e,
+                              t
+                            ) {
+                              return Object(Ve.jsx)(
+                                "div",
+                                {
+                                  className: ct.a.DevColumn,
+                                  children: Object(Ve.jsx)(Me.c, {
+                                    to: "/" + e.userName,
+                                    exact: !0,
+                                    children: Object(Ve.jsxs)("div", {
+                                      className: ct.a.Profile,
+                                      children: [
+                                        Object(Ve.jsx)("span", {
+                                          className: ct.a.UserIcon,
+                                          children: Object(Ve.jsx)(Ke.a, {
+                                            name: "user circle",
+                                            size: "large",
+                                          }),
+                                        }),
+                                        Object(Ve.jsxs)("span", {
+                                          children: [" ", e.userName],
+                                        }),
+                                        " ",
+                                      ],
+                                    }),
+                                  }),
+                                },
+                                "tag-btn-" + t
+                              );
+                            }),
+                          }),
+                    }),
+                  ],
+                }),
+                Object(Ve.jsxs)("div", {
+                  className: ct.a.TrendingTagsCard,
+                  children: [
+                    Object(Ve.jsx)("div", {
+                      className: ct.a.TagHeader,
+                      children: "Trending TagS",
+                    }),
+                    Object(Ve.jsx)("div", {
+                      className: ct.a.Content,
+                      children: s
+                        ? Object(Ve.jsx)("div", {
+                            className: ct.a.EntryLoader,
+                            children: Object(Ve.jsx)(st, {}),
+                          })
+                        : Object(Ve.jsx)("div", {
+                            className: ct.a.TagRow,
+                            children: e.Trending.trendingTags.map(function (
+                              e,
+                              t
+                            ) {
+                              return Object(Ve.jsx)(
+                                Me.c,
+                                {
+                                  to: "/tag/" + e.tagName,
+                                  exact: !0,
+                                  children: Object(Ve.jsx)("button", {
+                                    className: ct.a.btnGrad,
+                                    children: e.tagName,
+                                  }),
+                                },
+                                "tag-box" + t
+                              );
+                            }),
+                          }),
+                    }),
+                  ],
+                }),
+              ],
+            })
+          );
+        }),
+        it = a(381),
+        lt = a.n(it),
+        dt = function (e) {
+          return e.show
+            ? Object(Ve.jsx)("div", {
+                className: lt.a.Backdrop,
+                style: { zIndex: e.zIndex },
+                onClick: e.clicked,
+              })
+            : null;
+        },
+        ut = a(178),
+        jt = a.n(ut),
+        bt = function (e) {
+          var t = [jt.a.SideDrawer, jt.a.Close];
+          return (
+            e.open && (t = [jt.a.SideDrawer, jt.a.Open]),
+            Object(Ve.jsxs)(Ze, {
+              children: [
+                Object(Ve.jsx)(dt, {
+                  show: e.open,
+                  zIndex: "100",
+                  clicked: e.closed,
+                }),
+                Object(Ve.jsx)("div", {
+                  className: t.join(" "),
+                  children: Object(Ve.jsx)(rt, {}),
+                }),
+              ],
+            })
+          );
+        },
+        vt = a(227),
+        pt = a.n(vt),
+        ht = function (e) {
+          var t = Object(n.useState)(!1),
+            a = Object(Pe.a)(t, 2),
+            s = a[0],
+            o = a[1];
+          return Object(Ve.jsx)(Ze, {
+            children: Object(Ve.jsxs)("div", {
+              className: pt.a.SideRightBar,
+              children: [
+                Object(Ve.jsx)(bt, {
+                  open: s,
+                  closed: function () {
+                    o(!1);
+                  },
+                }),
+                Object(Ve.jsx)("div", {
+                  className: pt.a.SideRightBarItems,
+                  children: Object(Ve.jsx)(rt, {}),
+                }),
+                Object(Ve.jsx)("div", {
+                  className: pt.a.RightSideDrawerButton,
+                  children: Object(Ve.jsx)("i", {
+                    onClick: function () {
+                      o(!0);
+                    },
+                    className: "icon angle double left",
+                  }),
+                }),
+              ],
+            }),
+          });
+        },
+        Ot = a(69),
+        _t = a.n(Ot),
+        xt = function (e) {
+          return Object(Ve.jsx)(Ze, {
+            children: Object(Ve.jsx)("div", {
+              className: _t.a.Content,
+              children: Object(Ve.jsxs)("div", {
+                className: _t.a.Row,
+                children: [
+                  Object(Ve.jsx)("div", {
+                    className: _t.a.Column1,
+                    children: Object(Ve.jsx)("div", {
+                      className: _t.a.SideLeftBar,
+                      children: Object(Ve.jsx)(tt, {}),
+                    }),
+                  }),
+                  Object(Ve.jsx)("div", {
+                    className: e.isRightBar ? _t.a.Column2 : _t.a.Column2V2,
+                    children: Object(Ve.jsx)("div", {
+                      className: _t.a.MiddleArea,
+                      children: e.children,
+                    }),
+                  }),
+                  Object(Ve.jsx)("div", {
+                    className: e.isRightBar ? _t.a.Column3 : _t.a.Column3V2,
+                    children: Object(Ve.jsx)("div", {
+                      className: _t.a.SideRightBar,
+                      children: Object(Ve.jsx)(ht, {}),
+                    }),
+                  }),
+                ],
+              }),
+            }),
+          });
+        },
+        gt = a(43),
+        mt = a.n(gt),
+        ft = a(163),
+        St = a.n(ft),
+        Nt = a(59),
+        Bt = a.n(Nt),
+        Ct = a(382),
+        Et = a.n(Ct),
+        wt = function (e) {
+          return Object(Ve.jsx)("button", {
+            onClick: e.open,
+            className: Bt()("ui primary button", Et.a.SignupButton),
+            children: "Create account",
+          });
+        },
+        Tt = a(383),
+        Pt = a.n(Tt),
+        kt = function (e) {
+          return Object(Ve.jsx)("button", {
+            className: Bt()("ui button", Pt.a.LoginButton),
+            onClick: e.open,
+            children: "Login",
+          });
+        },
+        Lt = a(638),
+        yt = a(640),
+        It = a(118),
+        At = a.n(It),
+        Dt = Object(u.b)(
+          function (e) {
+            return { Auth: e.Auth };
+          },
+          {
+            logout: function () {
+              return (function () {
+                var e = Object(F.a)(
+                  D.a.mark(function e(t) {
+                    return D.a.wrap(
+                      function (e) {
+                        for (;;)
+                          switch ((e.prev = e.next)) {
+                            case 0:
+                              return (e.prev = 0), (e.next = 3), ke.a.signOut();
+                            case 3:
+                              (I.defaults.headers.common.Authorization = ""),
+                                localStorage.setItem("access_token", ""),
+                                localStorage.setItem("refresh_token", ""),
+                                t({ type: "LOGOUT" }),
+                                t({ type: "REMOVE_DATA" }),
+                                (e.next = 13);
+                              break;
+                            case 10:
+                              (e.prev = 10),
+                                (e.t0 = e.catch(0)),
+                                console.log(e.t0);
+                            case 13:
+                            case "end":
+                              return e.stop();
+                          }
+                      },
+                      e,
+                      null,
+                      [[0, 10]]
+                    );
+                  })
+                );
+                return function (t) {
+                  return e.apply(this, arguments);
+                };
+              })();
+            },
+          }
+        )(function (e) {
+          var t,
+            a,
+            s,
+            o,
+            c,
+            r,
+            i = Object(n.useState)(!1),
+            l = Object(Pe.a)(i, 2),
+            d = l[0],
+            u = l[1],
+            j = Object(Ve.jsx)("span", {
+              children: Object(Ve.jsx)(Ke.a, {
+                size: "big",
+                name: "user circle",
+              }),
+            });
+          return Object(Ve.jsx)(Lt.a, {
+            trigger: j,
+            children: Object(Ve.jsx)(Lt.a.Menu, {
+              className: "pointing left",
+              children: Object(Ve.jsx)("div", {
+                className: At.a.Card,
+                children: Object(Ve.jsxs)(yt.a, {
+                  fluid: !0,
+                  children: [
+                    Object(Ve.jsx)("ul", {
+                      className: At.a.ul1,
+                      children: Object(Ve.jsx)(Me.c, {
+                        to:
+                          "/" +
+                          (null === e ||
+                          void 0 === e ||
+                          null === (t = e.Auth) ||
+                          void 0 === t ||
+                          null === (a = t.cognitoUserInfo) ||
+                          void 0 === a ||
+                          null === (s = a.attributes) ||
+                          void 0 === s
+                            ? void 0
+                            : s.profile),
+                        exact: !0,
+                        children: Object(Ve.jsx)("button", {
+                          className: At.a.Buttons,
+                          children: Object(Ve.jsxs)("p", {
+                            children: [
+                              "@",
+                              null === e ||
+                              void 0 === e ||
+                              null === (o = e.Auth) ||
+                              void 0 === o ||
+                              null === (c = o.cognitoUserInfo) ||
+                              void 0 === c ||
+                              null === (r = c.attributes) ||
+                              void 0 === r
+                                ? void 0
+                                : r.profile,
+                            ],
+                          }),
+                        }),
+                      }),
+                    }),
+                    Object(Ve.jsx)("ul", {
+                      className: At.a.ul1,
+                      children: Object(Ve.jsx)(Me.c, {
+                        to: "/my/dashboard",
+                        exact: !0,
+                        children: Object(Ve.jsx)("button", {
+                          className: At.a.Buttons,
+                          children: Object(Ve.jsx)("p", {
+                            children: "Dashboard",
+                          }),
+                        }),
+                      }),
+                    }),
+                    Object(Ve.jsx)("ul", {
+                      className: At.a.ul2,
+                      children: Object(Ve.jsx)("button", {
+                        className: At.a.Buttons,
+                        onClick: function () {
+                          u(!0), e.logout();
+                        },
+                        children: d
+                          ? Object(Ve.jsx)("p", { children: "Signing Out..." })
+                          : Object(Ve.jsx)("p", { children: "Sign Out" }),
+                      }),
+                    }),
+                  ],
+                }),
+              }),
+            }),
+          });
+        }),
+        Ft = Object(u.b)(
+          function (e) {
+            return { Auth: e.Auth };
+          },
+          { login: Le }
+        )(function (e) {
+          return e.Auth.isLoggedIn
+            ? Object(Ve.jsx)("div", {
+                className: St.a.NavigationItems,
+                children: Object(Ve.jsx)("div", {
+                  className: St.a.ProfileButton,
+                  children: Object(Ve.jsx)(Dt, {}),
+                }),
+              })
+            : Object(Ve.jsxs)("ul", {
+                className: St.a.NavigationItems,
+                children: [
+                  Object(Ve.jsx)("div", {
+                    className: St.a.LoginButton,
+                    children: Object(Ve.jsx)(kt, { open: e.loginModalOpen }),
+                  }),
+                  Object(Ve.jsx)("div", {
+                    className: St.a.SignupButton,
+                    children: Object(Ve.jsx)(wt, { open: e.signupModalOpen }),
+                  }),
+                ],
+              });
+        }),
+        Ut = a.p + "static/media/devrooklogo.11777a57.png",
+        Rt = a(229),
+        Vt = a.n(Rt),
+        Ht = a(179),
+        Mt = a.n(Ht),
+        Gt = function (e) {
+          var t = Object(n.useState)(""),
+            a = Object(Pe.a)(t, 2),
+            s = a[0],
+            o = a[1];
+          return Object(Ve.jsx)("div", {
+            className: Mt.a.wrap,
+            children: Object(Ve.jsxs)("div", {
+              className: Mt.a.search,
+              children: [
+                Object(Ve.jsx)("input", {
+                  className: Mt.a.searchTerm,
+                  type: "text",
+                  placeholder: "Search...",
+                  onChange: function (e) {
+                    return o(e.target.value);
+                  },
+                }),
+                Object(Ve.jsx)(Me.c, {
+                  to: "/search/" + s,
+                  exact: !0,
+                  children: Object(Ve.jsx)("button", {
+                    className: Mt.a.searchButton,
+                    children: Object(Ve.jsx)("i", { className: "search icon" }),
+                  }),
+                }),
+              ],
+            }),
+          });
+        },
+        Qt = function (e) {
+          return Object(Ve.jsxs)("div", {
+            className: mt.a.Toolbar,
+            children: [
+              Object(Ve.jsxs)("div", {
+                className: mt.a.LogoHamArea,
+                children: [
+                  Object(Ve.jsxs)("div", {
+                    className: Vt()(mt.a.HamBox, mt.a.MobileOnly),
+                    onClick: e.sideDrawerOpen,
+                    children: [
+                      Object(Ve.jsx)("div", { className: mt.a.Ham }),
+                      Object(Ve.jsx)("div", { className: mt.a.Ham }),
+                      Object(Ve.jsx)("div", { className: mt.a.Ham }),
+                    ],
+                  }),
+                  Object(Ve.jsx)("div", {
+                    className: Vt()(mt.a.Logo, mt.a.DesktopOnly),
+                    children: Object(Ve.jsx)(Me.c, {
+                      to: "/",
+                      exact: !0,
+                      children: Object(Ve.jsx)("img", {
+                        src: Ut,
+                        alt: "rookLogo",
+                      }),
+                    }),
+                  }),
+                ],
+              }),
+              Object(Ve.jsx)("div", {
+                className: mt.a.SearchBoxArea,
+                children: Object(Ve.jsx)(Gt, {}),
+              }),
+              Object(Ve.jsxs)("div", {
+                className: mt.a.LogoNavItemArea,
+                children: [
+                  Object(Ve.jsx)("div", {
+                    className: mt.a.DesktopOnly,
+                    children: Object(Ve.jsx)(Ft, {
+                      loginModalOpen: e.loginModalOpen,
+                      signupModalOpen: e.signupModalOpen,
+                    }),
+                  }),
+                  Object(Ve.jsx)("div", {
+                    className: Vt()(mt.a.Logo, mt.a.MobileOnly),
+                    children: Object(Ve.jsx)("img", {
+                      src: Ut,
+                      alt: "rookLogo",
+                    }),
+                  }),
+                ],
+              }),
+            ],
+          });
+        },
+        zt = a(88),
+        qt = a.n(zt),
+        Wt = function (e) {
+          var t = [qt.a.SideDrawer, qt.a.Close];
+          return (
+            e.open && (t = [qt.a.SideDrawer, qt.a.Open]),
+            Object(Ve.jsxs)(Ze, {
+              children: [
+                Object(Ve.jsx)(dt, {
+                  show: e.open,
+                  zIndex: "100",
+                  clicked: e.closed,
+                }),
+                Object(Ve.jsxs)("div", {
+                  className: t.join(" "),
+                  children: [
+                    Object(Ve.jsxs)("div", {
+                      className: qt.a.HeaderSection,
+                      children: [
+                        Object(Ve.jsx)("div", {
+                          className: qt.a.Logo,
+                          children: Object(Ve.jsx)("img", {
+                            src: Ut,
+                            alt: "rookLogo",
+                          }),
+                        }),
+                        Object(Ve.jsx)("div", {
+                          className: qt.a.NavItemsSection,
+                          children: Object(Ve.jsx)(Ft, {
+                            loginModalOpen: e.loginModalOpen,
+                            signupModalOpen: e.signupModalOpen,
+                          }),
+                        }),
+                      ],
+                    }),
+                    Object(Ve.jsx)("div", {
+                      className: qt.a.LeftBarItems,
+                      children: Object(Ve.jsx)(Xe, { IsFull: !0 }),
+                    }),
+                  ],
+                }),
+              ],
+            })
+          );
+        },
+        Zt = a(63),
+        Kt = a.n(Zt),
+        Yt = a.p + "static/media/google.86b9ee92.svg",
+        Jt = (function (e) {
+          Object(i.a)(a, e);
+          var t = Object(l.a)(a);
+          function a() {
+            var e;
+            Object(c.a)(this, a);
+            for (var n = arguments.length, s = new Array(n), o = 0; o < n; o++)
+              s[o] = arguments[o];
+            return (
+              ((e = t.call.apply(t, [this].concat(s))).state = {
+                email: "",
+                password: "",
+                isLoading: !1,
+              }),
+              (e.setEmail = function (t) {
+                var a = Object(h.a)({}, e.state);
+                (a.email = t), e.setState(a);
+              }),
+              (e.setPassword = function (t) {
+                var a = Object(h.a)({}, e.state);
+                (a.password = t), e.setState(a);
+              }),
+              (e.isLoadingOnHandler = function () {
+                var t = Object(h.a)({}, e.state);
+                (t.isLoading = !0), e.setState(t);
+              }),
+              (e.isLoadingOFFHandler = function () {
+                var t = Object(h.a)({}, e.state);
+                (t.isLoading = !1), e.setState(t);
+              }),
+              (e.onSubmit = (function () {
+                var t = Object(F.a)(
+                  D.a.mark(function t(a) {
+                    var n;
+                    return D.a.wrap(
+                      function (t) {
+                        for (;;)
+                          switch ((t.prev = t.next)) {
+                            case 0:
+                              return (
+                                e.isLoadingOnHandler(),
+                                a.preventDefault(),
+                                (t.prev = 2),
+                                (t.next = 5),
+                                ke.a.signIn(e.state.email, e.state.password)
+                              );
+                            case 5:
+                              (n = t.sent),
+                                d.b.success(
+                                  "Successfully Loggedin \ud83d\ude01"
+                                ),
+                                e.props.closed(),
+                                e.props.login(n),
+                                (t.next = 15);
+                              break;
+                            case 11:
+                              (t.prev = 11),
+                                (t.t0 = t.catch(2)),
+                                d.b.error(t.t0.message),
+                                e.isLoadingOFFHandler();
+                            case 15:
+                            case "end":
+                              return t.stop();
+                          }
+                      },
+                      t,
+                      null,
+                      [[2, 11]]
+                    );
+                  })
+                );
+                return function (e) {
+                  return t.apply(this, arguments);
+                };
+              })()),
+              e
+            );
+          }
+          return (
+            Object(r.a)(a, [
+              {
+                key: "render",
+                value: function () {
+                  var e = this,
+                    t = [Kt.a.LoginModal, Kt.a.Close];
+                  return (
+                    this.props.open && (t = [Kt.a.LoginModal, Kt.a.Open]),
+                    Object(Ve.jsxs)(Ze, {
+                      children: [
+                        Object(Ve.jsx)(dt, {
+                          show: this.props.open,
+                          zIndex: "300",
+                          clicked: this.props.closed,
+                        }),
+                        Object(Ve.jsxs)("div", {
+                          className: t.join(" "),
+                          children: [
+                            Object(Ve.jsxs)("div", {
+                              className: Kt.a.LoginHeader,
+                              children: [
+                                Object(Ve.jsx)("img", {
+                                  src: Ut,
+                                  alt: "rookLogo",
+                                }),
+                                Object(Ve.jsxs)("p", {
+                                  children: [
+                                    "Welcome to the board of Devs ",
+                                    Object(Ve.jsx)("br", {}),
+                                    "\ud83d\ude0e Please Login \ud83d\ude0e",
+                                  ],
+                                }),
+                              ],
+                            }),
+                            Object(Ve.jsxs)("div", {
+                              children: [
+                                Object(Ve.jsxs)("form", {
+                                  className: Bt()("ui form", Kt.a.Form),
+                                  onSubmit: this.onSubmit,
+                                  children: [
+                                    Object(Ve.jsxs)("div", {
+                                      className: "field",
+                                      children: [
+                                        Object(Ve.jsx)("label", {
+                                          children: "Email",
+                                        }),
+                                        Object(Ve.jsx)("input", {
+                                          required: !0,
+                                          type: "text",
+                                          name: "first-name",
+                                          placeholder: "Example@example.com",
+                                          value: this.state.email,
+                                          onChange: function (t) {
+                                            return e.setEmail(t.target.value);
+                                          },
+                                        }),
+                                      ],
+                                    }),
+                                    Object(Ve.jsxs)("div", {
+                                      className: "field",
+                                      children: [
+                                        Object(Ve.jsx)("label", {
+                                          children: "Password",
+                                        }),
+                                        Object(Ve.jsx)("input", {
+                                          required: !0,
+                                          type: "password",
+                                          name: "last-name",
+                                          placeholder: "Password",
+                                          value: this.state.password,
+                                          onChange: function (t) {
+                                            return e.setPassword(
+                                              t.target.value
+                                            );
+                                          },
+                                        }),
+                                      ],
+                                    }),
+                                    Object(Ve.jsx)("div", {
+                                      className: Kt.a.LoginButtonDiv,
+                                      children: this.state.isLoading
+                                        ? Object(Ve.jsx)("button", {
+                                            disabled: !0,
+                                            className: Bt()(
+                                              "fluid ui loading green button",
+                                              Kt.a.LoginButton
+                                            ),
+                                            type: "submit",
+                                            children: "Login",
+                                          })
+                                        : Object(Ve.jsx)("button", {
+                                            className: Bt()(
+                                              "fluid ui green button",
+                                              Kt.a.LoginButton
+                                            ),
+                                            type: "submit",
+                                            children: "Login",
+                                          }),
+                                    }),
+                                  ],
+                                }),
+                                Object(Ve.jsx)("div", {
+                                  className: Kt.a.GoogleIcon,
+                                  onClick: function () {
+                                    return ke.a.federatedSignIn({
+                                      provider: "Google",
+                                    });
+                                  },
+                                  children: Object(Ve.jsx)("img", {
+                                    className: Kt.a.imageSize,
+                                    src: Yt,
+                                    alt: "googlelogo",
+                                  }),
+                                }),
+                              ],
+                            }),
+                          ],
+                        }),
+                      ],
+                    })
+                  );
+                },
+              },
+            ]),
+            a
+          );
+        })(n.Component),
+        Xt = Object(u.b)(
+          function (e) {
+            return { Auth: e.Auth };
+          },
+          { login: Le }
+        )(Jt),
+        $t = a(64),
+        ea = a.n($t),
+        ta = (function (e) {
+          Object(i.a)(a, e);
+          var t = Object(l.a)(a);
+          function a() {
+            var e;
+            Object(c.a)(this, a);
+            for (var n = arguments.length, s = new Array(n), o = 0; o < n; o++)
+              s[o] = arguments[o];
+            return (
+              ((e = t.call.apply(t, [this].concat(s))).state = {
+                email: "",
+                password: "",
+                name: "",
+                isLoading: !1,
+              }),
+              (e.setEmail = function (t) {
+                var a = Object(h.a)({}, e.state);
+                (a.email = t), e.setState(a);
+              }),
+              (e.setPassword = function (t) {
+                var a = Object(h.a)({}, e.state);
+                (a.password = t), e.setState(a);
+              }),
+              (e.setName = function (t) {
+                var a = Object(h.a)({}, e.state);
+                (a.name = t), e.setState(a);
+              }),
+              (e.isLoadingOnHandler = function () {
+                var t = Object(h.a)({}, e.state);
+                (t.isLoading = !0), e.setState(t);
+              }),
+              (e.isLoadingOFFHandler = function () {
+                var t = Object(h.a)({}, e.state);
+                (t.isLoading = !1), e.setState(t);
+              }),
+              (e.onSubmit = (function () {
+                var t = Object(F.a)(
+                  D.a.mark(function t(a) {
+                    return D.a.wrap(
+                      function (t) {
+                        for (;;)
+                          switch ((t.prev = t.next)) {
+                            case 0:
+                              return (
+                                e.isLoadingOnHandler(),
+                                a.preventDefault(),
+                                (t.prev = 2),
+                                (t.next = 5),
+                                ke.a.signUp({
+                                  username: e.state.email,
+                                  password: e.state.password,
+                                  attributes: {
+                                    email: e.state.email,
+                                    name: e.state.name,
+                                  },
+                                })
+                              );
+                            case 5:
+                              d.b.success(
+                                "\ud83d\udc7b Signup successful please check your mail-box"
+                              ),
+                                e.props.closed(),
+                                e.isLoadingOFFHandler(),
+                                (t.next = 14);
+                              break;
+                            case 10:
+                              (t.prev = 10),
+                                (t.t0 = t.catch(2)),
+                                d.b.error(t.t0.message),
+                                e.isLoadingOFFHandler();
+                            case 14:
+                            case "end":
+                              return t.stop();
+                          }
+                      },
+                      t,
+                      null,
+                      [[2, 10]]
+                    );
+                  })
+                );
+                return function (e) {
+                  return t.apply(this, arguments);
+                };
+              })()),
+              e
+            );
+          }
+          return (
+            Object(r.a)(a, [
+              {
+                key: "render",
+                value: function () {
+                  var e = this,
+                    t = [ea.a.SignupModal, ea.a.Close];
+                  return (
+                    this.props.open && (t = [ea.a.SignupModal, ea.a.Open]),
+                    Object(Ve.jsxs)(Ze, {
+                      children: [
+                        Object(Ve.jsx)(dt, {
+                          show: this.props.open,
+                          zIndex: "300",
+                          clicked: this.props.closed,
+                        }),
+                        Object(Ve.jsxs)("div", {
+                          className: t.join(" "),
+                          children: [
+                            Object(Ve.jsxs)("div", {
+                              className: ea.a.LoginHeader,
+                              children: [
+                                Object(Ve.jsx)("img", {
+                                  src: Ut,
+                                  alt: "rookLogo",
+                                }),
+                                Object(Ve.jsxs)("p", {
+                                  children: [
+                                    "Welcome to the board of Devs",
+                                    Object(Ve.jsx)("br", {}),
+                                    "\ud83d\ude0e Please Signup \ud83d\ude0e",
+                                  ],
+                                }),
+                              ],
+                            }),
+                            Object(Ve.jsxs)("div", {
+                              children: [
+                                Object(Ve.jsxs)("form", {
+                                  className: Bt()("ui form", ea.a.Form),
+                                  onSubmit: this.onSubmit,
+                                  children: [
+                                    Object(Ve.jsxs)("div", {
+                                      className: "field",
+                                      children: [
+                                        Object(Ve.jsx)("label", {
+                                          children: "Email",
+                                        }),
+                                        Object(Ve.jsx)("input", {
+                                          required: !0,
+                                          type: "text",
+                                          name: "email",
+                                          placeholder: "Example@example.com",
+                                          value: this.state.email,
+                                          onChange: function (t) {
+                                            return e.setEmail(t.target.value);
+                                          },
+                                        }),
+                                      ],
+                                    }),
+                                    Object(Ve.jsxs)("div", {
+                                      className: "field",
+                                      children: [
+                                        Object(Ve.jsx)("label", {
+                                          children: "Full Name",
+                                        }),
+                                        Object(Ve.jsx)("input", {
+                                          required: !0,
+                                          type: "text",
+                                          name: "full-name",
+                                          placeholder: "cheating santi",
+                                          value: this.state.name,
+                                          onChange: function (t) {
+                                            return e.setName(t.target.value);
+                                          },
+                                        }),
+                                      ],
+                                    }),
+                                    Object(Ve.jsxs)("div", {
+                                      className: "field",
+                                      children: [
+                                        Object(Ve.jsx)("label", {
+                                          children: "Password",
+                                        }),
+                                        Object(Ve.jsx)("input", {
+                                          required: !0,
+                                          type: "password",
+                                          name: "last-name",
+                                          placeholder: "Password",
+                                          value: this.state.password,
+                                          onChange: function (t) {
+                                            return e.setPassword(
+                                              t.target.value
+                                            );
+                                          },
+                                        }),
+                                      ],
+                                    }),
+                                    Object(Ve.jsx)("div", {
+                                      className: ea.a.SignupButtonDiv,
+                                      children: this.state.isLoading
+                                        ? Object(Ve.jsx)("button", {
+                                            disabled: !0,
+                                            className: Bt()(
+                                              "fluid ui loading green button",
+                                              ea.a.SignupButton
+                                            ),
+                                            type: "submit",
+                                            children: "Loading..",
+                                          })
+                                        : Object(Ve.jsx)("button", {
+                                            className: Bt()(
+                                              "fluid ui green button",
+                                              ea.a.SignupButton
+                                            ),
+                                            type: "submit",
+                                            children: "Signup",
+                                          }),
+                                    }),
+                                  ],
+                                }),
+                                Object(Ve.jsx)("div", {
+                                  className: ea.a.GoogleIcon,
+                                  onClick: function () {
+                                    return ke.a.federatedSignIn({
+                                      provider: "Google",
+                                    });
+                                  },
+                                  children: Object(Ve.jsx)("img", {
+                                    className: ea.a.imageSize,
+                                    src: Yt,
+                                    alt: "googlelogo",
+                                  }),
+                                }),
+                              ],
+                            }),
+                          ],
+                        }),
+                      ],
+                    })
+                  );
+                },
+              },
+            ]),
+            a
+          );
+        })(n.Component),
+        aa = Object(u.b)(
+          function (e) {
+            return { Auth: e.Auth };
+          },
+          { login: Le }
+        )(ta),
+        na = (function (e) {
+          Object(i.a)(a, e);
+          var t = Object(l.a)(a);
+          function a() {
+            var e;
+            Object(c.a)(this, a);
+            for (var n = arguments.length, s = new Array(n), o = 0; o < n; o++)
+              s[o] = arguments[o];
+            return (
+              ((e = t.call.apply(t, [this].concat(s))).state = {
+                showSideDrawer: !1,
+                showLoginModal: !1,
+                showSignupModal: !1,
+              }),
+              (e.sideDrawerOpenHandler = function () {
+                var t = Object(h.a)({}, e.state);
+                (t.showSideDrawer = !0), e.setState(t);
+              }),
+              (e.sideDrawerCloseHandler = function () {
+                var t = Object(h.a)({}, e.state);
+                (t.showSideDrawer = !1), e.setState(t);
+              }),
+              (e.loginModalOpenHandler = function () {
+                var t = Object(h.a)({}, e.state);
+                (t.showLoginModal = !0), e.setState(t);
+              }),
+              (e.loginModalCloseHandler = function () {
+                var t = Object(h.a)({}, e.state);
+                (t.showLoginModal = !1), e.setState(t);
+              }),
+              (e.signupModalOpenHandler = function () {
+                var t = Object(h.a)({}, e.state);
+                (t.showSignupModal = !0), e.setState(t);
+              }),
+              (e.signupModalCloseHandler = function () {
+                var t = Object(h.a)({}, e.state);
+                (t.showSignupModal = !1), e.setState(t);
+              }),
+              e
+            );
+          }
+          return (
+            Object(r.a)(a, [
+              {
+                key: "render",
+                value: function () {
+                  return Object(Ve.jsxs)(Ze, {
+                    children: [
+                      Object(Ve.jsx)(Qt, {
+                        sideDrawerOpen: this.sideDrawerOpenHandler,
+                        loginModalOpen: this.loginModalOpenHandler,
+                        signupModalOpen: this.signupModalOpenHandler,
+                      }),
+                      Object(Ve.jsx)(Wt, {
+                        open: this.state.showSideDrawer,
+                        closed: this.sideDrawerCloseHandler,
+                        loginModalOpen: this.loginModalOpenHandler,
+                        signupModalOpen: this.signupModalOpenHandler,
+                      }),
+                      this.props.Auth.isLoggedIn
+                        ? null
+                        : Object(Ve.jsxs)(Ve.Fragment, {
+                            children: [
+                              Object(Ve.jsx)(Xt, {
+                                open: this.state.showLoginModal,
+                                closed: this.loginModalCloseHandler,
+                              }),
+                              Object(Ve.jsx)(aa, {
+                                open: this.state.showSignupModal,
+                                closed: this.signupModalCloseHandler,
+                              }),
+                              " ",
+                            ],
+                          }),
+                      Object(Ve.jsx)("main", { children: this.props.children }),
+                    ],
+                  });
+                },
+              },
+            ]),
+            a
+          );
+        })(n.Component),
+        sa = Object(u.b)(
+          function (e) {
+            return { Auth: e.Auth };
+          },
+          { login: Le }
+        )(na),
+        oa = a(70),
+        ca = a.n(oa),
+        ra = function (e) {
+          return Object(Ve.jsxs)("div", {
+            children: [
+              Object(Ve.jsxs)("header", {
+                className: ca.a.MiddleFeedHeader,
+                children: [
+                  Object(Ve.jsx)(Me.c, {
+                    activeClassName: ca.a.active,
+                    to: "/",
+                    exact: !0,
+                    children: Object(Ve.jsx)("button", {
+                      className: ca.a.MiddleFeedHeaderButton,
+                      children: "Feed",
+                    }),
+                  }),
+                  Object(Ve.jsx)(Me.c, {
+                    activeClassName: ca.a.active,
+                    to: "/feed/questions",
+                    exact: !0,
+                    children: Object(Ve.jsx)("button", {
+                      className: ca.a.MiddleFeedHeaderButton,
+                      children: "Questions",
+                    }),
+                  }),
+                  Object(Ve.jsx)(Me.c, {
+                    activeClassName: ca.a.active,
+                    to: "/feed/blogs",
+                    exact: !0,
+                    children: Object(Ve.jsx)("button", {
+                      className: ca.a.MiddleFeedHeaderButton,
+                      children: "Blogs",
+                    }),
+                  }),
+                  Object(Ve.jsx)(Me.c, {
+                    activeClassName: ca.a.active,
+                    to: "/feed/devfeed",
+                    exact: !0,
+                    children: Object(Ve.jsx)("button", {
+                      className: ca.a.MiddleFeedHeaderButton,
+                      children: "DevFeed",
+                    }),
+                  }),
+                ],
+              }),
+              Object(Ve.jsx)("div", {
+                className: ca.a.MiddleFeedContent,
+                children: e.children,
+              }),
+            ],
+          });
+        },
+        ia = a(264),
+        la = a.n(ia),
+        da = Object(u.b)(
+          function (e) {
+            return { Feed: e.Feed, Vote: e.Vote, Auth: e.Auth };
+          },
+          { setFeedBlogs: Ie, voteHandler: De, voteCountHandler: Fe }
+        )(function (e) {
+          var t,
+            a,
+            s = e.Element.hashedUrl
+              ? e.Element.hashedUrl
+              : e.Element.responseId,
+            o = Object(n.useState)(!1),
+            c = Object(Pe.a)(o, 2),
+            r = c[0],
+            i = c[1],
+            l = (function () {
+              var t = Object(F.a)(
+                D.a.mark(function t() {
+                  var a;
+                  return D.a.wrap(
+                    function (t) {
+                      for (;;)
+                        switch ((t.prev = t.next)) {
+                          case 0:
+                            return (
+                              (t.prev = 0),
+                              (t.next = 3),
+                              I.post(k.VOTE_POST, {
+                                voteType: "like",
+                                id: s,
+                                type: e.Type,
+                              })
+                            );
+                          case 3:
+                            (a = t.sent), console.log("res", a), (t.next = 10);
+                            break;
+                          case 7:
+                            (t.prev = 7),
+                              (t.t0 = t.catch(0)),
+                              console.log("unable to like", t.t0);
+                          case 10:
+                          case "end":
+                            return t.stop();
+                        }
+                    },
+                    t,
+                    null,
+                    [[0, 7]]
+                  );
+                })
+              );
+              return function () {
+                return t.apply(this, arguments);
+              };
+            })();
+          return Object(Ve.jsxs)("div", {
+            children: [
+              r
+                ? Object(Ve.jsx)(Ge.a, {
+                    to: { pathname: "/user/login" },
+                    exact: !0,
+                  })
+                : null,
+              Object(Ve.jsx)("div", {
+                className: (
+                  null === (t = e.Vote) ||
+                  void 0 === t ||
+                  null === (a = t.votes[s]) ||
+                  void 0 === a
+                    ? void 0
+                    : a.liked
+                )
+                  ? la.a.LikedButton
+                  : la.a.LikeButton,
+                onClick: function () {
+                  return (function () {
+                    var t, a, n;
+                    if (
+                      !(null === e ||
+                      void 0 === e ||
+                      null === (t = e.Auth) ||
+                      void 0 === t
+                        ? void 0
+                        : t.isLoggedIn)
+                    )
+                      return i(!0);
+                    var o = Object(h.a)({}, e.Vote.votes),
+                      c = Object(h.a)({}, e.Vote.voteCount);
+                    (
+                      null === (a = e.Vote) ||
+                      void 0 === a ||
+                      null === (n = a.votes[s]) ||
+                      void 0 === n
+                        ? void 0
+                        : n.liked
+                    )
+                      ? ((c[s].likes -= 1),
+                        (o[s] = Object(h.a)(
+                          Object(h.a)({}, o[s]),
+                          {},
+                          { liked: !1 }
+                        )))
+                      : ((c[s].likes += 1),
+                        (o[s] = Object(h.a)(
+                          Object(h.a)({}, o[s]),
+                          {},
+                          { liked: !0 }
+                        ))),
+                      e.voteHandler(o),
+                      e.voteCountHandler(c),
+                      l();
+                  })();
+                },
+                children: Object(Ve.jsx)("i", { className: "icon heart" }),
+              }),
+            ],
+          });
+        }),
+        ua = a(89),
+        ja = a.n(ua),
+        ba = Object(u.b)(
+          function (e) {
+            return { Feed: e.Feed, Vote: e.Vote };
+          },
+          { setFeedBlogs: Ie }
+        )(function (e) {
+          var t, a, n, s, o, c;
+          return Object(Ve.jsxs)("div", {
+            className: ja.a.BlogCard,
+            children: [
+              (null === (t = e.Element) || void 0 === t
+                ? void 0
+                : t.coverImage) &&
+              (null === (a = e.Element) || void 0 === a
+                ? void 0
+                : a.coverImage.length)
+                ? Object(Ve.jsx)("div", {
+                    className: ja.a.CoverImageSection,
+                    children: Object(Ve.jsx)("img", {
+                      src:
+                        null === (n = e.Element) || void 0 === n
+                          ? void 0
+                          : n.coverImage,
+                      alt: "coverImage",
+                    }),
+                  })
+                : Object(Ve.jsx)("div", {}),
+              Object(Ve.jsxs)("div", {
+                className: ja.a.BlogContent,
+                children: [
+                  Object(Ve.jsxs)("div", {
+                    className: ja.a.LikeSection,
+                    children: [
+                      Object(Ve.jsx)(da, { Element: e.Element, Type: e.Type }),
+                      Object(Ve.jsx)("div", {
+                        className: ja.a.LikeCount,
+                        children:
+                          null === (s = e.Vote) ||
+                          void 0 === s ||
+                          null === (o = s.voteCount[e.Element.hashedUrl]) ||
+                          void 0 === o
+                            ? void 0
+                            : o.likes,
+                      }),
+                    ],
+                  }),
+                  Object(Ve.jsx)("div", {
+                    className: ja.a.BlogSection,
+                    children: Object(Ve.jsx)(Me.c, {
+                      to: "/post/" + e.Element.hashedUrl,
+                      exact: !0,
+                      children: Object(Ve.jsx)("div", {
+                        className: ja.a.BlogTitle,
+                        children: Object(Ve.jsx)("p", {
+                          children: e.Element.title,
+                        }),
+                      }),
+                    }),
+                  }),
+                ],
+              }),
+              Object(Ve.jsx)("div", {
+                className: ja.a.BlogResponseSection,
+                children: Object(Ve.jsx)(Me.c, {
+                  to: "/post/" + e.Element.hashedUrl,
+                  exact: !0,
+                  children: Object(Ve.jsxs)("p", {
+                    children: [
+                      "[",
+                      null === (c = e.Element) || void 0 === c
+                        ? void 0
+                        : c.responses,
+                      "] Responses",
+                    ],
+                  }),
+                }),
+              }),
+            ],
+          });
+        }),
+        va = a(265),
+        pa = a.n(va),
+        ha = Object(u.b)(
+          function (e) {
+            return { Feed: e.Feed, Vote: e.Vote, Auth: e.Auth };
+          },
+          { setFeedBlogs: Ie, voteHandler: De, voteCountHandler: Fe }
+        )(function (e) {
+          var t,
+            a,
+            s = e.Element.hashedUrl
+              ? e.Element.hashedUrl
+              : e.Element.responseId,
+            o = Object(n.useState)(!1),
+            c = Object(Pe.a)(o, 2),
+            r = c[0],
+            i = c[1],
+            l = (function () {
+              var t = Object(F.a)(
+                D.a.mark(function t() {
+                  var a;
+                  return D.a.wrap(
+                    function (t) {
+                      for (;;)
+                        switch ((t.prev = t.next)) {
+                          case 0:
+                            return (
+                              (t.prev = 0),
+                              (t.next = 3),
+                              I.post(k.VOTE_POST, {
+                                voteType: "upVote",
+                                id: s,
+                                type: e.Type,
+                              })
+                            );
+                          case 3:
+                            (a = t.sent),
+                              console.log("upvote", a),
+                              (t.next = 10);
+                            break;
+                          case 7:
+                            (t.prev = 7),
+                              (t.t0 = t.catch(0)),
+                              console.log("unable to upvote", t.t0);
+                          case 10:
+                          case "end":
+                            return t.stop();
+                        }
+                    },
+                    t,
+                    null,
+                    [[0, 7]]
+                  );
+                })
+              );
+              return function () {
+                return t.apply(this, arguments);
+              };
+            })();
+          return Object(Ve.jsxs)("div", {
+            children: [
+              r
+                ? Object(Ve.jsx)(Ge.a, {
+                    to: { pathname: "/user/login" },
+                    exact: !0,
+                  })
+                : null,
+              Object(Ve.jsx)("div", {
+                className: (
+                  null === (t = e.Vote) ||
+                  void 0 === t ||
+                  null === (a = t.votes[s]) ||
+                  void 0 === a
+                    ? void 0
+                    : a.upVotted
+                )
+                  ? pa.a.UpVottedButton
+                  : pa.a.UpVoteButton,
+                onClick: function () {
+                  return (function () {
+                    var t, a;
+                    if (
+                      !(null === e ||
+                      void 0 === e ||
+                      null === (t = e.Auth) ||
+                      void 0 === t
+                        ? void 0
+                        : t.isLoggedIn)
+                    )
+                      return i(!0);
+                    var n = Object(h.a)({}, e.Vote.votes),
+                      o = Object(h.a)({}, e.Vote.voteCount);
+                    console.log("before upvote", n),
+                      (
+                        null === (a = e.Vote.votes[s]) || void 0 === a
+                          ? void 0
+                          : a.upVotted
+                      )
+                        ? ((o[s].upVotes -= 1),
+                          (n[s] = Object(h.a)(
+                            Object(h.a)({}, n[s]),
+                            {},
+                            { upVotted: !1 }
+                          )))
+                        : ((o[s].upVotes += 1),
+                          (n[s] = Object(h.a)(
+                            Object(h.a)({}, n[s]),
+                            {},
+                            { upVotted: !0 }
+                          )),
+                          (n[s] = Object(h.a)(
+                            Object(h.a)({}, n[s]),
+                            {},
+                            { downVotted: !1 }
+                          ))),
+                      console.log("after upvote", n),
+                      e.voteHandler(n),
+                      e.voteCountHandler(o),
+                      l();
+                  })();
+                },
+                children: Object(Ve.jsx)("i", { className: "icon caret up" }),
+              }),
+            ],
+          });
+        }),
+        Oa = a(230),
+        _a = a.n(Oa),
+        xa = Object(u.b)(
+          function (e) {
+            return { Feed: e.Feed, Vote: e.Vote, Auth: e.Auth };
+          },
+          { setFeedBlogs: Ie, voteHandler: De, voteCountHandler: Fe }
+        )(function (e) {
+          var t,
+            a,
+            s = e.Element.hashedUrl
+              ? e.Element.hashedUrl
+              : e.Element.responseId,
+            o = Object(n.useState)(!1),
+            c = Object(Pe.a)(o, 2),
+            r = c[0],
+            i = c[1],
+            l = (function () {
+              var t = Object(F.a)(
+                D.a.mark(function t() {
+                  return D.a.wrap(
+                    function (t) {
+                      for (;;)
+                        switch ((t.prev = t.next)) {
+                          case 0:
+                            return (
+                              (t.prev = 0),
+                              (t.next = 3),
+                              I.post(k.VOTE_POST, {
+                                voteType: "downVote",
+                                id: s,
+                                type: e.Type,
+                              })
+                            );
+                          case 3:
+                            t.next = 8;
+                            break;
+                          case 5:
+                            (t.prev = 5),
+                              (t.t0 = t.catch(0)),
+                              console.log("unable to downVote", t.t0);
+                          case 8:
+                          case "end":
+                            return t.stop();
+                        }
+                    },
+                    t,
+                    null,
+                    [[0, 5]]
+                  );
+                })
+              );
+              return function () {
+                return t.apply(this, arguments);
+              };
+            })();
+          return Object(Ve.jsxs)("div", {
+            children: [
+              r
+                ? Object(Ve.jsx)(Ge.a, {
+                    to: { pathname: "/user/login" },
+                    exact: !0,
+                  })
+                : null,
+              Object(Ve.jsx)("div", {
+                className: (
+                  null === (t = e.Vote) ||
+                  void 0 === t ||
+                  null === (a = t.votes[s]) ||
+                  void 0 === a
+                    ? void 0
+                    : a.downVotted
+                )
+                  ? _a.a.DownVottedButton
+                  : _a.a.DownVoteButton,
+                onClick: function () {
+                  return (function () {
+                    var t, a, n;
+                    if (
+                      !(null === e ||
+                      void 0 === e ||
+                      null === (t = e.Auth) ||
+                      void 0 === t
+                        ? void 0
+                        : t.isLoggedIn)
+                    )
+                      return i(!0);
+                    var o = Object(h.a)({}, e.Vote.votes),
+                      c = Object(h.a)({}, e.Vote.voteCount);
+                    (
+                      null === (a = e.Vote) ||
+                      void 0 === a ||
+                      null === (n = a.votes[s]) ||
+                      void 0 === n
+                        ? void 0
+                        : n.downVotted
+                    )
+                      ? ((c[s].downVotes -= 1),
+                        (o[s] = Object(h.a)(
+                          Object(h.a)({}, o[s]),
+                          {},
+                          { downVotted: !1 }
+                        )))
+                      : ((c[s].downVotes += 1),
+                        (o[s] = Object(h.a)(
+                          Object(h.a)({}, o[s]),
+                          {},
+                          { downVotted: !0 }
+                        )),
+                        (o[s] = Object(h.a)(
+                          Object(h.a)({}, o[s]),
+                          {},
+                          { upVotted: !1 }
+                        ))),
+                      e.voteHandler(o),
+                      e.voteCountHandler(c),
+                      l();
+                  })();
+                },
+                children: Object(Ve.jsx)("i", {
+                  className: ["icon caret down", _a.a.icon].join(" "),
+                }),
+              }),
+            ],
+          });
+        }),
+        ga = a(127),
+        ma = a.n(ga),
+        fa = Object(u.b)(
+          function (e) {
+            return { Feed: e.Feed, Vote: e.Vote };
+          },
+          { setMainFeed: Ae }
+        )(function (e) {
+          var t, a, n, s, o;
+          return Object(Ve.jsxs)("div", {
+            className: ma.a.QuestionsCard,
+            children: [
+              Object(Ve.jsxs)("div", {
+                className: ma.a.VotesSection,
+                children: [
+                  Object(Ve.jsx)(ha, { Element: e.Element, Type: e.Type }),
+                  Object(Ve.jsx)("div", {
+                    className: ma.a.VoteCount,
+                    children:
+                      parseInt(
+                        null === (t = e.Vote) ||
+                          void 0 === t ||
+                          null === (a = t.voteCount[e.Element.hashedUrl]) ||
+                          void 0 === a
+                          ? void 0
+                          : a.upVotes
+                      ) -
+                      parseInt(
+                        Math.abs(
+                          null === (n = e.Vote) ||
+                            void 0 === n ||
+                            null === (s = n.voteCount[e.Element.hashedUrl]) ||
+                            void 0 === s
+                            ? void 0
+                            : s.downVotes
+                        )
+                      ),
+                  }),
+                  Object(Ve.jsx)(xa, { Element: e.Element, Type: e.Type }),
+                ],
+              }),
+              Object(Ve.jsx)("div", {
+                className: ma.a.QuestionAnswerSection,
+                children: Object(Ve.jsx)(Me.c, {
+                  to: "/post/" + e.Element.hashedUrl,
+                  exact: !0,
+                  children: Object(Ve.jsx)("div", {
+                    className: ma.a.QuestionTitle,
+                    children: Object(Ve.jsx)("p", {
+                      children: e.Element.title,
+                    }),
+                  }),
+                }),
+              }),
+              Object(Ve.jsx)("div", {
+                className: ma.a.AnswerSection,
+                children: Object(Ve.jsx)(Me.c, {
+                  to: "/post/" + e.Element.hashedUrl,
+                  exact: !0,
+                  children: Object(Ve.jsxs)("p", {
+                    children: [
+                      "[",
+                      null === (o = e.Element) || void 0 === o
+                        ? void 0
+                        : o.responses,
+                      "] ",
+                      Object(Ve.jsx)("br", {}),
+                      " Answers",
+                    ],
+                  }),
+                }),
+              }),
+            ],
+          });
+        }),
+        Sa = a(385),
+        Na = a.n(Sa),
+        Ba = function () {
+          return Object(Ve.jsx)("div", { className: Na.a.HeartLoader });
+        },
+        Ca = a(386),
+        Ea = a.n(Ca),
+        wa = Object(u.b)(
+          function (e) {
+            return { Feed: e.Feed, Auth: e.Auth, Vote: e.Vote };
+          },
+          {
+            setMainFeed: Ae,
+            isPersonalizedMainFeedFetched: function (e) {
+              return {
+                type: "SET_PERSONALIZED_MAIN_FEED_FETCH_STATUS",
+                payload: e,
+              };
+            },
+            voteHandler: De,
+            voteCountHandler: Fe,
+          }
+        )(function (e) {
+          var t,
+            a,
+            s,
+            o = Object(n.useState)(!1),
+            c = Object(Pe.a)(o, 2),
+            r = c[0],
+            i = c[1],
+            l = (function () {
+              var t = Object(F.a)(
+                D.a.mark(function t() {
+                  var a, n, s, o, c, r, l, d, u, j, b, v, p, O, _;
+                  return D.a.wrap(
+                    function (t) {
+                      for (;;)
+                        switch ((t.prev = t.next)) {
+                          case 0:
+                            if (
+                              (i(!0),
+                              (a = {}),
+                              (n = {}),
+                              (t.prev = 3),
+                              !(null === (s = e.Auth) || void 0 === s
+                                ? void 0
+                                : s.isLoggedIn))
+                            ) {
+                              t.next = 20;
+                              break;
+                            }
+                            return (
+                              (j = Object(h.a)({}, e.Vote.votes)),
+                              (t.next = 8),
+                              I.post(
+                                k.GET_PERSONALIZED_MAIN_FEED + "/false/false"
+                              )
+                            );
+                          case 8:
+                            return (
+                              (a = t.sent),
+                              (b = []),
+                              null === (l = a) ||
+                                void 0 === l ||
+                                null === (d = l.data) ||
+                                void 0 === d ||
+                                null === (u = d.data) ||
+                                void 0 === u ||
+                                u.Items.forEach(function (e) {
+                                  b.push(e.hashedUrl),
+                                    (n[e.hashedUrl] = {
+                                      likes: e.like,
+                                      upVotes: e.upVote,
+                                      downVotes: e.downVote,
+                                    });
+                                }),
+                              (t.next = 13),
+                              I.post(k.GET_USER_PREVIOUS_VOTES, { voteIds: b })
+                            );
+                          case 13:
+                            (v = t.sent),
+                              console.log("Previous", v),
+                              v.data.data.forEach(function (e) {
+                                j[e.voteId] = {
+                                  liked: "like" === e.voteType,
+                                  upVotted: "upVote" === e.voteType,
+                                  downVotted: "downVote" === e.voteType,
+                                };
+                              }),
+                              e.voteHandler(j),
+                              e.isPersonalizedMainFeedFetched(!0),
+                              (t.next = 24);
+                            break;
+                          case 20:
+                            return (
+                              (t.next = 22),
+                              I.get(k.GET_MAIN_FEED + "/false/false")
+                            );
+                          case 22:
+                            (a = t.sent),
+                              null === (p = a) ||
+                                void 0 === p ||
+                                null === (O = p.data) ||
+                                void 0 === O ||
+                                null === (_ = O.data) ||
+                                void 0 === _ ||
+                                _.Items.forEach(function (e) {
+                                  n[e.hashedUrl] = {
+                                    likes: e.like,
+                                    upVotes: e.upVote,
+                                    downVotes: e.downVote,
+                                  };
+                                });
+                          case 24:
+                            (null === (o = a) ||
+                            void 0 === o ||
+                            null === (c = o.data) ||
+                            void 0 === c ||
+                            null === (r = c.data) ||
+                            void 0 === r
+                              ? void 0
+                              : r.Items) &&
+                              (e.setMainFeed(a.data.data.Items),
+                              e.voteCountHandler(
+                                Object(h.a)(
+                                  Object(h.a)({}, e.Vote.voteCount),
+                                  n
+                                )
+                              )),
+                              (t.next = 30);
+                            break;
+                          case 27:
+                            (t.prev = 27),
+                              (t.t0 = t.catch(3)),
+                              console.log(t.t0);
+                          case 30:
+                            i(!1);
+                          case 31:
+                          case "end":
+                            return t.stop();
+                        }
+                    },
+                    t,
+                    null,
+                    [[3, 27]]
+                  );
+                })
+              );
+              return function () {
+                return t.apply(this, arguments);
+              };
+            })();
+          return (
+            Object(n.useEffect)(
+              function () {
+                var t, a, n;
+                ((null === (t = e.Feed) || void 0 === t
+                  ? void 0
+                  : t.mainFeed.length) || l(),
+                null === (a = e.Feed) || void 0 === a
+                  ? void 0
+                  : a.isPersonalizedMainFeedFetched) ||
+                  ((null === (n = e.Auth) || void 0 === n
+                    ? void 0
+                    : n.isLoggedIn) &&
+                    l());
+              },
+              [null === (t = e.Auth) || void 0 === t ? void 0 : t.isLoggedIn]
+            ),
+            Object(Ve.jsx)("div", {
+              children: r
+                ? Object(Ve.jsx)(Ba, {})
+                : Object(Ve.jsxs)("div", {
+                    children: [
+                      Object(Ve.jsx)("div", {
+                        className: Ea.a.ReloadButton,
+                        onClick: function () {
+                          return l();
+                        },
+                        children: Object(Ve.jsx)("i", {
+                          className: "icon sync alternate",
+                        }),
+                      }),
+                      null === (a = e.Feed) ||
+                      void 0 === a ||
+                      null === (s = a.mainFeed) ||
+                      void 0 === s
+                        ? void 0
+                        : s.map(function (e, t) {
+                            return "blog" === e.postType
+                              ? Object(Ve.jsx)(
+                                  ba,
+                                  { Element: e, Type: "post" },
+                                  "blg-card-".concat(t)
+                                )
+                              : "question" === e.postType
+                              ? Object(Ve.jsx)(
+                                  fa,
+                                  { Element: e, Type: "post" },
+                                  "qs-card-".concat(t)
+                                )
+                              : null;
+                          }),
+                    ],
+                  }),
+            })
+          );
+        }),
+        Ta = function (e) {
+          return Object(Ve.jsx)(sa, {
+            children: Object(Ve.jsx)(xt, {
+              isRightBar: !0,
+              children: Object(Ve.jsx)(ra, {
+                children: Object(Ve.jsx)(wa, {}),
+              }),
+            }),
+          });
+        },
+        Pa = a(387),
+        ka = a.n(Pa),
+        La = function (e) {
+          return Object(Ve.jsx)(Me.c, {
+            to: "/profile/edit",
+            exact: !0,
+            children: Object(Ve.jsx)("div", {
+              className: ka.a.EditProfile,
+              children: "Edit Profile",
+            }),
+          });
+        },
+        ya = a(388),
+        Ia = a.n(ya),
+        Aa = function (e) {
+          var t = (function () {
+            var t = Object(F.a)(
+              D.a.mark(function t() {
+                var a;
+                return D.a.wrap(
+                  function (t) {
+                    for (;;)
+                      switch ((t.prev = t.next)) {
+                        case 0:
+                          return (
+                            (t.prev = 0),
+                            (t.next = 3),
+                            I.post(k.FOLLOW_UNFOLLOW_USER, {
+                              userName: e.userName,
+                            })
+                          );
+                        case 3:
+                          (a = t.sent), console.log(a), (t.next = 10);
+                          break;
+                        case 7:
+                          (t.prev = 7), (t.t0 = t.catch(0)), console.log(t.t0);
+                        case 10:
+                        case "end":
+                          return t.stop();
+                      }
+                  },
+                  t,
+                  null,
+                  [[0, 7]]
+                );
+              })
+            );
+            return function () {
+              return t.apply(this, arguments);
+            };
+          })();
+          return Object(Ve.jsx)("div", {
+            onClick: function () {
+              e.changer("follow"), t();
+            },
+            className: Ia.a.FollowUserButton,
+            children: Object(Ve.jsx)("p", { children: "Follow" }),
+          });
+        },
+        Da = a(389),
+        Fa = a.n(Da),
+        Ua = function (e) {
+          var t = (function () {
+            var t = Object(F.a)(
+              D.a.mark(function t() {
+                var a;
+                return D.a.wrap(
+                  function (t) {
+                    for (;;)
+                      switch ((t.prev = t.next)) {
+                        case 0:
+                          return (
+                            (t.prev = 0),
+                            (t.next = 3),
+                            I.post(k.FOLLOW_UNFOLLOW_USER, {
+                              userName: e.userName,
+                            })
+                          );
+                        case 3:
+                          (a = t.sent), console.log(a), (t.next = 10);
+                          break;
+                        case 7:
+                          (t.prev = 7), (t.t0 = t.catch(0)), console.log(t.t0);
+                        case 10:
+                        case "end":
+                          return t.stop();
+                      }
+                  },
+                  t,
+                  null,
+                  [[0, 7]]
+                );
+              })
+            );
+            return function () {
+              return t.apply(this, arguments);
+            };
+          })();
+          return Object(Ve.jsx)("div", {
+            onClick: function () {
+              e.changer("unfollow"), t();
+            },
+            className: Fa.a.UnfollowUserButton,
+            children: Object(Ve.jsx)("p", { children: "Unfollow" }),
+          });
+        },
+        Ra = a(266),
+        Va = a.n(Ra),
+        Ha = function (e) {
+          return Object(Ve.jsx)(Me.c, {
+            activeClassName: Va.a.active,
+            to: "/me/messages/".concat(e.userName),
+            exact: !0,
+            children: Object(Ve.jsx)("div", {
+              className: Va.a.ChatButton,
+              children: Object(Ve.jsx)("p", { children: "Chat" }),
+            }),
+          });
+        },
+        Ma = a(390),
+        Ga = a.n(Ma),
+        Qa = function (e) {
+          return Object(Ve.jsx)("div", {
+            className: Ga.a.Modal,
+            children: e.children,
+          });
+        },
+        za = a(180),
+        qa = a.n(za),
+        Wa = function (e) {
+          var t = Object(n.useState)([]),
+            a = Object(Pe.a)(t, 2),
+            s = a[0],
+            o = a[1],
+            c = (function () {
+              var t = Object(F.a)(
+                D.a.mark(function t() {
+                  var a;
+                  return D.a.wrap(
+                    function (t) {
+                      for (;;)
+                        switch ((t.prev = t.next)) {
+                          case 0:
+                            if (((t.prev = 0), "followings" !== e.Type)) {
+                              t.next = 6;
+                              break;
+                            }
+                            return (
+                              (t.next = 4),
+                              I.get(
+                                k.GET_USERS_I_FOLLOW +
+                                  "/" +
+                                  e.UserName +
+                                  "/false/false"
+                              )
+                            );
+                          case 4:
+                            (a = t.sent), o(a.data.data.Items);
+                          case 6:
+                            if ("followers" !== e.Type) {
+                              t.next = 11;
+                              break;
+                            }
+                            return (
+                              (t.next = 9),
+                              I.get(
+                                k.GET_MY_FOLLOWERS +
+                                  "/" +
+                                  e.UserName +
+                                  "/false/false"
+                              )
+                            );
+                          case 9:
+                            (a = t.sent), o(a.data.data.Items);
+                          case 11:
+                            if ("devsOfTag" !== e.Type) {
+                              t.next = 16;
+                              break;
+                            }
+                            return (
+                              (t.next = 14),
+                              I.get(
+                                k.DEVS_WHO_FOLLOW_THE_TAG +
+                                  "/" +
+                                  e.TagName +
+                                  "/false/false"
+                              )
+                            );
+                          case 14:
+                            (a = t.sent), o(a.data.data.Items);
+                          case 16:
+                            t.next = 21;
+                            break;
+                          case 18:
+                            (t.prev = 18),
+                              (t.t0 = t.catch(0)),
+                              console.log(t.t0);
+                          case 21:
+                          case "end":
+                            return t.stop();
+                        }
+                    },
+                    t,
+                    null,
+                    [[0, 18]]
+                  );
+                })
+              );
+              return function () {
+                return t.apply(this, arguments);
+              };
+            })();
+          return (
+            Object(n.useEffect)(function () {
+              c();
+            }, []),
+            Object(Ve.jsxs)("div", {
+              children: [
+                Object(Ve.jsx)(dt, {
+                  show: !0,
+                  zIndex: 400,
+                  clicked: e.CloseBtn,
+                }),
+                Object(Ve.jsx)(Qa, {
+                  children: Object(Ve.jsx)("div", {
+                    className: qa.a.ModalDesign,
+                    children: s.map(function (e, t) {
+                      var a,
+                        n = e.length ? e[0] : e;
+                      return Object(Ve.jsxs)(
+                        "div",
+                        {
+                          className: qa.a.UsersCard,
+                          children: [
+                            Object(Ve.jsx)("div", {
+                              className: qa.a.UserImageSection,
+                              children: Object(Ve.jsx)("img", {
+                                src: (
+                                  null === n ||
+                                  void 0 === n ||
+                                  null === (a = n.profilePicture) ||
+                                  void 0 === a
+                                    ? void 0
+                                    : a.length
+                                )
+                                  ? null === n || void 0 === n
+                                    ? void 0
+                                    : n.profilePicture
+                                  : Ut,
+                                alt: "userImage",
+                              }),
+                            }),
+                            Object(Ve.jsxs)("div", {
+                              className: qa.a.NameUserNameSection,
+                              children: [
+                                Object(Ve.jsx)("p", {
+                                  children: Object(Ve.jsx)("b", {
+                                    children: n.name,
+                                  }),
+                                }),
+                                Object(Ve.jsxs)("strong", {
+                                  children: ["@", n.userName],
+                                }),
+                              ],
+                            }),
+                          ],
+                        },
+                        "user-card-".concat(t)
+                      );
+                    }),
+                  }),
+                }),
+              ],
+            })
+          );
+        },
+        Za = a(21),
+        Ka = a.n(Za),
+        Ya = Object(u.b)(
+          function (e) {
+            return { Auth: e.Auth, Vote: e.Vote };
+          },
+          {
+            login: Le,
+            setUserDetails: ye,
+            voteHandler: De,
+            voteCountHandler: Fe,
+          }
+        )(function (e) {
+          var t,
+            a,
+            s,
+            o,
+            c,
+            r,
+            i,
+            l,
+            d,
+            u,
+            j,
+            b,
+            v,
+            p,
+            O,
+            _,
+            x,
+            g = Object(n.useState)(!1),
+            m = Object(Pe.a)(g, 2),
+            f = m[0],
+            S = m[1],
+            N = Object(n.useState)("loading"),
+            B = Object(Pe.a)(N, 2),
+            C = B[0],
+            E = B[1],
+            w = Object(n.useState)(!1),
+            T = Object(Pe.a)(w, 2),
+            P = T[0],
+            L = T[1],
+            y = Object(n.useState)(!1),
+            A = Object(Pe.a)(y, 2),
+            U = A[0],
+            R = A[1],
+            V = Object(n.useState)([]),
+            H = Object(Pe.a)(V, 2),
+            M = H[0],
+            G = H[1],
+            Q = Object(n.useState)(!0),
+            z = Object(Pe.a)(Q, 2),
+            q = z[0],
+            W = z[1],
+            Z = Object(n.useState)(
+              Object(Ve.jsx)("div", {
+                className: Ka.a.LoadingButton,
+                children: Object(Ve.jsx)("div", {
+                  className: "ui small active centered inline loader",
+                }),
+              })
+            ),
+            K = Object(Pe.a)(Z, 2),
+            Y = K[0],
+            J = K[1],
+            X = function t(a) {
+              "follow" === a &&
+                J(Object(Ve.jsx)(Ua, { changer: t, userName: e.userName })),
+                "unfollow" === a &&
+                  J(Object(Ve.jsx)(Aa, { changer: t, userName: e.userName }));
+            },
+            $ = (function () {
+              var t = Object(F.a)(
+                D.a.mark(function t() {
+                  var a, n, s, o, c, r, i, l, d, u, j;
+                  return D.a.wrap(function (t) {
+                    for (;;)
+                      switch ((t.prev = t.next)) {
+                        case 0:
+                          if (
+                            e.userName !==
+                            (null === (a = e.Auth) ||
+                            void 0 === a ||
+                            null === (n = a.cognitoUserInfo) ||
+                            void 0 === n ||
+                            null === (s = n.attributes) ||
+                            void 0 === s
+                              ? void 0
+                              : s.profile)
+                          ) {
+                            t.next = 9;
+                            break;
+                          }
+                          J(Object(Ve.jsx)(La, {})),
+                            W(!1),
+                            delete (l = Object(h.a)({}, e.Auth.userdetails))
+                              .userId,
+                            e.setProfileDetails(l),
+                            Object.keys(l).length ? S(!1) : S(!0),
+                            (t.next = 19);
+                          break;
+                        case 9:
+                          if (
+                            !(null === (o = e.Auth) || void 0 === o
+                              ? void 0
+                              : o.isLoggedIn) ||
+                            e.userName ===
+                              (null === (c = e.Auth) ||
+                              void 0 === c ||
+                              null === (r = c.cognitoUserInfo) ||
+                              void 0 === r ||
+                              null === (i = r.attributes) ||
+                              void 0 === i
+                                ? void 0
+                                : i.profile)
+                          ) {
+                            t.next = 18;
+                            break;
+                          }
+                          return (
+                            W(!0),
+                            (t.next = 13),
+                            I.post(k.FOLLOW_CHECKER, { userName: e.userName })
+                          );
+                        case 13:
+                          (j = t.sent),
+                            console.log("checker details", j),
+                            (
+                              null === (d = j.data) ||
+                              void 0 === d ||
+                              null === (u = d.data) ||
+                              void 0 === u
+                                ? void 0
+                                : u.length
+                            )
+                              ? J(
+                                  Object(Ve.jsx)(Ua, {
+                                    changer: X,
+                                    userName: e.userName,
+                                  })
+                                )
+                              : J(
+                                  Object(Ve.jsx)(Aa, {
+                                    changer: X,
+                                    userName: e.userName,
+                                  })
+                                ),
+                            (t.next = 19);
+                          break;
+                        case 18:
+                          J(
+                            Object(Ve.jsx)(Aa, {
+                              changer: X,
+                              userName: e.userName,
+                            })
+                          );
+                        case 19:
+                        case "end":
+                          return t.stop();
+                      }
+                  }, t);
+                })
+              );
+              return function () {
+                return t.apply(this, arguments);
+              };
+            })(),
+            ee = (function () {
+              var t = Object(F.a)(
+                D.a.mark(function t() {
+                  var a, n, s, o;
+                  return D.a.wrap(
+                    function (t) {
+                      for (;;)
+                        switch ((t.prev = t.next)) {
+                          case 0:
+                            return (
+                              (t.prev = 0),
+                              e.Auth.isLoggedIn || S(!0),
+                              e.userName !==
+                                (null === (a = e.Auth) ||
+                                void 0 === a ||
+                                null === (n = a.cognitoUserInfo) ||
+                                void 0 === n ||
+                                null === (s = n.attributes) ||
+                                void 0 === s
+                                  ? void 0
+                                  : s.profile) && S(!0),
+                              (t.next = 5),
+                              I.get(k.GET_USER_BY_USER_NAME + e.userName)
+                            );
+                          case 5:
+                            (o = t.sent),
+                              console.log("fetched user", o),
+                              o.data.data.length && o.data.status
+                                ? e.setProfileDetails(o.data.data[0])
+                                : e.setProfileDetails("notFound"),
+                              S(!1),
+                              (t.next = 15);
+                            break;
+                          case 11:
+                            (t.prev = 11),
+                              (t.t0 = t.catch(0)),
+                              S(!1),
+                              console.log(t.t0);
+                          case 15:
+                          case "end":
+                            return t.stop();
+                        }
+                    },
+                    t,
+                    null,
+                    [[0, 11]]
+                  );
+                })
+              );
+              return function () {
+                return t.apply(this, arguments);
+              };
+            })(),
+            te = (function () {
+              var t = Object(F.a)(
+                D.a.mark(function t() {
+                  var a, n, s, o, c, r, i, l, d, u, j, b, v, p, O;
+                  return D.a.wrap(
+                    function (t) {
+                      for (;;)
+                        switch ((t.prev = t.next)) {
+                          case 0:
+                            if (
+                              ((a = {}),
+                              (n = {}),
+                              (t.prev = 2),
+                              !(null === (s = e.Auth) || void 0 === s
+                                ? void 0
+                                : s.isLoggedIn))
+                            ) {
+                              t.next = 18;
+                              break;
+                            }
+                            return (
+                              (u = Object(h.a)({}, e.Vote.votes)),
+                              (t.next = 7),
+                              I.get(
+                                k.DEV_POSTS + "/" + e.userName + "/false/false"
+                              )
+                            );
+                          case 7:
+                            return (
+                              (a = t.sent),
+                              (j = []),
+                              null === (i = a) ||
+                                void 0 === i ||
+                                null === (l = i.data) ||
+                                void 0 === l ||
+                                null === (d = l.data) ||
+                                void 0 === d ||
+                                d.Items.forEach(function (e) {
+                                  j.push(e.hashedUrl),
+                                    (n[e.hashedUrl] = {
+                                      likes: e.like,
+                                      upVotes: e.upVote,
+                                      downVotes: e.downVote,
+                                    });
+                                }),
+                              (t.next = 12),
+                              I.post(k.GET_USER_PREVIOUS_VOTES, { voteIds: j })
+                            );
+                          case 12:
+                            (b = t.sent),
+                              console.log("Previous", b),
+                              b.data.data.forEach(function (e) {
+                                u[e.voteId] = {
+                                  liked: "like" === e.voteType,
+                                  upVotted: "upVote" === e.voteType,
+                                  downVotted: "downVote" === e.voteType,
+                                };
+                              }),
+                              e.voteHandler(u),
+                              (t.next = 22);
+                            break;
+                          case 18:
+                            return (
+                              (t.next = 20),
+                              I.get(
+                                k.DEV_POSTS + "/" + e.userName + "/false/false"
+                              )
+                            );
+                          case 20:
+                            (a = t.sent),
+                              null === (v = a) ||
+                                void 0 === v ||
+                                null === (p = v.data) ||
+                                void 0 === p ||
+                                null === (O = p.data) ||
+                                void 0 === O ||
+                                O.Items.forEach(function (e) {
+                                  n[e.hashedUrl] = {
+                                    likes: e.like,
+                                    upVotes: e.upVote,
+                                    downVotes: e.downVote,
+                                  };
+                                });
+                          case 22:
+                            (
+                              null === (o = a) ||
+                              void 0 === o ||
+                              null === (c = o.data) ||
+                              void 0 === c ||
+                              null === (r = c.data) ||
+                              void 0 === r
+                                ? void 0
+                                : r.Items.length
+                            )
+                              ? (E("found"),
+                                G(a.data.data.Items),
+                                e.voteCountHandler(
+                                  Object(h.a)(
+                                    Object(h.a)({}, e.Vote.voteCount),
+                                    n
+                                  )
+                                ))
+                              : E("notFound"),
+                              (t.next = 28);
+                            break;
+                          case 25:
+                            (t.prev = 25),
+                              (t.t0 = t.catch(2)),
+                              console.log(t.t0);
+                          case 28:
+                          case "end":
+                            return t.stop();
+                        }
+                    },
+                    t,
+                    null,
+                    [[2, 25]]
+                  );
+                })
+              );
+              return function () {
+                return t.apply(this, arguments);
+              };
+            })();
+          Object(n.useEffect)(
+            function () {
+              $();
+            },
+            [
+              e.userName,
+              null === (t = e.Auth) || void 0 === t ? void 0 : t.isLoggedIn,
+            ]
+          ),
+            Object(n.useEffect)(
+              function () {
+                ee(), te();
+              },
+              [
+                e.userName,
+                null === (a = e.Auth) || void 0 === a ? void 0 : a.isLoggedIn,
+              ]
+            );
+          return Object(Ve.jsx)("div", {
+            children: f
+              ? Object(Ve.jsx)(Ba, {})
+              : Object(Ve.jsxs)("div", {
+                  children: [
+                    Object(Ve.jsxs)("div", {
+                      className: Ka.a.ProfileCard,
+                      children: [
+                        U
+                          ? Object(Ve.jsx)("div", {
+                              className: Ka.a.ModalArea,
+                              children: Object(Ve.jsx)(Wa, {
+                                UserName: e.userName,
+                                Type: "followings",
+                                CloseBtn: function () {
+                                  R(!1);
+                                },
+                              }),
+                            })
+                          : null,
+                        P
+                          ? Object(Ve.jsx)("div", {
+                              className: Ka.a.ModalArea,
+                              children: Object(Ve.jsx)(Wa, {
+                                UserName: e.userName,
+                                Type: "followers",
+                                CloseBtn: function () {
+                                  L(!1);
+                                },
+                              }),
+                            })
+                          : null,
+                        Object(Ve.jsxs)("div", {
+                          className: Ka.a.HeaderAnimation,
+                          children: [
+                            Object(Ve.jsx)("div", { className: Ka.a.Stars }),
+                            Object(Ve.jsx)("div", { className: Ka.a.Stars2 }),
+                            Object(Ve.jsx)("div", { className: Ka.a.Stars3 }),
+                          ],
+                        }),
+                        Object(Ve.jsx)("img", {
+                          src: (
+                            null === (s = e.profileDetails) ||
+                            void 0 === s ||
+                            null === (o = s.profilePicture) ||
+                            void 0 === o
+                              ? void 0
+                              : o.length
+                          )
+                            ? null === (c = e.profileDetails) || void 0 === c
+                              ? void 0
+                              : c.profilePicture
+                            : Ut,
+                          alt: "UserImage",
+                          className: Ka.a.UserPic,
+                        }),
+                        Object(Ve.jsx)("div", {
+                          className: Ka.a.UserInfo,
+                          children: Object(Ve.jsxs)("div", {
+                            className: Ka.a.Row,
+                            children: [
+                              Object(Ve.jsx)("div", {
+                                className: Ka.a.Column,
+                                children: Object(Ve.jsxs)("div", {
+                                  className: Ka.a.BasicDetails,
+                                  children: [
+                                    Object(Ve.jsx)("p", {
+                                      className: Ka.a.Name,
+                                      children:
+                                        null === (r = e.profileDetails) ||
+                                        void 0 === r
+                                          ? void 0
+                                          : r.name,
+                                    }),
+                                    Object(Ve.jsxs)("p", {
+                                      className: Ka.a.UserName,
+                                      children: [
+                                        "@",
+                                        null === (i = e.profileDetails) ||
+                                        void 0 === i
+                                          ? void 0
+                                          : i.userName,
+                                      ],
+                                    }),
+                                    Object(Ve.jsxs)("p", {
+                                      className: Ka.a.Email,
+                                      children: [
+                                        "\u2709\ufe0f ",
+                                        null === (l = e.profileDetails) ||
+                                        void 0 === l
+                                          ? void 0
+                                          : l.email,
+                                      ],
+                                    }),
+                                    Object(Ve.jsx)("p", {
+                                      className: Ka.a.Bio,
+                                      children:
+                                        null === (d = e.profileDetails) ||
+                                        void 0 === d
+                                          ? void 0
+                                          : d.bio,
+                                    }),
+                                    Object(Ve.jsxs)("div", {
+                                      className: Ka.a.FollowersFollowing,
+                                      children: [
+                                        Object(Ve.jsxs)("p", {
+                                          className: Ka.a.Reputation,
+                                          children: [
+                                            Object(Ve.jsx)("i", {
+                                              className: "icon chess king",
+                                            }),
+                                            Object(Ve.jsx)("b", {
+                                              children:
+                                                (null ===
+                                                  (u = e.profileDetails) ||
+                                                void 0 === u
+                                                  ? void 0
+                                                  : u.reputation) /
+                                                  1e3 >
+                                                1
+                                                  ? (
+                                                      (null ===
+                                                        (j =
+                                                          e.profileDetails) ||
+                                                      void 0 === j
+                                                        ? void 0
+                                                        : j.reputation) / 1e3
+                                                    ).toFixed(1) + "k"
+                                                  : null ===
+                                                      (b = e.profileDetails) ||
+                                                    void 0 === b
+                                                  ? void 0
+                                                  : b.reputation,
+                                            }),
+                                          ],
+                                        }),
+                                        Object(Ve.jsx)("div", {
+                                          className: Ka.a.Following,
+                                          onClick: function () {
+                                            return R(!0);
+                                          },
+                                          children: Object(Ve.jsxs)("p", {
+                                            children: [
+                                              "Following ",
+                                              Object(Ve.jsxs)("b", {
+                                                children: [
+                                                  null ===
+                                                    (v = e.profileDetails) ||
+                                                  void 0 === v
+                                                    ? void 0
+                                                    : v.following,
+                                                  " ",
+                                                ],
+                                              }),
+                                            ],
+                                          }),
+                                        }),
+                                        Object(Ve.jsx)("div", {
+                                          className: Ka.a.Follower,
+                                          onClick: function () {
+                                            return L(!0);
+                                          },
+                                          children: Object(Ve.jsxs)("p", {
+                                            children: [
+                                              "Followers ",
+                                              Object(Ve.jsx)("b", {
+                                                children:
+                                                  null ===
+                                                    (p = e.profileDetails) ||
+                                                  void 0 === p
+                                                    ? void 0
+                                                    : p.followers,
+                                              }),
+                                            ],
+                                          }),
+                                        }),
+                                      ],
+                                    }),
+                                  ],
+                                }),
+                              }),
+                              Object(Ve.jsx)("div", {
+                                className: Ka.a.Column,
+                                children: Object(Ve.jsxs)("div", {
+                                  className: Ka.a.ButtonsSection,
+                                  children: [
+                                    Object(Ve.jsxs)("div", {
+                                      className: Ka.a.BigButtonsSection,
+                                      children: [
+                                        q
+                                          ? Object(Ve.jsx)("div", {
+                                              className: Ka.a.ChatButton,
+                                              children: Object(Ve.jsx)(Ha, {
+                                                userName: e.userName,
+                                              }),
+                                            })
+                                          : null,
+                                        Object(Ve.jsx)("div", {
+                                          className: Ka.a.EditOrFollowButton,
+                                          children: Y,
+                                        }),
+                                      ],
+                                    }),
+                                    Object(Ve.jsxs)("div", {
+                                      className: Ka.a.SocialLinks,
+                                      children: [
+                                        Object(Ve.jsx)("a", {
+                                          rel: "noreferrer",
+                                          href:
+                                            null === (O = e.profileDetails) ||
+                                            void 0 === O
+                                              ? void 0
+                                              : O.githubLink,
+                                          target: "_blank",
+                                          children: Object(Ve.jsx)("i", {
+                                            className: "icon github",
+                                          }),
+                                        }),
+                                        Object(Ve.jsx)("a", {
+                                          rel: "noreferrer",
+                                          href:
+                                            null === (_ = e.profileDetails) ||
+                                            void 0 === _
+                                              ? void 0
+                                              : _.twitterLink,
+                                          target: "_blank",
+                                          children: Object(Ve.jsx)("i", {
+                                            className: "icon twitter",
+                                          }),
+                                        }),
+                                        Object(Ve.jsx)("a", {
+                                          rel: "noreferrer",
+                                          href:
+                                            null === (x = e.profileDetails) ||
+                                            void 0 === x
+                                              ? void 0
+                                              : x.linkedinLink,
+                                          target: "_blank",
+                                          children: Object(Ve.jsx)("i", {
+                                            className: "icon linkedin",
+                                          }),
+                                        }),
+                                      ],
+                                    }),
+                                  ],
+                                }),
+                              }),
+                            ],
+                          }),
+                        }),
+                      ],
+                    }),
+                    Object(Ve.jsx)("div", {
+                      className: Ka.a.RecentPostSection,
+                      children: Object(Ve.jsx)("p", {
+                        children: "Recent Posts",
+                      }),
+                    }),
+                    Object(Ve.jsx)("div", {
+                      children:
+                        "loading" === C
+                          ? Object(Ve.jsx)("div", {
+                              className: Ka.a.ResponseLoader,
+                              children: Object(Ve.jsx)(st, {}),
+                            })
+                          : "notFound" === C
+                          ? Object(Ve.jsxs)("div", {
+                              className: Ka.a.ResponseLoader,
+                              children: [
+                                " ",
+                                Object(Ve.jsx)("p", {
+                                  children: "No Previous Post Found",
+                                }),
+                                " ",
+                              ],
+                            })
+                          : Object(Ve.jsxs)("div", {
+                              children: [
+                                " ",
+                                Object(Ve.jsx)("div", {
+                                  children: M.map(function (e, t) {
+                                    return "blog" === e.postType
+                                      ? Object(Ve.jsx)(
+                                          ba,
+                                          { Element: e, Type: "post" },
+                                          "blg-card-".concat(t)
+                                        )
+                                      : "question" === e.postType
+                                      ? Object(Ve.jsx)(
+                                          fa,
+                                          { Element: e, Type: "post" },
+                                          "qs-card-".concat(t)
+                                        )
+                                      : null;
+                                  }),
+                                }),
+                              ],
+                            }),
+                    }),
+                  ],
+                }),
+          });
+        }),
+        Ja =
+          (a(582),
+          Object(u.b)(
+            function (e) {
+              return { Auth: e.Auth };
+            },
+            { login: Le }
+          )(function (e) {
+            var t = e.match.params.username,
+              a = Object(n.useState)(null),
+              s = Object(Pe.a)(a, 2),
+              o = s[0],
+              c = s[1];
+            return Object(Ve.jsx)("div", {
+              children:
+                "notFound" === o
+                  ? Object(Ve.jsx)(We, {})
+                  : Object(Ve.jsx)(sa, {
+                      children: Object(Ve.jsx)(xt, {
+                        isRightBar: !0,
+                        children: Object(Ve.jsx)(Ya, {
+                          profileDetails: o,
+                          setProfileDetails: c,
+                          userName: t,
+                        }),
+                      }),
+                    }),
+            });
+          })),
+        Xa = a(217),
+        $a = a(24),
+        en = a.n($a),
+        tn = Object(u.b)(
+          function (e) {
+            return { Auth: e.Auth };
+          },
+          { login: Le }
+        )(function (e) {
+          var t,
+            a = Object(n.useState)({}),
+            s = Object(Pe.a)(a, 2),
+            o = s[0],
+            c = s[1],
+            r = Object(n.useState)(!0),
+            i = Object(Pe.a)(r, 2),
+            l = i[0],
+            d = i[1],
+            u = Object(n.useState)({}),
+            j = Object(Pe.a)(u, 2),
+            b = j[0],
+            v = j[1],
+            p = Object(n.useState)(Ut),
+            O = Object(Pe.a)(p, 2),
+            _ = O[0],
+            x = O[1],
+            g = Object(n.useState)(null),
+            m = Object(Pe.a)(g, 2),
+            f = m[0],
+            S = m[1],
+            N = Object(n.useState)("passed"),
+            B = Object(Pe.a)(N, 2),
+            C = B[0],
+            E = B[1],
+            w = Object(n.useCallback)(
+              (function () {
+                var e = Object(F.a)(
+                  D.a.mark(function e(t) {
+                    return D.a.wrap(function (e) {
+                      for (;;)
+                        switch ((e.prev = e.next)) {
+                          case 0:
+                            x(URL.createObjectURL(t[0])), S(t[0]);
+                          case 2:
+                          case "end":
+                            return e.stop();
+                        }
+                    }, e);
+                  })
+                );
+                return function (t) {
+                  return e.apply(this, arguments);
+                };
+              })(),
+              []
+            ),
+            T = Object(Xa.a)({ accept: "image/*", disabled: !1, onDrop: w }),
+            P = T.getRootProps,
+            L = T.getInputProps,
+            y =
+              (T.isDragActive,
+              (function () {
+                var t = Object(F.a)(
+                  D.a.mark(function t(a) {
+                    var n, s, o, c;
+                    return D.a.wrap(function (t) {
+                      for (;;)
+                        switch ((t.prev = t.next)) {
+                          case 0:
+                            return (
+                              E("checking"),
+                              A("userName", a),
+                              (t.next = 4),
+                              R({
+                                value: a,
+                                defaultUserName:
+                                  null === (n = e.Auth) ||
+                                  void 0 === n ||
+                                  null === (s = n.cognitoUserInfo) ||
+                                  void 0 === s ||
+                                  null === (o = s.attributes) ||
+                                  void 0 === o
+                                    ? void 0
+                                    : o.profile,
+                              })
+                            );
+                          case 4:
+                            (c = t.sent), E(c ? "failed" : "passed");
+                          case 6:
+                          case "end":
+                            return t.stop();
+                        }
+                    }, t);
+                  })
+                );
+                return function (e) {
+                  return t.apply(this, arguments);
+                };
+              })()),
+            A = function (e, t) {
+              var a = Object(h.a)({}, b);
+              (a[e] = t), v(a);
+            };
+          Object(n.useEffect)(
+            function () {
+              var e;
+              (null === b ||
+              void 0 === b ||
+              null === (e = b.userName) ||
+              void 0 === e
+                ? void 0
+                : e.length) < 1 && E("failed");
+            },
+            [C]
+          );
+          var U = (function () {
+            var e = Object(F.a)(
+              D.a.mark(function e() {
+                var t, a, n;
+                return D.a.wrap(
+                  function (e) {
+                    for (;;)
+                      switch ((e.prev = e.next)) {
+                        case 0:
+                          if ("passed" !== C) {
+                            e.next = 21;
+                            break;
+                          }
+                          if (
+                            (d(!0), (e.prev = 2), (t = Object(h.a)({}, b)), !f)
+                          ) {
+                            e.next = 12;
+                            break;
+                          }
+                          return (e.next = 7), me(f.name);
+                        case 7:
+                          return (a = e.sent), (e.next = 10), Se(a, f);
+                        case 10:
+                          (n = e.sent), (t.profilePicture = n.url);
+                        case 12:
+                          return (e.next = 14), I.put(k.UPDATE_USER, t);
+                        case 14:
+                          (window.location.href = "/profile/edit"),
+                            (e.next = 21);
+                          break;
+                        case 17:
+                          (e.prev = 17),
+                            (e.t0 = e.catch(2)),
+                            console.log(e.t0),
+                            d(!1);
+                        case 21:
+                        case "end":
+                          return e.stop();
+                      }
+                  },
+                  e,
+                  null,
+                  [[2, 17]]
+                );
+              })
+            );
+            return function () {
+              return e.apply(this, arguments);
+            };
+          })();
+          return (
+            Object(n.useEffect)(
+              function () {
+                var t;
+                if (
+                  null === (t = e.Auth) || void 0 === t ? void 0 : t.userdetails
+                ) {
+                  c(e.Auth.userdetails);
+                  var a = e.Auth.userdetails,
+                    n = a.userName,
+                    s = a.bio,
+                    o = a.linkedinLink,
+                    r = a.githubLink,
+                    i = a.twitterLink,
+                    l = a.location,
+                    u = a.profilePicture;
+                  (null === u || void 0 === u ? void 0 : u.length) && x(u),
+                    v({
+                      userName: n,
+                      bio: s,
+                      linkedinLink: o,
+                      githubLink: r,
+                      twitterLink: i,
+                      location: l,
+                    }),
+                    d(!1);
+                }
+              },
+              [null === (t = e.Auth) || void 0 === t ? void 0 : t.userdetails]
+            ),
+            Object(Ve.jsx)("div", {
+              children:
+                "notfound" === o
+                  ? Object(Ve.jsx)(We, {})
+                  : Object(Ve.jsx)("div", {
+                      children: Object(Ve.jsx)(sa, {
+                        children: Object(Ve.jsx)(xt, {
+                          isRightBar: !0,
+                          children: l
+                            ? Object(Ve.jsx)(Ba, {})
+                            : Object(Ve.jsxs)("div", {
+                                className: en.a.EditPageContainer,
+                                children: [
+                                  Object(Ve.jsx)("div", {
+                                    className: en.a.ProfilePicContainer,
+                                    children: Object(Ve.jsxs)(
+                                      "div",
+                                      Object(h.a)(
+                                        Object(h.a)({}, P()),
+                                        {},
+                                        {
+                                          children: [
+                                            Object(Ve.jsx)(
+                                              "input",
+                                              Object(h.a)({}, L())
+                                            ),
+                                            Object(Ve.jsx)("img", {
+                                              className: en.a.ProfilePic,
+                                              src: _,
+                                              alt: "profile pic",
+                                            }),
+                                          ],
+                                        }
+                                      )
+                                    ),
+                                  }),
+                                  Object(Ve.jsxs)("div", {
+                                    className: en.a.HeadingSection,
+                                    children: [
+                                      Object(Ve.jsx)("div", {
+                                        className: en.a.HeadingNameSection,
+                                        children: Object(Ve.jsx)("p", {
+                                          className: en.a.HeadingName,
+                                          children:
+                                            null === o || void 0 === o
+                                              ? void 0
+                                              : o.name,
+                                        }),
+                                      }),
+                                      Object(Ve.jsx)("div", {
+                                        className: en.a.HeadingButtonSection,
+                                        children:
+                                          "passed" === C
+                                            ? Object(Ve.jsx)("button", {
+                                                onClick: function () {
+                                                  return U();
+                                                },
+                                                className: en.a.HeadingButton,
+                                                children: "Save",
+                                              })
+                                            : Object(Ve.jsx)("button", {
+                                                className:
+                                                  en.a.HeadingDisabledButton,
+                                                children: "Save",
+                                              }),
+                                      }),
+                                    ],
+                                  }),
+                                  Object(Ve.jsxs)("div", {
+                                    className: en.a.InputsContainer,
+                                    children: [
+                                      Object(Ve.jsxs)("label", {
+                                        className: en.a.InputsLabel,
+                                        children: [
+                                          "User Name",
+                                          Object(Ve.jsx)("span", {
+                                            children:
+                                              "passed" === C
+                                                ? Object(Ve.jsx)("i", {
+                                                    className: "check icon",
+                                                    style: {
+                                                      color: "green",
+                                                      marginLeft: "10px",
+                                                    },
+                                                  })
+                                                : "checking" === C
+                                                ? Object(Ve.jsx)("div", {
+                                                    className: en.a.CheckLoader,
+                                                    children: " ",
+                                                  })
+                                                : Object(Ve.jsx)("i", {
+                                                    className: "x icon",
+                                                    style: {
+                                                      color: "red",
+                                                      marginLeft: "10px",
+                                                    },
+                                                  }),
+                                          }),
+                                        ],
+                                      }),
+                                      Object(Ve.jsx)("input", {
+                                        className:
+                                          "failed" === C
+                                            ? en.a.FailedInput
+                                            : en.a.Inputs,
+                                        onChange: function (e) {
+                                          return y(e.target.value);
+                                        },
+                                        value:
+                                          null === b || void 0 === b
+                                            ? void 0
+                                            : b.userName,
+                                        type: "text",
+                                      }),
+                                      Object(Ve.jsx)("label", {
+                                        className: en.a.InputsLabel,
+                                        children: "Short Bio",
+                                      }),
+                                      Object(Ve.jsx)("input", {
+                                        className: en.a.Inputs,
+                                        onChange: function (e) {
+                                          return A("bio", e.target.value);
+                                        },
+                                        value:
+                                          null === b || void 0 === b
+                                            ? void 0
+                                            : b.bio,
+                                        type: "text",
+                                      }),
+                                      Object(Ve.jsx)("label", {
+                                        className: en.a.InputsLabel,
+                                        children: "Github link",
+                                      }),
+                                      Object(Ve.jsx)("input", {
+                                        className: en.a.Inputs,
+                                        onChange: function (e) {
+                                          return A(
+                                            "githubLink",
+                                            e.target.value
+                                          );
+                                        },
+                                        value:
+                                          null === b || void 0 === b
+                                            ? void 0
+                                            : b.githubLink,
+                                        type: "text",
+                                      }),
+                                      Object(Ve.jsx)("label", {
+                                        className: en.a.InputsLabel,
+                                        children: "Linkedin link",
+                                      }),
+                                      Object(Ve.jsx)("input", {
+                                        className: en.a.Inputs,
+                                        onChange: function (e) {
+                                          return A(
+                                            "linkedinLink",
+                                            e.target.value
+                                          );
+                                        },
+                                        value:
+                                          null === b || void 0 === b
+                                            ? void 0
+                                            : b.linkedinLink,
+                                        type: "text",
+                                      }),
+                                      Object(Ve.jsx)("label", {
+                                        className: en.a.InputsLabel,
+                                        children: "Twitter link",
+                                      }),
+                                      Object(Ve.jsx)("input", {
+                                        className: en.a.Inputs,
+                                        onChange: function (e) {
+                                          return A(
+                                            "twitterLink",
+                                            e.target.value
+                                          );
+                                        },
+                                        value:
+                                          null === b || void 0 === b
+                                            ? void 0
+                                            : b.twitterLink,
+                                        type: "text",
+                                      }),
+                                      Object(Ve.jsx)("label", {
+                                        className: en.a.InputsLabel,
+                                        children: "Location",
+                                      }),
+                                      Object(Ve.jsx)("input", {
+                                        className: en.a.Inputs,
+                                        onChange: function (e) {
+                                          return A("location", e.target.value);
+                                        },
+                                        value:
+                                          null === b || void 0 === b
+                                            ? void 0
+                                            : b.location,
+                                        type: "text",
+                                      }),
+                                    ],
+                                  }),
+                                ],
+                              }),
+                        }),
+                      }),
+                    }),
+            })
+          );
+        }),
+        an = a(52),
+        nn = a.n(an),
+        sn = a(213),
+        on = a(215),
+        cn = function (e) {
+          var t = Object(n.useState)(null),
+            a = Object(Pe.a)(t, 2),
+            s = a[0],
+            o = a[1],
+            c = Object(n.useState)([]),
+            r = Object(Pe.a)(c, 2),
+            i = r[0],
+            l = r[1],
+            u = Object(n.useState)(""),
+            j = Object(Pe.a)(u, 2),
+            b = j[0],
+            v = j[1],
+            p = Object(n.useState)(null),
+            h = Object(Pe.a)(p, 2),
+            O = h[0],
+            _ = h[1],
+            x = Object(n.useState)(!1),
+            g = Object(Pe.a)(x, 2),
+            m = g[0],
+            f = g[1],
+            S = (function () {
+              var e = Object(F.a)(
+                D.a.mark(function e() {
+                  var t, a, n;
+                  return D.a.wrap(function (e) {
+                    for (;;)
+                      switch ((e.prev = e.next)) {
+                        case 0:
+                          return (
+                            (e.next = 2),
+                            I.get(k.GET_POPULAR_TAGS + "/100/false")
+                          );
+                        case 2:
+                          (n = e.sent),
+                            _(
+                              null === n ||
+                                void 0 === n ||
+                                null === (t = n.data) ||
+                                void 0 === t ||
+                                null === (a = t.data) ||
+                                void 0 === a
+                                ? void 0
+                                : a.Items.map(function (e) {
+                                    return {
+                                      value: e.tagName,
+                                      label: e.tagName,
+                                    };
+                                  })
+                            );
+                        case 4:
+                        case "end":
+                          return e.stop();
+                      }
+                  }, e);
+                })
+              );
+              return function () {
+                return e.apply(this, arguments);
+              };
+            })(),
+            N = (function () {
+              var e = Object(F.a)(
+                D.a.mark(function e() {
+                  var t, a;
+                  return D.a.wrap(
+                    function (e) {
+                      for (;;)
+                        switch ((e.prev = e.next)) {
+                          case 0:
+                            return f(!0), (e.prev = 1), (e.next = 4), s.save();
+                          case 4:
+                            return (
+                              (t = e.sent),
+                              (a = i.map(function (e) {
+                                return e.value;
+                              })),
+                              (e.next = 8),
+                              I.post(k.CREATE_POST, {
+                                postType: "question",
+                                title: b,
+                                content: t,
+                                tags: a,
+                              })
+                            );
+                          case 8:
+                            d.b.success(
+                              "wooah \ud83e\udd73 your Question is posted successfully"
+                            ),
+                              (e.next = 14);
+                            break;
+                          case 11:
+                            (e.prev = 11),
+                              (e.t0 = e.catch(1)),
+                              console.log(e.t0);
+                          case 14:
+                            f(!1);
+                          case 15:
+                          case "end":
+                            return e.stop();
+                        }
+                    },
+                    e,
+                    null,
+                    [[1, 11]]
+                  );
+                })
+              );
+              return function () {
+                return e.apply(this, arguments);
+              };
+            })();
+          return (
+            Object(n.useEffect)(function () {
+              S();
+            }, []),
+            Object(Ve.jsx)("div", {
+              children: Object(Ve.jsx)(sa, {
+                children: Object(Ve.jsx)(xt, {
+                  isRightBar: !1,
+                  children: Object(Ve.jsxs)("div", {
+                    className: nn.a.NewQuestionPage,
+                    children: [
+                      Object(Ve.jsx)("div", {
+                        className: nn.a.AskQuestionHeader,
+                        children: Object(Ve.jsx)("p", {
+                          className: nn.a.AskQuestionText,
+                          children: "Ask a public question",
+                        }),
+                      }),
+                      Object(Ve.jsxs)("div", {
+                        className: nn.a.QuestionDetailsContainer,
+                        children: [
+                          Object(Ve.jsxs)("div", {
+                            children: [
+                              Object(Ve.jsxs)("div", {
+                                className: nn.a.TitleAndButtonRow,
+                                children: [
+                                  Object(Ve.jsx)("div", {
+                                    className: nn.a.TitleColumn,
+                                    children: Object(Ve.jsxs)("label", {
+                                      children: [
+                                        Object(Ve.jsx)("b", {
+                                          children: "Title",
+                                        }),
+                                        " ",
+                                        Object(Ve.jsx)("br", {}),
+                                        Object(Ve.jsx)("small", {
+                                          children:
+                                            "Be specific and imagine you\u2019re asking a question to another person",
+                                        }),
+                                      ],
+                                    }),
+                                  }),
+                                  Object(Ve.jsx)("div", {
+                                    className: nn.a.ButtonColumn,
+                                    children: Object(Ve.jsx)("button", {
+                                      className:
+                                        (b.length && i.length) > 0 &&
+                                        i.length < 6 &&
+                                        !m
+                                          ? nn.a.PostButton
+                                          : nn.a.PostButtonDisabled,
+                                      onClick: N,
+                                      children: m
+                                        ? "Posting..."
+                                        : "Post question",
+                                    }),
+                                  }),
+                                ],
+                              }),
+                              Object(Ve.jsx)("input", {
+                                className: nn.a.TitleInput,
+                                onChange: function (e) {
+                                  return v(e.target.value);
+                                },
+                                type: "text",
+                              }),
+                            ],
+                          }),
+                          Object(Ve.jsx)("div", {
+                            children: Object(Ve.jsxs)("label", {
+                              children: [
+                                Object(Ve.jsx)("b", { children: "Body" }),
+                                " ",
+                                Object(Ve.jsx)("br", {}),
+                                Object(Ve.jsx)("small", {
+                                  children:
+                                    "Include all the information someone would need to answer your question or you can keep it empty if it is a short query",
+                                }),
+                              ],
+                            }),
+                          }),
+                          Object(Ve.jsx)("div", {
+                            className: nn.a.EditorBody,
+                            children: Object(Ve.jsx)(sn.a, {
+                              autofocus: !0,
+                              instanceRef: function (e) {
+                                return o(e);
+                              },
+                              tools: _e,
+                            }),
+                          }),
+                          Object(Ve.jsxs)("div", {
+                            children: [
+                              Object(Ve.jsxs)("label", {
+                                children: [
+                                  Object(Ve.jsx)("b", { children: "Add tags" }),
+                                  " ",
+                                  Object(Ve.jsx)("br", {}),
+                                  Object(Ve.jsx)("small", {
+                                    children: "Select upto 5 tags",
+                                  }),
+                                ],
+                              }),
+                              Object(Ve.jsx)("div", {
+                                className: nn.a.SelectTagsSection,
+                                children: Object(Ve.jsx)(on.a, {
+                                  options: O,
+                                  isMulti: !0,
+                                  onChange: l,
+                                  menuPlacement: "auto",
+                                }),
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                    ],
+                  }),
+                }),
+              }),
+            })
+          );
+        },
+        rn = a(38),
+        ln = a.n(rn),
+        dn = function (e) {
+          var t = Object(n.useState)(null),
+            a = Object(Pe.a)(t, 2),
+            s = a[0],
+            o = a[1],
+            c = Object(n.useState)([]),
+            r = Object(Pe.a)(c, 2),
+            i = r[0],
+            l = r[1],
+            u = Object(n.useState)(""),
+            j = Object(Pe.a)(u, 2),
+            b = j[0],
+            v = j[1],
+            p = Object(n.useState)(""),
+            O = Object(Pe.a)(p, 2),
+            _ = O[0],
+            x = O[1],
+            g = Object(n.useState)(null),
+            m = Object(Pe.a)(g, 2),
+            f = m[0],
+            S = m[1],
+            N = Object(n.useState)(!1),
+            B = Object(Pe.a)(N, 2),
+            C = B[0],
+            E = B[1],
+            w = Object(n.useState)(!1),
+            T = Object(Pe.a)(w, 2),
+            P = T[0],
+            L = T[1],
+            y = Object(n.useState)(null),
+            A = Object(Pe.a)(y, 2),
+            U = A[0],
+            R = A[1],
+            V = Object(n.useCallback)(
+              (function () {
+                var e = Object(F.a)(
+                  D.a.mark(function e(t) {
+                    return D.a.wrap(function (e) {
+                      for (;;)
+                        switch ((e.prev = e.next)) {
+                          case 0:
+                            L(!0), x(URL.createObjectURL(t[0])), R(t[0]), L(!1);
+                          case 4:
+                          case "end":
+                            return e.stop();
+                        }
+                    }, e);
+                  })
+                );
+                return function (t) {
+                  return e.apply(this, arguments);
+                };
+              })(),
+              []
+            ),
+            H = (function () {
+              var e = Object(F.a)(
+                D.a.mark(function e() {
+                  var t, a, n;
+                  return D.a.wrap(function (e) {
+                    for (;;)
+                      switch ((e.prev = e.next)) {
+                        case 0:
+                          return (
+                            (e.next = 2),
+                            I.get(k.GET_POPULAR_TAGS + "/100/false")
+                          );
+                        case 2:
+                          (n = e.sent),
+                            S(
+                              null === n ||
+                                void 0 === n ||
+                                null === (t = n.data) ||
+                                void 0 === t ||
+                                null === (a = t.data) ||
+                                void 0 === a
+                                ? void 0
+                                : a.Items.map(function (e) {
+                                    return {
+                                      value: e.tagName,
+                                      label: e.tagName,
+                                    };
+                                  })
+                            );
+                        case 4:
+                        case "end":
+                          return e.stop();
+                      }
+                  }, e);
+                })
+              );
+              return function () {
+                return e.apply(this, arguments);
+              };
+            })(),
+            M = Object(Xa.a)({ accept: "image/*", disabled: !1, onDrop: V }),
+            G = M.getRootProps,
+            Q = M.getInputProps,
+            z = M.isDragActive,
+            q = (function () {
+              var e = Object(F.a)(
+                D.a.mark(function e() {
+                  var t, a, n, o, c;
+                  return D.a.wrap(
+                    function (e) {
+                      for (;;)
+                        switch ((e.prev = e.next)) {
+                          case 0:
+                            return E(!0), (e.prev = 1), (e.next = 4), s.save();
+                          case 4:
+                            if (
+                              ((t = e.sent),
+                              (a = i.map(function (e) {
+                                return e.value;
+                              })),
+                              (n = ""),
+                              !U)
+                            ) {
+                              e.next = 15;
+                              break;
+                            }
+                            return (e.next = 10), me(U.name);
+                          case 10:
+                            return (o = e.sent), (e.next = 13), Se(o, U);
+                          case 13:
+                            (c = e.sent), (n = c.url);
+                          case 15:
+                            return (
+                              (e.next = 17),
+                              I.post(k.CREATE_POST, {
+                                postType: "blog",
+                                title: b,
+                                coverImage: n,
+                                content: t,
+                                tags: a,
+                              })
+                            );
+                          case 17:
+                            d.b.success(
+                              "wooah \ud83d\ude3b your Blog is posted successfully"
+                            ),
+                              (e.next = 23);
+                            break;
+                          case 20:
+                            (e.prev = 20),
+                              (e.t0 = e.catch(1)),
+                              console.log(e.t0);
+                          case 23:
+                            E(!1);
+                          case 24:
+                          case "end":
+                            return e.stop();
+                        }
+                    },
+                    e,
+                    null,
+                    [[1, 20]]
+                  );
+                })
+              );
+              return function () {
+                return e.apply(this, arguments);
+              };
+            })();
+          return (
+            Object(n.useEffect)(function () {
+              H();
+            }, []),
+            Object(Ve.jsx)("div", {
+              children: Object(Ve.jsx)(sa, {
+                children: Object(Ve.jsx)(xt, {
+                  isRightBar: !1,
+                  children: Object(Ve.jsxs)("div", {
+                    className: ln.a.NewBlogPage,
+                    children: [
+                      Object(Ve.jsx)("div", {
+                        className: ln.a.CreateBlogHeader,
+                        children: Object(Ve.jsx)("p", {
+                          className: ln.a.WriteBlogText,
+                          children: "Write a new blog",
+                        }),
+                      }),
+                      Object(Ve.jsxs)("div", {
+                        className: ln.a.BlogDetailsContainer,
+                        children: [
+                          Object(Ve.jsxs)("div", {
+                            children: [
+                              Object(Ve.jsxs)("div", {
+                                className: ln.a.TitleAndButtonRow,
+                                children: [
+                                  Object(Ve.jsx)("div", {
+                                    className: ln.a.TitleColumn,
+                                    children: Object(Ve.jsxs)("label", {
+                                      children: [
+                                        Object(Ve.jsx)("b", {
+                                          children: "Title",
+                                        }),
+                                        " ",
+                                        Object(Ve.jsx)("br", {}),
+                                        Object(Ve.jsx)("small", {
+                                          children:
+                                            "Give a title of your new blog",
+                                        }),
+                                      ],
+                                    }),
+                                  }),
+                                  Object(Ve.jsx)("div", {
+                                    className: ln.a.ButtonColumn,
+                                    children: Object(Ve.jsx)("button", {
+                                      className:
+                                        (b.length && i.length) > 0 &&
+                                        i.length < 6 &&
+                                        !C
+                                          ? ln.a.PostButton
+                                          : ln.a.PostButtonDisabled,
+                                      onClick: q,
+                                      children: C ? "Posting..." : "Post blog",
+                                    }),
+                                  }),
+                                ],
+                              }),
+                              Object(Ve.jsx)("input", {
+                                className: ln.a.TitleInput,
+                                onChange: function (e) {
+                                  return v(e.target.value);
+                                },
+                                type: "text",
+                              }),
+                            ],
+                          }),
+                          _.length
+                            ? Object(Ve.jsxs)("div", {
+                                className: ln.a.CoverImageArea,
+                                children: [
+                                  Object(Ve.jsx)("img", {
+                                    src: _,
+                                    alt: "coverImage",
+                                  }),
+                                  Object(Ve.jsx)("div", {
+                                    className: ln.a.RemoveImageButton,
+                                    onClick: function () {
+                                      return x("");
+                                    },
+                                    children: Object(Ve.jsx)("p", {
+                                      children: "Delete the cover picture",
+                                    }),
+                                  }),
+                                ],
+                              })
+                            : Object(Ve.jsx)("div", {
+                                className: ln.a.AddCoverPhotoSection,
+                                children: Object(Ve.jsxs)(
+                                  "div",
+                                  Object(h.a)(
+                                    Object(h.a)({}, G()),
+                                    {},
+                                    {
+                                      children: [
+                                        Object(Ve.jsx)(
+                                          "input",
+                                          Object(h.a)({}, Q())
+                                        ),
+                                        P
+                                          ? Object(Ve.jsx)("div", {
+                                              className:
+                                                "ui active centered inline loader",
+                                            })
+                                          : z
+                                          ? Object(Ve.jsx)("p", {
+                                              children:
+                                                "Drop the image here ...",
+                                            })
+                                          : Object(Ve.jsx)("p", {
+                                              children:
+                                                "Drag a perfect cover picture here or click to add one",
+                                            }),
+                                      ],
+                                    }
+                                  )
+                                ),
+                              }),
+                          Object(Ve.jsx)("div", {
+                            children: Object(Ve.jsxs)("label", {
+                              children: [
+                                Object(Ve.jsx)("b", { children: "Body" }),
+                                " ",
+                                Object(Ve.jsx)("br", {}),
+                                Object(Ve.jsx)("small", {
+                                  children: "Write your blog content here",
+                                }),
+                              ],
+                            }),
+                          }),
+                          Object(Ve.jsx)("div", {
+                            className: ln.a.EditorBody,
+                            children: Object(Ve.jsx)(sn.a, {
+                              autofocus: !0,
+                              instanceRef: function (e) {
+                                return o(e);
+                              },
+                              tools: _e,
+                            }),
+                          }),
+                          Object(Ve.jsxs)("div", {
+                            children: [
+                              Object(Ve.jsxs)("label", {
+                                children: [
+                                  Object(Ve.jsx)("b", { children: "Add tags" }),
+                                  " ",
+                                  Object(Ve.jsx)("br", {}),
+                                  Object(Ve.jsx)("small", {
+                                    children: "Select upto 5 tags",
+                                  }),
+                                ],
+                              }),
+                              Object(Ve.jsx)("div", {
+                                className: ln.a.SelectTagsSection,
+                                children: Object(Ve.jsx)(on.a, {
+                                  options: f,
+                                  isMulti: !0,
+                                  onChange: l,
+                                  menuPlacement: "auto",
+                                }),
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                    ],
+                  }),
+                }),
+              }),
+            })
+          );
+        },
+        un = a(393),
+        jn = a.n(un),
+        bn = Object(u.b)(
+          function (e) {
+            return { Feed: e.Feed, Auth: e.Auth, Vote: e.Vote };
+          },
+          {
+            setFeedBlogs: Ie,
+            isPersonalizedBlogsFetched: function (e) {
+              return {
+                type: "SET_PERSONALIZED_BLOGS_FETCH_STATUS",
+                payload: e,
+              };
+            },
+            voteHandler: De,
+            voteCountHandler: Fe,
+          }
+        )(function (e) {
+          var t,
+            a,
+            s,
+            o = Object(n.useState)(!1),
+            c = Object(Pe.a)(o, 2),
+            r = c[0],
+            i = c[1],
+            l = (function () {
+              var t = Object(F.a)(
+                D.a.mark(function t() {
+                  var a, n, s, o, c, r, l, d, u, j, b, v, p, O;
+                  return D.a.wrap(
+                    function (t) {
+                      for (;;)
+                        switch ((t.prev = t.next)) {
+                          case 0:
+                            if (
+                              (i(!0),
+                              (a = {}),
+                              (n = {}),
+                              (t.prev = 3),
+                              !(null === (s = e.Auth) || void 0 === s
+                                ? void 0
+                                : s.isLoggedIn))
+                            ) {
+                              t.next = 19;
+                              break;
+                            }
+                            return (
+                              (j = Object(h.a)({}, e.Vote.votes)),
+                              (t.next = 8),
+                              I.post(k.GET_PERSONALIZED_BLOGS + "/false/false")
+                            );
+                          case 8:
+                            return (
+                              (a = t.sent),
+                              (b = []),
+                              null === (l = a) ||
+                                void 0 === l ||
+                                null === (d = l.data) ||
+                                void 0 === d ||
+                                null === (u = d.data) ||
+                                void 0 === u ||
+                                u.Items.forEach(function (e) {
+                                  b.push(e.hashedUrl),
+                                    (n[e.hashedUrl] = {
+                                      likes: e.like,
+                                      upVotes: e.upVote,
+                                      downVotes: e.downVote,
+                                    });
+                                }),
+                              (t.next = 13),
+                              I.post(k.GET_USER_PREVIOUS_VOTES, { voteIds: b })
+                            );
+                          case 13:
+                            t.sent.data.data.forEach(function (e) {
+                              j[e.voteId] = {
+                                liked: "like" === e.voteType,
+                                upVotted: "upVote" === e.voteType,
+                                downVotted: "downVote" === e.voteType,
+                              };
+                            }),
+                              e.voteHandler(j),
+                              e.isPersonalizedBlogsFetched(!0),
+                              (t.next = 23);
+                            break;
+                          case 19:
+                            return (
+                              (t.next = 21),
+                              I.get(k.GET_ALL_BLOGS + "/false/false")
+                            );
+                          case 21:
+                            (a = t.sent),
+                              null === (v = a) ||
+                                void 0 === v ||
+                                null === (p = v.data) ||
+                                void 0 === p ||
+                                null === (O = p.data) ||
+                                void 0 === O ||
+                                O.Items.forEach(function (e) {
+                                  n[e.hashedUrl] = {
+                                    likes: e.like,
+                                    upVotes: e.upVote,
+                                    downVotes: e.downVote,
+                                  };
+                                });
+                          case 23:
+                            (null === (o = a) ||
+                            void 0 === o ||
+                            null === (c = o.data) ||
+                            void 0 === c ||
+                            null === (r = c.data) ||
+                            void 0 === r
+                              ? void 0
+                              : r.Items) &&
+                              (e.setFeedBlogs(a.data.data.Items),
+                              e.voteCountHandler(
+                                Object(h.a)(
+                                  Object(h.a)({}, e.Vote.voteCount),
+                                  n
+                                )
+                              )),
+                              (t.next = 29);
+                            break;
+                          case 26:
+                            (t.prev = 26),
+                              (t.t0 = t.catch(3)),
+                              console.log(t.t0);
+                          case 29:
+                            i(!1);
+                          case 30:
+                          case "end":
+                            return t.stop();
+                        }
+                    },
+                    t,
+                    null,
+                    [[3, 26]]
+                  );
+                })
+              );
+              return function () {
+                return t.apply(this, arguments);
+              };
+            })();
+          return (
+            Object(n.useEffect)(
+              function () {
+                var t, a, n;
+                ((null === (t = e.Feed) || void 0 === t
+                  ? void 0
+                  : t.blogsFeed.length) || l(),
+                null === (a = e.Feed) || void 0 === a
+                  ? void 0
+                  : a.isPersonalizedBlogsFetched) ||
+                  ((null === (n = e.Auth) || void 0 === n
+                    ? void 0
+                    : n.isLoggedIn) &&
+                    l());
+              },
+              [null === (t = e.Auth) || void 0 === t ? void 0 : t.isLoggedIn]
+            ),
+            Object(Ve.jsx)("div", {
+              children: r
+                ? Object(Ve.jsx)(Ba, {})
+                : Object(Ve.jsxs)("div", {
+                    children: [
+                      Object(Ve.jsx)("div", {
+                        className: jn.a.ReloadButton,
+                        onClick: function () {
+                          return l();
+                        },
+                        children: Object(Ve.jsx)("i", {
+                          className: "icon sync alternate",
+                        }),
+                      }),
+                      null === (a = e.Feed) ||
+                      void 0 === a ||
+                      null === (s = a.blogsFeed) ||
+                      void 0 === s
+                        ? void 0
+                        : s.map(function (e, t) {
+                            return Object(Ve.jsx)(
+                              ba,
+                              { Type: "post", Element: e },
+                              "blg-card-".concat(t)
+                            );
+                          }),
+                    ],
+                  }),
+            })
+          );
+        }),
+        vn = function (e) {
+          return Object(Ve.jsx)(sa, {
+            children: Object(Ve.jsx)(xt, {
+              isRightBar: !0,
+              children: Object(Ve.jsx)(ra, {
+                children: Object(Ve.jsx)(bn, {}),
+              }),
+            }),
+          });
+        },
+        pn = a(394),
+        hn = a.n(pn),
+        On = Object(u.b)(
+          function (e) {
+            return { Feed: e.Feed };
+          },
+          {
+            setFeedQuestions: function (e) {
+              return { type: "SET_FEED_QUESTIONS", payload: e };
+            },
+          }
+        )(function (e) {
+          var t,
+            a,
+            s = Object(n.useState)(!1),
+            o = Object(Pe.a)(s, 2),
+            c = o[0],
+            r = o[1],
+            i = (function () {
+              var t = Object(F.a)(
+                D.a.mark(function t() {
+                  var a, n, s;
+                  return D.a.wrap(function (t) {
+                    for (;;)
+                      switch ((t.prev = t.next)) {
+                        case 0:
+                          return (
+                            r(!0),
+                            (t.next = 3),
+                            I.get(k.GET_ALL_QUESTIONS + "/false/false")
+                          );
+                        case 3:
+                          (null === (s = t.sent) ||
+                          void 0 === s ||
+                          null === (a = s.data) ||
+                          void 0 === a ||
+                          null === (n = a.data) ||
+                          void 0 === n
+                            ? void 0
+                            : n.Items) && e.setFeedQuestions(s.data.data.Items),
+                            r(!1);
+                        case 6:
+                        case "end":
+                          return t.stop();
+                      }
+                  }, t);
+                })
+              );
+              return function () {
+                return t.apply(this, arguments);
+              };
+            })();
+          return (
+            Object(n.useEffect)(function () {
+              var t;
+              (null === (t = e.Feed) || void 0 === t
+                ? void 0
+                : t.questionsFeed.length) || i();
+            }, []),
+            Object(Ve.jsx)("div", {
+              children: c
+                ? Object(Ve.jsx)(Ba, {})
+                : Object(Ve.jsxs)("div", {
+                    children: [
+                      Object(Ve.jsx)("div", {
+                        className: hn.a.ReloadButton,
+                        onClick: function () {
+                          return i();
+                        },
+                        children: Object(Ve.jsx)("i", {
+                          className: "icon sync alternate",
+                        }),
+                      }),
+                      null === (t = e.Feed) ||
+                      void 0 === t ||
+                      null === (a = t.questionsFeed) ||
+                      void 0 === a
+                        ? void 0
+                        : a.map(function (e, t) {
+                            return Object(Ve.jsx)(
+                              fa,
+                              { Element: e },
+                              "qs-card-".concat(t)
+                            );
+                          }),
+                    ],
+                  }),
+            })
+          );
+        }),
+        _n = function (e) {
+          return Object(Ve.jsx)(sa, {
+            children: Object(Ve.jsx)(xt, {
+              isRightBar: !0,
+              children: Object(Ve.jsx)(ra, {
+                children: Object(Ve.jsx)(On, {}),
+              }),
+            }),
+          });
+        },
+        xn = a(77),
+        gn = a(395),
+        mn = a.n(gn),
+        fn = Object(u.b)(
+          function (e) {
+            return { Feed: e.Feed, Auth: e.Auth, Vote: e.Vote };
+          },
+          {
+            setDevFeed: function (e) {
+              return { type: "SET_DEV_FEED", payload: e };
+            },
+            isPersonalizedDevFeedFetched: function (e) {
+              return {
+                type: "SET_PERSONALIZED_DEV_FEED_FETCH_STATUS",
+                payload: e,
+              };
+            },
+            voteHandler: De,
+            voteCountHandler: Fe,
+          }
+        )(function (e) {
+          var t,
+            a,
+            s,
+            o = Object(n.useState)(!1),
+            c = Object(Pe.a)(o, 2),
+            r = c[0],
+            i = c[1],
+            l = (function () {
+              var t = Object(F.a)(
+                D.a.mark(function t() {
+                  var a, n, s, o, c, r, l, d, u, j, b, v;
+                  return D.a.wrap(
+                    function (t) {
+                      for (;;)
+                        switch ((t.prev = t.next)) {
+                          case 0:
+                            if (
+                              (i(!0),
+                              (a = {}),
+                              (n = []),
+                              (s = {}),
+                              (t.prev = 4),
+                              !(null === (o = e.Auth) || void 0 === o
+                                ? void 0
+                                : o.isLoggedIn))
+                            ) {
+                              t.next = 21;
+                              break;
+                            }
+                            return (
+                              (d = Object(h.a)({}, e.Vote.votes)),
+                              (t.next = 9),
+                              I.post(k.GET_PERSONALIZED_DEV_FEED, {
+                                limit: "false",
+                                LastEvaluatedKey: "false",
+                              })
+                            );
+                          case 9:
+                            return (
+                              (a = t.sent),
+                              null === (c = a) ||
+                                void 0 === c ||
+                                null === (r = c.data) ||
+                                void 0 === r ||
+                                null === (l = r.data) ||
+                                void 0 === l ||
+                                l.Items.forEach(function (e) {
+                                  return n.push.apply(n, Object(xn.a)(e));
+                                }),
+                              (u = []),
+                              n.forEach(function (e) {
+                                u.push(e.hashedUrl),
+                                  (s[e.hashedUrl] = {
+                                    likes: e.like,
+                                    upVotes: e.upVote,
+                                    downVotes: e.downVote,
+                                  });
+                              }),
+                              (t.next = 15),
+                              I.post(k.GET_USER_PREVIOUS_VOTES, { voteIds: u })
+                            );
+                          case 15:
+                            t.sent.data.data.forEach(function (e) {
+                              var t, a;
+                              d[
+                                null === (t = e[0]) || void 0 === t
+                                  ? void 0
+                                  : t.voteId
+                              ] =
+                                null === (a = e[0]) || void 0 === a
+                                  ? void 0
+                                  : a.voteType;
+                            }),
+                              e.voteHandler(d),
+                              e.isPersonalizedDevFeedFetched(!0),
+                              (t.next = 25);
+                            break;
+                          case 21:
+                            return (
+                              (t.next = 23),
+                              I.get(k.GET_PUBLIC_DEV_FEED + "/false/false")
+                            );
+                          case 23:
+                            (a = t.sent),
+                              null === (j = a) ||
+                                void 0 === j ||
+                                null === (b = j.data) ||
+                                void 0 === b ||
+                                null === (v = b.data) ||
+                                void 0 === v ||
+                                v.Items.forEach(function (e) {
+                                  s[e.hashedUrl] = {
+                                    likes: e.like,
+                                    upVotes: e.upVote,
+                                    downVotes: e.downVote,
+                                  };
+                                });
+                          case 25:
+                            n.length &&
+                              (e.setDevFeed(n),
+                              e.voteCountHandler(
+                                Object(h.a)(
+                                  Object(h.a)({}, e.Vote.voteCount),
+                                  s
+                                )
+                              )),
+                              (t.next = 31);
+                            break;
+                          case 28:
+                            (t.prev = 28),
+                              (t.t0 = t.catch(4)),
+                              console.log(t.t0);
+                          case 31:
+                            i(!1);
+                          case 32:
+                          case "end":
+                            return t.stop();
+                        }
+                    },
+                    t,
+                    null,
+                    [[4, 28]]
+                  );
+                })
+              );
+              return function () {
+                return t.apply(this, arguments);
+              };
+            })();
+          return (
+            Object(n.useEffect)(
+              function () {
+                var t, a, n;
+                ((null === (t = e.Feed) || void 0 === t
+                  ? void 0
+                  : t.mainFeed.length) || l(),
+                null === (a = e.Feed) || void 0 === a
+                  ? void 0
+                  : a.isPersonalizedDevFeedFetched) ||
+                  ((null === (n = e.Auth) || void 0 === n
+                    ? void 0
+                    : n.isLoggedIn) &&
+                    l());
+              },
+              [null === (t = e.Auth) || void 0 === t ? void 0 : t.isLoggedIn]
+            ),
+            Object(Ve.jsx)("div", {
+              children: r
+                ? Object(Ve.jsx)(Ba, {})
+                : Object(Ve.jsxs)("div", {
+                    children: [
+                      Object(Ve.jsx)("div", {
+                        className: mn.a.ReloadButton,
+                        onClick: function () {
+                          return l();
+                        },
+                        children: Object(Ve.jsx)("i", {
+                          className: "icon sync alternate",
+                        }),
+                      }),
+                      null === (a = e.Feed) ||
+                      void 0 === a ||
+                      null === (s = a.mainFeed) ||
+                      void 0 === s
+                        ? void 0
+                        : s.map(function (e, t) {
+                            return "blog" === e.postType
+                              ? Object(Ve.jsx)(
+                                  ba,
+                                  { Index: t, Element: e },
+                                  "blg-card-".concat(t)
+                                )
+                              : "question" === e.postType
+                              ? Object(Ve.jsx)(
+                                  fa,
+                                  { Index: t, Element: e },
+                                  "qs-card-".concat(t)
+                                )
+                              : null;
+                          }),
+                    ],
+                  }),
+            })
+          );
+        }),
+        Sn = function (e) {
+          return Object(Ve.jsx)(sa, {
+            children: Object(Ve.jsx)(xt, {
+              isRightBar: !0,
+              children: Object(Ve.jsx)(ra, {
+                children: Object(Ve.jsx)(fn, {}),
+              }),
+            }),
+          });
+        },
+        Nn = a(71),
+        Bn = a.n(Nn),
+        Cn = function (e) {
+          var t = Object(n.useState)([]),
+            a = Object(Pe.a)(t, 2),
+            s = a[0],
+            o = a[1],
+            c = Object(n.useState)(!1),
+            r = Object(Pe.a)(c, 2),
+            i = r[0],
+            l = r[1],
+            d = Object(n.useState)(!1),
+            u = Object(Pe.a)(d, 2),
+            j = u[0],
+            b = u[1],
+            v = (function () {
+              var e = Object(F.a)(
+                D.a.mark(function e() {
+                  var t, a, n, s;
+                  return D.a.wrap(
+                    function (e) {
+                      for (;;)
+                        switch ((e.prev = e.next)) {
+                          case 0:
+                            return (
+                              l(!0),
+                              (e.prev = 1),
+                              (e.next = 4),
+                              I.post(k.CHATTED_WITH_IDS, {})
+                            );
+                          case 4:
+                            (n = e.sent),
+                              console.log("allChattedWith", n),
+                              (
+                                null === (t = n.data) ||
+                                void 0 === t ||
+                                null === (a = t.data) ||
+                                void 0 === a
+                                  ? void 0
+                                  : a.length
+                              )
+                                ? o(
+                                    null === (s = n.data) || void 0 === s
+                                      ? void 0
+                                      : s.data
+                                  )
+                                : b(!0),
+                              (e.next = 12);
+                            break;
+                          case 9:
+                            (e.prev = 9),
+                              (e.t0 = e.catch(1)),
+                              console.log(e.t0);
+                          case 12:
+                            l(!1);
+                          case 13:
+                          case "end":
+                            return e.stop();
+                        }
+                    },
+                    e,
+                    null,
+                    [[1, 9]]
+                  );
+                })
+              );
+              return function () {
+                return e.apply(this, arguments);
+              };
+            })();
+          return (
+            Object(n.useEffect)(function () {
+              v();
+            }, []),
+            Object(Ve.jsxs)("div", {
+              className: Bn.a.MainContainer,
+              children: [
+                Object(Ve.jsx)("div", {
+                  className: Bn.a.MessagesHeader,
+                  children: Object(Ve.jsx)("p", { children: "Messages" }),
+                }),
+                Object(Ve.jsx)("div", {
+                  className: Bn.a.UsersContainer,
+                  children: i
+                    ? Object(Ve.jsx)("div", {
+                        className: Bn.a.EntryLoader,
+                        children: Object(Ve.jsx)(st, {}),
+                      })
+                    : Object(Ve.jsx)("div", {
+                        children: j
+                          ? Object(Ve.jsxs)("div", {
+                              className: Bn.a.NoUserFound,
+                              children: [
+                                "\ud83d\ude43",
+                                Object(Ve.jsx)("p", {
+                                  children: " No Chat Found",
+                                }),
+                              ],
+                            })
+                          : s.map(function (e, t) {
+                              return Object(Ve.jsx)(
+                                Me.c,
+                                {
+                                  activeClassName: Bn.a.UserBoxActive,
+                                  to: "/me/messages/" + e.userName,
+                                  children: Object(Ve.jsxs)("div", {
+                                    className: Bn.a.UserBox,
+                                    children: [
+                                      Object(Ve.jsx)("div", {
+                                        className: Bn.a.ImageSection,
+                                        children: Object(Ve.jsx)("img", {
+                                          src: e.profilePicture
+                                            ? e.profilePicture
+                                            : Ut,
+                                          alt: "pro-pic",
+                                        }),
+                                      }),
+                                      Object(Ve.jsxs)("div", {
+                                        className: Bn.a.UserNameSection,
+                                        children: [
+                                          Object(Ve.jsx)("h6", {
+                                            children: e.name,
+                                          }),
+                                          Object(Ve.jsx)("div", {
+                                            className: Bn.a.UserName,
+                                            children: Object(Ve.jsxs)("p", {
+                                              children: ["@", e.userName],
+                                            }),
+                                          }),
+                                        ],
+                                      }),
+                                    ],
+                                  }),
+                                },
+                                "pro-card" + t
+                              );
+                            }),
+                      }),
+                }),
+              ],
+            })
+          );
+        },
+        En = a(53),
+        wn = a.n(En),
+        Tn = a(267),
+        Pn = new Tn.w3cwebsocket(
+          "wss://f5d.execute-api.us-west-2.amazonaws.com"
+        ),
+        kn = (function () {
+          var e = Object(F.a)(
+            D.a.mark(function e() {
+              var t;
+              return D.a.wrap(function (e) {
+                for (;;)
+                  switch ((e.prev = e.next)) {
+                    case 0:
+                      (t = localStorage.getItem("access_token")),
+                        (Pn = new Tn.w3cwebsocket(
+                          k.WEB_SOCKET + "?Authorizer=" + t
+                        ));
+                    case 2:
+                    case "end":
+                      return e.stop();
+                  }
+              }, e);
+            })
+          );
+          return function () {
+            return e.apply(this, arguments);
+          };
+        })(),
+        Ln = Object(u.b)(function (e) {
+          return { Auth: e.Auth };
+        }, {})(function (e) {
+          var t;
+          Object(n.useEffect)(
+            function () {
+              kn();
+            },
+            [null === (t = e.Auth) || void 0 === t ? void 0 : t.isLoggedIn]
+          );
+          var a = Object(n.useState)([]),
+            s = Object(Pe.a)(a, 2),
+            o = s[0],
+            c = s[1],
+            r = Object(n.useState)(!1),
+            i = Object(Pe.a)(r, 2),
+            l = i[0],
+            d = i[1],
+            u = Object(n.useState)(!1),
+            j = Object(Pe.a)(u, 2),
+            b = j[0],
+            v = j[1],
+            p = Object(n.useState)(""),
+            h = Object(Pe.a)(p, 2),
+            O = h[0],
+            _ = h[1],
+            x = (function () {
+              var t = Object(F.a)(
+                D.a.mark(function t() {
+                  var a, n, s, o, r, i, l, u, j;
+                  return D.a.wrap(
+                    function (t) {
+                      for (;;)
+                        switch ((t.prev = t.next)) {
+                          case 0:
+                            return (
+                              d(!0),
+                              (t.prev = 1),
+                              (t.next = 4),
+                              I.post(k.FULL_CHAT, { userName: e.userName })
+                            );
+                          case 4:
+                            if (
+                              null === (o = t.sent) ||
+                              void 0 === o ||
+                              null === (a = o.data) ||
+                              void 0 === a ||
+                              null === (n = a.data) ||
+                              void 0 === n ||
+                              null === (s = n.Items) ||
+                              void 0 === s
+                                ? void 0
+                                : s.length
+                            ) {
+                              for (
+                                r = [],
+                                  i =
+                                    (null === o ||
+                                    void 0 === o ||
+                                    null === (l = o.data) ||
+                                    void 0 === l ||
+                                    null === (u = l.data) ||
+                                    void 0 === u ||
+                                    null === (j = u.Items) ||
+                                    void 0 === j
+                                      ? void 0
+                                      : j.length) - 1;
+                                i >= 0;
+                                i--
+                              )
+                                r.push({
+                                  type: o.data.data.Items[i].senderId
+                                    ? "sender"
+                                    : "receiver",
+                                  message: o.data.data.Items[i].message,
+                                });
+                              c(r), v(!1);
+                            } else v(!0);
+                            d(!1), (t.next = 12);
+                            break;
+                          case 9:
+                            (t.prev = 9),
+                              (t.t0 = t.catch(1)),
+                              console.log(t.t0);
+                          case 12:
+                          case "end":
+                            return t.stop();
+                        }
+                    },
+                    t,
+                    null,
+                    [[1, 9]]
+                  );
+                })
+              );
+              return function () {
+                return t.apply(this, arguments);
+              };
+            })();
+          Object(n.useEffect)(
+            function () {
+              x();
+            },
+            [e.userName]
+          ),
+            (Pn.onopen = function (e) {
+              console.log("WebSocket Client Connected", e);
+            }),
+            (Pn.onclose = function (e) {
+              console.log("WebSocket closed!", e);
+            }),
+            (Pn.onmessage = function (e) {
+              if (null === e || void 0 === e ? void 0 : e.data.length) {
+                var t = Object(xn.a)(o);
+                t.push({
+                  type: "receiver",
+                  message: null === e || void 0 === e ? void 0 : e.data,
+                }),
+                  c(t);
+              }
+            });
+          var g = function () {
+            if (O.length) {
+              v(!1);
+              var t = Object(xn.a)(o);
+              t.push({ type: "sender", message: O }),
+                c(t),
+                console.log("websocket", Pn),
+                Pn.send(
+                  JSON.stringify({ message: O, receiverUserName: e.userName })
+                ),
+                _("");
+            }
+          };
+          return Object(Ve.jsx)("div", {
+            children: e.userName
+              ? Object(Ve.jsxs)("div", {
+                  className: wn.a.MainBoxContainer,
+                  children: [
+                    Object(Ve.jsx)("div", {
+                      className: wn.a.MessagesBox,
+                      children: Object(Ve.jsx)("div", {
+                        className: wn.a.MessagesBoxContainer,
+                        children: l
+                          ? Object(Ve.jsx)("div", {
+                              className: wn.a.EntryLoader,
+                              children: Object(Ve.jsx)(Ba, {}),
+                            })
+                          : b
+                          ? Object(Ve.jsxs)("div", {
+                              className: wn.a.SayHi,
+                              children: [
+                                Object(Ve.jsx)("i", {
+                                  className: "icon handshake outline",
+                                }),
+                                Object(Ve.jsxs)("p", {
+                                  children: ["Say Hi to ", e.userName],
+                                }),
+                              ],
+                            })
+                          : o.map(function (e, t) {
+                              return Object(Ve.jsx)(
+                                "div",
+                                {
+                                  className:
+                                    "sender" === e.type
+                                      ? wn.a.SenderBox
+                                      : "receiver" === e.type
+                                      ? wn.a.ReceiverBox
+                                      : null,
+                                  children: Object(Ve.jsx)("p", {
+                                    children: e.message,
+                                  }),
+                                },
+                                "message-item-" + t
+                              );
+                            }),
+                      }),
+                    }),
+                    Object(Ve.jsx)("div", {
+                      className: wn.a.InputContainer,
+                      children: Object(Ve.jsxs)("div", {
+                        className: wn.a.InsideInputConteainer,
+                        children: [
+                          Object(Ve.jsx)("input", {
+                            onKeyPress: function (e) {
+                              if ("Enter" === e.key) return g();
+                            },
+                            onChange: function (e) {
+                              return (t = e.target.value), void _(t);
+                              var t;
+                            },
+                            value: O,
+                            className: wn.a.InputField,
+                          }),
+                          Object(Ve.jsx)("button", {
+                            className: wn.a.SendButton,
+                            onClick: function () {
+                              return g();
+                            },
+                            children: Object(Ve.jsx)("p", { children: "SEND" }),
+                          }),
+                        ],
+                      }),
+                    }),
+                  ],
+                })
+              : Object(Ve.jsxs)("div", {
+                  className: wn.a.DefaultPage,
+                  children: [
+                    Object(Ve.jsx)("i", { className: "icon user secret" }),
+                    Object(Ve.jsx)("p", {
+                      children: "Please select a Dev to start conversation",
+                    }),
+                  ],
+                }),
+          });
+        }),
+        yn = a(231),
+        In = a.n(yn),
+        An = function (e) {
+          var t,
+            a,
+            n =
+              null === (t = e.match) ||
+              void 0 === t ||
+              null === (a = t.params) ||
+              void 0 === a
+                ? void 0
+                : a.username;
+          return Object(Ve.jsx)(sa, {
+            children: Object(Ve.jsx)(xt, {
+              isRightBar: !1,
+              children: Object(Ve.jsxs)("div", {
+                className: In.a.MainBox,
+                children: [
+                  Object(Ve.jsx)("div", {
+                    className: In.a.ChattedPeopleBoxContainer,
+                    children: Object(Ve.jsx)(Cn, {}),
+                  }),
+                  Object(Ve.jsx)("div", {
+                    className: In.a.ChatBoxContainer,
+                    children: Object(Ve.jsx)(Ln, { userName: n }),
+                  }),
+                ],
+              }),
+            }),
+          });
+        },
+        Dn = a(396),
+        Fn = a(54),
+        Un = a.n(Fn),
+        Rn = Object(u.b)(
+          function (e) {
+            return { Feed: e.Feed, Auth: e.Auth, Vote: e.Vote };
+          },
+          { voteHandler: De, voteCountHandler: Fe }
+        )(function (e) {
+          var t,
+            a,
+            s,
+            o,
+            c,
+            r,
+            i,
+            l,
+            d,
+            u,
+            j,
+            b,
+            v,
+            p,
+            O = {},
+            _ = Object(n.useState)([]),
+            x = Object(Pe.a)(_, 2),
+            g = x[0],
+            m = x[1];
+          return (
+            Object(n.useEffect)(
+              function () {
+                var t, a;
+                (null === (t = e.Post) || void 0 === t ? void 0 : t.content) &&
+                  (m(
+                    Ce.parse(
+                      null === (a = e.Post) || void 0 === a ? void 0 : a.content
+                    )
+                  ),
+                  (O[e.Post.hashedUrl] = {
+                    upVotes: e.Post.upVote,
+                    downVotes: e.Post.downVote,
+                    likes: e.Post.likes ? e.Post.likes : 0,
+                  }),
+                  e.voteCountHandler(
+                    Object(h.a)(Object(h.a)({}, e.Vote.voteCount), O)
+                  ));
+              },
+              [null === (t = e.Post) || void 0 === t ? void 0 : t.content]
+            ),
+            Object(Ve.jsxs)("div", {
+              className: Un.a.PostCard,
+              children: [
+                (
+                  null === (a = e.Post) ||
+                  void 0 === a ||
+                  null === (s = a.coverImage) ||
+                  void 0 === s
+                    ? void 0
+                    : s.length
+                )
+                  ? Object(Ve.jsx)("div", {
+                      className: Un.a.CoverImage,
+                      children: Object(Ve.jsx)("img", {
+                        src:
+                          null === (o = e.Post) || void 0 === o
+                            ? void 0
+                            : o.coverImage,
+                        alt: "headerImage",
+                      }),
+                    })
+                  : null,
+                Object(Ve.jsxs)("div", {
+                  className: Un.a.TitleTagVoteSection,
+                  children: [
+                    Object(Ve.jsxs)("div", {
+                      className: Un.a.TitleTagSection,
+                      children: [
+                        Object(Ve.jsx)("div", {
+                          className: Un.a.PostTitle,
+                          children: Object(Ve.jsx)("p", {
+                            children:
+                              null === (c = e.Post) || void 0 === c
+                                ? void 0
+                                : c.title,
+                          }),
+                        }),
+                        Object(Ve.jsx)("div", {
+                          className: Un.a.TagsSection,
+                          children:
+                            null === (r = e.Post) ||
+                            void 0 === r ||
+                            null === (i = r.tags) ||
+                            void 0 === i
+                              ? void 0
+                              : i.map(function (e, t) {
+                                  var a = we();
+                                  return Object(Ve.jsx)(
+                                    "div",
+                                    {
+                                      className: Un.a.TagBox,
+                                      style: { backgroundColor: a || "purple" },
+                                      children: Object(Ve.jsx)(Me.c, {
+                                        to: "/tag/" + e,
+                                        exact: !0,
+                                        children: Object(Ve.jsxs)("p", {
+                                          children: ["#", e],
+                                        }),
+                                      }),
+                                    },
+                                    "card-ele-".concat(t)
+                                  );
+                                }),
+                        }),
+                      ],
+                    }),
+                    Object(Ve.jsx)("div", {
+                      className: Un.a.VoteSection,
+                      children:
+                        "blog" ===
+                        (null === (l = e.Post) || void 0 === l
+                          ? void 0
+                          : l.postType)
+                          ? Object(Ve.jsxs)("div", {
+                              className: Un.a.LikeButtonSection,
+                              children: [
+                                Object(Ve.jsx)(da, {
+                                  Element: e.Post,
+                                  Type: "post",
+                                }),
+                                Object(Ve.jsx)("p", {
+                                  children:
+                                    null === (d = e.Vote) ||
+                                    void 0 === d ||
+                                    null ===
+                                      (u = d.voteCount[e.Post.hashedUrl]) ||
+                                    void 0 === u
+                                      ? void 0
+                                      : u.likes,
+                                }),
+                              ],
+                            })
+                          : Object(Ve.jsxs)("div", {
+                              className: Un.a.VotingSection,
+                              children: [
+                                Object(Ve.jsx)(ha, {
+                                  Element: e.Post,
+                                  Type: "post",
+                                }),
+                                Object(Ve.jsx)("div", {
+                                  className: Un.a.VoteCount,
+                                  children: Object(Ve.jsx)("p", {
+                                    children:
+                                      (null === (j = e.Vote) ||
+                                      void 0 === j ||
+                                      null ===
+                                        (b = j.voteCount[e.Post.hashedUrl]) ||
+                                      void 0 === b
+                                        ? void 0
+                                        : b.upVotes) -
+                                      Math.abs(
+                                        null === (v = e.Vote) ||
+                                          void 0 === v ||
+                                          null ===
+                                            (p =
+                                              v.voteCount[e.Post.hashedUrl]) ||
+                                          void 0 === p
+                                          ? void 0
+                                          : p.downVotes
+                                      ),
+                                  }),
+                                }),
+                                Object(Ve.jsx)(xa, {
+                                  Element: e.Post,
+                                  Type: "post",
+                                }),
+                              ],
+                            }),
+                    }),
+                  ],
+                }),
+                Object(Ve.jsx)("div", {
+                  className: Un.a.ContentArea,
+                  children:
+                    null === g || void 0 === g
+                      ? void 0
+                      : g.map(function (e) {
+                          return Object(Ve.jsx)(Dn.a, { content: e });
+                        }),
+                }),
+              ],
+            })
+          );
+        }),
+        Vn = a(72),
+        Hn = a.n(Vn),
+        Mn = Object(u.b)(
+          function (e) {
+            return { Feed: e.Feed, Auth: e.Auth, Vote: e.Vote };
+          },
+          { voteHandler: De, voteCountHandler: Fe }
+        )(function (e) {
+          var t,
+            a = Object(n.useState)([]),
+            s = Object(Pe.a)(a, 2),
+            o = s[0],
+            c = s[1],
+            r = Object(n.useState)(!1),
+            i = Object(Pe.a)(r, 2),
+            l = i[0],
+            d = i[1],
+            u = Object(n.useState)(""),
+            j = Object(Pe.a)(u, 2),
+            b = j[0],
+            v = j[1],
+            p = Object(n.useState)(!1),
+            O = Object(Pe.a)(p, 2),
+            _ = O[0],
+            x = O[1],
+            g = (function () {
+              var t = Object(F.a)(
+                D.a.mark(function t() {
+                  var a, n, s, o, r, i, l;
+                  return D.a.wrap(
+                    function (t) {
+                      for (;;)
+                        switch ((t.prev = t.next)) {
+                          case 0:
+                            return (
+                              d(!0),
+                              (t.prev = 1),
+                              (s = Object(h.a)({}, e.Vote.votes)),
+                              ((o = {})[e.hashedUrl] = {
+                                upVotes: e.Post.upVote,
+                                downVotes: e.Post.downVote,
+                                likes: e.Post.likes ? e.Post.likes : 0,
+                              }),
+                              (r = [e.hashedUrl]),
+                              (t.next = 8),
+                              I.get(
+                                k.GET_ALL_RESPONSES +
+                                  "/" +
+                                  e.hashedUrl +
+                                  "/false/false"
+                              )
+                            );
+                          case 8:
+                            if (
+                              ((i = t.sent),
+                              console.log("all responsed", i),
+                              (null === (a = i.data.data) || void 0 === a
+                                ? void 0
+                                : a.Items) &&
+                                ((l = []),
+                                i.data.data.Items.forEach(function (e, t) {
+                                  l.push(
+                                    Object(h.a)(
+                                      Object(h.a)({}, e),
+                                      i.data.data.users[t][0]
+                                    )
+                                  ),
+                                    r.push(e.responseId),
+                                    (o[e.responseId] = {
+                                      upVotes: e.upVote,
+                                      downVotes: e.downVote,
+                                      likes: e.likes ? e.likes : 0,
+                                    });
+                                }),
+                                c(l),
+                                d(!1)),
+                              !(null === (n = e.Auth) || void 0 === n
+                                ? void 0
+                                : n.isLoggedIn))
+                            ) {
+                              t.next = 17;
+                              break;
+                            }
+                            return (
+                              (t.next = 14),
+                              I.post(k.GET_USER_PREVIOUS_VOTES, { voteIds: r })
+                            );
+                          case 14:
+                            t.sent.data.data.forEach(function (e) {
+                              s[e.voteId] = {
+                                liked: "like" === e.voteType,
+                                upVotted: "upVote" === e.voteType,
+                                downVotted: "downVote" === e.voteType,
+                              };
+                            }),
+                              e.voteHandler(s);
+                          case 17:
+                            e.voteCountHandler(
+                              Object(h.a)(Object(h.a)({}, e.Vote.voteCount), o)
+                            ),
+                              (t.next = 23);
+                            break;
+                          case 20:
+                            (t.prev = 20),
+                              (t.t0 = t.catch(1)),
+                              console.log(t.t0);
+                          case 23:
+                            d(!1);
+                          case 24:
+                          case "end":
+                            return t.stop();
+                        }
+                    },
+                    t,
+                    null,
+                    [[1, 20]]
+                  );
+                })
+              );
+              return function () {
+                return t.apply(this, arguments);
+              };
+            })(),
+            m = (function () {
+              var t = Object(F.a)(
+                D.a.mark(function t() {
+                  var a, n, s, r, i;
+                  return D.a.wrap(
+                    function (t) {
+                      for (;;)
+                        switch ((t.prev = t.next)) {
+                          case 0:
+                            if (
+                              null === e ||
+                              void 0 === e ||
+                              null === (a = e.Auth) ||
+                              void 0 === a
+                                ? void 0
+                                : a.isLoggedIn
+                            ) {
+                              t.next = 2;
+                              break;
+                            }
+                            return t.abrupt("return", x(!0));
+                          case 2:
+                            return (
+                              (t.prev = 2),
+                              (n = "" + b.toString()),
+                              v(""),
+                              (t.next = 7),
+                              I.post(k.CREATE_RESPONSE, {
+                                postUrl: e.hashedUrl,
+                                responseBody: n,
+                              })
+                            );
+                          case 7:
+                            (s = t.sent),
+                              (r = Object(xn.a)(o)).push({
+                                userName: e.Auth.userdetails.userName,
+                                profilePicture:
+                                  e.Auth.userdetails.profilePicture,
+                                responseBody: n,
+                                responseId: s.data.data.responseId,
+                              }),
+                              c(Object(xn.a)(r)),
+                              ((i = {})[s.data.data.responseId] = {
+                                upVotes: 0,
+                                downVotes: 0,
+                                likes: 0,
+                              }),
+                              e.voteCountHandler(
+                                Object(h.a)(
+                                  Object(h.a)({}, e.Vote.voteCount),
+                                  i
+                                )
+                              ),
+                              (t.next = 19);
+                            break;
+                          case 16:
+                            (t.prev = 16),
+                              (t.t0 = t.catch(2)),
+                              console.log(t.t0);
+                          case 19:
+                          case "end":
+                            return t.stop();
+                        }
+                    },
+                    t,
+                    null,
+                    [[2, 16]]
+                  );
+                })
+              );
+              return function () {
+                return t.apply(this, arguments);
+              };
+            })();
+          return (
+            Object(n.useEffect)(
+              function () {
+                g();
+              },
+              [null === (t = e.Auth) || void 0 === t ? void 0 : t.isLoggedIn]
+            ),
+            Object(Ve.jsx)("div", {
+              children: l
+                ? Object(Ve.jsx)("div", {
+                    className: Hn.a.EntryLoader,
+                    children: Object(Ve.jsx)(st, {}),
+                  })
+                : Object(Ve.jsxs)("div", {
+                    children: [
+                      _
+                        ? Object(Ve.jsx)(Ge.a, {
+                            to: { pathname: "/user/login" },
+                            exact: !0,
+                          })
+                        : null,
+                      Object(Ve.jsx)("div", {
+                        className: Hn.a.AllResponsesSection,
+                        children: o.map(function (t, a) {
+                          var n, s, o, c;
+                          return Object(Ve.jsxs)(
+                            "div",
+                            {
+                              className: Hn.a.ResponseCard,
+                              children: [
+                                Object(Ve.jsxs)("div", {
+                                  className: Hn.a.UpVoteDownVoteSection,
+                                  children: [
+                                    Object(Ve.jsx)(ha, {
+                                      Element: t,
+                                      Type: "response",
+                                    }),
+                                    Object(Ve.jsx)("div", {
+                                      className: Hn.a.VoteCount,
+                                      children:
+                                        (null === (n = e.Vote) ||
+                                        void 0 === n ||
+                                        null ===
+                                          (s = n.voteCount[t.responseId]) ||
+                                        void 0 === s
+                                          ? void 0
+                                          : s.upVotes) -
+                                        Math.abs(
+                                          null === (o = e.Vote) ||
+                                            void 0 === o ||
+                                            null ===
+                                              (c = o.voteCount[t.responseId]) ||
+                                            void 0 === c
+                                            ? void 0
+                                            : c.downVotes
+                                        ),
+                                    }),
+                                    Object(Ve.jsx)(xa, {
+                                      Element: t,
+                                      Type: "response",
+                                    }),
+                                  ],
+                                }),
+                                Object(Ve.jsx)("div", {
+                                  className: Hn.a.ResponseBody,
+                                  children: Object(Ve.jsx)("p", {
+                                    children: t.responseBody,
+                                  }),
+                                }),
+                                Object(Ve.jsx)("div", {
+                                  className: Hn.a.ResponseBy,
+                                  children: Object(Ve.jsxs)(Me.c, {
+                                    to: "/" + t.userName,
+                                    exact: !0,
+                                    children: [
+                                      Object(Ve.jsx)("img", {
+                                        src:
+                                          (null === t || void 0 === t
+                                            ? void 0
+                                            : t.profilePicture) &&
+                                          t.profilePicture.length
+                                            ? t.profilePicture
+                                            : Ut,
+                                        alt: "userImage",
+                                      }),
+                                      Object(Ve.jsx)("p", {
+                                        children: t.userName,
+                                      }),
+                                    ],
+                                  }),
+                                }),
+                              ],
+                            },
+                            "response-" + a
+                          );
+                        }),
+                      }),
+                      Object(Ve.jsx)("div", {
+                        className: Hn.a.AddNewResponse,
+                        children: Object(Ve.jsxs)("div", {
+                          className: Hn.a.InputBox,
+                          children: [
+                            Object(Ve.jsx)("input", {
+                              onChange: function (e) {
+                                return v(e.target.value);
+                              },
+                              onKeyPress: function (e) {
+                                if ("Enter" === e.key) return m();
+                              },
+                              type: "text",
+                              placeholder:
+                                "question" === e.Post.postType
+                                  ? "Answer This Question"
+                                  : "Add Your Response",
+                              value: b,
+                            }),
+                            Object(Ve.jsx)("div", {
+                              className: Hn.a.SubmitButton,
+                              onClick: function () {
+                                return m();
+                              },
+                              children: "SUBMIT",
+                            }),
+                          ],
+                        }),
+                      }),
+                    ],
+                  }),
+            })
+          );
+        }),
+        Gn = a(119),
+        Qn = a.n(Gn),
+        zn = function (e) {
+          var t, a, n, s, o, c, r;
+          return Object(Ve.jsx)(Me.c, {
+            to:
+              "/" +
+              (null === e ||
+              void 0 === e ||
+              null === (t = e.Author) ||
+              void 0 === t
+                ? void 0
+                : t.userName),
+            exact: !0,
+            children: Object(Ve.jsxs)("div", {
+              className: Qn.a.ProfileCard,
+              children: [
+                Object(Ve.jsx)("div", { className: Qn.a.HeaderColor }),
+                Object(Ve.jsx)("div", {
+                  className: Qn.a.HeaderProfilePic,
+                  children: Object(Ve.jsx)("img", {
+                    src: (
+                      null === e ||
+                      void 0 === e ||
+                      null === (a = e.Author) ||
+                      void 0 === a ||
+                      null === (n = a.profilePicture) ||
+                      void 0 === n
+                        ? void 0
+                        : n.length
+                    )
+                      ? e.Author.profilePicture
+                      : Ut,
+                    alt: "proPic",
+                  }),
+                }),
+                Object(Ve.jsxs)("div", {
+                  className: Qn.a.DetailsSection,
+                  children: [
+                    Object(Ve.jsxs)("div", {
+                      className: Qn.a.Reputation,
+                      children: [
+                        Object(Ve.jsx)("i", { className: "icon chess king" }),
+                        " ",
+                        Object(Ve.jsx)("br", {}),
+                        null === e ||
+                        void 0 === e ||
+                        null === (s = e.Author) ||
+                        void 0 === s
+                          ? void 0
+                          : s.reputation,
+                      ],
+                    }),
+                    Object(Ve.jsxs)("div", {
+                      className: Qn.a.NameUserNameSection,
+                      children: [
+                        Object(Ve.jsx)("p", {
+                          children:
+                            null === e ||
+                            void 0 === e ||
+                            null === (o = e.Author) ||
+                            void 0 === o
+                              ? void 0
+                              : o.name,
+                        }),
+                        Object(Ve.jsxs)("strong", {
+                          children: [
+                            "@",
+                            null === e ||
+                            void 0 === e ||
+                            null === (c = e.Author) ||
+                            void 0 === c
+                              ? void 0
+                              : c.userName,
+                          ],
+                        }),
+                      ],
+                    }),
+                    Object(Ve.jsx)("div", {
+                      className: Qn.a.BioSection,
+                      children:
+                        null === e ||
+                        void 0 === e ||
+                        null === (r = e.Author) ||
+                        void 0 === r
+                          ? void 0
+                          : r.bio,
+                    }),
+                  ],
+                }),
+              ],
+            }),
+          });
+        },
+        qn = a(232),
+        Wn = a.n(qn),
+        Zn = function (e) {
+          var t = e.match.params.hashedUrl,
+            a = Object(n.useState)(!1),
+            s = Object(Pe.a)(a, 2),
+            o = s[0],
+            c = s[1],
+            r = Object(n.useState)(!1),
+            i = Object(Pe.a)(r, 2),
+            l = (i[0], i[1]),
+            d = Object(n.useState)({ like: 0 }),
+            u = Object(Pe.a)(d, 2),
+            j = u[0],
+            b = u[1],
+            v = Object(n.useState)(!1),
+            p = Object(Pe.a)(v, 2),
+            h = p[0],
+            O = p[1],
+            _ = (function () {
+              var e = Object(F.a)(
+                D.a.mark(function e() {
+                  var a, n;
+                  return D.a.wrap(
+                    function (e) {
+                      for (;;)
+                        switch ((e.prev = e.next)) {
+                          case 0:
+                            return (
+                              c(!0),
+                              (e.prev = 1),
+                              (e.next = 4),
+                              I.get(k.GET_FULL_POST + "/" + t)
+                            );
+                          case 4:
+                            (n = e.sent),
+                              (
+                                null === (a = n.data.data) || void 0 === a
+                                  ? void 0
+                                  : a.postDetails
+                              )
+                                ? (b(n.data.data.postDetails),
+                                  O(n.data.data.authorDetails))
+                                : l(!0),
+                              (e.next = 11);
+                            break;
+                          case 8:
+                            (e.prev = 8),
+                              (e.t0 = e.catch(1)),
+                              console.log(e.t0);
+                          case 11:
+                            c(!1);
+                          case 12:
+                          case "end":
+                            return e.stop();
+                        }
+                    },
+                    e,
+                    null,
+                    [[1, 8]]
+                  );
+                })
+              );
+              return function () {
+                return e.apply(this, arguments);
+              };
+            })();
+          return (
+            Object(n.useEffect)(function () {
+              _();
+            }, []),
+            Object(Ve.jsx)(sa, {
+              children: Object(Ve.jsx)(xt, {
+                isRightBar: !1,
+                children: o
+                  ? Object(Ve.jsx)(Ba, {})
+                  : Object(Ve.jsxs)("div", {
+                      className: Wn.a.PostDetailsArea,
+                      children: [
+                        Object(Ve.jsxs)("div", {
+                          className: Wn.a.PostCard,
+                          children: [
+                            Object(Ve.jsx)(Rn, { Post: j }),
+                            Object(Ve.jsx)(Mn, { hashedUrl: t, Post: j }),
+                          ],
+                        }),
+                        Object(Ve.jsx)("div", {
+                          className: Wn.a.ProfileCard,
+                          children: Object(Ve.jsx)(zn, { Author: h }),
+                        }),
+                      ],
+                    }),
+              }),
+            })
+          );
+        },
+        Kn = a(268),
+        Yn = a.n(Kn),
+        Jn = Object(u.b)(
+          function (e) {
+            return { Auth: e.Auth };
+          },
+          { setUserDetails: ye }
+        )(function (e) {
+          var t,
+            a = e.tagName,
+            s = Object(Ve.jsx)("div", {
+              className: Yn.a.FollowButton,
+              onClick: function () {
+                return u();
+              },
+              children: "Follow",
+            }),
+            o = Object(Ve.jsx)("div", {
+              className: Yn.a.UnfollowButton,
+              onClick: function () {
+                return d();
+              },
+              children: "Unfollow",
+            }),
+            c = Object(n.useState)(s),
+            r = Object(Pe.a)(c, 2),
+            i = r[0],
+            l = r[1],
+            d = (function () {
+              var t = Object(F.a)(
+                D.a.mark(function t() {
+                  var n, c, r, i, d;
+                  return D.a.wrap(
+                    function (t) {
+                      for (;;)
+                        switch ((t.prev = t.next)) {
+                          case 0:
+                            return (
+                              l(s),
+                              (t.prev = 1),
+                              (t.next = 4),
+                              I.post(k.UNFOLLOW_TAG, { tagName: a })
+                            );
+                          case 4:
+                            delete (d = Object(h.a)(
+                              {},
+                              null === (n = e.Auth) ||
+                                void 0 === n ||
+                                null === (c = n.userdetails) ||
+                                void 0 === c
+                                ? void 0
+                                : c.tags
+                            ))[a],
+                              console.log(
+                                "after unfollowing",
+                                Object(h.a)(
+                                  Object(h.a)(
+                                    {},
+                                    null === (r = e.Auth) || void 0 === r
+                                      ? void 0
+                                      : r.userdetails
+                                  ),
+                                  {},
+                                  { tags: Object(h.a)({}, d) }
+                                )
+                              ),
+                              e.setUserDetails(
+                                Object(h.a)(
+                                  Object(h.a)(
+                                    {},
+                                    null === (i = e.Auth) || void 0 === i
+                                      ? void 0
+                                      : i.userdetails
+                                  ),
+                                  {},
+                                  { tags: Object(h.a)({}, d) }
+                                )
+                              ),
+                              (t.next = 14);
+                            break;
+                          case 10:
+                            (t.prev = 10),
+                              (t.t0 = t.catch(1)),
+                              console.log(t.t0),
+                              l(o);
+                          case 14:
+                          case "end":
+                            return t.stop();
+                        }
+                    },
+                    t,
+                    null,
+                    [[1, 10]]
+                  );
+                })
+              );
+              return function () {
+                return t.apply(this, arguments);
+              };
+            })(),
+            u = (function () {
+              var t = Object(F.a)(
+                D.a.mark(function t() {
+                  var n, c;
+                  return D.a.wrap(
+                    function (t) {
+                      for (;;)
+                        switch ((t.prev = t.next)) {
+                          case 0:
+                            return (
+                              l(o),
+                              (t.prev = 1),
+                              (t.next = 4),
+                              I.post(k.FOLLOW_TAG, { tagName: a })
+                            );
+                          case 4:
+                            ((c = Object(h.a)({}, e.Auth.userdetails.tags))[a] =
+                              "1"),
+                              e.setUserDetails(
+                                Object(h.a)(
+                                  Object(h.a)(
+                                    {},
+                                    null === (n = e.Auth) || void 0 === n
+                                      ? void 0
+                                      : n.userdetails
+                                  ),
+                                  {},
+                                  { tags: Object(h.a)({}, c) }
+                                )
+                              ),
+                              (t.next = 12);
+                            break;
+                          case 9:
+                            (t.prev = 9), (t.t0 = t.catch(1)), l(s);
+                          case 12:
+                          case "end":
+                            return t.stop();
+                        }
+                    },
+                    t,
+                    null,
+                    [[1, 9]]
+                  );
+                })
+              );
+              return function () {
+                return t.apply(this, arguments);
+              };
+            })();
+          return (
+            Object(n.useEffect)(
+              function () {
+                !(function () {
+                  var t, n, c;
+                  console.log(
+                    "my tags",
+                    null === (t = e.Auth) || void 0 === t
+                      ? void 0
+                      : t.userdetails
+                  );
+                  var r =
+                    null === (n = e.Auth) ||
+                    void 0 === n ||
+                    null === (c = n.userdetails) ||
+                    void 0 === c
+                      ? void 0
+                      : c.tags;
+                  r && (r[a] ? l(o) : l(s));
+                })();
+              },
+              [null === (t = e.Auth) || void 0 === t ? void 0 : t.userdetails]
+            ),
+            Object(Ve.jsx)("div", { children: i })
+          );
+        }),
+        Xn = a(90),
+        $n = a.n(Xn),
+        es = Object(u.b)(
+          function (e) {
+            return { Feed: e.Feed, Auth: e.Auth, Vote: e.Vote };
+          },
+          { voteHandler: De, voteCountHandler: Fe }
+        )(function (e) {
+          var t = e.match.params.tagName,
+            a = Object(n.useState)([]),
+            s = Object(Pe.a)(a, 2),
+            o = s[0],
+            c = s[1],
+            r = Object(n.useState)(!1),
+            i = Object(Pe.a)(r, 2),
+            l = i[0],
+            d = i[1],
+            u = (function () {
+              var a = Object(F.a)(
+                D.a.mark(function a() {
+                  var n, s, o, r, i, l, d, u, j;
+                  return D.a.wrap(
+                    function (a) {
+                      for (;;)
+                        switch ((a.prev = a.next)) {
+                          case 0:
+                            return (
+                              (a.prev = 0),
+                              (l = {}),
+                              (d = Object(h.a)({}, e.Vote.votes)),
+                              (a.next = 5),
+                              I.get(k.TAG_FEED + "/" + t + "/false/false")
+                            );
+                          case 5:
+                            if (
+                              ((u = a.sent),
+                              console.log("inside tag result", u),
+                              c(u.data.data.Items),
+                              (j = []),
+                              null === u ||
+                                void 0 === u ||
+                                null === (n = u.data) ||
+                                void 0 === n ||
+                                null === (s = n.data) ||
+                                void 0 === s ||
+                                s.Items.forEach(function (e) {
+                                  j.push(e.hashedUrl),
+                                    (l[e.hashedUrl] = {
+                                      likes: e.like,
+                                      upVotes: e.upVote,
+                                      downVotes: e.downVote,
+                                    });
+                                }),
+                              !(null === (o = e.Auth) || void 0 === o
+                                ? void 0
+                                : o.isLoggedIn))
+                            ) {
+                              a.next = 16;
+                              break;
+                            }
+                            return (
+                              (a.next = 13),
+                              I.post(k.GET_USER_PREVIOUS_VOTES, { voteIds: j })
+                            );
+                          case 13:
+                            a.sent.data.data.forEach(function (e) {
+                              d[e.voteId] = {
+                                liked: "like" === e.voteType,
+                                upVotted: "upVote" === e.voteType,
+                                downVotted: "downVote" === e.voteType,
+                              };
+                            }),
+                              e.voteHandler(d);
+                          case 16:
+                            (null === u ||
+                            void 0 === u ||
+                            null === (r = u.data) ||
+                            void 0 === r ||
+                            null === (i = r.data) ||
+                            void 0 === i
+                              ? void 0
+                              : i.Items) &&
+                              e.voteCountHandler(
+                                Object(h.a)(
+                                  Object(h.a)({}, e.Vote.voteCount),
+                                  l
+                                )
+                              ),
+                              (a.next = 22);
+                            break;
+                          case 19:
+                            (a.prev = 19),
+                              (a.t0 = a.catch(0)),
+                              console.log(a.t0);
+                          case 22:
+                          case "end":
+                            return a.stop();
+                        }
+                    },
+                    a,
+                    null,
+                    [[0, 19]]
+                  );
+                })
+              );
+              return function () {
+                return a.apply(this, arguments);
+              };
+            })();
+          return (
+            Object(n.useEffect)(
+              function () {
+                u();
+              },
+              [t]
+            ),
+            Object(Ve.jsx)(sa, {
+              children: Object(Ve.jsxs)(xt, {
+                isRightBar: !0,
+                children: [
+                  Object(Ve.jsxs)("div", {
+                    className: $n.a.TagHeader,
+                    children: [
+                      l
+                        ? Object(Ve.jsx)("div", {
+                            className: $n.a.ModalArea,
+                            children: Object(Ve.jsx)(Wa, {
+                              TagName: t,
+                              Type: "devsOfTag",
+                              CloseBtn: function () {
+                                d(!1);
+                              },
+                            }),
+                          })
+                        : null,
+                      Object(Ve.jsx)("div", {
+                        className: $n.a.TagName,
+                        children: Object(Ve.jsxs)("p", { children: ["#", t] }),
+                      }),
+                      Object(Ve.jsxs)("div", {
+                        className: $n.a.DevAndFollowUnfollowTagButton,
+                        children: [
+                          Object(Ve.jsx)("div", {
+                            className: $n.a.FollowUnfollowTagButton,
+                            children: Object(Ve.jsx)(Jn, { tagName: t }),
+                          }),
+                          Object(Ve.jsx)("div", {
+                            className: $n.a.DevsButton,
+                            onClick: function () {
+                              return d(!0);
+                            },
+                            children: Object(Ve.jsx)("p", { children: "DEVS" }),
+                          }),
+                        ],
+                      }),
+                    ],
+                  }),
+                  Object(Ve.jsx)("div", {
+                    className: $n.a.RecentPostSection,
+                    children: Object(Ve.jsx)("p", { children: "Recent Posts" }),
+                  }),
+                  Object(Ve.jsx)("div", {
+                    className: $n.a.TagFeedArea,
+                    children: o.map(function (e, t) {
+                      return "blog" === e.postType
+                        ? Object(Ve.jsx)(
+                            ba,
+                            { Element: e, Type: "post" },
+                            "blg-card-".concat(t)
+                          )
+                        : "question" === e.postType
+                        ? Object(Ve.jsx)(
+                            fa,
+                            { Element: e, Type: "post" },
+                            "qs-card-".concat(t)
+                          )
+                        : null;
+                    }),
+                  }),
+                ],
+              }),
+            })
+          );
+        }),
+        ts = a(120),
+        as = a.n(ts),
+        ns = Object(u.b)(
+          function (e) {
+            return { Auth: e.Auth };
+          },
+          { login: Le }
+        )(function (e) {
+          var t,
+            a = Object(n.useState)([]),
+            s = Object(Pe.a)(a, 2),
+            o = s[0],
+            c = s[1],
+            r = Object(n.useState)(!0),
+            i = Object(Pe.a)(r, 2),
+            l = i[0],
+            d = i[1];
+          return (
+            Object(n.useEffect)(
+              function () {
+                l &&
+                  (function () {
+                    var t;
+                    if (
+                      null === e ||
+                      void 0 === e ||
+                      null === (t = e.Auth) ||
+                      void 0 === t
+                        ? void 0
+                        : t.userdetails
+                    ) {
+                      var a,
+                        n,
+                        s = Object.keys(
+                          null === (a = e.Auth) ||
+                            void 0 === a ||
+                            null === (n = a.userdetails) ||
+                            void 0 === n
+                            ? void 0
+                            : n.tags
+                        );
+                      c(s), d(!1);
+                    }
+                  })();
+              },
+              [null === (t = e.Auth) || void 0 === t ? void 0 : t.userdetails]
+            ),
+            Object(Ve.jsx)(sa, {
+              children: Object(Ve.jsx)(xt, {
+                isRightBar: !0,
+                children: Object(Ve.jsxs)("div", {
+                  className: as.a.Container,
+                  children: [
+                    Object(Ve.jsx)("div", {
+                      className: as.a.Header,
+                      children: Object(Ve.jsx)("p", { children: "My Tags" }),
+                    }),
+                    Object(Ve.jsx)("div", {
+                      className: as.a.AllTagsCard,
+                      children: Object(Ve.jsx)("div", {
+                        className: as.a.Row,
+                        children: o.map(function (e, t) {
+                          return Object(Ve.jsx)(
+                            "div",
+                            {
+                              className: as.a.Column,
+                              children: Object(Ve.jsxs)("div", {
+                                className: as.a.TagCard,
+                                children: [
+                                  Object(Ve.jsxs)("p", { children: ["#", e] }),
+                                  Object(Ve.jsx)("div", {
+                                    className: as.a.FollowUnfollowButton,
+                                    children: Object(Ve.jsx)(Jn, {
+                                      tagName: e,
+                                    }),
+                                  }),
+                                ],
+                              }),
+                            },
+                            "tag-col" + t
+                          );
+                        }),
+                      }),
+                    }),
+                  ],
+                }),
+              }),
+            })
+          );
+        }),
+        ss = a(269),
+        os = a.n(ss),
+        cs = Object(u.b)(
+          function (e) {
+            return { Feed: e.Feed, Auth: e.Auth, Vote: e.Vote };
+          },
+          {
+            setGlobalFeed: function (e) {
+              return { type: "SET_GLOBAL_FEED", payload: e };
+            },
+            voteHandler: De,
+            voteCountHandler: Fe,
+          }
+        )(function (e) {
+          var t,
+            a,
+            s,
+            o = Object(n.useState)(!1),
+            c = Object(Pe.a)(o, 2),
+            r = c[0],
+            i = c[1],
+            l = (function () {
+              var t = Object(F.a)(
+                D.a.mark(function t() {
+                  var a, n, s, o, c, r, l, d, u, j, b, v;
+                  return D.a.wrap(
+                    function (t) {
+                      for (;;)
+                        switch ((t.prev = t.next)) {
+                          case 0:
+                            return (
+                              i(!0),
+                              (a = {}),
+                              (t.prev = 2),
+                              (t.next = 5),
+                              I.get(k.GET_MAIN_FEED + "/false/false")
+                            );
+                          case 5:
+                            if (
+                              ((c = t.sent),
+                              !(null === (n = e.Auth) || void 0 === n
+                                ? void 0
+                                : n.isLoggedIn))
+                            ) {
+                              t.next = 18;
+                              break;
+                            }
+                            return (
+                              (d = Object(h.a)({}, e.Vote.votes)),
+                              (u = []),
+                              null === c ||
+                                void 0 === c ||
+                                null === (r = c.data) ||
+                                void 0 === r ||
+                                null === (l = r.data) ||
+                                void 0 === l ||
+                                l.Items.forEach(function (e) {
+                                  u.push(e.hashedUrl),
+                                    (a[e.hashedUrl] = {
+                                      likes: e.like,
+                                      upVotes: e.upVote,
+                                      downVotes: e.downVote,
+                                    });
+                                }),
+                              (t.next = 12),
+                              I.post(k.GET_USER_PREVIOUS_VOTES, { voteIds: u })
+                            );
+                          case 12:
+                            (j = t.sent),
+                              console.log("Previous", j),
+                              j.data.data.forEach(function (e) {
+                                d[e.voteId] = {
+                                  liked: "like" === e.voteType,
+                                  upVotted: "upVote" === e.voteType,
+                                  downVotted: "downVote" === e.voteType,
+                                };
+                              }),
+                              e.voteHandler(d),
+                              (t.next = 19);
+                            break;
+                          case 18:
+                            null === c ||
+                              void 0 === c ||
+                              null === (b = c.data) ||
+                              void 0 === b ||
+                              null === (v = b.data) ||
+                              void 0 === v ||
+                              v.Items.forEach(function (e) {
+                                a[e.hashedUrl] = {
+                                  likes: e.like,
+                                  upVotes: e.upVote,
+                                  downVotes: e.downVote,
+                                };
+                              });
+                          case 19:
+                            (null === c ||
+                            void 0 === c ||
+                            null === (s = c.data) ||
+                            void 0 === s ||
+                            null === (o = s.data) ||
+                            void 0 === o
+                              ? void 0
+                              : o.Items) &&
+                              (e.setGlobalFeed(c.data.data.Items),
+                              e.voteCountHandler(
+                                Object(h.a)(
+                                  Object(h.a)({}, e.Vote.voteCount),
+                                  a
+                                )
+                              )),
+                              (t.next = 25);
+                            break;
+                          case 22:
+                            (t.prev = 22),
+                              (t.t0 = t.catch(2)),
+                              console.log(t.t0);
+                          case 25:
+                            i(!1);
+                          case 26:
+                          case "end":
+                            return t.stop();
+                        }
+                    },
+                    t,
+                    null,
+                    [[2, 22]]
+                  );
+                })
+              );
+              return function () {
+                return t.apply(this, arguments);
+              };
+            })();
+          return (
+            Object(n.useEffect)(
+              function () {
+                var t;
+                (null === (t = e.Feed) || void 0 === t
+                  ? void 0
+                  : t.globalFeed.length) || l();
+              },
+              [null === (t = e.Auth) || void 0 === t ? void 0 : t.isLoggedIn]
+            ),
+            Object(Ve.jsx)(sa, {
+              children: Object(Ve.jsx)(xt, {
+                isRightBar: !0,
+                children: r
+                  ? Object(Ve.jsx)(Ba, {})
+                  : Object(Ve.jsxs)("div", {
+                      children: [
+                        Object(Ve.jsx)("div", {
+                          className: os.a.Header,
+                          children: Object(Ve.jsx)("p", {
+                            children: "Global Feed",
+                          }),
+                        }),
+                        Object(Ve.jsx)("div", {
+                          className: os.a.ReloadButton,
+                          onClick: function () {
+                            return l();
+                          },
+                          children: Object(Ve.jsx)("i", {
+                            className: "icon sync alternate",
+                          }),
+                        }),
+                        null === (a = e.Feed) ||
+                        void 0 === a ||
+                        null === (s = a.globalFeed) ||
+                        void 0 === s
+                          ? void 0
+                          : s.map(function (e, t) {
+                              return "blog" === e.postType
+                                ? Object(Ve.jsx)(
+                                    ba,
+                                    { Element: e, Type: "post" },
+                                    "blg-card-".concat(t)
+                                  )
+                                : "question" === e.postType
+                                ? Object(Ve.jsx)(
+                                    fa,
+                                    { Element: e, Type: "post" },
+                                    "qs-card-".concat(t)
+                                  )
+                                : null;
+                            }),
+                      ],
+                    }),
+              }),
+            })
+          );
+        }),
+        rs = a(39),
+        is = a.n(rs),
+        ls = Object(u.b)(function (e) {
+          return { Auth: e.Auth };
+        }, {})(function (e) {
+          var t,
+            a,
+            s,
+            o = Object(n.useState)(!1),
+            c = Object(Pe.a)(o, 2),
+            r = c[0],
+            i = c[1],
+            l = Object(n.useState)({}),
+            u = Object(Pe.a)(l, 2),
+            j = u[0],
+            b = u[1],
+            v = Object(n.useState)([]),
+            p = Object(Pe.a)(v, 2),
+            O = p[0],
+            _ = p[1],
+            x = (function () {
+              var t = Object(F.a)(
+                D.a.mark(function t() {
+                  var a, n, s, o, c, r;
+                  return D.a.wrap(
+                    function (t) {
+                      for (;;)
+                        switch ((t.prev = t.next)) {
+                          case 0:
+                            return (
+                              i(!0),
+                              (t.prev = 1),
+                              (t.next = 4),
+                              I.get(
+                                k.DEV_POSTS +
+                                  "/" +
+                                  (null === e ||
+                                  void 0 === e ||
+                                  null === (a = e.Auth) ||
+                                  void 0 === a ||
+                                  null === (n = a.cognitoUserInfo) ||
+                                  void 0 === n ||
+                                  null === (s = n.attributes) ||
+                                  void 0 === s
+                                    ? void 0
+                                    : s.profile) +
+                                  "/false/false"
+                              )
+                            );
+                          case 4:
+                            (null === (r = t.sent) ||
+                            void 0 === r ||
+                            null === (o = r.data) ||
+                            void 0 === o ||
+                            null === (c = o.data) ||
+                            void 0 === c
+                              ? void 0
+                              : c.Items) && _(r.data.data.Items),
+                              (t.next = 11);
+                            break;
+                          case 8:
+                            (t.prev = 8),
+                              (t.t0 = t.catch(1)),
+                              console.log(t.t0);
+                          case 11:
+                            i(!1);
+                          case 12:
+                          case "end":
+                            return t.stop();
+                        }
+                    },
+                    t,
+                    null,
+                    [[1, 8]]
+                  );
+                })
+              );
+              return function () {
+                return t.apply(this, arguments);
+              };
+            })(),
+            g = (function () {
+              var e = Object(F.a)(
+                D.a.mark(function e(t, a) {
+                  var n, s, o, c;
+                  return D.a.wrap(
+                    function (e) {
+                      for (;;)
+                        switch ((e.prev = e.next)) {
+                          case 0:
+                            return (
+                              ((n = Object(h.a)({}, j))[a] = !0),
+                              b(n),
+                              (e.prev = 3),
+                              (e.next = 6),
+                              I.delete(k.DELETE_POST, { data: { postUrl: t } })
+                            );
+                          case 6:
+                            400 === (s = e.sent).data.statusCode
+                              ? d.b.error(s.data.message)
+                              : (((o = Object(xn.a)(O))[a] = void 0),
+                                _(o),
+                                d.b.success(
+                                  "\ud83d\udc7b Post is deleted successfully"
+                                )),
+                              (e.next = 13);
+                            break;
+                          case 10:
+                            (e.prev = 10),
+                              (e.t0 = e.catch(3)),
+                              console.log(e.t0);
+                          case 13:
+                            delete (c = Object(h.a)({}, j))[a], b(c);
+                          case 16:
+                          case "end":
+                            return e.stop();
+                        }
+                    },
+                    e,
+                    null,
+                    [[3, 10]]
+                  );
+                })
+              );
+              return function (t, a) {
+                return e.apply(this, arguments);
+              };
+            })();
+          return (
+            Object(n.useEffect)(
+              function () {
+                x();
+              },
+              [
+                null === e ||
+                void 0 === e ||
+                null === (t = e.Auth) ||
+                void 0 === t ||
+                null === (a = t.cognitoUserInfo) ||
+                void 0 === a ||
+                null === (s = a.attributes) ||
+                void 0 === s
+                  ? void 0
+                  : s.profile,
+              ]
+            ),
+            Object(Ve.jsx)(sa, {
+              children: Object(Ve.jsx)(xt, {
+                isRightBar: !0,
+                children: Object(Ve.jsxs)("div", {
+                  children: [
+                    Object(Ve.jsx)("div", {
+                      className: is.a.DashboardHeader,
+                      children: Object(Ve.jsx)("p", { children: "DASHBOARD" }),
+                    }),
+                    r
+                      ? Object(Ve.jsx)("div", {
+                          className: is.a.EntryLoader,
+                          children: Object(Ve.jsx)(st, {}),
+                        })
+                      : Object(Ve.jsx)("div", {
+                          children: O.length
+                            ? O.map(function (e, t) {
+                                return e
+                                  ? "blog" === e.postType
+                                    ? Object(Ve.jsxs)(
+                                        "div",
+                                        {
+                                          className: is.a.Card,
+                                          children: [
+                                            Object(Ve.jsxs)("div", {
+                                              className: is.a.DetailSection,
+                                              children: [
+                                                Object(Ve.jsx)("p", {
+                                                  className:
+                                                    is.a.HeaderHashedUrl,
+                                                  children: Object(Ve.jsx)(
+                                                    "b",
+                                                    { children: e.hashedUrl }
+                                                  ),
+                                                }),
+                                                Object(Ve.jsxs)("small", {
+                                                  children: [
+                                                    "Type: ",
+                                                    Object(Ve.jsx)("b", {
+                                                      children: "Blog",
+                                                    }),
+                                                    ", UpVotes: ",
+                                                    Object(Ve.jsx)("b", {
+                                                      children: e.upVote,
+                                                    }),
+                                                    ", DownVotes: ",
+                                                    Object(Ve.jsx)("b", {
+                                                      children: e.downVote,
+                                                    }),
+                                                    ", Responses:",
+                                                    " ",
+                                                    Object(Ve.jsx)("b", {
+                                                      children: e.responses,
+                                                    }),
+                                                  ],
+                                                }),
+                                              ],
+                                            }),
+                                            Object(Ve.jsxs)("div", {
+                                              className: is.a.ButtonSection,
+                                              onClick: function () {
+                                                return g(e.hashedUrl, t);
+                                              },
+                                              children: [
+                                                Object(Ve.jsx)("div", {
+                                                  className: is.a.EditButton,
+                                                  children: "EDIT",
+                                                }),
+                                                Object(Ve.jsx)("div", {
+                                                  className: is.a.DeleteButton,
+                                                  children: j[t]
+                                                    ? Object(Ve.jsx)("div", {
+                                                        className:
+                                                          "ui small active centered inline loader",
+                                                      })
+                                                    : "DELETE",
+                                                }),
+                                              ],
+                                            }),
+                                          ],
+                                        },
+                                        t + "card"
+                                      )
+                                    : "question" === e.postType
+                                    ? Object(Ve.jsxs)(
+                                        "div",
+                                        {
+                                          className: is.a.Card,
+                                          children: [
+                                            Object(Ve.jsxs)("div", {
+                                              className: is.a.DetailSection,
+                                              children: [
+                                                Object(Ve.jsx)("p", {
+                                                  className:
+                                                    is.a.HeaderHashedUrl,
+                                                  children: Object(Ve.jsx)(
+                                                    "b",
+                                                    { children: e.hashedUrl }
+                                                  ),
+                                                }),
+                                                Object(Ve.jsxs)("small", {
+                                                  children: [
+                                                    "Type: ",
+                                                    Object(Ve.jsx)("b", {
+                                                      children: "Question",
+                                                    }),
+                                                    ", UpVotes:",
+                                                    " ",
+                                                    Object(Ve.jsx)("b", {
+                                                      children: e.upVote,
+                                                    }),
+                                                    ", DownVotes:",
+                                                    " ",
+                                                    Object(Ve.jsx)("b", {
+                                                      children: e.downVote,
+                                                    }),
+                                                    ", Answers:",
+                                                    " ",
+                                                    Object(Ve.jsx)("b", {
+                                                      children: e.responses,
+                                                    }),
+                                                  ],
+                                                }),
+                                              ],
+                                            }),
+                                            Object(Ve.jsxs)("div", {
+                                              className: is.a.ButtonSection,
+                                              onClick: function () {
+                                                return g(e.hashedUrl, t);
+                                              },
+                                              children: [
+                                                Object(Ve.jsx)("div", {
+                                                  className: is.a.EditButton,
+                                                  children: "EDIT",
+                                                }),
+                                                Object(Ve.jsx)("div", {
+                                                  className: is.a.DeleteButton,
+                                                  children: j[t]
+                                                    ? Object(Ve.jsx)("div", {
+                                                        className:
+                                                          "ui small active centered inline loader",
+                                                      })
+                                                    : "DELETE",
+                                                }),
+                                              ],
+                                            }),
+                                          ],
+                                        },
+                                        t + "card"
+                                      )
+                                    : null
+                                  : null;
+                              })
+                            : Object(Ve.jsx)("div", {
+                                className: is.a.EntryLoader,
+                                children: "NO POSTS FOUND",
+                              }),
+                        }),
+                  ],
+                }),
+              }),
+            })
+          );
+        }),
+        ds = a(91),
+        us = a.n(ds),
+        js = Object(u.b)(
+          function (e) {
+            return { Auth: e.Auth, Vote: e.Vote };
+          },
+          { voteHandler: De, voteCountHandler: Fe }
+        )(function (e) {
+          var t,
+            a = e.match.params.searchtext,
+            s = Object(n.useState)("post"),
+            o = Object(Pe.a)(s, 2),
+            c = o[0],
+            r = o[1],
+            i = Object(n.useState)(!1),
+            l = Object(Pe.a)(i, 2),
+            d = l[0],
+            u = l[1],
+            j = Object(n.useState)([]),
+            b = Object(Pe.a)(j, 2),
+            v = b[0],
+            p = b[1],
+            O = Object(n.useState)([]),
+            _ = Object(Pe.a)(O, 2),
+            x = _[0],
+            g = _[1],
+            m = (function () {
+              var t = Object(F.a)(
+                D.a.mark(function t() {
+                  var n, s, o, c, r, i, l, d, j, b, v, O;
+                  return D.a.wrap(
+                    function (t) {
+                      for (;;)
+                        switch ((t.prev = t.next)) {
+                          case 0:
+                            return (
+                              (n = {}),
+                              u(!0),
+                              (t.prev = 2),
+                              console.log("searchText", a),
+                              p([]),
+                              (t.next = 7),
+                              I.get(k.SEARCH_POSTS + "/" + a + "/false/false")
+                            );
+                          case 7:
+                            if (
+                              ((r = t.sent),
+                              console.log("my res", r.data.data.Items),
+                              !(null === (s = e.Auth) || void 0 === s
+                                ? void 0
+                                : s.isLoggedIn))
+                            ) {
+                              t.next = 21;
+                              break;
+                            }
+                            return (
+                              (d = Object(h.a)({}, e.Vote.votes)),
+                              (j = []),
+                              null === r ||
+                                void 0 === r ||
+                                null === (i = r.data) ||
+                                void 0 === i ||
+                                null === (l = i.data) ||
+                                void 0 === l ||
+                                l.Items.forEach(function (e) {
+                                  j.push(e.hashedUrl),
+                                    (n[e.hashedUrl] = {
+                                      likes: e.like,
+                                      upVotes: e.upVote,
+                                      downVotes: e.downVote,
+                                    });
+                                }),
+                              (t.next = 15),
+                              I.post(k.GET_USER_PREVIOUS_VOTES, { voteIds: j })
+                            );
+                          case 15:
+                            (b = t.sent),
+                              console.log("Previous", b),
+                              b.data.data.forEach(function (e) {
+                                d[e.voteId] = {
+                                  liked: "like" === e.voteType,
+                                  upVotted: "upVote" === e.voteType,
+                                  downVotted: "downVote" === e.voteType,
+                                };
+                              }),
+                              e.voteHandler(d),
+                              (t.next = 22);
+                            break;
+                          case 21:
+                            null === r ||
+                              void 0 === r ||
+                              null === (v = r.data) ||
+                              void 0 === v ||
+                              null === (O = v.data) ||
+                              void 0 === O ||
+                              O.Items.forEach(function (e) {
+                                n[e.hashedUrl] = {
+                                  likes: e.like,
+                                  upVotes: e.upVote,
+                                  downVotes: e.downVote,
+                                };
+                              });
+                          case 22:
+                            (null === r ||
+                            void 0 === r ||
+                            null === (o = r.data) ||
+                            void 0 === o ||
+                            null === (c = o.data) ||
+                            void 0 === c
+                              ? void 0
+                              : c.Items.length) &&
+                              (p(r.data.data.Items),
+                              e.voteCountHandler(
+                                Object(h.a)(
+                                  Object(h.a)({}, e.Vote.voteCount),
+                                  n
+                                )
+                              )),
+                              (t.next = 28);
+                            break;
+                          case 25:
+                            (t.prev = 25),
+                              (t.t0 = t.catch(2)),
+                              console.log(t.t0);
+                          case 28:
+                            u(!1);
+                          case 29:
+                          case "end":
+                            return t.stop();
+                        }
+                    },
+                    t,
+                    null,
+                    [[2, 25]]
+                  );
+                })
+              );
+              return function () {
+                return t.apply(this, arguments);
+              };
+            })(),
+            f = (function () {
+              var e = Object(F.a)(
+                D.a.mark(function e() {
+                  var t;
+                  return D.a.wrap(
+                    function (e) {
+                      for (;;)
+                        switch ((e.prev = e.next)) {
+                          case 0:
+                            return (
+                              (e.prev = 0),
+                              (e.next = 3),
+                              I.get(k.SEARCH_USERS + "/" + a + "/false/false")
+                            );
+                          case 3:
+                            (t = e.sent),
+                              console.log("users", t),
+                              g(t.data.data.Items),
+                              (e.next = 11);
+                            break;
+                          case 8:
+                            (e.prev = 8),
+                              (e.t0 = e.catch(0)),
+                              console.log(e.t0);
+                          case 11:
+                          case "end":
+                            return e.stop();
+                        }
+                    },
+                    e,
+                    null,
+                    [[0, 8]]
+                  );
+                })
+              );
+              return function () {
+                return e.apply(this, arguments);
+              };
+            })();
+          return (
+            Object(n.useEffect)(
+              function () {
+                m(), f();
+              },
+              [
+                a,
+                null === e ||
+                void 0 === e ||
+                null === (t = e.Auth) ||
+                void 0 === t
+                  ? void 0
+                  : t.isLoggedIn,
+              ]
+            ),
+            Object(Ve.jsx)(sa, {
+              children: Object(Ve.jsx)(xt, {
+                isRightBar: !0,
+                children: d
+                  ? Object(Ve.jsx)(Ba, {})
+                  : "post" === c
+                  ? Object(Ve.jsxs)("div", {
+                      children: [
+                        Object(Ve.jsx)("div", {
+                          className: us.a.SearchResultHeader,
+                          children: Object(Ve.jsx)("p", {
+                            children: "Search Results",
+                          }),
+                        }),
+                        Object(Ve.jsx)("div", {
+                          className: us.a.UserPostButton,
+                          onClick: function () {
+                            return r("user");
+                          },
+                          children: "Users",
+                        }),
+                        v.length
+                          ? Object(Ve.jsx)("div", {
+                              className: us.a.PostResultSection,
+                              children: v.map(function (e, t) {
+                                return "blog" === e.postType
+                                  ? Object(Ve.jsx)(
+                                      ba,
+                                      { Element: e, Type: "post" },
+                                      "blg-card-".concat(t)
+                                    )
+                                  : "question" === e.postType
+                                  ? Object(Ve.jsx)(
+                                      fa,
+                                      { Element: e, Type: "post" },
+                                      "qs-card-".concat(t)
+                                    )
+                                  : null;
+                              }),
+                            })
+                          : Object(Ve.jsx)("div", {
+                              className: us.a.NotFound,
+                              children: Object(Ve.jsx)("p", {
+                                children: "Sorry \ud83d\ude25 No Posts Found",
+                              }),
+                            }),
+                      ],
+                    })
+                  : Object(Ve.jsxs)("div", {
+                      children: [
+                        Object(Ve.jsx)("div", {
+                          className: us.a.SearchResultHeader,
+                          children: Object(Ve.jsx)("p", {
+                            children: "Search Results",
+                          }),
+                        }),
+                        Object(Ve.jsx)("div", {
+                          className: us.a.UserPostButton,
+                          onClick: function () {
+                            return r("post");
+                          },
+                          children: "Posts",
+                        }),
+                        x.length
+                          ? Object(Ve.jsx)("div", {
+                              children: x.map(function (e, t) {
+                                return Object(Ve.jsx)(
+                                  "div",
+                                  {
+                                    className: us.a.UserCard,
+                                    children: Object(Ve.jsx)(zn, { Author: e }),
+                                  },
+                                  "user-card" + t
+                                );
+                              }),
+                            })
+                          : Object(Ve.jsx)("div", {
+                              className: us.a.NotFound,
+                              children: Object(Ve.jsx)("p", {
+                                children: "Sorry \ud83d\ude25 No Users Found",
+                              }),
+                            }),
+                      ],
+                    }),
+              }),
+            })
+          );
+        }),
+        bs = a(398),
+        vs = a.n(bs),
+        ps = function (e) {
+          var t = Object(n.useState)(!0),
+            a = Object(Pe.a)(t, 2),
+            s = a[0],
+            o = a[1];
+          return Object(Ve.jsx)(sa, {
+            children: Object(Ve.jsx)(xt, {
+              isRightBar: !0,
+              children: Object(Ve.jsx)("div", {
+                className: vs.a.LoginModal,
+                children: Object(Ve.jsx)(Xt, {
+                  open: s,
+                  closed: function () {
+                    o(!1);
+                  },
+                }),
+              }),
+            }),
+          });
+        },
+        hs = a(399),
+        Os = a.n(hs),
+        _s = function (e) {
+          var t = Object(n.useState)(!0),
+            a = Object(Pe.a)(t, 2),
+            s = a[0],
+            o = a[1];
+          return Object(Ve.jsx)(sa, {
+            children: Object(Ve.jsx)(xt, {
+              isRightBar: !0,
+              children: Object(Ve.jsx)("div", {
+                className: Os.a.SignupModal,
+                children: Object(Ve.jsx)(aa, {
+                  open: s,
+                  closed: function () {
+                    o(!1);
+                  },
+                }),
+              }),
+            }),
+          });
+        },
+        xs = function (e) {
+          return Object(Ve.jsx)(Me.a, {
+            children: Object(Ve.jsxs)(Me.b, {
+              children: [
+                Object(Ve.jsx)(Ge.b, { path: "/", component: Ta, exact: !0 }),
+                Object(Ve.jsx)(Ge.b, {
+                  path: "/:username",
+                  component: Ja,
+                  exact: !0,
+                }),
+                Object(Ve.jsx)(Ge.b, {
+                  path: "/feed/blogs",
+                  component: vn,
+                  exact: !0,
+                }),
+                Object(Ve.jsx)(Ge.b, {
+                  path: "/feed/questions",
+                  component: _n,
+                  exact: !0,
+                }),
+                Object(Ve.jsx)(Ge.b, {
+                  path: "/feed/devfeed",
+                  component: Sn,
+                  exact: !0,
+                }),
+                Object(Ve.jsx)(Ge.b, {
+                  path: "/search/:searchtext",
+                  component: js,
+                  exact: !0,
+                }),
+                Object(Ve.jsx)(Ge.b, {
+                  path: "/user/login",
+                  component: ps,
+                  exact: !0,
+                }),
+                Object(Ve.jsx)(Ge.b, {
+                  path: "/post/:hashedUrl",
+                  component: Zn,
+                  exact: !0,
+                }),
+                Object(Ve.jsx)(Ge.b, {
+                  path: "/tag/:tagName",
+                  component: es,
+                  exact: !0,
+                }),
+                Object(Ve.jsx)(Ge.b, {
+                  path: "/user/signup",
+                  component: _s,
+                  exact: !0,
+                }),
+                Object(Ve.jsx)(Ge.b, {
+                  path: "/explore/globalfeed",
+                  component: cs,
+                  exact: !0,
+                }),
+                Object(Ve.jsx)(Ge.b, {
+                  path: "/profile/edit",
+                  component: tn,
+                  exact: !0,
+                }),
+                Object(Ve.jsx)(Ge.b, {
+                  path: "/new/question",
+                  component: cn,
+                  exact: !0,
+                }),
+                Object(Ve.jsx)(Ge.b, {
+                  path: "/new/blog",
+                  component: dn,
+                  exact: !0,
+                }),
+                Object(Ve.jsx)(Ge.b, {
+                  path: "/me/messages",
+                  component: An,
+                  exact: !0,
+                }),
+                Object(Ve.jsx)(Ge.b, {
+                  path: "/me/messages/:username",
+                  component: An,
+                  exact: !0,
+                }),
+                Object(Ve.jsx)(Ge.b, {
+                  path: "/tags/all",
+                  component: ns,
+                  exact: !0,
+                }),
+                Object(Ve.jsx)(Ge.b, {
+                  path: "/my/dashboard",
+                  component: ls,
+                  exact: !0,
+                }),
+                Object(Ve.jsx)(Ge.b, { component: We }),
+              ],
+            }),
+          });
+        },
+        gs = a(65),
+        ms = a.n(gs),
+        fs = Object(u.b)(
+          function (e) {
+            return { Auth: e.Auth };
+          },
+          { login: Le }
+        )(function (e) {
+          var t = Object(n.useState)(e.defaultUserName),
+            a = Object(Pe.a)(t, 2),
+            s = a[0],
+            o = a[1],
+            c = function (t, a) {
+              var n = Object(h.a)({}, e.currentSelected);
+              (n[t] = a), e.setSelected(n);
+            },
+            r = (function () {
+              var t = Object(F.a)(
+                D.a.mark(function t(a) {
+                  return D.a.wrap(function (t) {
+                    for (;;)
+                      switch ((t.prev = t.next)) {
+                        case 0:
+                          return (
+                            e.setUserNameStatus("checking"),
+                            o(a),
+                            (t.next = 4),
+                            R({ value: a, defaultUserName: e.defaultUserName })
+                          );
+                        case 4:
+                          t.sent
+                            ? e.setUserNameStatus("failed")
+                            : (e.setUserNameStatus("passed"), c("userName", a));
+                        case 6:
+                        case "end":
+                          return t.stop();
+                      }
+                  }, t);
+                })
+              );
+              return function (e) {
+                return t.apply(this, arguments);
+              };
+            })();
+          return (
+            Object(n.useEffect)(
+              function () {
+                s.length < 1 && e.setUserNameStatus("failed");
+              },
+              [e.userNameStatus]
+            ),
+            Object(Ve.jsxs)("div", {
+              children: [
+                Object(Ve.jsx)("div", {
+                  className: ms.a.Header,
+                  children: Object(Ve.jsx)("p", {
+                    children:
+                      "Hello, Please give some necessary inputs to continue",
+                  }),
+                }),
+                Object(Ve.jsxs)("div", {
+                  className: ms.a.BasicInfoDiv,
+                  children: [
+                    Object(Ve.jsxs)("label", {
+                      children: [
+                        Object(Ve.jsx)("span", {
+                          style: { color: "red" },
+                          children: "*",
+                        }),
+                        " User Name",
+                        "  ",
+                        Object(Ve.jsx)("span", {
+                          children:
+                            "passed" === e.userNameStatus
+                              ? Object(Ve.jsx)("i", {
+                                  className: "check icon",
+                                  style: { color: "green" },
+                                })
+                              : "checking" === e.userNameStatus
+                              ? Object(Ve.jsx)("div", {
+                                  className: ms.a.CheckLoader,
+                                  children: " ",
+                                })
+                              : Object(Ve.jsx)("i", {
+                                  className: "x icon",
+                                  style: { color: "red" },
+                                }),
+                        }),
+                      ],
+                    }),
+                    Object(Ve.jsx)("input", {
+                      required: !0,
+                      className:
+                        "failed" === e.userNameStatus
+                          ? ms.a.FailedInput
+                          : ms.a.NormalInput,
+                      value: s,
+                      onChange: function (e) {
+                        return r(e.target.value);
+                      },
+                      type: "text",
+                    }),
+                    Object(Ve.jsx)("label", { children: "Short Bio" }),
+                    Object(Ve.jsx)("input", {
+                      onChange: function (e) {
+                        return c("bio", e.target.value);
+                      },
+                      className: ms.a.NormalInput,
+                      type: "text",
+                    }),
+                    Object(Ve.jsx)("label", { children: "Location" }),
+                    Object(Ve.jsx)("input", {
+                      onChange: function (e) {
+                        return c("location", e.target.value);
+                      },
+                      className: ms.a.NormalInput,
+                      type: "text",
+                    }),
+                    Object(Ve.jsx)("label", { children: "Profession" }),
+                    Object(Ve.jsx)("input", {
+                      onChange: function (e) {
+                        return c("profession", e.target.value);
+                      },
+                      className: ms.a.NormalInput,
+                      type: "text",
+                    }),
+                    Object(Ve.jsx)("label", { children: "Linkedin Link" }),
+                    Object(Ve.jsx)("input", {
+                      onChange: function (e) {
+                        return c("linkedinLink", e.target.value);
+                      },
+                      className: ms.a.NormalInput,
+                      type: "text",
+                    }),
+                    Object(Ve.jsx)("label", { children: "Github Link" }),
+                    Object(Ve.jsx)("input", {
+                      onChange: function (e) {
+                        return c("githubLink", e.target.value);
+                      },
+                      className: ms.a.NormalInput,
+                      type: "text",
+                    }),
+                    Object(Ve.jsx)("label", { children: "Twitter Link" }),
+                    Object(Ve.jsx)("input", {
+                      onChange: function (e) {
+                        return c("twitterLink", e.target.value);
+                      },
+                      className: ms.a.NormalInput,
+                      type: "text",
+                    }),
+                  ],
+                }),
+              ],
+            })
+          );
+        }),
+        Ss = a(137),
+        Ns = a(73),
+        Bs = a.n(Ns),
+        Cs = function (e) {
+          return Object(Ve.jsx)("div", {
+            children: e.finishLoading
+              ? Object(Ve.jsx)("div", {
+                  children: Object(Ve.jsx)("div", {
+                    className: Bs.a.HeartLoader,
+                  }),
+                })
+              : Object(Ve.jsxs)("div", {
+                  children: [
+                    Object(Ve.jsxs)("div", {
+                      className: Bs.a.Header,
+                      children: [
+                        Object(Ve.jsx)("p", {
+                          children:
+                            "Here is some popular Devs whom you can follow",
+                        }),
+                        Object(Ve.jsxs)("small", {
+                          children: [
+                            "Follow atleast one Dev to continue [",
+                            " ",
+                            Object.keys(e.currentSelected).length,
+                            " Dev followed ]",
+                          ],
+                        }),
+                      ],
+                    }),
+                    Object(Ve.jsx)("div", {
+                      className: Bs.a.CardGroup,
+                      children: Object(Ve.jsx)("div", {
+                        className: Bs.a.Row,
+                        children: e.popularDevs.map(function (t, a) {
+                          return Object(Ve.jsx)(
+                            "div",
+                            {
+                              className: Bs.a.Column,
+                              children: Object(Ve.jsxs)("div", {
+                                className: Bs.a.Card,
+                                children: [
+                                  Object(Ve.jsx)("div", {
+                                    className: Bs.a.ImageContent,
+                                    children: Object(Ve.jsx)("img", {
+                                      src: Ut,
+                                      alt: "pro pic",
+                                    }),
+                                  }),
+                                  Object(Ve.jsxs)("div", {
+                                    className: Bs.a.NameContent,
+                                    children: [
+                                      Object(Ve.jsx)("p", { children: t.name }),
+                                      Object(Ve.jsxs)("small", {
+                                        children: ["@", t.userName],
+                                      }),
+                                      e.currentSelected[t.userName]
+                                        ? Object(Ve.jsx)("button", {
+                                            className: Bs.a.UnfollowButton,
+                                            onClick: function () {
+                                              return (function (t) {
+                                                var a = Object(h.a)(
+                                                  {},
+                                                  e.currentSelected
+                                                );
+                                                delete a[t], e.setSelected(a);
+                                              })(t.userName);
+                                            },
+                                            children: "Unfollow",
+                                          })
+                                        : Object(Ve.jsx)("button", {
+                                            className: Bs.a.FollowButton,
+                                            onClick: function () {
+                                              return (
+                                                (a = t.userName),
+                                                void e.setSelected(
+                                                  Object(h.a)(
+                                                    Object(h.a)(
+                                                      {},
+                                                      e.currentSelected
+                                                    ),
+                                                    {},
+                                                    Object(Ss.a)({}, a, "1")
+                                                  )
+                                                )
+                                              );
+                                              var a;
+                                            },
+                                            children: "Follow",
+                                          }),
+                                    ],
+                                  }),
+                                ],
+                              }),
+                            },
+                            "dev-col-" + a
+                          );
+                        }),
+                      }),
+                    }),
+                  ],
+                }),
+          });
+        },
+        Es = a(92),
+        ws = a.n(Es),
+        Ts = a(181),
+        Ps = a.n(Ts),
+        ks = function (e) {
+          return Object(Ve.jsxs)("div", {
+            children: [
+              Object(Ve.jsxs)("div", {
+                className: Ps.a.body,
+                children: [
+                  Object(Ve.jsxs)("span", {
+                    children: [
+                      Object(Ve.jsx)("span", {}),
+                      Object(Ve.jsx)("span", {}),
+                      Object(Ve.jsx)("span", {}),
+                      Object(Ve.jsx)("span", {}),
+                    ],
+                  }),
+                  Object(Ve.jsxs)("div", {
+                    className: Ps.a.base,
+                    children: [
+                      Object(Ve.jsx)("span", {}),
+                      Object(Ve.jsx)("div", { className: Ps.a.face }),
+                    ],
+                  }),
+                ],
+              }),
+              Object(Ve.jsxs)("div", {
+                className: Ps.a.longfazers,
+                children: [
+                  Object(Ve.jsx)("span", {}),
+                  Object(Ve.jsx)("span", {}),
+                  Object(Ve.jsx)("span", {}),
+                  Object(Ve.jsx)("span", {}),
+                ],
+              }),
+              Object(Ve.jsx)("h1", { children: "L o a d i n g . . ." }),
+            ],
+          });
+        },
+        Ls = function (e) {
+          return Object(Ve.jsxs)("div", {
+            children: [
+              Object(Ve.jsxs)("div", {
+                className: ws.a.Header,
+                children: [
+                  Object(Ve.jsx)("p", {
+                    children: "What are you interested in ?",
+                  }),
+                  Object(Ve.jsxs)("small", {
+                    children: [
+                      "Choose atleast one tag to continue [",
+                      " ",
+                      Object.keys(e.currentSelected).length,
+                      " tags followed ]",
+                    ],
+                  }),
+                ],
+              }),
+              Object(Ve.jsx)("div", {
+                className: ws.a.CardGroup,
+                children: e.popularTags.length
+                  ? Object(Ve.jsx)("div", {
+                      className: ws.a.Row,
+                      children: e.popularTags.map(function (t, a) {
+                        return Object(Ve.jsx)(
+                          "div",
+                          {
+                            className: ws.a.Column,
+                            children: Object(Ve.jsxs)("div", {
+                              className: ws.a.Card,
+                              style: {
+                                borderBottom: "2px solid ".concat(we()),
+                              },
+                              children: [
+                                Object(Ve.jsxs)("p", {
+                                  children: ["#", t.tagName],
+                                }),
+                                e.currentSelected[t.tagName]
+                                  ? Object(Ve.jsx)("button", {
+                                      className: ws.a.UnfollowButton,
+                                      onClick: function () {
+                                        return (function (t) {
+                                          var a = Object(h.a)(
+                                            {},
+                                            e.currentSelected
+                                          );
+                                          delete a[t], e.setSelected(a);
+                                        })(t.tagName);
+                                      },
+                                      children: "Unfollow",
+                                    })
+                                  : Object(Ve.jsx)("button", {
+                                      className: ws.a.FollowButton,
+                                      onClick: function () {
+                                        return (
+                                          (a = t.tagName),
+                                          void e.setSelected(
+                                            Object(h.a)(
+                                              Object(h.a)(
+                                                {},
+                                                e.currentSelected
+                                              ),
+                                              {},
+                                              Object(Ss.a)({}, a, "1")
+                                            )
+                                          )
+                                        );
+                                        var a;
+                                      },
+                                      children: "Follow",
+                                    }),
+                              ],
+                            }),
+                          },
+                          "column-".concat(a)
+                        );
+                      }),
+                    })
+                  : Object(Ve.jsx)("div", {
+                      className: ws.a.Postman,
+                      children: Object(Ve.jsx)(ks, {}),
+                    }),
+              }),
+            ],
+          });
+        },
+        ys = a(28),
+        Is = a.n(ys),
+        As = function (e) {
+          var t = function () {
+            return (1 === e.currentStep && e.selectedTagsCount > 0) ||
+              (2 === e.currentStep && "passed" === e.userNameStatus)
+              ? Is.a.ContinueButton
+              : 3 === e.currentStep && e.selectedDevsCount > 0
+              ? e.finishLoading
+                ? Is.a.ContinueButtonDisabled
+                : Is.a.ContinueButton
+              : Is.a.ContinueButtonDisabled;
+          };
+          return Object(Ve.jsxs)(Ze, {
+            children: [
+              Object(Ve.jsxs)("div", {
+                className: Is.a.TopNav,
+                children: [
+                  Object(Ve.jsx)("div", {
+                    className: Is.a.BackButtonContainer,
+                    children: Object(Ve.jsx)("div", {
+                      className:
+                        e.currentStep > 1
+                          ? Is.a.BackButton
+                          : Is.a.BackButtonDisabled,
+                      onClick: e.back,
+                      children:
+                        e.currentStep > 1
+                          ? e.finishLoading
+                            ? Object(Ve.jsx)("i", {
+                                className: "chess rook icon",
+                              })
+                            : Object(Ve.jsx)("i", {
+                                className: "arrow circle left icon",
+                              })
+                          : Object(Ve.jsx)("i", {
+                              className: "chess rook icon",
+                            }),
+                    }),
+                  }),
+                  Object(Ve.jsxs)("div", {
+                    className: Is.a.DotContainer,
+                    children: [
+                      Object(Ve.jsx)("div", {
+                        className: [
+                          Is.a.TopNavDots,
+                          e.currentStep > 0 ? Is.a.DotActive : "",
+                        ].join(" "),
+                      }),
+                      Object(Ve.jsx)("div", {
+                        className: [
+                          Is.a.TopNavDots,
+                          e.currentStep > 1 ? Is.a.DotActive : "",
+                        ].join(" "),
+                      }),
+                      Object(Ve.jsx)("div", {
+                        className: [
+                          Is.a.TopNavDots,
+                          e.currentStep > 2 ? Is.a.DotActive : "",
+                        ].join(" "),
+                      }),
+                    ],
+                  }),
+                  Object(Ve.jsx)("div", {
+                    className: Is.a.ContinueButtonContainer,
+                    children:
+                      3 === e.currentStep
+                        ? Object(Ve.jsx)("button", {
+                            className: t(),
+                            onClick: e.onFinishHandler,
+                            children: Object(Ve.jsx)("p", {
+                              className: Is.a.ButtonText,
+                              children: e.finishLoading
+                                ? "Finishing..."
+                                : "Finish",
+                            }),
+                          })
+                        : Object(Ve.jsx)("button", {
+                            className: t(),
+                            onClick: e.next,
+                            children: Object(Ve.jsx)("p", {
+                              className: Is.a.ButtonText,
+                              children: "Continue",
+                            }),
+                          }),
+                  }),
+                ],
+              }),
+              Object(Ve.jsx)("div", { className: Is.a.Seperator }),
+              e.children,
+            ],
+          });
+        },
+        Ds = Object(u.b)(
+          function (e) {
+            return { Auth: e.Auth };
+          },
+          { login: Le }
+        )(function (e) {
+          var t,
+            a,
+            s,
+            o,
+            c,
+            r,
+            i = Object(n.useState)(1),
+            l = Object(Pe.a)(i, 2),
+            d = l[0],
+            u = l[1],
+            j = Object(n.useState)(!1),
+            b = Object(Pe.a)(j, 2),
+            v = b[0],
+            p = b[1],
+            O =
+              (null === (t = e.Auth) ||
+              void 0 === t ||
+              null === (a = t.cognitoUserInfo) ||
+              void 0 === a ||
+              null === (s = a.attributes) ||
+              void 0 === s
+                ? void 0
+                : s.email.substring(0, 4)) +
+              (null === (o = e.Auth) ||
+              void 0 === o ||
+              null === (c = o.cognitoUserInfo) ||
+              void 0 === c ||
+              null === (r = c.attributes) ||
+              void 0 === r
+                ? void 0
+                : r.sub.substring(0, 8)),
+            _ = Object(n.useState)("passed"),
+            x = Object(Pe.a)(_, 2),
+            g = x[0],
+            m = x[1],
+            f = Object(n.useState)({}),
+            S = Object(Pe.a)(f, 2),
+            N = S[0],
+            B = S[1],
+            C = Object(n.useState)({}),
+            E = Object(Pe.a)(C, 2),
+            w = E[0],
+            T = E[1],
+            P = Object(n.useState)({ userName: O }),
+            L = Object(Pe.a)(P, 2),
+            y = L[0],
+            A = L[1],
+            U = Object(n.useState)([]),
+            R = Object(Pe.a)(U, 2),
+            V = R[0],
+            H = R[1],
+            M = Object(n.useState)([]),
+            G = Object(Pe.a)(M, 2),
+            Q = G[0],
+            z = G[1],
+            q = function () {
+              return u(d + 1);
+            },
+            W = function () {
+              return u(d - 1);
+            },
+            Z = (function () {
+              var e = Object(F.a)(
+                D.a.mark(function e() {
+                  var t;
+                  return D.a.wrap(
+                    function (e) {
+                      for (;;)
+                        switch ((e.prev = e.next)) {
+                          case 0:
+                            return (
+                              (e.prev = 0),
+                              (e.next = 3),
+                              I.get(k.GET_POPULAR_TAGS + "/50/false")
+                            );
+                          case 3:
+                            (t = e.sent), H(t.data.data.Items), (e.next = 10);
+                            break;
+                          case 7:
+                            (e.prev = 7),
+                              (e.t0 = e.catch(0)),
+                              console.log(e.t0);
+                          case 10:
+                          case "end":
+                            return e.stop();
+                        }
+                    },
+                    e,
+                    null,
+                    [[0, 7]]
+                  );
+                })
+              );
+              return function () {
+                return e.apply(this, arguments);
+              };
+            })(),
+            K = (function () {
+              var e = Object(F.a)(
+                D.a.mark(function e() {
+                  var t;
+                  return D.a.wrap(
+                    function (e) {
+                      for (;;)
+                        switch ((e.prev = e.next)) {
+                          case 0:
+                            return (
+                              (e.prev = 0),
+                              (e.next = 3),
+                              I.get(k.GET_TOP_REPUTED_USERS + "/20/false")
+                            );
+                          case 3:
+                            (t = e.sent), z(t.data.data.Items), (e.next = 10);
+                            break;
+                          case 7:
+                            (e.prev = 7),
+                              (e.t0 = e.catch(0)),
+                              console.log(e.t0);
+                          case 10:
+                          case "end":
+                            return e.stop();
+                        }
+                    },
+                    e,
+                    null,
+                    [[0, 7]]
+                  );
+                })
+              );
+              return function () {
+                return e.apply(this, arguments);
+              };
+            })(),
+            Y = (function () {
+              var t = Object(F.a)(
+                D.a.mark(function t() {
+                  var a, n, s, o, c, r, i, l;
+                  return D.a.wrap(
+                    function (t) {
+                      for (;;)
+                        switch ((t.prev = t.next)) {
+                          case 0:
+                            return (
+                              p(!0),
+                              (t.prev = 1),
+                              (o = Object(h.a)(
+                                Object(h.a)({}, y),
+                                {},
+                                {
+                                  email:
+                                    e.Auth.cognitoUserInfo.attributes.email,
+                                  name: e.Auth.cognitoUserInfo.attributes.name
+                                    ? e.Auth.cognitoUserInfo.attributes.name
+                                    : "devrook",
+                                  tags: N,
+                                }
+                              )),
+                              (null === e ||
+                              void 0 === e ||
+                              null === (a = e.Auth) ||
+                              void 0 === a ||
+                              null === (n = a.cognitoUserInfo) ||
+                              void 0 === n ||
+                              null === (s = n.attributes) ||
+                              void 0 === s
+                                ? void 0
+                                : s.identities) &&
+                                ((l = JSON.parse(
+                                  null === e ||
+                                    void 0 === e ||
+                                    null === (c = e.Auth) ||
+                                    void 0 === c ||
+                                    null === (r = c.cognitoUserInfo) ||
+                                    void 0 === r ||
+                                    null === (i = r.attributes) ||
+                                    void 0 === i
+                                    ? void 0
+                                    : i.identities
+                                )),
+                                (o.identities = {
+                                  providerName: l[0].providerName,
+                                  userId: l[0].userId,
+                                })),
+                              console.log("requestJson", o),
+                              (t.next = 7),
+                              I.post(k.CREATE_USER, o)
+                            );
+                          case 7:
+                            return (
+                              (t.next = 9),
+                              I.post(k.FOLLOW_USER_IN_BULK, {
+                                userNames: Object.keys(w),
+                              })
+                            );
+                          case 9:
+                            (window.location.href = "/"), (t.next = 15);
+                            break;
+                          case 12:
+                            (t.prev = 12),
+                              (t.t0 = t.catch(1)),
+                              console.log(t.t0);
+                          case 15:
+                          case "end":
+                            return t.stop();
+                        }
+                    },
+                    t,
+                    null,
+                    [[1, 12]]
+                  );
+                })
+              );
+              return function () {
+                return t.apply(this, arguments);
+              };
+            })();
+          switch (
+            (Object(n.useEffect)(function () {
+              Z(), K();
+            }, []),
+            d)
+          ) {
+            case 1:
+              return Object(Ve.jsx)(As, {
+                next: q,
+                back: W,
+                currentStep: d,
+                selectedTagsCount: Object.keys(N).length,
+                children: Object(Ve.jsx)(Ls, {
+                  currentSelected: N,
+                  setSelected: B,
+                  popularTags: V,
+                }),
+              });
+            case 2:
+              return Object(Ve.jsx)(As, {
+                userNameStatus: g,
+                next: q,
+                back: W,
+                currentStep: d,
+                children: Object(Ve.jsx)(fs, {
+                  defaultUserName: O,
+                  userNameStatus: g,
+                  setUserNameStatus: m,
+                  currentSelected: y,
+                  setSelected: A,
+                }),
+              });
+            case 3:
+              return Object(Ve.jsx)(As, {
+                next: q,
+                back: W,
+                currentStep: d,
+                selectCount: Object.keys(w).length,
+                selectedDevsCount: Object.keys(w).length,
+                onFinishHandler: Y,
+                finishLoading: v,
+                children: Object(Ve.jsx)(Cs, {
+                  currentSelected: w,
+                  setSelected: T,
+                  popularDevs: Q,
+                  finishLoading: v,
+                }),
+              });
+            default:
+              return Object(Ve.jsx)(As, {
+                next: q,
+                back: W,
+                currentStep: d,
+                selectedTagsCount: Object.keys(N).length,
+                children: Object(Ve.jsx)(Ls, {
+                  currentSelected: N,
+                  setSelected: B,
+                  popularTags: V,
+                }),
+              });
+          }
+        }),
+        Fs = a(128),
+        Us = a.n(Fs),
+        Rs = function (e) {
+          return Object(Ve.jsxs)("div", {
+            children: [
+              Object(Ve.jsx)("div", { className: Us.a.bg }),
+              Object(Ve.jsx)("div", {
+                className: [Us.a.bg, Us.a.bg2].join(" "),
+              }),
+              Object(Ve.jsx)("div", {
+                className: [Us.a.bg, Us.a.bg3].join(" "),
+              }),
+              Object(Ve.jsx)("div", {
+                className: Us.a.Content,
+                children: Object(Ve.jsx)(Ds, {}),
+              }),
+            ],
+          });
+        },
+        Vs = Object(u.b)(
+          function (e) {
+            return { Auth: e.Auth };
+          },
+          { login: Le, setUserDetails: ye }
+        )(function (e) {
+          var t,
+            a,
+            s,
+            o = Object(n.useState)(!1),
+            c = Object(Pe.a)(o, 2),
+            r = c[0],
+            i = c[1],
+            l = Object(n.useState)(!1),
+            d = Object(Pe.a)(l, 2),
+            u = d[0],
+            j = d[1],
+            b = (function () {
+              var t = Object(F.a)(
+                D.a.mark(function t() {
+                  var a;
+                  return D.a.wrap(
+                    function (t) {
+                      for (;;)
+                        switch ((t.prev = t.next)) {
+                          case 0:
+                            return (
+                              (t.prev = 0),
+                              i(!0),
+                              (t.next = 4),
+                              ke.a.currentAuthenticatedUser({ bypassCache: !0 })
+                            );
+                          case 4:
+                            (a = t.sent), e.login(a), i(!1), (t.next = 13);
+                            break;
+                          case 9:
+                            (t.prev = 9),
+                              (t.t0 = t.catch(0)),
+                              console.log(t.t0),
+                              i(!1);
+                          case 13:
+                          case "end":
+                            return t.stop();
+                        }
+                    },
+                    t,
+                    null,
+                    [[0, 9]]
+                  );
+                })
+              );
+              return function () {
+                return t.apply(this, arguments);
+              };
+            })();
+          return (
+            Object(n.useEffect)(function () {
+              b();
+            }, []),
+            Object(n.useEffect)(
+              function () {
+                function t() {
+                  return (t = Object(F.a)(
+                    D.a.mark(function t() {
+                      var a;
+                      return D.a.wrap(
+                        function (t) {
+                          for (;;)
+                            switch ((t.prev = t.next)) {
+                              case 0:
+                                return (
+                                  (t.prev = 0),
+                                  (t.next = 3),
+                                  I.post(k.GET_USER_BY_USER_ID, {})
+                                );
+                              case 3:
+                                (a = t.sent),
+                                  console.log("fetched user", a),
+                                  e.setUserDetails(a.data.data[0]),
+                                  (t.next = 11);
+                                break;
+                              case 8:
+                                (t.prev = 8),
+                                  (t.t0 = t.catch(0)),
+                                  console.log(t.t0);
+                              case 11:
+                              case "end":
+                                return t.stop();
+                            }
+                        },
+                        t,
+                        null,
+                        [[0, 8]]
+                      );
+                    })
+                  )).apply(this, arguments);
+                }
+                var a, n, s;
+                e.Auth.isLoggedIn &&
+                  ((
+                    null === (a = e.Auth) ||
+                    void 0 === a ||
+                    null === (n = a.cognitoUserInfo) ||
+                    void 0 === n ||
+                    null === (s = n.attributes) ||
+                    void 0 === s
+                      ? void 0
+                      : s.zoneinfo
+                  )
+                    ? (function () {
+                        t.apply(this, arguments);
+                      })()
+                    : j(!0));
+              },
+              [
+                e.Auth.isLoggedIn,
+                null === (t = e.Auth) ||
+                void 0 === t ||
+                null === (a = t.cognitoUserInfo) ||
+                void 0 === a ||
+                null === (s = a.attributes) ||
+                void 0 === s
+                  ? void 0
+                  : s.zoneinfo,
+              ]
+            ),
+            u
+              ? Object(Ve.jsx)(Rs, {})
+              : r
+              ? Object(Ve.jsx)(He, {})
+              : Object(Ve.jsx)(xs, {})
+          );
+        });
+      Te.default.configure(P.aws_amplify_config);
+      var Hs = T(),
+        Ms = (function (e) {
+          Object(i.a)(a, e);
+          var t = Object(l.a)(a);
+          function a() {
+            return Object(c.a)(this, a), t.apply(this, arguments);
+          }
+          return (
+            Object(r.a)(a, [
+              {
+                key: "render",
+                value: function () {
+                  return Object(Ve.jsxs)(u.a, {
+                    store: Hs,
+                    children: [
+                      Object(Ve.jsx)(Vs, {}),
+                      Object(Ve.jsx)(d.a, { position: d.b.POSITION.TOP_RIGHT }),
+                    ],
+                  });
+                },
+              },
+            ]),
+            a
+          );
+        })(n.Component);
+      o.a.render(Object(Ve.jsx)(Ms, {}), document.getElementById("root"));
+    },
+    63: function (e, t, a) {
+      e.exports = {
+        LoginModal: "LoginModal_LoginModal__1eMd8",
+        LoginHeader: "LoginModal_LoginHeader__1S73R",
+        Open: "LoginModal_Open__2VHOS",
+        Close: "LoginModal_Close__RXL3K",
+        Form: "LoginModal_Form___NGGf",
+        LoginButton: "LoginModal_LoginButton__3zUwh",
+        LoginButtonDiv: "LoginModal_LoginButtonDiv__1ANA4",
+        GoogleIcon: "LoginModal_GoogleIcon__2bR5r",
+      };
+    },
+    64: function (e, t, a) {
+      e.exports = {
+        SignupModal: "SignupModal_SignupModal__9n4Ju",
+        LoginHeader: "SignupModal_LoginHeader__35lZs",
+        Open: "SignupModal_Open__2AFBj",
+        Close: "SignupModal_Close__PnI1-",
+        Form: "SignupModal_Form__IlNH8",
+        SignupButton: "SignupModal_SignupButton__cvA1l",
+        SignupButtonDiv: "SignupModal_SignupButtonDiv__3FBCF",
+        GoogleIcon: "SignupModal_GoogleIcon__1DGG4",
+      };
+    },
+    65: function (e, t, a) {
+      e.exports = {
+        Header: "BasicInfo_Header__2rulZ",
+        BasicInfoDiv: "BasicInfo_BasicInfoDiv__yaM_t",
+        FailedInput: "BasicInfo_FailedInput__17E25",
+        NormalInput: "BasicInfo_NormalInput__31EAz",
+        CheckLoader: "BasicInfo_CheckLoader__3uhXz",
+        load5: "BasicInfo_load5__1Nr9i",
+      };
+    },
+    69: function (e, t, a) {
+      e.exports = {
+        Content: "HomeLayout_Content__3vwWs",
+        Row: "HomeLayout_Row__2wtRW",
+        Column1: "HomeLayout_Column1__20e_p",
+        SideLeftBar: "HomeLayout_SideLeftBar__3g9zk",
+        Column2: "HomeLayout_Column2__3iiBQ",
+        MiddleArea: "HomeLayout_MiddleArea__3Vy_Z",
+        Column3: "HomeLayout_Column3__AeHua",
+        Column2V2: "HomeLayout_Column2V2__3atE9",
+        Column3V2: "HomeLayout_Column3V2__dTnD3",
+        SideRightBar: "HomeLayout_SideRightBar__MTwU4",
+      };
+    },
+    70: function (e, t, a) {
+      e.exports = {
+        MiddleFeedContent: "MiddleFeedLayout_MiddleFeedContent__puaYH",
+        MiddleFeedHeader: "MiddleFeedLayout_MiddleFeedHeader__1sa2I",
+        MiddleFeedHeaderButton:
+          "MiddleFeedLayout_MiddleFeedHeaderButton__3jDpe",
+        active: "MiddleFeedLayout_active__23tuQ",
+      };
+    },
+    71: function (e, t, a) {
+      e.exports = {
+        MainContainer: "ChattedPeople_MainContainer__3w3xY",
+        MessagesHeader: "ChattedPeople_MessagesHeader__2v5Xp",
+        UsersContainer: "ChattedPeople_UsersContainer__256Ai",
+        UserBox: "ChattedPeople_UserBox__3DL5h",
+        UserBoxActive: "ChattedPeople_UserBoxActive__EEWsQ",
+        ImageSection: "ChattedPeople_ImageSection__1vj2y",
+        UserNameSection: "ChattedPeople_UserNameSection__1jMjh",
+        UserName: "ChattedPeople_UserName__2Mlb8",
+        EntryLoader: "ChattedPeople_EntryLoader__3B1Ro",
+        NoUserFound: "ChattedPeople_NoUserFound__1QB-I",
+      };
+    },
+    72: function (e, t, a) {
+      e.exports = {
+        InputBox: "Responses_InputBox__1rpV4",
+        SubmitButton: "Responses_SubmitButton__1P15r",
+        ResponseCard: "Responses_ResponseCard__3jC_9",
+        UpVoteDownVoteSection: "Responses_UpVoteDownVoteSection__Bak8b",
+        VoteCount: "Responses_VoteCount__1NjgC",
+        ResponseBody: "Responses_ResponseBody__dWxOB",
+        ResponseBy: "Responses_ResponseBy__9E7Wx",
+        EntryLoader: "Responses_EntryLoader__1SUyp",
+      };
+    },
+    73: function (e, t, a) {
+      e.exports = {
+        Header: "PopularDevs_Header__o8BFg",
+        Row: "PopularDevs_Row__xTYCQ",
+        Column: "PopularDevs_Column__1XwUj",
+        Card: "PopularDevs_Card__17DFB",
+        ImageContent: "PopularDevs_ImageContent__iqGF_",
+        NameContent: "PopularDevs_NameContent__2Bgt8",
+        FollowButton: "PopularDevs_FollowButton__3FY4q",
+        UnfollowButton: "PopularDevs_UnfollowButton__1A8QI",
+        CardGroup: "PopularDevs_CardGroup__2wJL6",
+        HeartLoader: "PopularDevs_HeartLoader__tA-ka",
+        pulsate: "PopularDevs_pulsate__2RCo0",
+      };
+    },
+    87: function (e, t, a) {
+      e.exports = {
+        MainWindow: "EntryLoaderRects_MainWindow__289Vp",
+        loader: "EntryLoaderRects_loader__LooXv",
+        delay: "EntryLoaderRects_delay__2OaAX",
+        bar1: "EntryLoaderRects_bar1__2-VEQ",
+        bar2: "EntryLoaderRects_bar2__2ZQSh",
+        bar3: "EntryLoaderRects_bar3__3bOLh",
+        bar4: "EntryLoaderRects_bar4__DAMsh",
+        bar5: "EntryLoaderRects_bar5__3_ooT",
+        bar6: "EntryLoaderRects_bar6__1I-TC",
+      };
+    },
+    88: function (e, t, a) {
+      e.exports = {
+        SideDrawer: "SideDrawer_SideDrawer__3kXLK",
+        LeftBarItems: "SideDrawer_LeftBarItems__3mv01",
+        HeaderSection: "SideDrawer_HeaderSection__3wwrS",
+        Logo: "SideDrawer_Logo__3voUv",
+        NavItemsSection: "SideDrawer_NavItemsSection__1ndmb",
+        Open: "SideDrawer_Open__1tCv1",
+        Close: "SideDrawer_Close__9j7x-",
+      };
+    },
+    89: function (e, t, a) {
+      e.exports = {
+        BlogCard: "BlogCard_BlogCard__1pUPH",
+        BlogContent: "BlogCard_BlogContent__3juVI",
+        LikeSection: "BlogCard_LikeSection__1y2eO",
+        BlogSection: "BlogCard_BlogSection__1lXMZ",
+        BlogTitle: "BlogCard_BlogTitle__1Zyx1",
+        BlogResponseSection: "BlogCard_BlogResponseSection__d-ysR",
+        LikeCount: "BlogCard_LikeCount__3pb3f",
+        CoverImageSection: "BlogCard_CoverImageSection__egPck",
+      };
+    },
+    90: function (e, t, a) {
+      e.exports = {
+        TagHeader: "InsideTagPage_TagHeader__12BCX",
+        RecentPostSection: "InsideTagPage_RecentPostSection__kT3Vt",
+        TagName: "InsideTagPage_TagName__3VNcx",
+        DevAndFollowUnfollowTagButton:
+          "InsideTagPage_DevAndFollowUnfollowTagButton__3ybZV",
+        FollowUnfollowTagButton: "InsideTagPage_FollowUnfollowTagButton__2XARn",
+        DevsButton: "InsideTagPage_DevsButton__1iDwt",
+      };
+    },
+    91: function (e, t, a) {
+      e.exports = {
+        SearchResultHeader: "SearchPage_SearchResultHeader__3RMTb",
+        PostResultSection: "SearchPage_PostResultSection__3Q9wt",
+        UserPostButton: "SearchPage_UserPostButton__tTZxU",
+        UserCard: "SearchPage_UserCard__3UDiK",
+        NotFound: "SearchPage_NotFound__3AZ8b",
+      };
+    },
+    92: function (e, t, a) {
+      e.exports = {
+        Header: "Interests_Header__2RbCw",
+        CardGroup: "Interests_CardGroup__2kbsW",
+        Postman: "Interests_Postman__3Uqbk",
+        Row: "Interests_Row__3hIpS",
+        Column: "Interests_Column__1Jmad",
+        Card: "Interests_Card__i-STw",
+        FollowButton: "Interests_FollowButton__17xIs",
+        UnfollowButton: "Interests_UnfollowButton__2BT4Z",
+      };
+    },
+  },
+  [[603, 1, 2]],
+]);
+//# sourceMappingURL=main.ba3625cf.chunk.js.map

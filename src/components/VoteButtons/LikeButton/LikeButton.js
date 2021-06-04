@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Redirect } from "react-router-dom";
+import React from "react";
+import { useHistory } from "react-router-dom";
 import { apis, axios } from "../../../services";
 import {
   setFeedBlogs,
@@ -10,11 +10,11 @@ import { connect } from "react-redux";
 import classes from "./LikeButton.module.css";
 
 const LikeButton = (props) => {
+  const history = useHistory();
+
   const url = props.Element.hashedUrl
     ? props.Element.hashedUrl
     : props.Element.responseId;
-
-  const [shouldReditrect, setRedirect] = useState(false);
 
   const likePostHandler = async () => {
     try {
@@ -31,7 +31,7 @@ const LikeButton = (props) => {
   };
 
   const increaseLikeHandler = () => {
-    if (!props?.Auth?.isLoggedIn) return setRedirect(true);
+    if (!props?.Auth?.isLoggedIn) return history.push("/user/login");
 
     // in vote obj i am already containing old votes data which user has done previously in the application
     const voteObj = { ...props.Vote.votes };
@@ -54,9 +54,6 @@ const LikeButton = (props) => {
 
   return (
     <div>
-      {shouldReditrect ? (
-        <Redirect to={{ pathname: "/user/login" }} exact />
-      ) : null}
       <div
         className={
           props.Vote?.votes[url]?.liked

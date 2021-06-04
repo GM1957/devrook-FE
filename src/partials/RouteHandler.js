@@ -1,5 +1,4 @@
-import { Switch, Route, BrowserRouter } from "react-router-dom";
-import NotFound404 from "../components/NotFound404/NotFound404";
+import { Route, BrowserRouter, HashRouter } from "react-router-dom";
 
 import HomePage from "../Pages/HomePage/HomePage";
 import ProfilePage from "../Pages/ProfilePage/ProfilePage";
@@ -22,7 +21,7 @@ import SignupPage from "../Pages/SignupPage/SignupPage";
 const RouteHandler = (props) => {
   return (
     <BrowserRouter>
-      <Switch>
+      <HashRouter>
         <Route path="/" component={HomePage} exact />
 
         <Route path="/:username" component={ProfilePage} exact />
@@ -58,9 +57,7 @@ const RouteHandler = (props) => {
         <Route path="/tags/all" component={TagsFollowedByMePage} exact />
 
         <Route path="/my/dashboard" component={DashBoardPage} exact />
-
-        <Route component={NotFound404} />
-      </Switch>
+      </HashRouter>
     </BrowserRouter>
   );
 };

@@ -6,6 +6,7 @@ import Responses from "../../components/Responses/Responses";
 import ProfileCard from "../../components/ProfileCard/ProfileCard";
 import { axios, apis } from "../../services";
 import HeartLoader from "../../components/EntryLoader/HeartLoader";
+import NotFound404 from "../../components/NotFound404/NotFound404";
 import classes from "./FullPostPage.module.css";
 
 const FullPostPage = (props) => {
@@ -41,6 +42,8 @@ const FullPostPage = (props) => {
       <HomeLayout isRightBar={false}>
         {isLoading ? (
           <HeartLoader />
+        ) : isNotFound ? (
+          <NotFound404 />
         ) : (
           <div className={classes.PostDetailsArea}>
             <div className={classes.PostCard}>

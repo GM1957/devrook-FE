@@ -5,15 +5,15 @@ import DownVoteButton from "../VoteButtons/DownVoteButton/DownVoteButton";
 import { voteHandler, voteCountHandler } from "../../redux/actions";
 import { connect } from "react-redux";
 import DevRookLogo from "../../assets/images/devrooklogo.png";
-import { NavLink, Redirect } from "react-router-dom";
+import { NavLink, useHistory } from "react-router-dom";
 import EntryLoaderRects from "../../components/EntryLoader/EntryLoaderRects";
 import classes from "./Responses.module.css";
 
 const Responses = (props) => {
+  const history = useHistory();
   const [allResponses, setAllResponses] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [responseBody, setResponseBody] = useState("");
-  const [shouldReditrect, setRedirect] = useState(false);
 
   const fetchAllResponses = async () => {
     setIsLoading(true);
@@ -79,7 +79,7 @@ const Responses = (props) => {
   };
 
   const submitResponseHandler = async () => {
-    if (!props?.Auth?.isLoggedIn) return setRedirect(true);
+    if (!props?.Auth?.isLoggedIn) return history.push("/user/login");
 
     try {
       const oldResponseBody = "" + responseBody.toString();
@@ -125,9 +125,6 @@ const Responses = (props) => {
         </div>
       ) : (
         <div>
-          {shouldReditrect ? (
-            <Redirect to={{ pathname: "/user/login" }} exact />
-          ) : null}
           <div className={classes.AllResponsesSection}>
             {allResponses.map((response, i) => {
               return (
