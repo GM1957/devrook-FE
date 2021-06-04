@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { toast } from "react-toastify";
 import { useHistory } from "react-router-dom";
 import { setUserDetails } from "../../redux/actions";
 import { apis, axios } from "../../services";
@@ -25,7 +26,6 @@ const FollowUnfollowTagButton = (props) => {
   const [buttonToShow, setButtonToShow] = useState(FollowButton);
 
   const checkIfIfollowTag = () => {
-    console.log("my tags", props.Auth?.userdetails);
     const myFollowingTags = props.Auth?.userdetails?.tags;
     if (myFollowingTags) {
       if (myFollowingTags[tagName]) {
@@ -42,15 +42,12 @@ const FollowUnfollowTagButton = (props) => {
       await axios.post(apis.UNFOLLOW_TAG, { tagName });
       const oldTags = { ...props.Auth?.userdetails?.tags };
       delete oldTags[tagName];
-      console.log("after unfollowing", {
-        ...props.Auth?.userdetails,
-        tags: { ...oldTags },
-      });
       props.setUserDetails({
         ...props.Auth?.userdetails,
         tags: { ...oldTags },
       });
     } catch (err) {
+      toast.error("Internal server error");
       console.log(err);
       setButtonToShow(UnFollowButton);
     }

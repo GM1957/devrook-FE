@@ -11,7 +11,7 @@ http.interceptors.response.use(
     const originalRequest = error.config;
 
     // Prevent infinite loops
-    console.log("this is err", error);
+    console.log("this is err from axios", error);
     if (
       error.response.status === 401 &&
       originalRequest.url === apis.BASE_SERVER_URL + "/token/refresh/"

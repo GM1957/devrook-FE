@@ -1,15 +1,16 @@
 import React from "react";
+import { toast } from "react-toastify";
 import { axios, apis } from "../../../services";
 import classes from "./UnfollowUserButton.module.css";
 
 const UnfollowUserButton = (props) => {
   const unfollowUserHandler = async () => {
     try {
-      const res = await axios.post(apis.FOLLOW_UNFOLLOW_USER, {
+      await axios.post(apis.FOLLOW_UNFOLLOW_USER, {
         userName: props.userName,
       });
-      console.log(res);
     } catch (err) {
+      toast.error("Internal server error");
       console.log(err);
     }
   };

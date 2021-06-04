@@ -43,6 +43,7 @@ const AskQuestionPage = (props) => {
 
       toast.success("wooah 🥳 your Question is posted successfully");
     } catch (err) {
+      toast.error("Internal server error");
       console.log(err);
     }
     setIsLoading(false);

@@ -1,4 +1,5 @@
 import React from "react";
+import { toast } from "react-toastify";
 import { useHistory } from "react-router-dom";
 import { apis, axios } from "../../../services";
 import {
@@ -18,16 +19,15 @@ const UpVoteButton = (props) => {
 
   const upVotePostHandler = async () => {
     try {
-      const upvote = await axios.post(apis.VOTE_POST, {
+      await axios.post(apis.VOTE_POST, {
         voteType: "upVote",
         id: url,
         type: props.Type,
         // type is to define its post or response
       });
-
-      console.log("upvote", upvote);
     } catch (err) {
-      console.log("unable to upvote", err);
+      toast.error("Internal server error");
+      console.log(err);
     }
   };
 
@@ -38,7 +38,6 @@ const UpVoteButton = (props) => {
     const voteObj = { ...props.Vote.votes };
     const voteCountObj = { ...props.Vote.voteCount };
 
-    console.log("before upvote", voteObj);
     // checking the hased url is already present or not in votes object if present that means post is already upvotted
     // and if it is already upvotted then we have to remove the upvote in the nex click
     if (props.Vote.votes[url]?.upVotted) {
@@ -49,8 +48,6 @@ const UpVoteButton = (props) => {
       voteObj[url] = { ...voteObj[url], upVotted: true };
       voteObj[url] = { ...voteObj[url], downVotted: false };
     }
-
-    console.log("after upvote", voteObj);
 
     props.voteHandler(voteObj);
     props.voteCountHandler(voteCountObj);

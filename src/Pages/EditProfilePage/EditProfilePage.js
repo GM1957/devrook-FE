@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
+import { toast } from "react-toastify";
 import Layout from "../../hoc/Layout";
 import HomeLayout from "../../hoc/HomeLayout/HomeLayout";
 import { login } from "../../redux/actions";
@@ -25,7 +26,7 @@ const EditProfilePage = (props) => {
     setSelectedUserImage(pendingImage[0]);
   }, []);
 
-  const { getRootProps, getInputProps, isDragActive } = useDropzone({
+  const { getRootProps, getInputProps } = useDropzone({
     accept: "image/*",
     disabled: false,
     onDrop,
@@ -71,6 +72,7 @@ const EditProfilePage = (props) => {
         await axios.put(apis.UPDATE_USER, theCurrentSelected);
         window.location.href = "/profile/edit";
       } catch (err) {
+        toast.error("Internal server error");
         console.log(err);
         setIsLoading(false);
       }

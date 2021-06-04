@@ -1,4 +1,5 @@
 import React from "react";
+import { toast } from "react-toastify";
 import { useHistory } from "react-router-dom";
 import { apis, axios } from "../../../services";
 import {
@@ -18,14 +19,14 @@ const LikeButton = (props) => {
 
   const likePostHandler = async () => {
     try {
-      const res = await axios.post(apis.VOTE_POST, {
+      await axios.post(apis.VOTE_POST, {
         voteType: "like",
         id: url,
         type: props.Type,
         // type is to define its post or response
       });
-      console.log("res", res);
     } catch (err) {
+      toast.error("Internal server error");
       console.log("unable to like", err);
     }
   };

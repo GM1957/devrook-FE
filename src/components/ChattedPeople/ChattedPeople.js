@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { toast } from "react-toastify";
 import { NavLink } from "react-router-dom";
 import { axios, apis } from "../../services";
 import devrook from "../../assets/images/devrooklogo.png";
@@ -15,13 +16,13 @@ const ChattedPeople = (props) => {
     setIsLoading(true);
     try {
       const allChattedWith = await axios.post(apis.CHATTED_WITH_IDS, {});
-      console.log("allChattedWith", allChattedWith);
       if (allChattedWith.data?.data?.length) {
         setAllChattedIds(allChattedWith.data?.data);
       } else {
         setNoUserFound(true);
       }
     } catch (err) {
+      toast.error("Internal server error");
       console.log(err);
     }
     setIsLoading(false);

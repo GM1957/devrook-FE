@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import { toast } from "react-toastify";
 import EditProfileButton from "../EditProfileButton/EditProfileButton";
 import FollowUserButton from "../FollowUserButton/FollowUserButton";
 import UnfollowUserButtton from "../UnfollowUserButton/UnfollowUserButton";
@@ -78,8 +78,6 @@ const ProfileDetails = (props) => {
         userName: props.userName,
       });
 
-      console.log("checker details", checker);
-
       checker.data?.data?.length
         ? setRightButton(
             <UnfollowUserButtton
@@ -113,7 +111,6 @@ const ProfileDetails = (props) => {
       const fetchedUser = await axios.get(
         apis.GET_USER_BY_USER_NAME + props.userName
       );
-      console.log("fetched user", fetchedUser);
 
       if (!fetchedUser.data.data.length || !fetchedUser.data.status) {
         props.setProfileDetails("notFound");
@@ -123,6 +120,7 @@ const ProfileDetails = (props) => {
 
       setIsLoading(false);
     } catch (err) {
+      toast.error("Internal server error");
       setIsLoading(false);
       console.log(err);
     }
@@ -157,8 +155,6 @@ const ProfileDetails = (props) => {
           { voteIds }
         );
 
-        console.log("Previous", previousVoteDetails);
-
         previousVoteDetails.data.data.forEach((item) => {
           voteObj[item.voteId] = {
             liked: item.voteType === "like" ? true : false,
@@ -188,6 +184,7 @@ const ProfileDetails = (props) => {
         setResponseStatus("notFound");
       }
     } catch (err) {
+      toast.error("Internal server error");
       console.log(err);
     }
   };

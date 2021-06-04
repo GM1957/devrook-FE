@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { toast } from "react-toastify";
 import { axios, apis } from "../../../services";
 import BlogCard from "../../BlogCard/BlogCard";
 import {
@@ -71,6 +72,7 @@ const BlogsFeed = (props) => {
         props.voteCountHandler({ ...props.Vote.voteCount, ...voteCountObj });
       }
     } catch (err) {
+      toast.error("Internal server error");
       console.log(err);
     }
     setIsLoading(false);

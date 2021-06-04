@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { toast } from "react-toastify";
 import { NavLink } from "react-router-dom";
 import { axios, apis } from "../../../services";
 import { Icon } from "semantic-ui-react";
@@ -16,12 +17,12 @@ const SideRightBarItems = (props) => {
     setIsTagsLoading(true);
     try {
       const result = await axios.get(apis.GET_POPULAR_TAGS + "/15/false");
-      console.log("ress", result);
       if (result?.data?.data?.Items?.length) {
         props.setTrendingTags(result?.data.data.Items);
       }
     } catch (err) {
-      console.error(err);
+      toast.error("Internal server error");
+      console.log(err);
     }
     setIsTagsLoading(false);
   };

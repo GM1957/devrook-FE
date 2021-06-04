@@ -1,4 +1,5 @@
 import React from "react";
+import { toast } from "react-toastify";
 import { useHistory } from "react-router-dom";
 import { apis, axios } from "../../../services";
 import {
@@ -25,7 +26,8 @@ const DownVoteButton = (props) => {
         // type is to define its post or response
       });
     } catch (err) {
-      console.log("unable to downVote", err);
+      toast.error("Internal server error");
+      console.log(err);
     }
   };
 

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { toast } from "react-toastify";
 import { apis, axios } from "../../services";
 import { voteHandler, voteCountHandler } from "../../redux/actions";
 import { connect } from "react-redux";
@@ -8,15 +9,18 @@ import QuestionCard from "../../components/QuestionCard/QuestionCard";
 import BlogCard from "../../components/BlogCard/BlogCard";
 import ListOfUsersModal from "../../components/ListOfUsersModal/ListOfUsersModal";
 import FollowUnfollowTagButton from "../../components/FollowUnfollowTagButton/FollowUnfollowTagButton";
+import EntryLoaderRects from "../../components/EntryLoader/EntryLoaderRects";
 
 import classes from "./InsideTagPage.module.css";
 
 const InsideTagPage = (props) => {
   const tagName = props.match.params.tagName;
   const [posts, setPosts] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
   const [shouldDevsModal, setShouldDevsModal] = useState(false);
 
   const fetchPosts = async () => {
+    setIsLoading(true);
     try {
       let voteCountObj = {};
       const voteObj = { ...props.Vote.votes };
@@ -25,7 +29,6 @@ const InsideTagPage = (props) => {
         apis.TAG_FEED + "/" + tagName + "/false/false"
       );
 
-      console.log("inside tag result", result);
       setPosts(result.data.data.Items);
 
       const voteIds = [];
@@ -58,8 +61,10 @@ const InsideTagPage = (props) => {
         props.voteCountHandler({ ...props.Vote.voteCount, ...voteCountObj });
       }
     } catch (err) {
+      toast.error("Internal server error");
       console.log(err);
     }
+    setIsLoading(false);
   };
 
   const devsModalCloseHandler = () => {
@@ -102,17 +107,33 @@ const InsideTagPage = (props) => {
           <p>Recent Posts</p>
         </div>
         <div className={classes.TagFeedArea}>
-          {posts.map((ele, i) => {
-            if (ele.postType === "blog") {
-              return (
-                <BlogCard Element={ele} Type="post" key={`blg-card-${i}`} />
-              );
-            } else if (ele.postType === "question") {
-              return (
-                <QuestionCard Element={ele} Type="post" key={`qs-card-${i}`} />
-              );
-            } else return null;
-          })}
+          {isLoading ? (
+            <div className={classes.CenterAligner}>
+              {" "}
+              <EntryLoaderRects />{" "}
+            </div>
+          ) : !posts.length ? (
+            <div className={classes.CenterAligner}>
+              {" "}
+              No Post Found In This Tag
+            </div>
+          ) : (
+            posts.map((ele, i) => {
+              if (ele.postType === "blog") {
+                return (
+                  <BlogCard Element={ele} Type="post" key={`blg-card-${i}`} />
+                );
+              } else if (ele.postType === "question") {
+                return (
+                  <QuestionCard
+                    Element={ele}
+                    Type="post"
+                    key={`qs-card-${i}`}
+                  />
+                );
+              } else return null;
+            })
+          )}
         </div>
       </HomeLayout>
     </Layout>

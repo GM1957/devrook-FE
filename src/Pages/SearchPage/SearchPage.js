@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { toast } from "react-toastify";
 import HeartLoader from "../../components/EntryLoader/HeartLoader";
 import BlogCard from "../../components/BlogCard/BlogCard";
 import QuestionCard from "../../components/QuestionCard/QuestionCard";
@@ -23,13 +24,11 @@ const SearchPage = (props) => {
     let voteCountObj = {};
     setIsLeading(true);
     try {
-      console.log("searchText", searchtext);
       setPosts([]);
       const result = await axios.get(
         apis.SEARCH_POSTS + "/" + searchtext + "/false/false"
       );
 
-      console.log("my res", result.data.data.Items);
       // if user is logged in then fetch personalized posts basically here the posts will come according the tags which user follows
       if (props.Auth?.isLoggedIn) {
         // in vote obj i am already containing old votes data which user has done previously in the application
@@ -49,8 +48,6 @@ const SearchPage = (props) => {
           apis.GET_USER_PREVIOUS_VOTES,
           { voteIds }
         );
-
-        console.log("Previous", previousVoteDetails);
 
         previousVoteDetails.data.data.forEach((item) => {
           voteObj[item.voteId] = {
@@ -75,6 +72,7 @@ const SearchPage = (props) => {
         props.voteCountHandler({ ...props.Vote.voteCount, ...voteCountObj });
       }
     } catch (err) {
+      toast.error("Internal server error");
       console.log(err);
     }
     setIsLeading(false);
@@ -85,9 +83,9 @@ const SearchPage = (props) => {
       const result = await axios.get(
         apis.SEARCH_USERS + "/" + searchtext + "/false/false"
       );
-      console.log("users", result);
       setUsers(result.data.data.Items);
     } catch (err) {
+      toast.error("Internal server error");
       console.log(err);
     }
   };

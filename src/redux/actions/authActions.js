@@ -1,4 +1,5 @@
 import { Auth } from "aws-amplify";
+import { toast } from "react-toastify";
 import { axios } from "../../services";
 
 const login = (cognitoUserInfo) => {
@@ -31,6 +32,7 @@ const logout = () => async (dispatch) => {
       type: "REMOVE_DATA",
     });
   } catch (err) {
+    toast.error("Internal server error");
     console.log(err);
   }
 };

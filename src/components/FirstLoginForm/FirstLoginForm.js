@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { toast } from "react-toastify";
 import BasicInfo from "./BasicInfo/BasicInfo";
 import PopularDevs from "./PopularDevs/PopularDevs";
 import Interests from "./Interests/Interests";
@@ -37,6 +38,7 @@ const FirstLoginForm = (props) => {
       let responses = await axios.get(apis.GET_POPULAR_TAGS + "/50/false");
       setPopularTags(responses.data.data.Items);
     } catch (err) {
+      toast.error("Internal server error");
       console.log(err);
     }
   };
@@ -46,6 +48,7 @@ const FirstLoginForm = (props) => {
       let responses = await axios.get(apis.GET_TOP_REPUTED_USERS + "/20/false");
       setPopularDevs(responses.data.data.Items);
     } catch (err) {
+      toast.error("Internal server error");
       console.log(err);
     }
   };
@@ -75,8 +78,6 @@ const FirstLoginForm = (props) => {
         };
       }
 
-      console.log("requestJson", requestJson);
-
       await axios.post(apis.CREATE_USER, requestJson);
 
       // 2: following the tags it meight update user info also so its coming on no.2
@@ -91,6 +92,7 @@ const FirstLoginForm = (props) => {
 
       window.location.href = "/";
     } catch (err) {
+      toast.error("Internal server error");
       console.log(err);
     }
   };

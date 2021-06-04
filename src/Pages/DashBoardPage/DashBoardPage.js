@@ -27,6 +27,7 @@ const DashBoardPage = (props) => {
         setPosts(result.data.data.Items);
       }
     } catch (err) {
+      toast.error("Internal server error");
       console.log(err);
     }
     setIsLoading(false);
@@ -49,6 +50,7 @@ const DashBoardPage = (props) => {
         toast.success("👻 Post is deleted successfully");
       }
     } catch (err) {
+      toast.error("Internal server error");
       console.log(err);
     }
     const newIsDeleting = { ...isDeleting };

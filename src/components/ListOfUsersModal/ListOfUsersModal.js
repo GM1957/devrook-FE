@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react";
+import { NavLink } from "react-router-dom";
+import { toast } from "react-toastify";
 import Modal from "../UI/Modal/Modal";
 import Backdrop from "../UI/Backdrop/Backdrop";
 import RookLogo from "../../assets/images/devrooklogo.png";
+import EntryLoaderRects from "../EntryLoader/EntryLoaderRects";
 
 import { axios, apis } from "../../services";
 
@@ -9,8 +12,10 @@ import classes from "./ListOfUsersModal.module.css";
 
 const ListOfUsersModal = (props) => {
   const [allUsers, setAllUsers] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
 
   const fetchUsers = async () => {
+    setIsLoading(true);
     try {
       let result;
 
@@ -34,8 +39,10 @@ const ListOfUsersModal = (props) => {
         setAllUsers(result.data.data.Items);
       }
     } catch (err) {
+      toast.error("Internal server error");
       console.log(err);
     }
+    setIsLoading(false);
   };
 
   useEffect(() => {
@@ -47,29 +54,41 @@ const ListOfUsersModal = (props) => {
       <Backdrop show zIndex={400} clicked={props.CloseBtn} />
       <Modal>
         <div className={classes.ModalDesign}>
-          {allUsers.map((userItem, i) => {
-            const user = userItem.length ? userItem[0] : userItem;
-            return (
-              <div className={classes.UsersCard} key={`user-card-${i}`}>
-                <div className={classes.UserImageSection}>
-                  <img
-                    src={
-                      user?.profilePicture?.length
-                        ? user?.profilePicture
-                        : RookLogo
-                    }
-                    alt="userImage"
-                  />
-                </div>
-                <div className={classes.NameUserNameSection}>
-                  <p>
-                    <b>{user.name}</b>
-                  </p>
-                  <strong>@{user.userName}</strong>
-                </div>
-              </div>
-            );
-          })}
+          {isLoading ? (
+            <div className={classes.CenterAligner}>
+              <EntryLoaderRects />{" "}
+            </div>
+          ) : !allUsers.length ? (
+            <div className={classes.CenterAligner}>
+              No follower found of this tag
+            </div>
+          ) : (
+            allUsers.map((userItem, i) => {
+              const user = userItem.length ? userItem[0] : userItem;
+              return (
+                <NavLink to={"/" + user.userName} exact>
+                  <div className={classes.UsersCard} key={`user-card-${i}`}>
+                    <div className={classes.UserImageSection}>
+                      <img
+                        src={
+                          user?.profilePicture?.length
+                            ? user?.profilePicture
+                            : RookLogo
+                        }
+                        alt="userImage"
+                      />
+                    </div>
+                    <div className={classes.NameUserNameSection}>
+                      <p>
+                        <b>{user.name}</b>
+                      </p>
+                      <strong>@{user.userName}</strong>
+                    </div>
+                  </div>
+                </NavLink>
+              );
+            })
+          )}
         </div>
       </Modal>
     </div>

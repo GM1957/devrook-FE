@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { toast } from "react-toastify";
 import { axios, apis } from "../../services";
 import UpVoteButton from "../VoteButtons/UpVoteButton/UpVoteButton";
 import DownVoteButton from "../VoteButtons/DownVoteButton/DownVoteButton";
@@ -33,7 +34,6 @@ const Responses = (props) => {
       const result = await axios.get(
         apis.GET_ALL_RESPONSES + "/" + props.hashedUrl + "/false/false"
       );
-      console.log("all responsed", result);
 
       if (result.data.data?.Items) {
         const data = [];
@@ -73,6 +73,7 @@ const Responses = (props) => {
       }
       props.voteCountHandler({ ...props.Vote.voteCount, ...voteCountObj });
     } catch (err) {
+      toast.error("Internal server error");
       console.log(err);
     }
     setIsLoading(false);
@@ -110,6 +111,7 @@ const Responses = (props) => {
 
       props.voteCountHandler({ ...props.Vote.voteCount, ...newVoteObj });
     } catch (err) {
+      toast.error("Internal server error");
       console.log(err);
     }
   };

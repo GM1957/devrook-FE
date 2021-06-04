@@ -69,6 +69,7 @@ const CreateBlogPage = (props) => {
       });
       toast.success("wooah 😻 your Blog is posted successfully");
     } catch (err) {
+      toast.error("Internal server error");
       console.log(err);
     }
     setIsLoading(false);

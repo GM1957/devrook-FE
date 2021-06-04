@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { toast } from "react-toastify";
 import HomeLayout from "../../hoc/HomeLayout/HomeLayout";
 import Layout from "../../hoc/Layout";
 import PostCard from "../../components/PostCard/PostCard";
@@ -28,6 +29,7 @@ const FullPostPage = (props) => {
         setAuthor(result.data.data.authorDetails);
       }
     } catch (err) {
+      toast.error("Internal server error");
       console.log(err);
     }
     setIsLoading(false);

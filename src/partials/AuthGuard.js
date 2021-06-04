@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { toast } from "react-toastify";
 import { Auth } from "aws-amplify";
 import { connect } from "react-redux";
 import { login, setUserDetails } from "../redux/actions";
@@ -21,6 +22,7 @@ const AuthGuard = (props) => {
 
       setAuthenticating(false);
     } catch (err) {
+      toast.error("Internal server error");
       console.log(err);
       setAuthenticating(false);
     }
@@ -34,9 +36,9 @@ const AuthGuard = (props) => {
     async function fetchUserData() {
       try {
         const DBuser = await axios.post(apis.GET_USER_BY_USER_ID, {});
-        console.log("fetched user", DBuser);
         props.setUserDetails(DBuser.data.data[0]);
       } catch (err) {
+        toast.error("Internal server error");
         console.log(err);
       }
     }

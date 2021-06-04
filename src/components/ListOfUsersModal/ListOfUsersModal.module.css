@@ -15,10 +15,13 @@
     box-shadow: 0px 0px 2px 0px gray;
     margin-bottom: 3%;
     padding: 2% 0%;
+    cursor: pointer;
 }
 
 .UserImageSection {
   flex: 20%;
+  display: flex;
+  justify-content: center;
 }
 
 .UserImageSection img {
@@ -28,6 +31,7 @@
 
 .NameUserNameSection {
   flex: 80%;
+  padding-inline: 2%;
 }
 
 .NameUserNameSection p{
@@ -38,4 +42,9 @@
 
 .NameUserNameSection strong{
   color: rgba(0, 0, 0, 0.808);
+}
+
+.CenterAligner{
+  margin-top: 5%;
+  text-align: center;
 }
