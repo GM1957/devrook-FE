@@ -31,12 +31,6 @@ jobs:
     - name: Code Format Checking
       run: npm run formatCheck
     
-    - name: Running Predeploy
-      # If its not setted to true then it will treat warnings as error
-      env:
-        CI: false
-      run: npm run predeploy
-
     - name: Deploing GitHub Pages
       # If its not setted to true then it will treat warnings as error
       env:
