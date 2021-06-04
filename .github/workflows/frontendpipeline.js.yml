@@ -23,7 +23,10 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Installing Node Modules
-      run: npm i
+      run: |
+        npm cache clean --force
+        rm -rf node_modules
+        npm i
 
     - name: Code Format Checking
       run: npm run formatCheck
