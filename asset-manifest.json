@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.c888b945.chunk.css",
-    "main.js": "/static/js/main.d7be94f8.chunk.js",
-    "main.js.map": "/static/js/main.d7be94f8.chunk.js.map",
+    "main.js": "/static/js/main.21b84c3c.chunk.js",
+    "main.js.map": "/static/js/main.21b84c3c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e831d6fa.js",
     "runtime-main.js.map": "/static/js/runtime-main.e831d6fa.js.map",
     "static/css/2.97503911.chunk.css": "/static/css/2.97503911.chunk.css",
-    "static/js/2.4932889b.chunk.js": "/static/js/2.4932889b.chunk.js",
-    "static/js/2.4932889b.chunk.js.map": "/static/js/2.4932889b.chunk.js.map",
+    "static/js/2.64fb261b.chunk.js": "/static/js/2.64fb261b.chunk.js",
+    "static/js/2.64fb261b.chunk.js.map": "/static/js/2.64fb261b.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.97503911.chunk.css.map": "/static/css/2.97503911.chunk.css.map",
     "static/css/main.c888b945.chunk.css.map": "/static/css/main.c888b945.chunk.css.map",
-    "static/js/2.4932889b.chunk.js.LICENSE.txt": "/static/js/2.4932889b.chunk.js.LICENSE.txt",
+    "static/js/2.64fb261b.chunk.js.LICENSE.txt": "/static/js/2.64fb261b.chunk.js.LICENSE.txt",
     "static/media/404tribe.181c5a64.gif": "/static/media/404tribe.181c5a64.gif",
     "static/media/devrooklogo.11777a57.png": "/static/media/devrooklogo.11777a57.png",
     "static/media/google.86b9ee92.svg": "/static/media/google.86b9ee92.svg"
@@ -19,8 +19,8 @@
   "entrypoints": [
     "static/js/runtime-main.e831d6fa.js",
     "static/css/2.97503911.chunk.css",
-    "static/js/2.4932889b.chunk.js",
+    "static/js/2.64fb261b.chunk.js",
     "static/css/main.c888b945.chunk.css",
-    "static/js/main.d7be94f8.chunk.js"
+    "static/js/main.21b84c3c.chunk.js"
   ]
 }
