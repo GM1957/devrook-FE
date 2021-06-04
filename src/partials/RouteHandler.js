@@ -1,4 +1,4 @@
-import { Route, BrowserRouter, HashRouter } from "react-router-dom";
+import { Route, BrowserRouter, Switch } from "react-router-dom";
 
 import HomePage from "../Pages/HomePage/HomePage";
 import ProfilePage from "../Pages/ProfilePage/ProfilePage";
@@ -21,7 +21,7 @@ import SignupPage from "../Pages/SignupPage/SignupPage";
 const RouteHandler = (props) => {
   return (
     <BrowserRouter>
-      <HashRouter>
+      <Switch>
         <Route path="/" component={HomePage} exact />
 
         <Route path="/:username" component={ProfilePage} exact />
@@ -57,7 +57,7 @@ const RouteHandler = (props) => {
         <Route path="/tags/all" component={TagsFollowedByMePage} exact />
 
         <Route path="/my/dashboard" component={DashBoardPage} exact />
-      </HashRouter>
+      </Switch>
     </BrowserRouter>
   );
 };

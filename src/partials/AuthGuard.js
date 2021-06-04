@@ -22,7 +22,6 @@ const AuthGuard = (props) => {
 
       setAuthenticating(false);
     } catch (err) {
-      toast.error("Internal server error");
       console.log(err);
       setAuthenticating(false);
     }
