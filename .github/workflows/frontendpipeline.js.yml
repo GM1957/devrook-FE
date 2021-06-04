@@ -24,6 +24,7 @@ jobs:
 
     - name: Installing Node Modules
       run: |
+        ls
         npm cache clean --force
         rm -rf node_modules
         npm i
