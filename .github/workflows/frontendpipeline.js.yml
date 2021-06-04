@@ -32,11 +32,15 @@ jobs:
       run: npm run formatCheck
     
     - name: Running Predeploy
+      # If its not setted to true then it will treat warnings as error
       env:
         CI: false
       run: npm run predeploy
 
     - name: Deploing GitHub Pages
+       # If its not setted to true then it will treat warnings as error
+       env:
+        CI: false
       run: |
         git config --global user.email ${{ secrets.GH_EMAIL }}
         git config --global user.name ${{ secrets.GH_USERNAME }}
