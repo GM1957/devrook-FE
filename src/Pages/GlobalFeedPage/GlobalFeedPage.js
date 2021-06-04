@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { toast } from "react-toastify";
 import { axios, apis } from "../../services";
 import Layout from "../../hoc/Layout";
 import HomeLayout from "../../hoc/HomeLayout/HomeLayout";
@@ -67,8 +66,7 @@ const GlobalFeedPage = (props) => {
         props.voteCountHandler({ ...props.Vote.voteCount, ...voteCountObj });
       }
     } catch (err) {
-      toast.error("Internal server error");
-      console.log(err);
+      console.log("failed to set global feed", err);
     }
     setIsLoading(false);
   };

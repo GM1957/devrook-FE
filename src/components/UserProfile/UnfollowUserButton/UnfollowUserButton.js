@@ -1,5 +1,4 @@
 import React from "react";
-import { toast } from "react-toastify";
 import { axios, apis } from "../../../services";
 import classes from "./UnfollowUserButton.module.css";
 
@@ -10,8 +9,7 @@ const UnfollowUserButton = (props) => {
         userName: props.userName,
       });
     } catch (err) {
-      toast.error("Internal server error");
-      console.log(err);
+      console.log("failed to unfollow the user", err);
     }
   };
   return (

@@ -120,9 +120,9 @@ const ProfileDetails = (props) => {
 
       setIsLoading(false);
     } catch (err) {
-      toast.error("Internal server error");
+      toast.error("Internal server error, failed to fetch user details");
       setIsLoading(false);
-      console.log(err);
+      console.log("failed to fetch user details", err);
     }
   };
 
@@ -184,8 +184,8 @@ const ProfileDetails = (props) => {
         setResponseStatus("notFound");
       }
     } catch (err) {
-      toast.error("Internal server error");
-      console.log(err);
+      toast.error("Internal server error, failed to fetch user posts");
+      console.log("failed to fetch user posts", err);
     }
   };
 

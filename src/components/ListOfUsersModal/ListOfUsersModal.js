@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import { toast } from "react-toastify";
 import Modal from "../UI/Modal/Modal";
 import Backdrop from "../UI/Backdrop/Backdrop";
 import RookLogo from "../../assets/images/devrooklogo.png";
@@ -39,8 +38,7 @@ const ListOfUsersModal = (props) => {
         setAllUsers(result.data.data.Items);
       }
     } catch (err) {
-      toast.error("Internal server error");
-      console.log(err);
+      console.log("failed to fetch list of users under a tag", err);
     }
     setIsLoading(false);
   };

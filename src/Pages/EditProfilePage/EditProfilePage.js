@@ -72,8 +72,8 @@ const EditProfilePage = (props) => {
         await axios.put(apis.UPDATE_USER, theCurrentSelected);
         window.location.href = "/profile/edit";
       } catch (err) {
-        toast.error("Internal server error");
-        console.log(err);
+        toast.error("Internal server error, failed to edit");
+        console.log("failed to edit", err);
         setIsLoading(false);
       }
     }

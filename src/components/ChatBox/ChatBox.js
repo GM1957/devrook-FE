@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { toast } from "react-toastify";
 import { axios, apis } from "../../services";
 import EntryHeartLoader from "../EntryLoader/HeartLoader";
 import classes from "./ChatBox.module.css";
@@ -58,8 +57,7 @@ const ChatBox = (props) => {
 
       setIsMessagesLoading(false);
     } catch (err) {
-      toast.error("Internal server error");
-      console.log(err);
+      console.log("failed to get all chats", err);
     }
   };
 

@@ -73,8 +73,8 @@ const Responses = (props) => {
       }
       props.voteCountHandler({ ...props.Vote.voteCount, ...voteCountObj });
     } catch (err) {
-      toast.error("Internal server error");
-      console.log(err);
+      toast.error("Internal server error, failed to fetch responses");
+      console.log("failed to fetch responses", err);
     }
     setIsLoading(false);
   };
@@ -110,9 +110,10 @@ const Responses = (props) => {
       };
 
       props.voteCountHandler({ ...props.Vote.voteCount, ...newVoteObj });
+      toast.success("Successfully submitted the response 😁");
     } catch (err) {
-      toast.error("Internal server error");
-      console.log(err);
+      toast.error("Internal server error, failed to submit the response");
+      console.log("failed to submit the response", err);
     }
   };
 

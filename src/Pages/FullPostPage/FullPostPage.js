@@ -29,8 +29,8 @@ const FullPostPage = (props) => {
         setAuthor(result.data.data.authorDetails);
       }
     } catch (err) {
-      toast.error("Internal server error");
-      console.log(err);
+      toast.error("Internal server error, failed to fetch post");
+      console.log("failed to fetch full post", err);
     }
     setIsLoading(false);
   };

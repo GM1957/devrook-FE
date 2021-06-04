@@ -32,8 +32,8 @@ const logout = () => async (dispatch) => {
       type: "REMOVE_DATA",
     });
   } catch (err) {
-    toast.error("Internal server error");
-    console.log(err);
+    toast.error("Internal server error, failed to signout");
+    console.log("failed to signout", err);
   }
 };
 

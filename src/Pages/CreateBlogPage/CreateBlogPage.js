@@ -69,8 +69,8 @@ const CreateBlogPage = (props) => {
       });
       toast.success("wooah 😻 your Blog is posted successfully");
     } catch (err) {
-      toast.error("Internal server error");
-      console.log(err);
+      toast.error("Internal server error, failed to post the blog");
+      console.log("failed to post the blog", err);
     }
     setIsLoading(false);
   };

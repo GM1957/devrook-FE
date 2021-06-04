@@ -1,5 +1,4 @@
 import React from "react";
-import { toast } from "react-toastify";
 import { axios, apis } from "../../../services";
 import classes from "./FollowUserButton.module.css";
 
@@ -10,8 +9,7 @@ const FollowUserButton = (props) => {
         userName: props.userName,
       });
     } catch (err) {
-      toast.error("Internal server error");
-      console.log(err);
+      console.log("failed to follow the user", err);
     }
   };
 

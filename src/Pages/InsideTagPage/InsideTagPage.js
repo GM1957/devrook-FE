@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { toast } from "react-toastify";
 import { apis, axios } from "../../services";
 import { voteHandler, voteCountHandler } from "../../redux/actions";
 import { connect } from "react-redux";
@@ -61,8 +60,7 @@ const InsideTagPage = (props) => {
         props.voteCountHandler({ ...props.Vote.voteCount, ...voteCountObj });
       }
     } catch (err) {
-      toast.error("Internal server error");
-      console.log(err);
+      console.log("failed to fetch posts inside tag", err);
     }
     setIsLoading(false);
   };

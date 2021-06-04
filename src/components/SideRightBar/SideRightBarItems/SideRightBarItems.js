@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { toast } from "react-toastify";
 import { NavLink } from "react-router-dom";
 import { axios, apis } from "../../../services";
 import { Icon } from "semantic-ui-react";
@@ -21,8 +20,7 @@ const SideRightBarItems = (props) => {
         props.setTrendingTags(result?.data.data.Items);
       }
     } catch (err) {
-      toast.error("Internal server error");
-      console.log(err);
+      console.log("failed to fetch popular tags", err);
     }
     setIsTagsLoading(false);
   };
@@ -35,7 +33,7 @@ const SideRightBarItems = (props) => {
         props.setTrendingDevs(result.data.data.Items);
       }
     } catch (err) {
-      console.error(err);
+      console.log("failed to fetch popular devs", err);
     }
     setIsDevsLoading(false);
   };

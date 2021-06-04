@@ -38,8 +38,8 @@ const FirstLoginForm = (props) => {
       let responses = await axios.get(apis.GET_POPULAR_TAGS + "/50/false");
       setPopularTags(responses.data.data.Items);
     } catch (err) {
-      toast.error("Internal server error");
-      console.log(err);
+      toast.error("Internal server error, failed to fetch popular tags");
+      console.log("failed to fetch popular tags", err);
     }
   };
 
@@ -48,8 +48,8 @@ const FirstLoginForm = (props) => {
       let responses = await axios.get(apis.GET_TOP_REPUTED_USERS + "/20/false");
       setPopularDevs(responses.data.data.Items);
     } catch (err) {
-      toast.error("Internal server error");
-      console.log(err);
+      toast.error("Internal server error, failed to fetch to reputated users");
+      console.log("failed to fetch to reputated users", err);
     }
   };
 
@@ -92,8 +92,8 @@ const FirstLoginForm = (props) => {
 
       window.location.href = "/";
     } catch (err) {
-      toast.error("Internal server error");
-      console.log(err);
+      toast.error("Internal server error, failed to submit first login form");
+      console.log("failed to submit first login form", err);
     }
   };
 

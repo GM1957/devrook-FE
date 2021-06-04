@@ -27,8 +27,7 @@ const DashBoardPage = (props) => {
         setPosts(result.data.data.Items);
       }
     } catch (err) {
-      toast.error("Internal server error");
-      console.log(err);
+      console.log("failed to fetch dashboard", err);
     }
     setIsLoading(false);
   };

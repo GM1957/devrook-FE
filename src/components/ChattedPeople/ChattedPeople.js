@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { toast } from "react-toastify";
 import { NavLink } from "react-router-dom";
 import { axios, apis } from "../../services";
 import devrook from "../../assets/images/devrooklogo.png";
@@ -22,8 +21,7 @@ const ChattedPeople = (props) => {
         setNoUserFound(true);
       }
     } catch (err) {
-      toast.error("Internal server error");
-      console.log(err);
+      console.log("failed to get all chatted people", err);
     }
     setIsLoading(false);
   };

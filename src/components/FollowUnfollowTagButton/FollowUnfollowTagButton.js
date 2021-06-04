@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { toast } from "react-toastify";
 import { useHistory } from "react-router-dom";
 import { setUserDetails } from "../../redux/actions";
 import { apis, axios } from "../../services";
@@ -47,8 +46,7 @@ const FollowUnfollowTagButton = (props) => {
         tags: { ...oldTags },
       });
     } catch (err) {
-      toast.error("Internal server error");
-      console.log(err);
+      console.log("failed to unfollow tag", err);
       setButtonToShow(UnFollowButton);
     }
   };
