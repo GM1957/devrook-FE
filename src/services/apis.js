@@ -1,8 +1,14 @@
 const apis = {
   BASE_LOCAL_URL: "http://localhost:3000",
-  BASE_SERVER_URL: "https://tik1thb504.execute-api.us-west-2.amazonaws.com/dev",
+  BASE_SERVER_URL:
+    process.env.NODE_ENV === "production"
+      ? "https://eo5z76mcwf.execute-api.ap-south-1.amazonaws.com/prod"
+      : "https://tik1thb504.execute-api.us-west-2.amazonaws.com/dev",
 
-  WEB_SOCKET: "wss://f5uy9y7ygi.execute-api.us-west-2.amazonaws.com/dev",
+  WEB_SOCKET:
+    process.env.NODE_ENV === "production"
+      ? "wss://3edajuce2i.execute-api.ap-south-1.amazonaws.com/prod"
+      : "wss://f5uy9y7ygi.execute-api.us-west-2.amazonaws.com/dev",
 
   CREATE_USER: "/user", // POST REQUEST
   UPDATE_USER: "/user", // PUT REQUEST
