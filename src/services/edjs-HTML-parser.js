@@ -40,7 +40,7 @@ export default edjsHTML({
 
     const imageSrc = block.data.file.url;
 
-    return `<figure><img class="${imageConditions}" src="${imageSrc}" alt="${block.data.caption}"><figcaption>${block.data.caption}</figcaption></figure>`;
+    return `<figure><img style="max-width: 100%;" class="${imageConditions}" src="${imageSrc}" alt="${block.data.caption}"><figcaption>${block.data.caption}</figcaption></figure>`;
   },
   list: (block) => {
     const type = block.data.style === "ordered" ? "ol" : "ul";
