@@ -25,7 +25,7 @@ const PostCard = (props) => {
       voteCountObj[props.Post.hashedUrl] = {
         upVotes: props.Post.upVote,
         downVotes: props.Post.downVote,
-        likes: props.Post.likes ? props.Post.likes : 0,
+        likes: props.Post.like ? props.Post.like : 0,
       };
 
       props.voteCountHandler({ ...props.Vote.voteCount, ...voteCountObj });
