@@ -28,7 +28,11 @@ export default edjsHTML({
     return `<figure><img style="max-width: 100%;" src="${imageSrc}" alt="${block.data.caption}"/><figcaption>${block.data.caption}</figcaption></figure>`;
   },
   header: (block) => {
-    return `<h${block.data.level}>${block.data.text}</h${block.data.level}>`;
+    let headerLevel = block.data.level + 1;
+    if (headerLevel > 6) {
+      headerLevel -= 1;
+    }
+    return `<h${headerLevel}>${block.data.text}</h${headerLevel}>`;
   },
   paragraph: (block) => {
     return `<p style="word-break: break-all;">${block.data.text}</p>`;
