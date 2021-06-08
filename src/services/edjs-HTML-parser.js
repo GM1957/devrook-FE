@@ -23,13 +23,15 @@ const sanitizeHtml = function (markup) {
 
 export default edjsHTML({
   simpleImage: (block) => {
-    return `<img class="img-fluid" src="${block.data.url}" title="${block.data.caption}" /><br /><em>${block.data.caption}</em>`;
+    const imageSrc = block.data.url;
+
+    return `<figure><img style="max-width: 100%;" src="${imageSrc}" alt="${block.data.caption}"/><figcaption>${block.data.caption}</figcaption></figure>`;
   },
   header: (block) => {
     return `<h${block.data.level}>${block.data.text}</h${block.data.level}>`;
   },
   paragraph: (block) => {
-    return `<p>${block.data.text}</p>`;
+    return `<p style="word-break: break-all;">${block.data.text}</p>`;
   },
   image: (block) => {
     const imageConditions = `${block.data.stretched ? "img-fullwidth" : ""} ${
@@ -52,7 +54,7 @@ export default edjsHTML({
   quote: (block) => {
     let alignment = "";
     if (block.data.alignment) {
-      alignment = `style={{textAlign: ${block.data.alignment}}}"`;
+      alignment = `style={{textAlign: ${block.data.alignment}}}`;
     }
     return `<blockquote ${alignment}><p>${block.data.text}</p><cite>${block.data.caption}</cite></blockquote>`;
   },
