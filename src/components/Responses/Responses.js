@@ -25,7 +25,7 @@ const Responses = (props) => {
       voteCountObj[props.hashedUrl] = {
         upVotes: props.Post.upVote,
         downVotes: props.Post.downVote,
-        likes: props.Post.likes ? props.Post.likes : 0,
+        likes: props.Post.like ? props.Post.like : 0,
       };
 
       // this is to find vote status of the post also
@@ -46,7 +46,7 @@ const Responses = (props) => {
           voteCountObj[item.responseId] = {
             upVotes: item.upVote,
             downVotes: item.downVote,
-            likes: item.likes ? item.likes : 0,
+            likes: item.like ? item.like : 0,
           };
         });
 
