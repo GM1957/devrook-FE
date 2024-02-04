@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { toast } from "react-toastify";
-import HeartLoader from "../../components/EntryLoader/HeartLoader";
+import EntryLoaderSmallBoxes from "../../components/EntryLoader/EntryLoaderSmallBoxes";
 import BlogCard from "../../components/BlogCard/BlogCard";
 import QuestionCard from "../../components/QuestionCard/QuestionCard";
 import ProfileCard from "../../components/ProfileCard/ProfileCard";
@@ -99,7 +99,7 @@ const SearchPage = (props) => {
     <Layout>
       <HomeLayout isRightBar={true}>
         {isLoading ? (
-          <HeartLoader />
+          <EntryLoaderSmallBoxes />
         ) : searchType === "post" ? (
           <div>
             <div className={classes.SearchResultHeader}>

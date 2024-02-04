@@ -6,7 +6,7 @@ import PostCard from "../../components/PostCard/PostCard";
 import Responses from "../../components/Responses/Responses";
 import ProfileCard from "../../components/ProfileCard/ProfileCard";
 import { axios, apis } from "../../services";
-import HeartLoader from "../../components/EntryLoader/HeartLoader";
+import EntryLoaderSmallBoxes from "../../components/EntryLoader/EntryLoaderSmallBoxes";
 import NotFound404 from "../../components/NotFound404/NotFound404";
 import classes from "./FullPostPage.module.css";
 
@@ -43,7 +43,7 @@ const FullPostPage = (props) => {
     <Layout>
       <HomeLayout isRightBar={false}>
         {isLoading ? (
-          <HeartLoader />
+          <EntryLoaderSmallBoxes />
         ) : isNotFound ? (
           <NotFound404 />
         ) : (

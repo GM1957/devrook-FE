@@ -4,7 +4,7 @@ import EditProfileButton from "../EditProfileButton/EditProfileButton";
 import FollowUserButton from "../FollowUserButton/FollowUserButton";
 import UnfollowUserButtton from "../UnfollowUserButton/UnfollowUserButton";
 import RookLogo from "../../../assets/images/devrooklogo.png";
-import HeartLoader from "../../EntryLoader/HeartLoader";
+import EntryLoaderSmallBoxes from "../../EntryLoader/EntryLoaderSmallBoxes";
 import EntryLoaderRects from "../../EntryLoader/EntryLoaderRects";
 
 import ChatButton from "../ChatButton/ChatButton";
@@ -208,7 +208,7 @@ const ProfileDetails = (props) => {
   return (
     <div>
       {isLoading ? (
-        <HeartLoader />
+        <EntryLoaderSmallBoxes />
       ) : (
         <div>
           <div className={classes.ProfileCard}>
