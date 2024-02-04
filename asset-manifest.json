@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/devrook-FE/static/css/main.35309fa1.chunk.css",
-    "main.js": "/devrook-FE/static/js/main.e93fac1e.chunk.js",
-    "main.js.map": "/devrook-FE/static/js/main.e93fac1e.chunk.js.map",
+    "main.js": "/devrook-FE/static/js/main.4af94a0e.chunk.js",
+    "main.js.map": "/devrook-FE/static/js/main.4af94a0e.chunk.js.map",
     "runtime-main.js": "/devrook-FE/static/js/runtime-main.f457de37.js",
     "runtime-main.js.map": "/devrook-FE/static/js/runtime-main.f457de37.js.map",
     "static/css/2.a08119d7.chunk.css": "/devrook-FE/static/css/2.a08119d7.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.a08119d7.chunk.css",
     "static/js/2.0703793c.chunk.js",
     "static/css/main.35309fa1.chunk.css",
-    "static/js/main.e93fac1e.chunk.js"
+    "static/js/main.4af94a0e.chunk.js"
   ]
 }
