@@ -1,5 +1,4 @@
 {
-  "homepage": "/devrook-FE/",
   "name": "devrook-fe",
   "version": "0.1.0",
   "private": true,
@@ -53,7 +52,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "NODE_OPTIONS='--openssl-legacy-provider' react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write --ignore-path .gitignore \"./**/*.{js,json}\"",

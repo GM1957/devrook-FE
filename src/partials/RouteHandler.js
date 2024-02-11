@@ -20,7 +20,7 @@ import SignupPage from "../Pages/SignupPage/SignupPage";
 
 const RouteHandler = (props) => {
   return (
-    <BrowserRouter basename="/devrook-FE">
+    <BrowserRouter>
       <Switch>
         <Route path="/" component={HomePage} exact />
 
