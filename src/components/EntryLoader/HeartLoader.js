@@ -1,4 +1,4 @@
-export * from "./EntryLoaderSmallBoxes";
+import HeartLoader from "./EntryLoaderSmallBoxes";
 
 // import React from "react";
 
@@ -6,4 +6,4 @@ export * from "./EntryLoaderSmallBoxes";
 
 // const HeartLoader = () => <div className={classes.HeartLoader}></div>;
 
-// export default HeartLoader;
+export default HeartLoader;
