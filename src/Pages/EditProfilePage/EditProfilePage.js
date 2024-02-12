@@ -10,7 +10,7 @@ import { useDropzone } from "react-dropzone";
 import NotFound404 from "../../components/NotFound404/NotFound404";
 import RookLogo from "../../assets/images/devrooklogo.png";
 import classes from "./EditProfilePage.module.css";
-import EntryLoaderSmallBoxes from "../../components/EntryLoader/EntryLoaderSmallBoxes";
+import HeartLoader from "../../components/EntryLoader/HeartLoader";
 
 const EditProfilePage = (props) => {
   const [currentUser, setCurrentUser] = useState({});
@@ -119,7 +119,7 @@ const EditProfilePage = (props) => {
           <Layout>
             <HomeLayout isRightBar={true}>
               {isLoading ? (
-                <EntryLoaderSmallBoxes />
+                <HeartLoader />
               ) : (
                 <div className={classes.EditPageContainer}>
                   <div className={classes.ProfilePicContainer}>

@@ -1,7 +1,9 @@
-import React from "react";
+export * from "./EntryLoaderSmallBoxes";
 
-import classes from "./HeartLoader.module.css";
+// import React from "react";
 
-const HeartLoader = () => <div className={classes.HeartLoader}></div>;
+// import classes from "./HeartLoader.module.css";
 
-export default HeartLoader;
+// const HeartLoader = () => <div className={classes.HeartLoader}></div>;
+
+// export default HeartLoader;
